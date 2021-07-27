@@ -6,11 +6,11 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>Me</personname>
+      <personname>Charlene E. Beckmann, Ph.D.</personname>
       <department>My department</department>
-      <institution>My school</institution>
+      <institution>Grand Valley State University</institution>
     </author>
-    <date><today/></date>
+    <date>May 2020</date>
   </titlepage>
 
   <colophon>
@@ -24,11 +24,15 @@
       <!-- include a license, such as the cc-by-sa license shown below -->
       <!-- so people reading your book know how they can use it.       -->
       <year>2020<ndash/>2021</year>
-      <holder>Me</holder>
-      <!-- <minilicense><image source="../images/by-sa.png" /></minilicense> -->
+      <holder>Charlene Beckmann</holder>
+      <minilicense><image source="/Users/iancurtis/Documents/oer_work/beckmann-textbook/images/license.png" /></minilicense>
       <shortlicense>
-        <!-- <image source="../images/by-sa.png" width="15%"/>  -->
-        This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/">http://creativecommons.org/licenses/by-sa/4.0/</url>
+        <image source="/Users/iancurtis/Documents/oer_work/beckmann-textbook/images/license.png" width="15%"/>
+        This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 4.0 License. To view a copy of this license, visit
+        <url href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><c>creativecommons.org/licenses/by-sa/4.0/</c></url>. 
+        In addition to the permissions granted by the CC-BY-NC-SA license, the author grants permission for bookstores and/or print 
+        shops at K-12 schools, colleges, and universities to reproduce and sell print copies of this book. Other commerical uses 
+        of the book are not permitted.
       </shortlicense>
 
     </copyright>
@@ -52,7 +56,21 @@
     <!-- You should be a little careful about what you put here -->
     <!-- Avoid elements that should have a number, for example  -->
     <p>
-      About this book:
+      Beginning Algebra Made Useful addresses the needs of learners to make sense of algebra by quantifying and generalizing 
+      everyday occurrences such as commuting to work, buying gas or pizza, and determining the better deal.  It requires 
+      learners to actively engage with algebraic concepts through physical and thought experiments in ways that help them 
+      connect ideas, representations, and contexts, and solve problems that arise in their daily lives.  The text helps 
+      learners grow their brains and develop growth mindsets as they learn algebra conceptually.  Problem sets continue the 
+      process, extending work begun in each lesson, applying new understandings to new contexts, and considering ideas that 
+      arise more fully in upcoming lessons.  Longer assignments that can be used as group projects are included in the text. 
+      Group work is encouraged throughout the text; suggestions for orchestrating group work are included.
+    </p>
+
+    <p>
+      This text is different from most existing beginning algebra texts in several ways: The text is free for download by 
+      students and instructors in .pdf format; in the electronic format, graphics are in full color and there are live html 
+      links to resources, software, and applets; the text is open source, and interested instructors can gain access to the 
+      original source files upon request. 
     </p>
 
   </preface>
