@@ -8,7 +8,7 @@
 <!-- The next three lines are likely for mature projects only: -->
 
 <!-- <brandlogo url="" source="images/cover.png"/> -->
-<!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
+<covers front="/images/front-cover.pdf"/>
 <!-- <document-id>unique-book-id</document-id> -->
 
 <!-- macros for defining latex math shortcuts. It is good practice  -->
@@ -30,9 +30,9 @@
   \usetikzlibrary{decorations.markings} 
 </latex-image-preamble>
 
-<!-- It is possible to rename elements using the tags below -->
+<!-- It is possible to rename elements using the tags below
   <rename element="investigation" xml:lang="en-US">Puzzle</rename>
-  <rename element="assemblage" xml:lang="en-US">Summary</rename>
+  <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
 
 <!-- Specify the default type of cross reference:           -->
   <cross-references text="type-global" />
