@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_firstch-one" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Learning How to Learn Mathematics</title>
+  <introduction>
+    <p>
+      Mathematics is a creative endeavor. It is full of <q>aha</q> moments. Has that been your experience with mathematics? If so, 
+      think of a few <q>aha</q> moments you've had. Write them down. If not, you’re about to embark on real learning of 
+      mathematics, learning that does not involve mind-numbing memorization of rules for combining symbols and solving equations.
+    </p>
+    <p>
+      Math makes sense. Learning mathematics requires making sense by making connections between familiar ideas you encounter 
+      in your daily life. You might find that the mathematics you encounter in this course relates to mathematical concepts 
+      from your past experiences. Some of it might seem entirely new. Whatever you think of mathematics as you begin this 
+      course, it is important that you keep an open mind, bring your creativity into your learning, and try to connect what 
+      you are learning to what you already know outside of mathematics.
+    </p>
+    <p>
+      There are several tools available to help you learn mathematics. In <xref ref="sec_firstch-one"/>, we explore some of them. 
+    </p>
+  </introduction>
+  <subsection xml:id="subsec-math-students">
+    <title>How to Learn Math for Students</title>
+    <p>
+      Stanford University offers <url href="https://online.stanford.edu/courses/gse-yeduc115-s-how-learn-math-students">
+      free classes online <fn><c>online.stanford.edu/courses/gse-yeduc115-s-how-learn-math-students</c></fn></url>.
+      A useful and short course entitled, <pubtitle>How to Learn Math for Students</pubtitle>, offers several short videos 
+      and brief exercises to help you build your confidence in learning mathematics. <pubtitle>How to Learn Math for Students</pubtitle> 
+      will help you learn how your brain works, how your mindset regarding mathematics helps or hinders your learning, 
+      how speed is not related to understanding in mathematics, and other useful information regarding how you learn mathematics. 
+      As part of the <pubtitle>Beginning Algebra Made Useful</pubtitle> course, you will also be completing much of the Stanford 
+      course, How to Learn Math for Students. Sign up for the course (it’s free!!!).
+    </p>
+    <p>
+      Throughout the first part of the semester, you will be assigned problems that require you to watch a video in the 
+      Stanford course, <pubtitle>How to Learn Math for Students</pubtitle>, then reflect on what you learned. The videos are 
+      short, most of them less than 3 minutes in length. After each video, you will find short quizzes and questions to answer 
+      along the way. Answer the quizzes and questions as you go. By providing a certificate of completion for the Stanford 
+      course, <pubtitle>How to Learn Math for Students</pubtitle>, you can earn privileges determined by your professor.
+    </p>
+    <xi:include href="./subsubsec-directions.ptx" />
+    <!-- Do we want this to go as a subsubsection here or in the back for easier reference? -->
+  </subsection>
+
+  <subsection xml:id="subsec-good-questions">
+    <title>Good Questions to Ask Yourself</title>
+    <p>
+      When working on mathematics problems, you are in good company if you find that you are often or occasionally stuck. 
+      There is always hope. The questions that follow have been used many times to help students find a way out of a temporary 
+      dilemma when solving a problem. First, try to identify what’s causing your dilemma. 
+    </p>
+    <p>
+      Do you understand what the problem is asking? If not, you are probably stuck at Stage 1.
+    </p>
+    <p>
+      Do you understand the problem but don’t know what to do now? You are likely stuck at Stage 2.
+    </p>
+    <p>
+      Have you started to solve the problem and gathered some information but don’t know what to do with what you’ve 
+      found? You might be stuck at Stage 3.
+    </p>
+    <p>
+      Have you finished the problem? Stage 4 questions can help you organize what you’ve learned through solving the 
+      problem into what you already know and help you move new learnings into your long-term memory.
+    </p>
+    <p>
+      Goldin (1998) suggests a hierarchy of four stages of questioning to guide yourself or a peer to solve a problem:
+    </p>
+  </subsection>
+
+  <subsection xml:id="subsec-qstages">
+    <title>Four Stages of Questioning</title>
+    <subsubsection xml:id="subsubsec-stageone">
+      <title>Stage 1: Understanding the Problem</title>
+      <p>
+        Read the problem and take time to make some initial progress on it. Ask yourself:
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              What is the problem asking me to do? Write down ideas in your own words.
+            </p>
+          </li>
+          <li>
+            <p>
+              What do I know?
+            </p>
+          </li>
+          <li>
+            <p>
+              What am I trying to find?
+            </p>
+          </li>
+        </ul>
+      </p>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-stagetwo">
+      <title>Stage 2: Devising a Plan</title>
+      <p>
+        If you understand the problem and have trouble starting to solve it, think about general problem-solving strategies 
+        that might help. Ask yourself:
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              Would drawing a picture help?
+            </p>
+          </li>
+          <li>
+            <p>
+              Would a table of values help to solve this problem?
+            </p>
+          </li>
+          <li>
+            <p>
+              Would any materials help to model the problem? (Get the materials and use them.)
+            </p>
+          </li>
+          <li>
+            <p>
+              Is there a similar problem I’ve done before that might help me get started?
+            </p>
+          </li>
+          <li>
+            <p>
+              What do I know must happen in the problem?
+            </p>
+          </li>
+          <li>
+            <p>
+              What do I know cannot happen in the problem?
+            </p>
+          </li>
+        </ul>
+      </p>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-stagethree">
+      <title>Stage 3: Carrying Out the Plan</title>
+      <p>
+        If you get stuck once you are partway through solving the problem, think about more specific problem-solving 
+        strategies. Ask yourself:
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              What patterns do I see in the table of values or drawings?
+            </p>
+          </li>
+          <li>
+            <p>
+              What rule can be used to describe the relationship in the table of values I created?
+            </p>
+          </li>
+          <li>
+            <p>
+              What information does the graph give me?
+            </p>
+          </li>
+        </ul>
+      </p>
+    </subsubsection>
+    <subsubsection xml:id="subsubsec-stagefour">
+      <title>Stage Four: Looking Back</title>
+      <p>
+        Once you solve a problem, think back about what you did. Think about your thinking by asking yourself:
+      </p>
+      <p>
+        <ul>
+          <li>
+            <p>
+              How do I know my solution is correct? How can I convince someone else?
+            </p>
+          </li>
+          <li>
+            <p>
+              How did I think about the problem? 
+            </p>
+          </li>
+          <li>
+            <p>
+              Can I solve the problem in another way?
+            </p>
+          </li>
+          <li>
+            <p>
+              How does this problem connect with other problems I have solved?
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Your goal is to help yourself explain the problem and its solution. This stage helps you mentally file your thoughts 
+        about the problem in a category with other similar problems, organizing your new learning into your long-term memory.
+      </p>
+      <p>
+        Table based on Goldin, Gerald A. <articletitle>Observing Mathematical Problem Solving through Task-Based Interviews</articletitle>. 
+        In Anne R. Teppo (Ed.), <pubtitle>Qualitative Research Methods in Mathematics Education</pubtitle> (pp. 40-62). Reston, VA: 
+        National Council of Teachers of Mathematics, 1998. 
+      </p>
+    </subsubsection>
+  </subsection>
+
+  <subsection xml:id="subsec-practices">
+    <title>Other Helpful Practices</title>
+    <p>
+      To best learn mathematics, you will find that each of the following strategies are helpful if you make them a habit:
+    </p>
+    <p>
+      <em>Read carefully.</em> It might be necessary to read problems or narration several times in order to understand more 
+      fully what each intends. Students who do not read carefully always make mistakes that can be remedied by rereading more 
+      carefully.
+    </p>
+    <p>
+      <em>Organize your work.</em> Use tables and graphs to help you make sense of information you find when solving a problem. 
+      Don’t underestimate the power of trying a few numbers to see what happens. Always keep track of what you try. Do not 
+      erase or throw away attempts that don’t work. Save them and compare them to an approach that did finally work. Ask 
+      yourself these questions: What was I thinking initially? What do I now know? Was I far off at the beginning? If not, 
+      what was I thinking that could have led me to a correct solution? If so, what was I thinking that was helpful? What was 
+      getting in the way of my understanding?
+    </p>
+    <p>
+      <em>Check your solutions to see that they make sense.</em> If a context is given, translate your solutions into the 
+      context. Check to make sure any numbers you’re getting from equations, tables, or graphs make sense in the context. 
+      Make sure graphs, tables, and equations give corresponding information.
+    </p>
+    <p>
+      <em>Never give up!</em> It’s OK to take a break from a problem that’s frustrating you. Return to it after you’ve had a 
+      chance to relieve your frustration. You can learn mathematics. You can solve any problem facing you, <em>as long as you 
+      never give up!</em>
+    </p>
+    <p>
+      <em>Study</em> at least a little <em>most days</em>. After each class, take 15 minutes to write down what you learned. 
+      Be specific. For example, don’t state, <q>I learned about linear functions.</q> Instead, state specifically what you 
+      learned, <q>I learned that the slope of a linear function when shown in a graph is the value of <m>m</m> in the equation, 
+      <m>y = mx + b</m>. This makes sense, because slope is how much <m>y</m> changes when <m>x</m> changes by 1 so in a graph, 
+      the <m>y</m>-value of a linear function changes by <m>m</m> every time <m>x</m> changes by 1.</q>
+    </p>
+    <p>
+      <em>Do your assigned homework.</em> Homework provides you the opportunity to grow your brain outside of class. It also 
+      prepares you to think about problems that build on your homework when you are in class. Making mistakes is an important 
+      part of learning, so grading your early thoughts about a topic is counterproductive. <em>Doing</em> homework, however, 
+      grows your brain, allows you to get more out of the work you’re doing in class, and helps you prepare for your future 
+      with technical information. Not doing homework is detrimental to you, and to your current and future work!
+    </p>
+    <p>
+      <em>Commit to your education.</em> Participate fully in your group and class and make every effort to complete your 
+      homework so that you’re prepared to participate with your group. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsec-math-practices">
+    <title>Mathematical Practices</title>
+    <p>
+      Several practices have been identified that can help you make sense of problems that arise in your daily work and in 
+      technical situations. Which practices do you use to learn mathematics and other content fields? When you work on 
+      mathematics, use this page to help you choose strategies that might help you learn. Revisit this page often, especially 
+      when you get stuck, for suggestions of other strategies you might try as you’re trying to solve problems. 
+      <url href="http://www.corestandards.org/Math/Practice/">Resource.<fn><c>www.corestandards.org/Math/Practice/</c></fn></url>
+    </p>
+    <figure xml:id="math-practices">
+      <caption>A diagram of the mathematical practices.</caption>
+      <image source="./ch1mathpractices.png" xml:id="img-math-practices">
+        <description>Eight boxes explaining critical math practices.</description>
+        
+      </image>
+    </figure>
+  </subsection>
+
+  <exercises xml:id="exercises_sec-one">
+    <p>
+      Complete the following homework before the next class period:
+    </p>
+    <exercise>
+      <statement>
+        <p>
+          Go back to <xref ref="subsec-math-students"/>, <pubtitle>How to Learn Math for Students</pubtitle>. 
+          Complete Problem 1. 
+          You will hand in your written reflections for problem 1 in class.
+        </p>
+      </statement>
+    </exercise>
+    <exercise>
+      <statement>
+        <p>
+          Read the sections above, <xref ref="subsec-good-questions"/>, 
+          <xref ref="subsec-practices"/>, and <xref ref="subsec-math-practices"/>. Remember these 
+          sections as you work your way through the activities in this course. Refer to each section as needed. Write a one 
+          sentence description of each section to help you remember when to consult each of these sections.
+        </p>
+      </statement>
+    </exercise>
+  </exercises>
+</section>
+
