@@ -56,7 +56,7 @@
     <!-- You should be a little careful about what you put here -->
     <!-- Avoid elements that should have a number, for example  -->
     <p>
-      Beginning Algebra Made Useful addresses the needs of learners to make sense of algebra by quantifying and generalizing 
+      <pubtitle>Beginning Algebra Made Useful</pubtitle> addresses the needs of learners to make sense of algebra by quantifying and generalizing 
       everyday occurrences such as commuting to work, buying gas or pizza, and determining the better deal.  It requires 
       learners to actively engage with algebraic concepts through physical and thought experiments in ways that help them 
       connect ideas, representations, and contexts, and solve problems that arise in their daily lives.  The text helps 

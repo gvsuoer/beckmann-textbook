@@ -8,7 +8,7 @@
 <!-- The next three lines are likely for mature projects only: -->
 
 <!-- <brandlogo url="" source="images/cover.png"/> -->
-<covers front="/images/front-cover.pdf"/>
+<covers front="/front-cover.pdf"/>
 <!-- <document-id>unique-book-id</document-id> -->
 
 <!-- macros for defining latex math shortcuts. It is good practice  -->
