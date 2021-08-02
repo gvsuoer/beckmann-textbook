@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subsubsection xml:id="subsubsec-directions">
       <title>Directions</title>
-      <p>
-        Your responses to each of the following problems will be collected on a due date provided in class. Answer each 
-        question in writing using complete English sentences. Type responses if your handwriting is difficult to read. 
-        Show all of the work you do to answer mathematical questions. Include illustrations.
-      </p>
+      <introduction>
+        <p>
+          Your responses to each of the following problems will be collected on a due date provided in class. Answer each 
+          question in writing using complete English sentences. Type responses if your handwriting is difficult to read. 
+          Show all of the work you do to answer mathematical questions. Include illustrations.
+        </p>
+      </introduction>
 
       <p>
         <ol>
@@ -44,7 +46,7 @@
               </ol>
             </p>
           </li>
-          <li>
+          <li xml:id="main-prob-two">
             <p>
               Lesson 2: Math and Mindset
             </p>
