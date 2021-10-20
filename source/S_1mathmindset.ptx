@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec_firstch-two" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="S_mathmindsey" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Thinking Together and Mathematical Mindset</title>
   
   <subsection xml:id="subsec-mindset-video">
@@ -11,6 +11,10 @@
       This video is from <url href="https://www.youcubed.org/resources/mindset-video/">Week 1 of Inspirational Math, Day 1
       <fn><c>www.youcubed.org/resources/mindset-video/</c></fn></url>. 
     </p>
+    <figure xml:id="vid-mindsets">
+      <caption><q>Mindset</q> Video.</caption>
+      <video vimeo="126645788"/>
+    </figure>
   
   
   <activity xml:id="act-group-work">
@@ -183,8 +187,8 @@
   </activity>
   </subsection>
 
-  <subsection xml:id="subsec-exercises12">
-    <title>Homework</title>
+  
+    
     <exercises xml:id="exercises-12">
       <exercise>
         <p>
@@ -205,7 +209,6 @@
         </p>
       </exercise>
     </exercises>
-  </subsection>
 
 </section>
 

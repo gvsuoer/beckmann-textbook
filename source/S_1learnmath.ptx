@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec_firstch-one" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="S_learnmath" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Learning How to Learn Mathematics</title>
   <introduction>
     <p>
@@ -16,7 +16,8 @@
       you are learning to what you already know outside of mathematics.
     </p>
     <p>
-      There are several tools available to help you learn mathematics. In <xref ref="sec_firstch-one"/>, we explore some of them. 
+      There are several tools available to help you learn mathematics. In <xref ref="S_learnmath"/>, 
+      we explore some of them. 
     </p>
   </introduction>
   <subsection xml:id="subsec-math-students">
@@ -38,6 +39,7 @@
       along the way. Answer the quizzes and questions as you go. By providing a certificate of completion for the Stanford 
       course, <pubtitle>How to Learn Math for Students</pubtitle>, you can earn privileges determined by your professor.
     </p>
+    
     <xi:include href="./subsubsec-directions.ptx" />
     <!-- Do we want this to go as a subsubsection here or in the back for easier reference? -->
   </subsection>
