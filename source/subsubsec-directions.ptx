@@ -26,7 +26,7 @@
                 <li>
                   <p>
                     Watch the third video in Lesson 1, <pubtitle>Math Myths and the Brain</pubtitle> (3:23 minutes). Answer 
-                    in writing: Why do you think people often don’t like math?
+                    in writing: Why do you think people often don't like math?
                   </p>
                 </li>
                 <li>
@@ -114,20 +114,20 @@
                 </li>
                 <li>
                   <p>
-                    Write a paragraph about what you’ve learned through the videos in Lesson 3.
+                    Write a paragraph about what you've learned through the videos in Lesson 3.
                   </p>
                 </li>
                 <li>
                   <p>
                     Open problems are problems for which there are multiple approaches to find a solution or there are multiple 
-                    solutions. Most of the problems we’ve been working on in class are considered open problems.  How do they 
+                    solutions. Most of the problems we've been working on in class are considered open problems.  How do they 
                     help you learn?  What about them, if anything, causes you anxiety?
                   </p>
                 </li>
               </ol>
             </p>
           </li>
-          <li>
+          <li xml:id="main-prob-four">
             <p>
               Lesson 4: Number Flexibility, Mathematical Reasoning, and Connections.
             </p>
@@ -254,7 +254,7 @@
                   </p>
                   <figure xml:id="prob-seven-c">
                     <caption>Reference for Problem 7c.</caption>
-                    <image source="./prob7c.png" xml:id="triangle" width="25%">
+                    <image source="prob7c" xml:id="triangle" width="25%">
                       <description>A gray rectangle divided into three equal sized squares. The middle square contains the 
                       white triangle needed for the problem. The triangle has a base on the bottom of the rectangle and points to the top.</description>
                       <!-- Figure out how to get the images to work. -->

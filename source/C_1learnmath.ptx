@@ -7,5 +7,6 @@
 
   <xi:include href="./S_1learnmath.ptx" />
   <xi:include href="./S_1mathmindset.ptx" />
-  <xi:include href="./sec_firstch-three.ptx"/>
+  <xi:include href="./S_1connectmath.ptx"/>
+  <xi:include href="S_1orderofop.ptx" />
 </chapter>

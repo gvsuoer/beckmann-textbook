@@ -1,0 +1,2 @@
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element include there
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_EXTRACONTENT: Element pretext has extra content: include

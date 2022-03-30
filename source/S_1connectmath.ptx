@@ -19,8 +19,8 @@
       The video shares some important new research on the power of engaging with numbers and symbols visually, which involves 
       brain crossing. Your brain is capable of learning through visual cues, especially if you connect them to other modes of 
       learning. The video explains that it is helpful for all students to think visually about mathematics. <q>Brain Crossing</q> 
-      is found in <url href="https://www.youcubed.org/resources/brain-crossing-video/">
-      Week 1 of Inspirational Math, Day 2.<fn><c>www.youcubed.org/resources/brain-crossing-video/</c></fn></url> 
+      is found in <url href="https://www.youcubed.org/resources/brain-crossing-video/" visual="youcubed.org/resources/brain-crossing-video/">
+      Week 1 of Inspirational Math, Day 2</url>.
     </p>
 
     <figure xml:id="vid-brain-crossing">
@@ -40,17 +40,16 @@
             Consider the dot arrangement in <xref ref="fig-dots"/>. How many dots are in the arrangement? Explain how you counted the dots. 
             Share as many ways of counting the dots as possible. 
           </p>
+          <figure xml:id="fig-dots">
+            <caption>Reference for <xref ref="dot-act-one"/>.</caption>
+            <image source="/dots" xml:id="img-dots" width="20%">
+              <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
+              bottom right corner. The triangle contains six circles.</description>
+
+            </image>
+          </figure>
         </statement>
-      </task>
-      <!-- Why doesn't this appear?? -->
-      <figure xml:id="fig-dots">
-        <caption>Reference for <xref ref="dot-act-one"/>.</caption>
-        <image source="/dots.png" xml:id="img-dots" width="20%">
-          <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
-          bottom right corner. The triangle contains six circles.</description>
-              
-        </image>
-      </figure>
+      </task>      
       
       <task xml:id="dot-act-two">
         <statement>
@@ -58,34 +57,35 @@
             Show the different ways you counted the dots by drawing on each 
             figure in <xref ref="fig-five-dots"/>.
           </p>
-        </statement>
-      </task>
+        
       
       <figure xml:id="fig-five-dots">
         <caption>Reference for <xref ref="dot-act-two"/>.</caption>
         <sidebyside width="17%">
-          <image source="dots.png">
+          <image source="dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The first square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots.png">
+          <image source="dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The second square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots.png">
+          <image source="dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The third square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots.png">
+          <image source="dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The fourth square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots.png">
+          <image source="dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The fifth square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
         </sidebyside>
       </figure>
+      </statement>
+    </task>
       <conclusion>
         <p>
           Mathematics is a creative endeavor. There is always more than one way to solve a problem. If you get stuck, 
@@ -100,7 +100,7 @@
       <introduction>
 
         <p>
-          Now consider a pattern related to <xref ref="fig-five-dots"/>.
+          Now consider a pattern related to <xref ref="fig-five-dots"/>. <!-- See the student page, Growing Pattern of Dots -->
         </p>
         <p>
           Spend at least 5 minutes thinking about the problem on your own.
@@ -118,11 +118,10 @@
         </p>
         <figure xml:id="fig-growing-dots">
           <caption>Reference for <xref ref="growing-dots-one"/>.</caption>
-          <image source="growingdots.png" xml:id="img-growing-dots">
+          <image source="growingdots" xml:id="img-growing-dots">
             <description>An image showing a series of of 5 steps. Each step is a vertical rectangle containing circles. 
             The number of circles increases with each step creating a larger isoceles right triangle after each step. 
-            The right angle of the triangle stays in the bottom right corner of the rectangle. The number of circles in each 
-            step is one, three, six, ten, and fifteen, respectively.</description>
+            </description>
             
           </image>
         </figure>
@@ -188,22 +187,17 @@
       <introduction>
         <p>
           Consider the graphs in <xref ref="fig-graphing-dots"/>. For each graph, determine if the graph 
-          is correct. Explain why or why not. 
+          is a correct representation of the data. Explain why or why not. 
         </p>
-      </introduction>
-      <figure xml:id="fig-graphing-dots">
+        <figure xml:id="fig-graphing-dots">
         <caption>Reference for <xref ref="graphing-dots"/></caption>
-        <image source="dotsgraphs.png" xml:id="img-graphing-dots">
-          <description>A series of four graphs. All graphs have <m>x</m>-label <q>Step Number</q> and <m>y</m>-label 
-          <q>Total Number of Dots Per Step.</q> The first shows five dots arranged in a straight line. Each axis 
-          has units ranging from 1 to 5 in steps of 1. The second shows five dots arranged in a straight line. The <m>x</m>-axis 
-          ranges from 1 to 5 in steps of 1 and the <m>y</m>-axis ranges from 1 to 15 in steps of 2, 3, 4, and 5, respectively. 
-          The third shows dots arranged in a curved shape. The curve starts out with a gentle slope and quickly becomes steeper. 
-          The <m>x</m>-axis ranges from 1 to 5 in steps of 1 and the <m>y</m>-axis ranges from 3 to 15 in steps of 3. The 
-          fourth shows a straight line without dots. Each axis has units ranging from 1 to 5 in steps of 1.</description>
+        <image source="dotsgraphs" xml:id="img-graphing-dots">
+          <description></description>
           
         </image>
       </figure>
+      </introduction>
+      
       <task>
         <p>
           Consider the data table you created for <xref ref="act-growing-dots"/>. The data is plotted in the following 
@@ -224,6 +218,7 @@
       
     </activity>
   </subsection>
+
   <conclusion>
     <p>
       This collection of activities <ndash/> <xref ref="act-introductions"/>, <xref ref="act-dots"/>, 
@@ -233,12 +228,13 @@
       that Brain Crossing helps you with recall and grows your brain!
     </p>
     <p>
-      When you work on a new problem, try to connect the work you’re doing to problems you’ve worked on in the past. 
+      When you work on a new problem, try to connect the work you're doing to problems you've worked on in the past. 
       Connecting related mathematics problems helps reduce your reliance on memorized procedures. It also helps move your 
       working (short-term) memory into long-term memory so that it can be retrieved to help you make sense of new problems 
       and concepts.
     </p>
   </conclusion>
+  
   <exercises xml:id="exercises13">
     <introduction>
       <p>
@@ -272,7 +268,7 @@
           Critique the graph below. If the graph is accurate, say how you know. If the graph is 
           incorrect, indicate all the ways it needs to be fixed, label the axes correctly, 
           and redraw the graph.
-          <image source="exer1-3-3_graph.png">
+          <image source="exer1-3-3_graph">
             <description></description>
             
           </image>
@@ -293,7 +289,7 @@
         <p>
           Count the number of dots in the first set of figures using the same method to count 
           all three arrangements of dots. 
-          <image xml:id="exer1-3-4_dotsa">
+          <image source="exer1-3-4_dotsa">
             <description></description>
             
           </image>
@@ -307,7 +303,7 @@
           Count the number of dots in the second set of figures using a different method from the 
           method you used in <xref ref="countingdotsa"/>. Use this second method to count all three arrangements 
           of dots. 
-          <image xml:id="exer1-3-4_dotsa">
+          <image source="exer1-3-4_dotsa">
             <description></description>
             
           </image>
@@ -336,7 +332,7 @@
 
             <row bottom="minor">
               <cell right="minor">I am making apple pie and apple turnovers. One recipe calls for 2 apples.  
-              The other recipe calls for 3 apples. I’m making 5 recipes of each dessert. 
+              The other recipe calls for 3 apples. I'm making 5 recipes of each dessert. 
               How many apples do I need?</cell>
               <cell><m>2 + ( 3 \times 5 )</m></cell>
             </row>
@@ -347,15 +343,15 @@
             </row>
             <row>
               <cell right="minor">Mom lets me keep any money I find when I clean the house. She also quadruples 
-              any money I find to pay me for my work. I found $2 in the couch and $3 in my dad’s 
+              any money I find to pay me for my work. I found $2 in the couch and $3 in my dad's 
               jacket. How much money will I have after Mom pays me?</cell>
               <cell><m>2 + 3 \times 5</m></cell>
             </row>
             <row>
               <cell right="minor">I need 2 cups of almond flour to make a batch of pancakes and 
-              3 cups of almond flour to make a cake. I’m going to make 5 cakes and 1 batch of 
+              3 cups of almond flour to make a cake. I'm going to make 5 cakes and 1 batch of 
               pancakes. How much flour will I need?</cell>
-              <cell><m>2 + 3 + ( 2 + 3 ) \times 4</cell>
+              <cell><m>2 + 3 + ( 2 + 3 ) \times 4</m></cell>
             </row>
           </tabular>
         </p>
