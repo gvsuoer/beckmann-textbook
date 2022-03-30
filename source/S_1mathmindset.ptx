@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="S_mathmindsey" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="S_mathmindset" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Thinking Together and Mathematical Mindset</title>
   
   <subsection xml:id="subsec-mindset-video">
@@ -8,9 +8,9 @@
     <p>
       The message of <q>Mindset</q> is that everyone can learn mathematics. The video includes important brain and mindset 
       evidence to support this message. Watch the video. Write a brief reflection, then discuss the video in small groups. 
-      This video is from <url href="https://www.youcubed.org/resources/mindset-video/">Week 1 of Inspirational Math, Day 1
-      <fn><c>www.youcubed.org/resources/mindset-video/</c></fn></url>. 
+      This video is from <url href="https://www.youcubed.org/resources/mindset-video/" visual="youcubed.org/resources/mindset-video/">Week 1 of Inspirational Math, Day 1</url>. 
     </p>
+
     <figure xml:id="vid-mindsets">
       <caption><q>Mindset</q> Video.</caption>
       <video vimeo="126645788"/>
@@ -21,17 +21,21 @@
     <title>Good Group Work (Also from Week 1 of Inspirational Math)</title>
     <introduction>
       <blockquote>
-      <!-- Add attribution -->
-      If you want to go fast, go alone, if you want to go far, go together.
+        <attribution>
+          African Proverb
+        </attribution>
+        <p>
+          If you want to go fast, go alone, if you want to go far, go together.
+        </p>
       </blockquote>
       <p>
-        Before you work on math together, complete this activity. Use the cooperative learning strategy, <xref ref="roundtable"/>, to 
+        Before you work on math together, complete this activity. Use the cooperative learning strategy, <xref ref="mindset-roundtable"/>, to 
         generate ideas.
       </p>
     </introduction>
     
-    <task xml:id="roundtable">
-      <!--<title>Roundtable</title>-->
+    <task xml:id="mindset-roundtable">
+      <title>Roundtable</title>
       <p>
         Each team uses a single sheet of paper. 
       </p>
@@ -48,24 +52,25 @@
     <conclusion>
       <p>
         This activity will help improve group interactions. Teachers who have tried this activity have been pleased by 
-        students’ thoughtful responses and found students’ thoughts and words helpful in creating a positive and supportive 
-        environment. Use <xref ref="roundtable"/> to reflect on things you like people to say or do in a group when you are working together.
-        After you have thought of and written down a few of the ideas, use <xref ref="roundtable" /> to reflect on 
-        things you don’t like people to say or do when you are working in a group.  
+        students' thoughtful responses and found students' thoughts and words helpful in creating a positive and supportive 
+        environment. Use <xref ref="mindset-roundtable"/> to reflect on things you like people to say or do in a group when you are working together.
+        After you have thought of and written down a few of the ideas, use <xref ref="mindset-roundtable" /> to reflect on 
+        things you don't like people to say or do when you are working in a group.  
       </p>
       <p>
         Some important ideas students generally share include: Let everyone share their ideas, share different ways to solve 
-        a problem, listen when others speak, don’t give away the answer, don’t rush through the work, and don’t ignore other 
-        people’s ideas. 
+        a problem, listen when others speak, don't give away the answer, don't rush through the work, and don't ignore other 
+        people's ideas. 
       </p>
       <p>
         When the class has finished brainstorming, share ideas on a <q>What we like</q> poster with each group contributing at 
-        least one idea. Do the same for a <q>What we don’t like</q> poster. Post the final posters in class as the agreed upon 
-        classroom norms; refer back to them throughout the course, as needed. Don’t include negative comments such as, 
-        <q>I don’t like waiting for slow people,</q> instead discuss the issue. 
+        least one idea. Do the same for a <q>What we don't like</q> poster. Post the final posters in class as the agreed upon 
+        classroom norms; refer back to them throughout the course, as needed. Don't include negative comments such as, 
+        <q>I don't like waiting for slow people,</q> instead discuss the issue. 
       </p>
     </conclusion>
   </activity>
+
   <activity xml:id="act-mindset">
     <title>Mindset Survey</title>
     <introduction>
@@ -93,7 +98,7 @@
         <p>
           Having a Growth Mindset helps you overcome obstacles as you work to learn mathematics. Having a Fixed Mindset, 
           on the other hand, can prevent you from learning mathematics. It is important to work to overcome a Fixed Mindset 
-          so that it doesn’t hold you back from learning. If you tend to have a Fixed Mindset, what ideas do you have to help 
+          so that it doesn't hold you back from learning. If you tend to have a Fixed Mindset, what ideas do you have to help 
           you transition from a Fixed to a Growth Mindset?
         </p>
       </statement>
@@ -129,7 +134,7 @@
 
     <caption>A depiction of mathematical mindsets.</caption>
       <!-- Must remake this image so screen readers can view it. -->
-      <image source="mindsets.png" xml:id="img-mindsets" width="75%">
+      <image source="mindsets" xml:id="img-mindsets" width="75%">
         <description>Ten boxes containing mathematical mindsets. Instructions are to star mindsets that apply to you.</description>
         
       </image>
@@ -142,8 +147,8 @@
         <p>
           In this activity, in turn, you will introduce yourself using alliteration. You will also introduce everyone who was 
           introduced before you. Suppose the first 3 persons are Char, Ben, and Melanie. Char starts by saying: 
-          <q>I’m Char. I like shopping in Chicago.</q> Ben says, <q>I’m Ben. I like baseball. This is Char; she likes shopping 
-          in Chicago.</q> Melanie might say, <q>I’m Melanie, I like making meals. This is Ben; he likes baseball. This is Char; 
+          <q>I'm Char. I like shopping in Chicago.</q> Ben says, <q>I'm Ben. I like baseball. This is Char; she likes shopping 
+          in Chicago.</q> Melanie might say, <q>I'm Melanie, I like making meals. This is Ben; he likes baseball. This is Char; 
           she likes shopping in Chicago.</q> Introductions continue around the room with successive students introducing 
           everyone who came before them. If there are 30 students or more in class, the first half of the students introduce 
           themselves using this scheme, then the second half does the same starting over with the first person of the second 
@@ -203,7 +208,7 @@
       </exercise>
       <exercise>
         <p>
-          Take the <url href="https://www.mindsetworks.com/assess/">Mindset Survey online <fn><c>www.mindsetworks.com/assess/</c></fn></url>. 
+          Take the <url href="https://www.mindsetworks.com/assess/" visual="mindsetworks.com/assess/">Mindset Survey online</url>. 
           Read the recommendations provided once you take the survey. Print out a copy of these recommendations or store the 
           results on your computer. Consult the results any time you feel frustrated with your work in this course.
         </p>

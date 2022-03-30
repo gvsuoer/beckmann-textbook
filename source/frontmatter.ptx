@@ -7,17 +7,17 @@
   <titlepage>
     <author>
       <personname>Charlene E. Beckmann, Ph.D.</personname>
-      <department>My department</department>
+      <!-- <department>My department</department> -->
       <institution>Grand Valley State University</institution>
     </author>
     <date>May 2020</date>
   </titlepage>
 
   <colophon>
-    <website>
+    <!-- <website>
       <name><c>my-website.org</c></name>
       <address>http://my.website.org</address>
-    </website>
+    </website> -->
 
     <copyright>
       <!-- In addition to specifying the copyright holder, you should  -->
@@ -25,11 +25,11 @@
       <!-- so people reading your book know how they can use it.       -->
       <year>2020<ndash/>2021</year>
       <holder>Charlene Beckmann</holder>
-      <minilicense><image source="/Users/iancurtis/Documents/oer_work/beckmann-textbook/images/license.png" /></minilicense>
+      <minilicense><image source="license" /></minilicense>
       <shortlicense>
-        <image source="/Users/iancurtis/Documents/oer_work/beckmann-textbook/images/license.png" width="15%"/>
+        <image source="license" width="15%"/>
         This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 4.0 License. To view a copy of this license, visit
-        <url href="https://creativecommons.org/licenses/by-nc-sa/3.0/"><c>creativecommons.org/licenses/by-sa/4.0/</c></url>. 
+        <url href="https://creativecommons.org/licenses/by-nc-sa/3.0/" visual="creativecommons.org/licenses/by-nc-sa/3.0/"></url>. 
         In addition to the permissions granted by the CC-BY-NC-SA license, the author grants permission for bookstores and/or print 
         shops at K-12 schools, colleges, and universities to reproduce and sell print copies of this book. Other commerical uses 
         of the book are not permitted.
@@ -39,7 +39,7 @@
 
   </colophon>
 
-  <dedication>
+  <!-- <dedication>
     <p>
       For ...
     </p>
@@ -50,11 +50,10 @@
       I would like to thank...
     </p>
 
-  </acknowledgement>
+  </acknowledgement> -->
 
   <preface xml:id="preface">
-    <!-- You should be a little careful about what you put here -->
-    <!-- Avoid elements that should have a number, for example  -->
+   
     <p>
       <pubtitle>Beginning Algebra Made Useful</pubtitle> addresses the needs of learners to make sense of algebra by quantifying and generalizing 
       everyday occurrences such as commuting to work, buying gas or pizza, and determining the better deal.  It requires 
@@ -75,6 +74,5 @@
 
   </preface>
 
-  <!-- You can have more than one preface. -->
 </frontmatter>
 

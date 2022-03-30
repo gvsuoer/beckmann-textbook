@@ -1,0 +1,5 @@
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:344:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: task line 338 and exercise
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:474:13:FATAL:PARSER:ERR_GT_REQUIRED: expected '>'
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:476:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: exercises line 310 and section
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:476:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+./C_1learnmath.ptx:11:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx, and no fallback was found
