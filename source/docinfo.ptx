@@ -31,6 +31,7 @@
 <!-- Specify the default type of cross reference:           -->
   <cross-references text="type-global" />
   
-
+<rename element="exercises">Homework</rename>
+<rename element="inlineexercise">How to Learn Math for Students Exercise</rename>
 </docinfo>
 

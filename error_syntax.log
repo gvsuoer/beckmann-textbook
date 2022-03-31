@@ -1,5 +1,6 @@
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:344:16:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: task line 338 and exercise
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:474:13:FATAL:PARSER:ERR_GT_REQUIRED: expected '>'
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:476:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: exercises line 310 and section
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx:476:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
-./C_1learnmath.ptx:11:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1orderofop.ptx, and no fallback was found
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:506:18:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 502 and conclusion
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:507:14:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 458 and activity
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:644:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: conclusion line 457 and section
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:644:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag activity line 410
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:644:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
+./C_1learnmath.ptx:12:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx, and no fallback was found

@@ -110,7 +110,7 @@
     
   </activity>
 
-  <activity xml:id="four-fours">
+  <activity xml:id="act-four-fours">
     <title>Four Fours</title>
     
     <introduction>
@@ -347,7 +347,7 @@
     <exercise>
       <introduction>
         <p>
-          While working on <xref ref="four-fours"/>, students solved the following expression in these four ways.
+          While working on <xref ref="act-four-fours"/>, students solved the following expression in these four ways.
           
             <md>
               <mrow> \amp 4 + 4 / \sqrt{4} \times \sqrt{4} \amp \amp 4 + 4 / \sqrt{4} \times \sqrt{4} \amp \amp 4 + 4 / \sqrt{4} \times \sqrt{4} \amp \amp 4 + 4 / \sqrt{4} \times \sqrt{4}</mrow>
@@ -380,7 +380,7 @@
       <task>
         <statement>
           <p>
-            As you work on <xref ref="four-fours"/> check the expressions you find to make sure they work for the numbers you think they do. 
+            As you work on <xref ref="act-four-fours"/> check the expressions you find to make sure they work for the numbers you think they do. 
           </p>
         </statement>
       </task>
