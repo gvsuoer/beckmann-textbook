@@ -1,0 +1,573 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_patterns_100">
+  <title>Generalizations and Variables: Patterns in the 100s Chart</title>
+  
+  <introduction>
+    <p>
+      We saw that variables can be used to generalize expressions in <xref ref="four-nums-prob"/> such as <m>2=\frac{2+2}{\sqrt2\sqrt2}=\frac{6+6}{\sqrt6\sqrt6}=\frac{n+n}{\sqrt n\sqrt n}</m>. Variables can also be used in other ways. In this lesson, you will explore other ways that variables can be used in algebra.
+    </p>
+  </introduction>
+
+  <subsection xml:id="SS_vid_brains">
+    <title>Video: Brains Grow and Change</title>
+    
+    <p>
+      The video explains that making sense of mathematics is necessary to grow your brain. It shares brain science related to how to strengthen or create new pathways in your brain. If somewhere in your past, you have gotten the idea that you are not a math person, this video might change your point of view! <q>Brains Grow and Change</q> is from <url href="https://bhi61nm2cr3mkdgk1dtaov18-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Brains-Grow-Change.mp4" visual="bhi61nm2cr3mkdgk1dtaov18-wpengine.netdna-ssl.com/wp-content/uploads/2015/06/Brains-Grow-Change.mp4">YouCubed.org, Week 4 of Inspirational Math, Day 5</url>.
+    </p>
+  </subsection>
+
+  <subsection xml:id="SS_nums_43_28">
+    <title>Number Talk: 43 <mdash/> 28</title>
+    
+    <p>
+      Number talks help you realize how many different, correct, ways there are to solve the same problem. They help you develop flexibility with numbers. Eventually, we will look for generalizations, extending our number talks into algebra. Consider the following problem:
+    </p>
+
+    <assemblage>
+      <p>
+        I had $43 with me when I went shoping last week.
+      </p>
+      <p>
+        I spent $28 on fruit. How much do I have left?
+      </p>
+      <p>
+        Solve the problem mentally. Find at least one other way to solve the problem mentally. When asked to do so, share your solution and one of the ways you solved the problem. 
+      </p>
+    </assemblage>
+
+    <p>
+      When everyone is ready, you will be asked to share your solution. Once all solutions are expressed, you will take turns sharing solution processes you found. When sharing your solution process, answer the questions below:
+
+      <dl>
+        <li>
+          <title>Answer</title>
+          <p>
+            Which solution are you defending?
+          </p>
+        </li>
+        <li>
+          <title>Ask</title>
+          <p>
+            Does anyone have a question for me?
+          </p>
+        </li>
+        <li>
+          <title>Ask</title>
+          <p>
+            Does anyone have another way to solve the problem?
+          </p>
+        </li>
+      </dl>
+      Remember, your brain grows when you make mistakes and even more when you resolve them.
+    </p>
+
+  </subsection>
+
+  <activity xml:id="act-analyze100">
+    <title>Analyzing the 100s Chart</title>
+    
+    <introduction>
+      <p>
+        Generalization is an important concept in algebra. It is the basis of the use of variables. Think about what the word, variable, means when you are not thinking about mathematics. Share your ideas about this.
+      </p>
+      <p>
+        We will continue to refine our meaning of variable through today's activities. Work on <xref ref="act-analyze100"/>. As with the Four Fours collection of activities, use your creativity. Work to give clear descriptions of any patterns you find. Color code each pattern and illustrate it in the same color on the 100s Chart.
+      </p>
+    </introduction>
+
+    <task>
+      <introduction>
+        <p>
+          Study <xref ref="hunds-chart"/>.
+        </p>
+        <table xml:id="hunds-chart">
+          <title>The 100s Chart</title>
+        <tabular halign="center" left="minor">
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+
+          <row bottom="minor">
+            <cell right="minor">100</cell>
+            <cell right="minor">101</cell>
+            <cell right="minor">102</cell>
+            <cell right="minor">103</cell>
+            <cell right="minor">104</cell>
+            <cell right="minor">105</cell>
+            <cell right="minor">106</cell>
+            <cell right="minor">107</cell>
+            <cell right="minor">108</cell>
+            <cell right="minor">109</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">90</cell>
+            <cell right="minor">91</cell>
+            <cell right="minor">92</cell>
+            <cell right="minor">93</cell>
+            <cell right="minor">94</cell>
+            <cell right="minor">95</cell>
+            <cell right="minor">96</cell>
+            <cell right="minor">97</cell>
+            <cell right="minor">98</cell>
+            <cell right="minor">99</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">80</cell>
+            <cell right="minor">81</cell>
+            <cell right="minor">82</cell>
+            <cell right="minor">83</cell>
+            <cell right="minor">84</cell>
+            <cell right="minor">85</cell>
+            <cell right="minor">86</cell>
+            <cell right="minor">87</cell>
+            <cell right="minor">88</cell>
+            <cell right="minor">89</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">70</cell>
+            <cell right="minor">71</cell>
+            <cell right="minor">72</cell>
+            <cell right="minor">73</cell>
+            <cell right="minor">74</cell>
+            <cell right="minor">75</cell>
+            <cell right="minor">76</cell>
+            <cell right="minor">77</cell>
+            <cell right="minor">78</cell>
+            <cell right="minor">79</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">60</cell>
+            <cell right="minor">61</cell>
+            <cell right="minor">62</cell>
+            <cell right="minor">63</cell>
+            <cell right="minor">64</cell>
+            <cell right="minor">65</cell>
+            <cell right="minor">66</cell>
+            <cell right="minor">67</cell>
+            <cell right="minor">68</cell>
+            <cell right="minor">69</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">50</cell>
+            <cell right="minor">51</cell>
+            <cell right="minor">52</cell>
+            <cell right="minor">53</cell>
+            <cell right="minor">54</cell>
+            <cell right="minor">55</cell>
+            <cell right="minor">56</cell>
+            <cell right="minor">57</cell>
+            <cell right="minor">58</cell>
+            <cell right="minor">59</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">40</cell>
+            <cell right="minor">41</cell>
+            <cell right="minor">42</cell>
+            <cell right="minor">43</cell>
+            <cell right="minor">44</cell>
+            <cell right="minor">45</cell>
+            <cell right="minor">46</cell>
+            <cell right="minor">47</cell>
+            <cell right="minor">48</cell>
+            <cell right="minor">49</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">30</cell>
+            <cell right="minor">31</cell>
+            <cell right="minor">32</cell>
+            <cell right="minor">33</cell>
+            <cell right="minor">34</cell>
+            <cell right="minor">35</cell>
+            <cell right="minor">36</cell>
+            <cell right="minor">37</cell>
+            <cell right="minor">38</cell>
+            <cell right="minor">39</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">20</cell>
+            <cell right="minor">21</cell>
+            <cell right="minor">22</cell>
+            <cell right="minor">23</cell>
+            <cell right="minor">24</cell>
+            <cell right="minor">25</cell>
+            <cell right="minor">26</cell>
+            <cell right="minor">27</cell>
+            <cell right="minor">28</cell>
+            <cell right="minor">29</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">10</cell>
+            <cell right="minor">11</cell>
+            <cell right="minor">12</cell>
+            <cell right="minor">13</cell>
+            <cell right="minor">14</cell>
+            <cell right="minor">15</cell>
+            <cell right="minor">16</cell>
+            <cell right="minor">17</cell>
+            <cell right="minor">18</cell>
+            <cell right="minor">19</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">0</cell>
+            <cell right="minor">1</cell>
+            <cell right="minor">2</cell>
+            <cell right="minor">3</cell>
+            <cell right="minor">4</cell>
+            <cell right="minor">5</cell>
+            <cell right="minor">6</cell>
+            <cell right="minor">7</cell>
+            <cell right="minor">8</cell>
+            <cell right="minor">9</cell>
+          </row>
+        </tabular>
+      </table>
+      </introduction>
+
+      
+
+      <task>
+        <statement>
+          <p>
+            What must be added to a number to get the number immediately to its right?
+          </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            What must be added to a number to get the number directly below the number?
+          </p>
+        </statement>
+      </task>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Replace 6 with the letter <m>n</m> so that <m>n = 6</m>. When <m>n = 6</m>, notice that <m>7 = n + 1</m>. Rewrite 8 and 5 in terms of n where <m>n = 6</m>. Also write the expressions in <xref ref="hunds-chart"/>.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Replace the number 23 with the letter <m>m</m> so that <m>m = 23</m>. What are the next two odd numbers after 23? Write these odd numbers using the letter <m>m</m> instead of 23. Write the expressions in <xref ref="hunds-chart"/>.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          How can you represent the number just below 23 on the 100s chart in terms of <m>m</m> where <m>m = 23</m>? How can you represent the number just above 23 on the 100s chart using <m>m</m>? Write the expressions in <xref ref="hunds-chart"/>.
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Suppose <xref ref="hunds-subchart"/> is located somewhere in <xref ref="hunds-chart"/>. Write each value in the rectangle in terms of <m>x</m>. 
+        </p>
+        <table xml:id="hunds-subchart">
+        <title>100s Subchart</title>
+        <tabular left="minor">
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+
+          <row bottom="minor">
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/></cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><m>x</m></cell>
+            <cell right="minor"><nbsp/></cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/></cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/></cell>
+          </row>
+        </tabular>
+      </table>
+      </statement>
+
+      
+    </task>
+
+    <task xml:id="analyze100-x">
+      <statement>
+        <p>
+        Notice that every rectangle in <xref ref="hunds-chart"/> with the same dimensions as <xref ref="hunds-subchart"/> can be labeled exactly the same way. The initial value of <m>x</m> is irrelevant. Why is that?
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          What patterns do you see in <xref ref="hunds-chart"/>? Find at least 3. Color code each pattern in the chart. Describe each pattern in writing. Include a description of how to move to successive numbers and how much is added or subtracted each time you make the move. Explain why the pattern works as you say it does.
+        </p>
+      </statement>
+    </task>
+
+    <conclusion>
+      <p>
+        For <xref ref="act-analyze100"/>, share your solutions to each problem with your group. Share two of the more challenging patterns your group found with the class.
+      </p>
+      <p>
+        Of the patterns shared by the class, choose 2 to work on with your group. Together, describe the pattern carefully then figure out why each pattern works. Does the starting number matter? Be ready to share with the class.
+      </p>
+    </conclusion>
+
+  </activity>
+
+  <exercises>
+    
+    <exercise>
+      <statement>
+        <p>
+          Go back to <xref text="title" ref="subsubsec-directions"/> from <xref ref="S_learnmath"/>, How to Learn Math for Students. Complete <xref ref="main-prob-six"/>. You will hand in your written reflections for <xref ref="main-prob-six"/> in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Revisit <xref ref="analyze100-x"/> in <xref ref="act-analyze100"/>. Because the initial value of <m>x</m> is irrelevant, <m>x</m> is considered a variable. Once a particular value of <m>x</m> is chosen, then all of the values in the rectangle that are currently represented by expressions in terms of <m>x</m> can be determined. In this second case, <m>x</m> is a placeholder. Look at the expressions and equations below. For each, decide if <m>x</m> is a variable or if <m>x</m> is a placeholder.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>x + 1 = 3</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>x + 1 = y</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>2x = x + 1</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>2x - 1 = y</m>
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          You probably have learned to combine like terms in previous mathematics classes. As with the Order of Operations, there are mathematical reasons underlying which terms can be combined. 
+        </p>
+        <p>
+          When children learn to multiply, they use arrays such as those in <xref ref="fig-like-terms-array"/> to make sense of repeated addition. The product of the dimensions of an array is the number of squares in the array; the number of rows shows how many times the number of squares in the first row is repeated. <xref ref="act-like-terms"/> builds on this experience in learning multiplication to help you think about the meaning of the terms 1, <m>x</m>, and <m>x^2</m> in the context of area as you model expressions with algebra tiles. Complete <xref ref="act-like-terms"/>. Write down any questions you have as you work so you can ask them in class.
+        </p>
+        <figure xml:id="fig-like-terms-array">
+          <caption>Like Terms Array</caption>
+          <image source="like-terms-array" width="50%">
+            <description></description>
+          </image>
+        </figure>
+
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          There are free apps online to help you make sense of combining like terms and adding polynomials using algebra tiles. <url href="http://media.mivu.org/mvu_pd/a4a/homework/index.html" visual="media.mivu.org/mvu_pd/a4a/homework/index.html">Use the apps on this website</url>. Read the introductory pages carefully. These pages tell you how to use the apps. Navigate through the introduction using the arrow in the upper right corner. Watch the videos and play with the apps for <pubtitle>Simplifying Expressions and Adding Polynomials</pubtitle>. Solve at least 2 problems at each difficulty level, until you conceptually understand the link between the algebra tiles and the expressions they represent. This work should take at most 20 minutes.
+        </p>
+      </statement>
+    </exercise>
+
+  </exercises>
+
+  <activity xml:id="act-like-terms">
+    <task>
+      <statement>
+        <p>
+          Find the area of each of the algebra tiles shown. The side lengths are labeled. The variable, <m>x</m>, represents an unknown length.
+        </p>
+        <image source="tiles-like-terms1" width="50%">
+          <description></description>
+        </image>
+      </statement>
+    </task>
+
+    <task>
+      <introduction>
+        <p>
+          Translate each of the figures into algebra. Explain your translation. Simplify each expression as much as possible and explain why you cannot simplify further.
+        </p>
+      </introduction>
+
+      <task>
+        <image source="tiles-like-terms2a" width="30%">
+          <description></description>
+        </image>
+      </task>
+
+      <task>
+        <image source="tiles-like-terms2b" width="50%">
+          <description></description>
+        </image>
+      </task>
+
+      <task>
+        <image source="tiles-like-terms2c" width="50%">
+          <description></description>
+        </image>
+      </task>
+
+      <task>
+        <image source="tiles-like-terms2d" width="50%">
+          <description></description>
+        </image>
+      </task>
+    </task>
+
+    <task>
+      <introduction>
+        <p>
+          Draw algebra tiles to illustrate each expression. Use your illustration to simplify each of the algebraic expressions. Explain how you know you are correct.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>2x + 4 + 3x + 7 =</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>4x + 8 - 3x + 2 =</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>3x + 8 - (4x + 2) =</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>7x - 2(3x - 1) + x =</m>
+          </p>
+        </statement>
+      </task>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Summarize your work with combining like terms. Which terms can you combine? How do you know?
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <introduction>
+        <p>
+          Simplify the following expressions. Show and explain your work.
+        </p>
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            <m>3 + 5x - x + 7 =</m>
+          </p>
+        </statement>
+      </task>
+   
+
+    <task>
+        <statement>
+          <p>
+            <m>3 + 5x - (x + 7) =</m>
+          </p>
+        </statement>
+      </task>
+    
+
+    <task>
+        <statement>
+          <p>
+            <m>4 + 2(x - 1) =</m>
+          </p>
+        </statement>
+      </task>
+   
+
+    <task>
+        <statement>
+          <p>
+            <m>15x - 4(2 - 3x) + 7 =</m>
+          </p>
+        </statement>
+      </task>
+   
+  </task>
+      
+
+  </activity>
+
+</section>
