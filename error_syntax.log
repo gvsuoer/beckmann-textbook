@@ -1,6 +1,4 @@
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:506:18:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 502 and conclusion
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:507:14:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: p line 458 and activity
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:644:11:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: conclusion line 457 and section
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:644:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag activity line 410
-/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx:644:11:FATAL:PARSER:ERR_TAG_NOT_FINISHED: Premature end of data in tag section line 3
-./C_1learnmath.ptx:12:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1fours_extend.ptx, and no fallback was found
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1patterns_100.ptx:556:12:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: activity line 432 and task
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1patterns_100.ptx:565:12:FATAL:PARSER:ERR_TAG_NAME_MISMATCH: Opening and ending tag mismatch: section line 3 and task
+/Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1patterns_100.ptx:566:3:FATAL:PARSER:ERR_DOCUMENT_END: Extra content at the end of the document
+./C_1learnmath.ptx:13:0:ERROR:XINCLUDE:XINCLUDE_NO_FALLBACK: could not load /Users/iancurtis/Documents/coding/oer_work/beckmann-textbook/source/S_1patterns_100.ptx, and no fallback was found

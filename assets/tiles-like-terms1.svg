@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="182pt" height="104pt" viewBox="0 0 182 104">
+<g enable-background="new">
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,104)" d="M 0 0 L 182 0 L 182 104 L 0 104 Z "/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,0,104)" d="M 0 104 L 182 104 L 182 0 L 0 0 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,0,104)" d="M 0 -.000001251698 L 182 -.000001251698 L 182 104 L 0 104 Z "/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(1,0,0,-1,0,104)" d="M -23.14713 -133.3913 L 215.13217 -133.3913 L 215.13217 122.9913 L -23.14713 122.9913 Z " fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,104)" d="M 9.531172 74.15652 L 25.870322 74.15652 L 25.870322 90.43478 L 9.531172 90.43478 Z " fill="#cbcbcb"/>
+<path transform="matrix(.4538653,0,0,.4521739,-23.14713,-18.991303)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 72 72 L 108 72 L 108 108 L 72 108 Z "/>
+<path transform="matrix(1,0,0,-1,0,104)" d="M 50.37905 .9043466 L 66.7182 .9043466 L 66.7182 90.43479 L 50.37905 90.43479 Z " fill="#cbcbcb"/>
+<path transform="matrix(.4538653,0,0,.4521739,-23.14713,-18.991303)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 162 72 L 198 72 L 198 270 L 162 270 Z "/>
+<path transform="matrix(1,0,0,-1,0,104)" d="M 91.22694 .9043466 L 181.09229 .9043466 L 181.09229 90.43479 L 91.22694 90.43479 Z " fill="#cbcbcb"/>
+<path transform="matrix(.4538653,0,0,.4521739,-23.14713,-18.991303)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 252 72 L 450 72 L 450 270 L 252 270 Z "/>
+<text xml:space="preserve" transform="matrix(.4538653 0 0 .4521739 17.72912 6.782608)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.448">1</tspan></text>
+<text xml:space="preserve" transform="matrix(.4538653 0 0 .4521739 4.538653 21.252167)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.448">1</tspan></text>
+<text xml:space="preserve" transform="matrix(.4538653 0 0 .4521739 58.54863 6.782608)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.448">1</tspan></text>
+<text xml:space="preserve" transform="matrix(.4538653 0 0 .4521739 44.02494 57.87826)" font-size="16" font-family="HelveticaNeue" font-style="italic"><tspan y="5.776001" x="-3.848">x</tspan></text>
+<text xml:space="preserve" transform="matrix(.4538653 0 0 .4521739 86.23442 58.33044)" font-size="16" font-family="HelveticaNeue" font-style="italic"><tspan y="5.776001" x="-3.848">x</tspan></text>
+<text xml:space="preserve" transform="matrix(.4538653 0 0 .4521739 140.2444 6.782608)" font-size="16" font-family="HelveticaNeue" font-style="italic"><tspan y="5.776001" x="-3.848">x</tspan></text>
+</g>
+</g>
+</svg>
