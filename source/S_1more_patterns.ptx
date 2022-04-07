@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_more_patterns">
+  <title>More with Patterns and Variables: Rectangular Patterns in the 100s Chart</title>
+
+  <introduction>
+    <p>
+      Throughout this chapter, you have experienced how problems can be approached in a variety of ways. For example, to solve arithmetic problems such as 43 <minus/> 28, students found at least 8 ways to do this. Using four fours and four numbers, you found many ways to express most of the numbers 1 through 20. You found many patterns in the 100s chart. By now, we hope you are finding that mathematics is a way of thinking and communicating that can be very creative. One of the hallmarks of mathematics is sense-making in your own way, not in a way prescribed for you. In this lesson you will use your creativity based in sense making to find more ways to simplify an arithmetic expression and look for more patterns in the 100s Chart.
+    </p>
+  </introduction>
+
+  <subsection xml:id="SS_nums93-27">
+    <title>Number Talk: 93 <minus/> 27</title>
+    <p>
+      Solve the following problem in as many ways as you can.
+    </p>
+    <assemblage>
+      <p>
+        Mentally solve 93 <minus/> 27 in as many ways as you can.
+      </p>
+      <p>
+        Raise a thumb when you have a solution. Raise a finger for each additional solution process you find.
+      </p>
+    </assemblage>
+
+    <p>
+      One way a student solved 93 <minus/> 27 was by adding 3 to both 93 and 27 to get 96 <minus/> 30 = 66. The student also solved the problem by adding 4 to both numbers to get 97 <minus/> 31 = 66. Does this strategy always work? Why or why not? Is the student's process related to the 100s chart? Find the numbers on <xref ref="hunds-chart"/> and explain what's happening to the numbers. Use algebra to explain why this process works. 
+    </p>
+  </subsection>
+
+  <worksheet xml:id="act-rec-patterns">
+    <title>Rectangle Patterns in the 100s Chart</title>
+
+    <introduction>
+      <p>
+        In <xref ref="act-analyze100"/> you found patterns in rows, columns, or diagonals. This time your pattern search will be confined to rectangles. 
+      </p>
+    </introduction>
+    
+    <exercise>
+    <introduction>
+      <p>
+        Consider the rectangle in <xref ref="rec-patt-rectang"/>. What patterns do you see in the numbers in this rectangle?
+      </p>
+
+      <table xml:id="rec-patt-rectang">
+        <title>Rectangle for <xref ref="act-rec-patterns"/>.</title>
+        <tabular left="minor">
+        <col top="minor"/>
+        <col top="minor"/>
+        <col top="minor"/>
+
+        <row bottom="minor">
+          <cell right="minor">84</cell>
+          <cell right="minor">85</cell>
+          <cell right="minor">86</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">74</cell>
+          <cell right="minor">75</cell>
+          <cell right="minor">76</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">64</cell>
+          <cell right="minor">65</cell>
+          <cell right="minor">66</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">54</cell>
+          <cell right="minor">55</cell>
+          <cell right="minor">56</cell>
+        </row>
+        </tabular>
+      </table>
+
+      <p>
+        Let <m>x = 84</m>. In the rectangle, write the other values in the rectangle in terms of <m>x</m>.
+      </p>
+    </introduction>
+
+    <task>
+      <statement>
+        <p>
+          Use your relabeling to justify any numeric patterns you found. 
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Find another pattern in the relabeled rectangle. 
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Does your pattern work for a 4 by 3 rectangle with upper left corner labeled 51? 
+        </p>
+      </statement>
+    </task>
+
+    <task>
+      <statement>
+        <p>
+          Does your pattern work for any other 4 by 3 rectangles? Why or why not?
+        </p>
+      </statement>
+    </task>
+
+    <conclusion>
+      <p>
+        Work on the the following exercises alone for at least 10 minutes. When each member of your group has found at least one rectangle pattern, share the patterns you found with your group. 
+      </p>
+    </conclusion>
+  </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Using a different color to outline each rectangle, draw three rectangles following the lines in <xref ref="hunds-chart"/> (reprinted below) with the following rules:
+        </p>
+        <tabular halign="center" left="minor">
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+          <col top="minor"/>
+
+          <row bottom="minor">
+            <cell right="minor">100</cell>
+            <cell right="minor">101</cell>
+            <cell right="minor">102</cell>
+            <cell right="minor">103</cell>
+            <cell right="minor">104</cell>
+            <cell right="minor">105</cell>
+            <cell right="minor">106</cell>
+            <cell right="minor">107</cell>
+            <cell right="minor">108</cell>
+            <cell right="minor">109</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">90</cell>
+            <cell right="minor">91</cell>
+            <cell right="minor">92</cell>
+            <cell right="minor">93</cell>
+            <cell right="minor">94</cell>
+            <cell right="minor">95</cell>
+            <cell right="minor">96</cell>
+            <cell right="minor">97</cell>
+            <cell right="minor">98</cell>
+            <cell right="minor">99</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">80</cell>
+            <cell right="minor">81</cell>
+            <cell right="minor">82</cell>
+            <cell right="minor">83</cell>
+            <cell right="minor">84</cell>
+            <cell right="minor">85</cell>
+            <cell right="minor">86</cell>
+            <cell right="minor">87</cell>
+            <cell right="minor">88</cell>
+            <cell right="minor">89</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">70</cell>
+            <cell right="minor">71</cell>
+            <cell right="minor">72</cell>
+            <cell right="minor">73</cell>
+            <cell right="minor">74</cell>
+            <cell right="minor">75</cell>
+            <cell right="minor">76</cell>
+            <cell right="minor">77</cell>
+            <cell right="minor">78</cell>
+            <cell right="minor">79</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">60</cell>
+            <cell right="minor">61</cell>
+            <cell right="minor">62</cell>
+            <cell right="minor">63</cell>
+            <cell right="minor">64</cell>
+            <cell right="minor">65</cell>
+            <cell right="minor">66</cell>
+            <cell right="minor">67</cell>
+            <cell right="minor">68</cell>
+            <cell right="minor">69</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">50</cell>
+            <cell right="minor">51</cell>
+            <cell right="minor">52</cell>
+            <cell right="minor">53</cell>
+            <cell right="minor">54</cell>
+            <cell right="minor">55</cell>
+            <cell right="minor">56</cell>
+            <cell right="minor">57</cell>
+            <cell right="minor">58</cell>
+            <cell right="minor">59</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">40</cell>
+            <cell right="minor">41</cell>
+            <cell right="minor">42</cell>
+            <cell right="minor">43</cell>
+            <cell right="minor">44</cell>
+            <cell right="minor">45</cell>
+            <cell right="minor">46</cell>
+            <cell right="minor">47</cell>
+            <cell right="minor">48</cell>
+            <cell right="minor">49</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">30</cell>
+            <cell right="minor">31</cell>
+            <cell right="minor">32</cell>
+            <cell right="minor">33</cell>
+            <cell right="minor">34</cell>
+            <cell right="minor">35</cell>
+            <cell right="minor">36</cell>
+            <cell right="minor">37</cell>
+            <cell right="minor">38</cell>
+            <cell right="minor">39</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">20</cell>
+            <cell right="minor">21</cell>
+            <cell right="minor">22</cell>
+            <cell right="minor">23</cell>
+            <cell right="minor">24</cell>
+            <cell right="minor">25</cell>
+            <cell right="minor">26</cell>
+            <cell right="minor">27</cell>
+            <cell right="minor">28</cell>
+            <cell right="minor">29</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">10</cell>
+            <cell right="minor">11</cell>
+            <cell right="minor">12</cell>
+            <cell right="minor">13</cell>
+            <cell right="minor">14</cell>
+            <cell right="minor">15</cell>
+            <cell right="minor">16</cell>
+            <cell right="minor">17</cell>
+            <cell right="minor">18</cell>
+            <cell right="minor">19</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">0</cell>
+            <cell right="minor">1</cell>
+            <cell right="minor">2</cell>
+            <cell right="minor">3</cell>
+            <cell right="minor">4</cell>
+            <cell right="minor">5</cell>
+            <cell right="minor">6</cell>
+            <cell right="minor">7</cell>
+            <cell right="minor">8</cell>
+            <cell right="minor">9</cell>
+          </row>
+        </tabular>
+      </introduction>
+          <task>
+            <statement>
+              <p>
+                Make sure all three rectangles have different dimensions. 
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Make one rectangle large and one rectangle small. 
+              </p>
+            </statement>
+          </task>
+          <task>
+            <statement>
+              <p>
+                Make only one square.
+              </p>
+            </statement>
+          </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What patterns do you notice among the numbers in one of the rectangles? Find at least three patterns. Each pattern you find must not extend beyond the rectangle.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Of the patterns you found, do any work for all three rectangles? Explain.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Choose one of the patterns you found. Explain why the pattern works.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Challenge yourself to use variables to show why the pattern works.
+        </p>
+      </statement>
+    </exercise>
+
+    <conclusion>
+      <p>
+        As a group, choose your 3 favorite patterns, including at least one that you think other groups won't find. Share your patterns with the class. As a group, choose 2 patterns shared by other groups to justify. Use variables and algebra to justify that each pattern works.
+      </p>
+    </conclusion>
+
+  </worksheet>
+
+  <exercises>
+    
+    <exercise>
+      <statement>
+        <p>
+          Go back to <xref text="title" ref="subsubsec-directions"/> Complete <xref ref="main-prob-seven"/>. You will hand in your written reflections for <xref ref="main-prob-seven"/> in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Work on <xref text="title" ref="act-rec-patterns"/>. For a pattern that has not been justified in class, explain why the pattern works. Challenge yourself to use variables to generalize the pattern so that it works regardless of where you draw the rectangle in the 100s chart. 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For an extra challenge, find and work on a pattern that interests you from <xref text="title" ref="act-rec-patterns"/>. Justify it. Translate the pattern into algebra and show that it always works.
+        </p>
+      </statement>
+    </exercise>
+
+  </exercises>
+  
+</section>
