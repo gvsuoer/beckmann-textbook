@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_alg_puzz">
+  <title>Algebra and Number Puzzles</title>
+
+  <introduction>
+    <p>
+      We have made introductions and studied its underlying mathematics. We looked at the order of operations and saw that the order in which we complete operations is purposeful rather than just a convention to memorize. We've experienced finding patterns in the 100s Chart and justifying them with algebra. We've seen mathematics arise in unlikely places. This lesson expands our repertoire of unlikely places for mathematics, magic number puzzles. Could it be that math really is everywhere?
+    </p>
+    <p>
+      Throughout human history of the past 2000 years, humans have been fascinated by puzzles. In this lesson, we play with some of them and see how they are related to algebra.
+    </p>
+  </introduction>
+
+  <activity>
+    <statement>
+      <p>
+        Consider these two magic number puzzles.
+
+        <assemblage>
+          <title>Number Puzzle 1</title>
+          <p>
+            Choose a whole number between 1 and 10.
+          </p>
+          <p>
+            Double it.
+          </p>
+          <p>
+            Add 4 to the result.
+          </p>
+          <p>
+            Divide the result by 2.
+          </p>
+          <p>
+            Subtract the number you started with.
+          </p>
+          <p>
+            What number to you get?
+          </p>
+        </assemblage>
+      </p>
+      <p>
+        How does this puzzle work? Act out each step of the puzzle using objects (algebra tiles or blocks and beans will work!) Let one type of object represent <m>x</m> and another type of object represent units. Finally, solve the puzzle using a variable to represent an unknown number and algebra to write then simplify expressions.
+
+        <assemblage>
+          <title>Number Puzzle 2</title>
+          <p>
+            Choose a number.
+          </p>
+          <p>
+            Multiply it by 6.
+          </p>
+          <p>
+            Add 12.
+          </p>
+          <p>
+            Divide the result by 2.
+          </p>
+          <p>
+            Add 9.
+          </p>
+          <p>
+            Divide the result by 3.
+          </p>
+          <p>
+            What is your number? How does it compare with your starting number?
+          </p>
+        </assemblage>
+
+        Determine a solution. Figure out how this puzzle works, first with materials, then with algebra.
+      </p>
+      <p>
+        Discuss the solutions to both puzzles, including justification with materials and with algebra and the relationship between these. 
+      </p>
+    </statement>
+  </activity>
+
+  <worksheet xml:id="act-translate-magic">
+    <title>Translating Magic Number Puzzles to Algebra to Justify Them</title>
+    
+    <introduction>
+      <p>
+        <xref text="title" ref="act-translate-magic"/> includes several magic number puzzles for you to solve with your group. Follow the directions. Be ready to discuss your solutions with the class.
+      </p>
+      <p>
+        Directions: Try each of the Magic Number Puzzles. Figure out how each one works. Write an informal justification for each puzzle. For one of the puzzles, show why it works using algebra.
+      </p>
+    </introduction>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Consider this puzzle:
+            <ol>
+              <li>
+                <p>
+                  Pick a number.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Multiply the number by 2.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add 10 to the total.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Divide the total by 2.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Subtract the first number you chose from the result in the previous step.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What number do you get? Why?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Consider this puzzle:
+            <ol>
+              <li>
+                <p>
+                  Write down your shoe size rounded to a whole number.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Multiply the number by 5.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add 50.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Multiply the result by 20.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add this year.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Subtract 1000.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Subtract the year you were born.
+                </p>
+              </li>
+              <li>
+                <p>
+                  What is special about the number you get?
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Why does this puzzle work? 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Does it work for every shoe size? If not, for what shoe sizes do you have to adjust the puzzle to make it work? How do you have to adjust the puzzle?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Consider this puzzle:
+            <ol>
+              <li>
+                <p>
+                  Write your age on a slip of paper.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add 90 to your number.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Cross out the leftmost digit from the result.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add the digit you crossed off to the result.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add 9 to the result.
+                </p>
+              </li>
+             
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the final result? How does it relate to the number you chose?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Are there any ages for which this puzzle doesn't work? How do you know?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Consider this puzzle:
+            <ol>
+              <li>
+                <p>
+                  Write the year of your birth.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Double it.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add 5.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Multiply the result by 50.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add your age.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Add 365.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Subtract 615.
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the final result? How does it relate to the numbers you chose in the problem?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          There were 100 chocolates in a box. The box was passed from person to person in one row. The first person took one chocolate. Each person down the row took one more chocolate than the person before. The box was passed until it was empty. What is the largest number of people that could have removed chocolates from the box? How do you know?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Consider this puzzle:
+          <ol>
+            <li>
+              <p>
+                Choose any number.
+              </p>
+            </li>
+            <li>
+              <p>
+                Multiply the number by 100.
+              </p>
+            </li>
+            <li>
+              <p>
+                Subtract the original number.
+              </p>
+            </li>
+            <li>
+              <p>
+                Add the digits in your answer.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Try the puzzle using single digit numbers (1 through 9). What numbers are possible? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Try the puzzle using numbers from 10 through 99. What numbers are possible? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What numbers are possible if you complete the puzzle using 3-digit numbers? Show the numbers you used to get each answer to the final step.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            One student found that the answer for the final step could be 18, 27, or 36. 
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              How many digits must the original number have for the puzzle to give 27 as an answer? Find a number that works.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How many digits must the original number have for the puzzle to give 36 as an answer? Find a number that works.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Are any other numbers possible for the answer to step IV? For any additional step IV solutions you find, show the number you used to get the answer.
+            </p>
+          </statement>
+        </task>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <statement>
+        <p>
+          Go back to <xref text="title" ref="subsubsec-directions"/>. Complete <xref ref="main-prob-nine"/>. You will hand in your written reflections for <xref ref="main-prob-nine"/> in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Finish solving <xref ref="act-translate-magic"/> Be ready to discuss solutions and ask any remaining questions in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          National Public Radio regularly congratulates patrons celebrating birthdays and anniversaries. Here's an announcement made in 2017:
+
+          <blockquote>
+            Congratulations to Laurie on her 24th birthday, counting backwards since 2002.
+          </blockquote>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What was Laurie's actual age on the day of the announcement?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How old will Laurie be in 2030?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How old will Laurie actually be when she says she is 1-year old (assuming she keeps this counting scheme going)? Is she likely to live that long? 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write an expression that will help you determine Laurie's NPR age in any year after 2002. Say how you know your expression is correct.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Study the following Magic Number Puzzle. Try it out for a few numbers, then show how and why it works using Algebra or pictures. 
+          <ol>
+            <li>
+              <p>
+                Choose a number.
+              </p>
+            </li>
+            <li>
+              <p>
+                Multiply by 6.
+              </p>
+            </li>
+            <li>
+              <p>
+                Add 12.
+              </p>
+            </li>
+            <li>
+              <p>
+                Divide by 2.
+              </p>
+            </li>
+            <li>
+              <p>
+                Subtract 6.
+              </p>
+            </li>
+            <li>
+              <p>
+                Divide by 3.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is special about the number you get?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Why does this puzzle work?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find a magic number puzzle different from those you encountered in this lesson. Write down or print out a puzzle you find. Solve the puzzle and figure out how it works. Be ready to share with your group.
+        </p>
+      </statement>
+    </exercise>
+    
+  </exercises>
+  
+</section>
