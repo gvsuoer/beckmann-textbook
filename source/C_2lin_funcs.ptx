@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="C_lin_funcs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Proportional Reasoning and Linear Functions</title>
+
+  <introduction>
+    <p>
+      <xref ref="C_learnmath"/> provided many opportunities for you to view mathematics through a variety of contexts in which mathematics arises and through connections among representations. In <xref ref="C_lin_funcs"/>, you will continue to broaden your exposure to contexts and multiple representations, this time through those that can be modeled by linear functions. To be certain of your facility with linear functions, near the end of the chapter, we include a few functions that are not linear so that you consider more deeply what it means to be linear.
+    </p>
+
+    <activity>
+      <statement>
+        <p>
+          Before we begin, let's talk about the word, <term>function</term>. We used the word function a few times in <xref ref="C_learnmath"/> without defining it. For our purposes, function and equation are almost interchangeable. Equations are more general than functions. Here are some equations:
+          <md>
+            <mrow>y \amp = 3x + 4 \amp 2x - 3 \amp = 3x + 4 \amp 8 \amp = 3x + 4</mrow>
+            <mrow>y \amp = 5 - 7x \amp 14 - 7x \amp = 5 - 7x \amp 2(3x + 4) \amp = 6x + 8</mrow>
+            <mrow>y \amp = 4 \amp x \amp = 11 \amp 1 \amp = - (-1)</mrow>
+          </md>
+        </p>
+        <p>
+          Some of the equations above are also functions. Can you guess which equations are also functions? Circle them. Why do you think these are functions and the others are not?
+        </p>
+      
+
+    <p>
+      There are several mathematical definitions of function online. Here are two of them:
+      <ul>
+        <li>
+          <p>
+            A function is a special relationship where each input has a single output. (Math is Fun, <url href="https://www.mathsisfun.com/definitions/function.html" visual="mathsisfun.com/definitions/function.html">online website</url>, retrieved April 16, 2020.)
+          </p>
+        </li>
+        <li>
+          <p>
+            A technical definition of a function is: a <url href="http://mathinsight.org/definition/relation" visual="mathinsight.org/definition/relation">relation</url> from a set of inputs to a set of possible outputs where each input is related to exactly one output. (Math Insight, <url href="http://mathinsight.org/definition/function" visual="mathinsight.org/definition/function">online website</url>, retrieved April 16, 2020.)
+          </p>
+        </li>
+      </ul>
+
+      Let <m>x</m> be the variable representing the set of input values. Let <m>y</m> be the variable representing the set of output values. Use one of these definitions to determine which of the equations above are functions. Be ready to explain your choices.
+    </p>
+    </statement>
+    </activity>
+  </introduction>
+
+  <xi:include href="S_2graphs_lit.ptx" />
+  
+</chapter>

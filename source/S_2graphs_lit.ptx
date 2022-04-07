@@ -1,0 +1,637 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_graphs_lit">
+  <title>Representations: Graphs, Data, and Algebra through Children's Literature</title>
+
+  <introduction>
+    <p>
+      Children's literature is a rich source for mathematics connections. Though the stories are intended for children, the underlying mathematics is more advanced. In this lesson, we will read a story and see how it can be represented through graphs, tables, and algebra.
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Video: Talking About Math</title>
+    
+    <p>
+      In <pubtitle>How to Learn Math for Students</pubtitle>, Lesson 4, watch Video 4: Talking About Math. How can you benefit by actively working in groups both in and outside of class? Think about how well you and your group members currently interact. What ideas do you have about how to help your group work together more productively? Share your ideas with your group.
+    </p>
+
+  </subsection>
+
+  <worksheet xml:id="act-eyes">
+    <title>The Eyes Have It</title>
+    
+    <introduction>
+      <p>
+        Because variables are so important in our work with algebra, it is helpful to further develop our facility with their use. In this activity, you will study the relationship between the numbers of monsters and the corresponding numbers of eyes (each monster has only two eyes) through tables, graphs, English sentences, and algebraic equations.
+      </p>
+      <p>
+        Read <pubtitle>Horns to Toes and In Between</pubtitle> by Sandra Boynton. (You can find an <url href="https://www.youtube.com/watch?v=5J2BwEu1ueY" visual="youtube.com/watch?v=5J2BwEu1ueY">amusing version of the book on YouTube</url>.)
+      </p>
+      <p>
+        How many eyes do 3 monsters have? 4 monsters? 7 monsters? All the monsters in the book? Any number of monsters (with 2 eyes each)?
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-monsters-1">
+      <statement>
+        <p>
+          Record the number of eyes based on the number of people in <xref ref="tbl-monsters"/>.
+        </p>
+        <table xml:id="tbl-monsters">
+          <title>Monsters/Eyes Table for <xref ref="exer-monsters-1"/></title>
+          <tabular left="minor">
+            <col top="minor"/>
+            <col halign="center" top="minor"/>
+            <col halign="center" top="minor"/>
+            <col halign="center" top="minor"/>
+            <col halign="center" top="minor"/>
+            <col halign="center" top="minor"/>
+            <col halign="center" top="minor"/>
+            <col halign="center" top="minor"/>
+            
+            <row bottom="minor">
+              <cell right="minor">Number of Monsters, <m>M</m></cell>
+              <cell right="minor">1</cell>
+              <cell right="minor">2</cell>
+              <cell right="minor">3</cell>
+              <cell right="minor">4</cell>
+              <cell right="minor">5</cell>
+              <cell right="minor">6</cell>
+              <cell right="minor"><m>M</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">Total Number of Eyes, <m>E</m></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><m>E =</m></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Graph the data in <xref ref="tbl-monsters"/> using <xref ref="fig-monsters-graph"/>. Label the horizontal axis, Number of Monsters, and the vertical axis, Total Number of Eyes.
+        </p>
+        <figure xml:id="fig-monsters-graph">
+          <caption>Blank Graph for Plotting Monsters and Eyes</caption>
+          <image source="blank-graph" width="70%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Starting at 0 where the two axes meet, number the tick marks on the horizontal axis increasing by 1 each time for each dark vertical line (every other tick mark). 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Choose a reasonable scale for the vertical axis. Explain why the scale is reasonable.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe the shape of the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Why do you think the graph has the shape it does? 
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Describe the relationship between the number of monsters and the total number of eyes the monsters have. Here is one way to phase into the use of variables:
+          <blockquote>
+            <p>
+              The number of <em>E</em>yes is two times the number of <em>M</em>onsters.
+            </p>
+            <p>
+              Number of <em>E</em>yes = 2 <times/> number of <em>M</em>onsters
+            </p>
+            <p>
+              <em>E</em> = 2 <times/> <em>M</em>
+            </p>
+            <p>
+              <em>E</em> = 2<em>M</em>
+            </p>
+          </blockquote>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-body-parts">
+      <statement>
+        <p>
+          Choose a body part that humans have more than 2 of. Repeat problems 1, 2, and 3 for the body part you choose. You are welcome to look up numbers on the Internet if you don't know them.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Graph number of people versus total number of the chosen body part on the axes above in <xref ref="fig-monsters-graph"/>. What do you notice?
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-desmos">
+    <title>Graphing with Desmos</title>
+    
+    <introduction>
+      <p>
+        Read the following instructions. Open Desmos on a computer, a smart phone, or an electronic tablet. Use the directions to plot the data from <xref ref="act-eyes"/>. What questions do you have? Share your graph with your group.
+      </p>
+    </introduction>
+
+    <exercise>
+      <title>Desmos</title>
+      
+      <task>
+        <statement>
+          <p>
+            Google <q>Desmos.</q>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Choose Desmos Graphing Calculator.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use with an Internet connection on a computer or download the app onto your smart phone or tablet free of charge.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <title>Plotting Points with Desmos</title>
+      
+      
+      <task>
+        <statement>
+          <p>
+            CLick on the add item menu, <q>+</q> (upper left). Choose table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Enter the data from your table into Desmos.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Notice that points are being plotting as you type them.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            You might not be able to see all of your points on the graph.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <title>Setting the Graphing Window With Desmos</title>
+      
+      <task>
+        <statement>
+          <p>
+            Click on the wrench icon in the upper right corner.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For the independent variable <m>x</m>, enter the low and high values for your data.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Choose a reasonable step size. The step is the interval between tick marks on the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Include a title for the <m>x</m>-axis.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Repeat for the dependent variable, <m>y</m>.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <title>Grpahing an Equation</title>
+      
+      <task>
+        <statement>
+          <p>
+            On the left side of the screen, type in the equation you want to plot in the next entry line.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            It will automatically appear on the graphing screen.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Troubleshoot and change the equation if it doesn't fit the data.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-eyes-extend">
+    <title>The Eyes Have It, Extended</title>
+    
+    
+    <introduction>
+      <p>
+        What household items do Americans likely have in quantity? Find statistics about the average number of something each household owns. Repeat the activity in <xref text="title" ref="act-eyes"/> problems 1 through 3, for the item you are interested in. Create a graph with Desmos to represent the data. Share your work on this problem with your group. 
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          How did you decide what scale to use?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How did you find the equation to plot?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What questions do you have?
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  
+  <exercises>
+    
+    <exercise>
+      <statement>
+        <p>
+          Go back to <xref text="title" ref="subsubsec-directions"/>. Complete <xref ref="main-prob-ten"/>. You will hand in your written reflections for <xref ref="main-prob-ten"/> in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="desmos-body-parts">
+      <statement>
+        <p>
+          Revisit <xref text="title" ref="act-eyes"/>. Using the data in <xref ref="exer-body-parts"/> for the Human Body Parts your group chose, create a table listing the number of body parts for 2, 4, 6, 8, and 10 people. Plot the data with Desmos. Choose appropriate scales for both <m>x</m> and <m>y</m> if the scales chosen by Desmos do not show all of the data.  Find an equation to fit the data. Print out the graph and data or be prepared to share them electronically.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-refresh-plotting">
+      <introduction>
+        <p>
+          If plotting points on a coordinate grid is unfamiliar to you, or you need to dust off the skill, return to <xref ref="desmos-body-parts"/>.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-refresh-plottinga">
+        <statement>
+          <p>
+            Compare the graph with the data in <xref ref="tbl-example-data"/>. Which number is plotted along the horizontal axis? Which number is plotted along the vertical axis?
+          </p>
+          <table xml:id="tbl-example-data">
+            <title>Data Table for <xref ref="exer-refresh-plotting"/></title>
+            <tabular halign="center" left="minor">
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>4</m></cell>
+                <cell right="minor"><m>-3</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>-2</m></cell>
+                <cell right="minor"><m>5</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>0</m></cell>
+                <cell right="minor"><m>-1</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>-5</m></cell>
+                <cell right="minor"><m>-4</m></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task xml:id="exer-refresh-plottingb">
+        <statement>
+          <p>
+            Create a new table on Desmos using the values at right. Answer <xref ref="exer-refresh-plottinga"/> again.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Predict the location of several more points. Enter the points into the table in <xref ref="exer-refresh-plottingb"/> to see if you are correct.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Movie tickets cost $8.50 each.
+        </p>
+        <sidebyside>
+          <table xml:id="tbl-tickets">
+            <title>Movie Ticket Data</title>
+            <tabular halign="center" left="minor">
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor">Number of tickets</cell>
+                <cell right="minor">Cost of tickets</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>0</m></cell>
+                <cell right="minor"></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>1</m></cell>
+                <cell right="minor"><m>8.50</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>2</m></cell>
+                <cell right="minor"></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>3</m></cell>
+                <cell right="minor"></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>4</m></cell>
+                <cell right="minor"></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>10</m></cell>
+                <cell right="minor"></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>15</m></cell>
+                <cell right="minor"></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>n</m></cell>
+                <cell right="minor"></cell>
+              </row>
+            </tabular>
+          </table>
+
+          <figure xml:id="fig-tickets">
+            <caption>Blank Graph for Movie Tickets</caption>
+            <image source="blank-graph" width="50%">
+              <description></description>
+            </image>
+          </figure>
+        </sidebyside>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-tickets"/> to show the cost of the numbers of movie tickets listed if each ticket costs $8.50.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data on the graph at right. Label accurate scales for both <m>x</m> and <m>y</m> so that you use most of the graph. Write titles on each axis.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-ticketsc">
+        <statement>
+          <p>
+            Describe the relationship between the number of tickets purchased and the cost of that number of tickets.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write the relationship in <xref ref="exer-ticketsc"/> as an equation.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Gasoline prices sometimes vary greatly in a day. On January 28, 2015, gasoline prices in the Muskegon, MI area ranged from $1.879 to $2.199 per gallon.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-gas"/> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).
+          </p>
+          <table xml:id="tbl-gas">
+            <title>Table of Gas Prices</title>
+            
+            
+            <tabular left="minor" halign="center" top="minor">
+              <row header="yes">
+                <cell left="minor" right="minor">
+                  Number of Gallons of Gas Purchased, <m>g</m>
+                </cell>
+                <cell colspan="2" right="minor" bottom="minor">
+                  Price of Gas, <m>P</m>
+                </cell>
+              </row>
+              <row header="yes" bottom="minor">
+                <cell left="minor" right="minor">
+                </cell>
+                <cell right="minor">
+                  <dollar />1.879 per gallon
+                </cell>
+                <cell right="minor">
+                  <dollar />2.199 per gallon
+                </cell>
+              </row>
+              <row bottom="minor">
+                <cell left="minor" right="minor">
+                  1
+                </cell>
+                <cell right="minor">
+                </cell>
+                <cell right="minor">
+                </cell>
+              </row>
+              <row bottom="minor">
+                <cell left="minor" right="minor">
+                  2
+                </cell>
+                <cell right="minor">
+                </cell>
+                <cell right="minor">
+                </cell>
+              </row>
+              <row bottom="minor">
+                <cell left="minor" right="minor">
+                  3
+                </cell>
+                <cell right="minor">
+                </cell>
+                <cell right="minor">
+                </cell>
+              </row>
+              <row bottom="minor">
+                <cell left="minor" right="minor">
+                  4
+                </cell>
+                <cell right="minor">
+                </cell>
+                <cell right="minor">
+                </cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Accurately plot the data. Label scales and titles for each axis.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write equations in the last row of the table that fit the data. Tell how you know your equations are correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many gallons of gasoline can you purchase for $10? Show your work for one of the gasoline prices, accurate to 2 decimal places.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+  
+</section>
