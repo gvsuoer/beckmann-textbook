@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_patterns_alg">
+  <title>Patterns and Variables: Justifying Patterns with Algebra</title>
+  
+  <introduction>
+    <p>
+      As in <xref ref="S_more_patterns"/> some of our number talks are related to our work with the 100s Chart. Solve the next problem in as many ways as you can. Think about how it is related to the 100s Chart (<xref ref="hunds-chart"/>).
+    </p>
+  </introduction>
+
+  <subsection>
+    <title>Number Talk: 96 + 29</title>
+
+    <assemblage>
+      <p>
+        Mentally solve 96 + 29 in as many ways as you can. 
+      </p>
+      <p>
+        Raise a thumb when you have a solution. Raise a finger for each additional solution process you find.
+      </p>
+    </assemblage>
+
+    <ul>
+      <li>
+        <p>
+          How does this number talk relate to your work with patterns in the <xref ref="hunds-chart"/>?
+        </p>
+      </li>
+      <li>
+        <p>
+          Will your process work for adding any two numbers? Why or why not?
+        </p>
+      </li>
+    </ul>
+    
+  </subsection>
+
+  <activity xml:id="act-sharing-patterns">
+    <title>Sharing Rectangle Patterns in the 100s Chart</title>
+    
+    <statement>
+      <p>
+        Share your justifications of patterns you found for homework with your group. As a group, decide which two patterns to justify in words and algebraically for the class. For your algebraic justification, label your rectangle as generally as you can, with <m>x</m> as the upper left corner of the rectangle and the other numbers in the rectangle based on <m>x</m>.
+      </p>
+    </statement>
+    
+  </activity>
+
+  <exercises>
+
+    <exercise>
+      <statement>
+        <p>
+          Go back to the <xref text="title" ref="subsubsec-directions"/>. Complete <xref ref="main-prob-eight"/>. You will hand in your written reflections for <xref ref="main-prob-eight"/> in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-october">
+      <task>
+        <statement>
+          <p>
+            Draw a 3 by 3 box around 9 numbers in the October 2020 calendar. An example is shown in <xref ref="fig-october"/>.
+          </p>
+          <figure xml:id="fig-october">
+            <caption>The October 2020 Calendar for <xref ref="exer-october"/></caption>
+            <image source="oct-calendar" width="70%">
+              <description></description>
+            </image>
+          </figure>
+          <p>
+            Use the example or draw your own 3 by 3 box.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="tsk-oct-b">
+        <statement>
+          <p>
+            Find two different patterns among the numbers in the 3 by 3 box. Describe each pattern carefully.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use algebra to justify one of the patterns you found in <xref ref="tsk-oct-b"/>. Indicate which pattern you are justifying.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          A famous pattern called Pascal's Triangle is shown in <xref ref="fig-pascal-tri"/>.
+        </p>
+        <figure xml:id="fig-pascal-tri">
+          <caption>Pascal's Triangle</caption>
+          <image source="pascal-tri" width="50%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Study the pattern. How are the numbers from one row related to the numbers in the next row?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fill-in the missing numbers in the last row. Extend the pattern at least one additional row.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe 2 patterns that you see in this arrangement of numbers. 
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise xml:id="exer-17-4">
+      <task>
+        <statement>
+          <p>
+            Using only mental arithmetic, solve each problem in <xref ref="tbl-17-4"/> below. Record how you thought about the numbers to help you add them mentally.
+          </p>
+          <table xml:id="tbl-17-4">
+            <title>Table for <xref ref="exer-17-4"/></title>
+            <tabular left="minor">
+              <col top="minor" halign="center"/>
+              <col top="minor" halign="center"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor">Simplify</cell>
+                <cell right="minor">Solution</cell>
+                <cell right="minor">How did you solve the problem?</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>25 + 26</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>15 + 16</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>39 + 40</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>18 + 19</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>25 + 26</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><m>163 + 164</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+              
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write the sum <m>25 + 26</m> in terms of <m>x</m> with <m>x = 25</m>. Show the sum in terms of <m>x</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What other problems did you solve using the same strategy you used to solve <m>25 + 26</m>? Color code the problems that you solve using the same strategy.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Did you use the same strategy to mentally solve all of the problems? If you used more than one strategy, color code problems you solved using the same strategy. Do this for each strategy you used. Describe each strategy.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+    
+  </exercises>
+
+</section>

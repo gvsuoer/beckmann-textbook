@@ -12,4 +12,5 @@
   <xi:include href="S_1fours_extend.ptx" />
   <xi:include href="S_1patterns_100.ptx" />
   <xi:include href="S_1more_patterns.ptx" />
+  <xi:include href="S_1patterns_alg.ptx" />
 </chapter>
