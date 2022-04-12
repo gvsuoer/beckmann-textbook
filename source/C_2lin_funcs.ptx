@@ -45,5 +45,7 @@
   </introduction>
 
   <xi:include href="S_2graphs_lit.ptx" />
+  <xi:include href="S_2create_graphs.ptx" />
+
   
 </chapter>
