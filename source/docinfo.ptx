@@ -34,6 +34,7 @@
 <rename element="exercises">Homework</rename>
 <rename element="inlineexercise">How to Learn Math for Students Exercise</rename>
 <rename element="worksheet">Student Page</rename>
+<rename element="worksheetexercise">Student Page Exercise</rename>
 
 </docinfo>
 
