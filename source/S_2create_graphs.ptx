@@ -519,7 +519,7 @@
     </p>
   </paragraphs>
 
-  <exercises>
+  <exercises xml:id="hmwk-create-graphs">
 
     <exercise>
       <statement>
@@ -529,7 +529,7 @@
       </statement>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-walking-22">
       <introduction>
         <p>
           One mile equals 2000 average steps while walking. If you walk at a rate of 3 miles per hour, you will average 100 steps per minute.
@@ -587,7 +587,7 @@
 
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-wages-22">
       <introduction>
         <p>
           As of January 1, 2020, the minimum wage for non-tipped employees in Michigan is $9.65 per hour. How much will you earn if you work <m>h</m> hours? <fn><url href="https://www.paycor.com/resource-center/minimum-wage-by-state" visual="paycor.com/resource-center/minimum-wage-by-state">Resource</url>, retrieved April 21, 2020</fn>
