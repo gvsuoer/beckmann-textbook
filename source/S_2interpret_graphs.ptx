@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_interpret_graphs">
+  <title>Interpreting and Creating Graphs: The Hare and the Tortoise</title>
+
+  <worksheet xml:id="act-walk-graphs">
+    <title>Can You Walk These Graphs?</title>
+    
+    <introduction>
+      <p>
+        Use a Calculator-Based Ranger (<init>CBR</init>) connected to a graphing calculator to walk the graphs shown on the student page. For each graph, decide how you will move before you walk. If the graph created by the <init>CBR</init> does not match the graph on the student page, think more carefully about what movement the graph represents. Revise your walk to recreate the graph. What does the <m>x</m>-axis represent in terms of your movement? What does the <m>y</m>-axis represent in terms of your movement? How do you know?
+      </p>
+    </introduction>
+
+    <exercise>
+      <introduction>
+        <p>
+          Use a graphing calculator and a <init>CBR</init> walk to create these graphs. How do you need to move to create each graph?
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-1" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-2" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-3" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-4" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-5" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-6" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-7" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="walk-graphs-8" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What does the <m>x</m>-axis represent? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the <m>y</m>-axis represent? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Challenge each other by creating other graphs to match. Also try to walk some of the graphs in the Distance Match application in the Easy Data program for the <init>CBR</init>.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-hare-tort">
+    <title>The Hare and the Tortoise</title>
+    
+    <introduction>
+      <p>
+        <pubtitle>The Hare and the Tortoise</pubtitle> extends the work you began in <xref text="title" ref="act-walk-graphs"/> Now consider a race between two unlikely contestants. You will draw a graph to represent each contestant's movement and explain how you know each graph is correct. You will also analyze and interpret additional graphs of the Hare's performance in subsequent races. Finally, you will create your own graph and story to accompany it.
+      </p>
+      <p>
+        Taken together, these activities, <xref text="title" ref="act-walk-graphs"/> and <xref text="title" ref="act-hare-tort"/>, help you bring your extensive familiarity with traveling from one place to another to bear on your learning first about graphs and then about linear functions.
+        <blockquote>
+          <attribution>Aesop (translated by George Fyler Townsend)</attribution>
+          <p>
+            A hare one day ridiculed the short feet and slow pace of the tortoise. The latter, laughing, said, <q>Though you be swift as the wind, I will beat you in a race.</q> The hare, deeming her assertion to be simply impossible, assented to the proposal; and they agreed that the fox should choose the course, and fix the goal. On the day appointed for the race they started together. The tortoise never for a moment stopped, but went on with a slow but steady pace straight to the end of the course. The hare, trusting to his native swiftness, cared little about the race, and lying down by the wayside, fell fast asleep. At last waking up, and moving as fast as he could, he saw the tortoise had reached the goal, and was comfortably dozing after her fatigue. <fn>(<url href="http://www.pitt.edu/~dash/type0275.html#townsend" visual="pitt.edu/~dash/type0275.html#townsend">Source</url>. Retrieved July 27, 2016.)</fn>
+          </p>
+        </blockquote>
+      </p>
+    </introduction>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            On the coordinate grid in <xref ref="fig-hare-grid"/>, draw a graph to illustrate the tortoise's distance from the starting line over the time it took her to complete the race. 
+          </p>
+          <figure xml:id="fig-hare-grid">
+            <caption>Coordinate Grid for <xref ref="act-hare-tort"/></caption>
+            <image source="hare-grid" width="70%">
+              <description></description>
+            </image>
+          </figure>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            On the same grid in <xref ref="fig-hare-grid"/>, draw a graph to illustrate the hare's distance from the starting line over the time it took him to complete the race.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Explain how you know each graph fits the story.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Study <xref ref="fig-hare-graph-1"/>, <xref ref="fig-hare-graph-2"/>, <xref ref="fig-hare-graph-3"/>, and <xref ref="fig-hare-graph-4"/>. Each graph shows the hare's movement in subsequent races.
+        </p>
+        <sbsgroup>
+          <sidebyside>
+            <figure xml:id="fig-hare-graph-1">
+              <caption>Hare Movement: Graph A</caption>
+              <image source="hare-graph-1" width="50%">
+                <description></description>
+              </image>
+            </figure>
+
+            <figure xml:id="fig-hare-graph-2">
+              <caption>Hare Movement: Graph B</caption>
+              <image source="hare-graph-2" width="50%">
+                <description></description>
+              </image>
+            </figure>
+          </sidebyside>
+
+          <sidebyside>
+            <figure xml:id="fig-hare-graph-3">
+              <caption>Hare Movement: Graph C</caption>
+              <image source="hare-graph-3" width="50%">
+                <description></description>
+              </image>
+            </figure>
+
+            <figure xml:id="fig-hare-graph-4">
+              <caption>Hare Movement: Graph D</caption>
+              <image source="hare-graph-4" width="50%">
+                <description></description>
+              </image>
+            </figure>
+          </sidebyside>
+        </sbsgroup>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Where on the axes would it make sense to mark the starting line set by the fox?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Where on the axes would it make sense to mark the finish line set by the fox?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write a story to go with each race. Describe specifically how the hare is moving:
+            <ul>
+              <li>
+                <p>
+                  Where does the hare start the race? Finish the race?
+                </p>
+              </li>
+              <li>
+                <p>
+                  At what time does the hare start the race? Finish the race?
+                </p>
+              </li>
+              <li>
+                <p>
+                  How fast is the hare moving on each tiem interval compared to his speed on the other time intervals?
+                </p>
+              </li>
+              <li>
+                <p>
+                  What direction is the hare moving?
+                </p>
+              </li>
+              <li>
+                <p>
+                  How do the start and finish times and locations compare from race to race?
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </task>
+
+      
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Write your own travel story. Draw a graph using <xref ref="fig-hare-repeat"/> to illustrate the characters' distance from a starting location at each time during their travels.
+        </p>
+        <figure xml:id="fig-hare-repeat">
+          <caption>Blank Graph for Your Own Travel Story</caption>
+          <image source="hare-grid" width="70%">
+            <description></description>
+          </image>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Reflections:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What clues do you look for in a travel story to help you create a graph to model the time and travel?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What clues do you look for in a graph to help you interpret the graph in terms of time and travel?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+
+  <exercises>
+    
+    <exercise>
+      <introduction>
+        <p>
+          To get a motion detector to generate the graphs below, how would you have to walk? Describe where the motion detector is located, your relative speed over each section of the graph, how you must walk so that the corners appear, etc. Label points (a, b, c, d, etc.) on the <m>x</m>-axis to help the reader interpret your description of your walk over each time interval. 
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <image source="exer-walk-graphs-1" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <image source="exer-walk-graphs-2" width="50%">
+              <description></description>
+            </image>
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          The hare's travels were recorded in the graph at right. Use the labels on the horizontal axis to write a plausible story to go with the graph. Indicate the hare's relative speed and in what direction he was moving. Let 0 on the vertical axis represent the starting line.
+        </p>
+        <figure xml:id="fig-walk-graphs-hare">
+          <caption>Hare's Travels</caption>
+          <image source="exer-walk-graphs-hare" width="50%">
+            <description></description>
+          </image>
+        </figure>
+      </statement>
+    </exercise>
+
+  </exercises>
+  
+</section>
