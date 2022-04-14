@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_anlayze_race">
+  <title>Graphs, Tables, and Linear Functions: Analyzing a Race</title>
+  
+  <worksheet xml:id="act-trod-tort">
+    <title>Trodding Tortoise</title>
+    
+    <introduction>
+      <p>
+        In <xref text="title" ref="act-trod-tort"/>, continue to model motion with graphs and consider the race between the Hare and the Tortoise in another way. This time, from knowledge of the tortoise's speed, create a table showing the tortoise's distance from the Starting Line at various times during the race. Plot points and consider the appearance of the graph as it relates to the tortoise's speed over several time intervals. Find an equation that models the data. Finally, consider the many ways that the Tortoise's speed arises in the table, graph, and equation. In the end, define slope.
+      </p>
+      <p>
+        During the race between the tortoise and the hare, the fox recorded the speed at which both the tortoise and the hare were traveling. The fox observed that the tortoise plodded along at a rate of 20 meters per minute throughout the 1000-meter race.
+      </p>
+    </introduction>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-tort-dist"/> indicating the distance traveled by the tortoise in the time elapsed. 
+          </p>
+          <table xml:id="tbl-tort-dist">
+            <title>Time and Distance for the Tortoise</title>
+            <tabular haligh="center" left="minor" top="minor">
+              <row bottom="minor">
+                <cell right="minor">Time elapsed in minutes, <m>t</m></cell>
+                <cell right="minor">0</cell>
+                <cell right="minor">1</cell>
+                <cell right="minor">2</cell>
+                <cell right="minor">3</cell>
+                <cell right="minor">4</cell>
+                <cell right="minor">5</cell>
+                <cell right="minor">6</cell>
+                <cell right="minor">7</cell>
+              </row>
+
+              <row bottom="medium">
+                <cell right="minor">Distance traveled in meters, <m>D</m></cell>
+                <cell right="minor">0</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">Time elapsed in minutes, <m>t</m></cell>
+                <cell right="minor">10</cell>
+                <cell right="minor">15</cell>
+                <cell right="minor">20</cell>
+                <cell right="minor">25</cell>
+                <cell right="minor">30</cell>
+                <cell right="minor">35</cell>
+                <cell right="minor">640</cell>
+                <cell right="minor"><m>t</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">Distance traveled in meters, <m>D</m></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which variable is the independent variable? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise xml:id="exer-tort-graph">
+      <introduction>
+        <p>
+          Use the graph in <xref ref="fig-time-dist-tort-plot"/>. For each axis, choose a scale so the graph shows the tortoise's complete race, points are easy to plot, and you use as much of the graph as possible.
+        </p>
+        <figure xml:id="fig-time-dist-tort-plot">
+          <caption>Plot for Graphing the Tortoise's Time and Distance</caption>
+          <image source="time-dist-tort-plot" width="80%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            The horizontal axis represents the independent variable. Label it using the scale you chose.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The vertical axis represents the dependent variable. Label it using your chosen scale.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Label each axis with the variable it represents.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Sketch a graph that represents the tortoise's progress during the race using the data in <xref ref="tbl-tort-time"/>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-tort-time-minute">
+      <task>
+        <statement>
+          <p>
+            In one minute, how far did the tortoise travel? What does this number represent in terms of the tortoise's movement during the race?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the distance the tortoise traveled directly from the number of minutes that have elapsed since the start of the race?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-tort-time-eq">
+        <statement>
+          <p>
+            Let <m>t</m> represent the elapsed time in minutes and <m>D</m> represent the distance in meters traveled by the tortoise. Write an equation showing the relationship between <m>t</m> and <m>D</m>:
+            <me>
+              D = <fillin/>
+            </me>
+             
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Replace <m>t</m> in the equation in <xref ref="exer-tort-time-eq"/> with some of the values in the table. What values did you get for <m>D</m> from the equation? Did the equation values for <m>D</m> match those in your table? Should they match?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does your answer to <xref ref="exer-tort-time-minute"/> relate to the equation you found in <xref ref="exer-tort-time-eq"/>?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-tort-travels"/> for the tortoise's travels for each of the time intervals indicated.
+          </p>
+          <table xml:id="tbl-tort-travels">
+            <title>The Tortoise's Travels Over Time</title>
+            <tabular left="minor" top="minor" halign="minor">
+              <row bottom="minor" header="yes">
+                <cell right="minor">Time Interval</cell>
+                <cell right="minor">Amount of time elapsed</cell>
+                <cell right="minor">Change in distance during the time interval</cell>
+                <cell right="minor">The tortoise's speed</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">0 to 5 minutes</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">5 to 10 minutes</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">10 to 20 minutes</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the tortoise's speed over each time interval? Explain. Enter the speed in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare the tortoise's speeds for the three time intervals in the table. What do you notice?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Should the tortoise's speeds for each time interval be the same? Why or why not?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The slope of a line is the steepness of the line. What is the slope of the line that models the tortoise's movement?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How long does it take the tortoise to complete the race? How do you know?
+        </p>
+      </statement>
+    </exercise>
+
+  </worksheet>
+
+  <worksheet xml:id="act-hop-hare">
+    <title>Hopping Hare</title>
+    
+    <introduction>
+      <p>
+        Extend what you learned through <xref ref="act-trod-tort"/> to analyze the Hopping Hare's motion, data, and graph and relate these to equations that model each part of his race.
+      </p>
+    </introduction>
+
+    <exercise>
+      <introduction>
+        <p>
+          The fox made the following observations about the hare's movement during the race with the tortoise:
+          <ul>
+            <li>
+              <p>
+                The hare traveled at a constant rate of 250 meters per minute for the first 2 minutes.
+              </p>
+            </li>
+            <li>
+              <p>
+                The hare's nap started at exactly 2 minutes and lasted exactly 47.5 minutes.
+              </p>
+            </li>
+            <li>
+              <p>
+                The hare woke suddenly and traveled at a constant rate of 500 meters per minute during the last minute of the race.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-hare-dist"/> indicating the distance traveled by the hare in the elapsed time.
+          </p>
+          <table xml:id="tbl-hare-dist">
+            <title>Time and Distance for the Tortoise</title>
+            <tabular left="minor" top="minor" halign="center">
+              <row header="yes" bottom="minor">
+                <cell right="minor">Time Interval</cell>
+                <cell right="minor">Amount of time elapsed</cell>
+                <cell right="minor">Change in distance during the time interval</cell>
+                <cell right="minor">The hare's speed</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">0 to 2 minutes</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">250 meters per minute</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">2 to 49.5 minutes</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">49.5 to 50.5 minutes</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">500 meters per minute</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the axes you used to draw the tortoise's progress (<xref ref="exer-tort-graph"/>) to draw an accurate graph to represent the hare's progress during the race from the information in the table and the fox's observations. What points will help you draw an accurate graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Draw an accurate graph for the hare's progress during the race.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise xml:id="exer-hare-time-eq">
+      <statement>
+        <p>
+          Write an equation relating elapsed time, <m>t</m>, and distance, <m>D</m>, traveled for the hare's first 2 minutes of travel.
+          <me>
+            D = <fillin/>
+          </me>
+          
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Use the equation you found in <xref ref="exer-hare-time-eq"/> to answer the following questions:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How far did the hare travel during the first 15 seconds (0.25 minutes) of the race?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If the hare had continued traveling at this rate, how long would it have taken him to complete the 1000-meter race? Would the hare have won?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How far could the hare have traveled if he continued at this rate for the entire 50.5 minutes?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task xml:id="exer-hare-time-eq2">
+        <statement>
+          <p>
+            Find an equation relating the hare's elapsed time and distance traveled for 2 minutes to 49.5 minutes. Keep in mind that he is not sitting on the starting line at the beginning of this time interval.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the slope of the equation you found in <xref ref="exer-hare-time-eq2"/>? Why does this slope make sense?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What is the slope of the line that shows the hare's movement during the last minute of the race?
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Is the slope enough to determine an equation for the last minute of the race? Why or why not?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Desmos allows you to plot equations based on time intervals.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Open a Desmos worksheet. Click on the <q>?</q> icon (Help) in the top right corner of the page. Click on the icon for Restrictions and learn how to use them.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the equation for the tortoise.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the two equations you found for the hare. For the hare's equations, restrict x to the intervals over which the fox observed him. What do you notice about how Desmos plots the hare's graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            (Optional) You already know the slope for the last minute of the hare's travels. Play with a third equation for the final time interval of the hare's race to approximate the equation for this part of the hare's race.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+  </worksheet>
+
+  <exercises>
+    
+    <exercise>
+      <statement>
+        <p>
+          Consider your work on <xref text="title" ref="act-trod-tort"/> and <xref text="title" ref="act-hop-hare"/>. Write about your current understanding of slope and the relationships between slope, speed, rate of change in a table of values, and the change in distance divided by the change in time. In particular, how does speed show up in the table? How does it show up in the graph? How does it show up in an equation?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Revisit <xref ref="act-eyes"/>. The relationships you investigated in <xref ref="act-eyes"/> are called proportional relationships. In linear proportional relationships, you get one quantity by multiplying the other by a constant. Are any of the Tortoise and Hare relationships proportional? See if you can find 2 or 3 examples.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          There are 8 sticks of gum in a small package.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Create a table to show the number of sticks of gum in 0, 1, 2, 3, 4, 5, 10, 15, and 22 packages if there are 8 sticks in each package.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data. Choose scales for both <m>x</m> and <m>y</m> so that the displayed graph uses most of the screen. Label each axis to show what quantities each represents.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-gum-relation">
+        <statement>
+          <p>
+            What is the relationship between the number of packages and the number of sticks of gum?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write the relationship in <xref ref="exer-gum-relation"/> as an equation.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Gasoline prices vary greatly over a week. Gas Buddy reported gasoline prices in the Allendale, MI area ranging from $2.03 to $2.69 per gallon one week in September 2018.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-gas-prices"/> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).
+          </p>
+        </statement>
+        <table xml:id="tbl-gas-prices">
+          <title>Gas Prices in the Allendale, MI Area</title>
+          <tabular halign="center" left="minor" top="minor">
+            <row header="yes">
+              <cell right="minor">
+                Number of Gallons of Gas Purchased,<nbsp /><m>g</m>
+              </cell>
+              <cell colspan="2" right="minor" bottom="minor">
+                Price of Gas,<nbsp /><m>P</m>
+              </cell>
+            </row>
+            <row header="yes" bottom="minor">
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+                <dollar />2.03 per gallon
+              </cell>
+              <cell right="minor">
+                <dollar />2.69 per gallon
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                1
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                2
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                3
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                4
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                5
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                10
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                15
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                <m>g</m>
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use Desmos to plot the data. Label scales and titles for each axis.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write equations in the last row of the table that fit the data. Tell how you know your equations are correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many gallons of gasoline can you purchase for $10?  Show your work for one of the gasoline prices, accurate to 2 decimal places.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          One mile equals 2000 average steps while walking. If you walk at a rate of 3 miles per hour, you will average 100 steps per minute. <fn>(<url href="https://www.verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742" visual="verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742">Resource</url>, retrieved April 21, 2020.)</fn> Revisit your table and graph from <xref ref="exer-walking-22"/> in <xref ref="hmwk-create-graphs"/>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation that will help you determine the number of steps you will walk in m minutes. Define your variables.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the slope of the graph? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the slope mean in terms of the amount of time you walk and the number of steps you take?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          As of January 1, 2020, the Michigan minimum wage for non-tipped employees is $9.65 per hour. How much will you earn if you work <m>h</m> hours? (Revisit your table and graph from <xref ref="exer-wages-22"/> in the <xref ref="hmwk-create-graphs"/>.)
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation to help you determine the amount you will earn in <m>h</m> hours if you are paid minimum wage in Michigan. Define your variables.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the slope of the graph? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the slope mean in terms of the number of hours worked and the amount of money earned?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Practice using Desmos to graph the examples above. If you need more help, click on the <q>?</q> icon (Help) in the upper right corner of the Desmos graphing screen. Choose Tables for a tutorial on entering and graphing data. Choose Sliders to see what these do. Use a slider with the equation, <m>y = mx</m>, to fit your data. Explain why the equation you find makes sense for your data.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete <xref text="title" ref="act-slope-trees"/>. Which of the equations represents a proportional relationship? How do you know?
+        </p>
+      </statement>
+    </exercise>
+
+  </exercises>
+
+  <worksheet xml:id="act-slope-trees">
+    <title>Slopes and Tree Trunks</title>
+    
+    <introduction>
+      <p>
+        Near the Calder Plaza in downtown Grand Rapids, Michigan a stand of trees is planted in a 5 by 5 grid as shown in <xref ref="fig-calder-trees"/>. Each green dot represents the location of a tree. The trunks of the trees are uniform in size. All of the trunks are straight and perpendicular to the ground.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          The line of sight from the origin to the trees with coordinates (1, 1), (2, 2), (3, 3), (4, 4), and (5, 5) is shown. Which of these tree trunks can you see if you are standing at the origin, (0, 0)? Why do you think so?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Other than the tree trunks in Row 1 and Column 1, which tree trunks can you see if you are standing at the origin? Why do you think these tree trunks are visible?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What is the slope of the line of sight from the origin (0, 0) to the tree trunk at point (4, 2)? What other tree trunks are along this line of sight? How do you know?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-trees-4">
+      <statement>
+        <p>
+          At what point on one of the axes would you have to be standing in order for the tree trunks at points (2, 5) and (1, 3) to be on the same line of sight? What is the slope of this line of sight? What do you think the equation of this line of site is? Why do you think so?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-trees-5">
+      <statement>
+        <p>
+          Draw a line of sight through point (2, 0) parallel to the line you found in <xref ref="exer-trees-4"/>. What trees are along this line of sight?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-trees-6">
+      <statement>
+        <p>
+          Find the slope of the equation of the line in <xref ref="exer-trees-5"/>. What do you think is the equation of this line of site? Why do you think so?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How are the slopes of the lines in <xref ref="exer-trees-4"/> and <xref ref="exer-trees-6"/> related? 
+        </p>
+      </statement>
+    </exercise>
+
+  </worksheet>
+</section>

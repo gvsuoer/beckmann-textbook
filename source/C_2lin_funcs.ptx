@@ -47,6 +47,6 @@
   <xi:include href="S_2graphs_lit.ptx" />
   <xi:include href="S_2create_graphs.ptx" />
   <xi:include href="S_2interpret_graphs.ptx" />
-
+  <xi:include href="S_2analyze_race.ptx" />
   
 </chapter>
