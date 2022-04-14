@@ -1,0 +1,1253 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_proportions">
+  <title>Proportional Reasoning Every Day</title>
+
+  <introduction>
+    <p>
+      We have seen that algebra arises in making introductions, the 100s chart, number and magic number puzzles, children's literature, and Aesop's fable. Now we examine contexts that arise in our daily experiences.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-recipes">
+    <title>Recipes and Proportional Reasoning</title>
+    
+    <introduction>
+      <p>
+        A proportional relationship that frequently arises in daily life is scaling recipes. As you work on <xref text="title" ref="act-recipes"/>, think about these questions: What does slope mean in this context? How can we find the slope in each representation, context, table, graph, and equation? How are the slopes for each of the ingredients in the guacamole recipe related?
+      </p>
+    </introduction>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Have you had to make more or less of a recipe? Why did you alter it?
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            What did you do to rescale the recipe?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <assemblage xml:id="guac-recipe">
+      <title>Guacamole</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              2 medium avocados
+            </p>
+          </li>
+          <li>
+            <p>
+              1 teaspoon sea salt
+            </p>
+          </li>
+          <li>
+            <p>
+              2 tablespoons lemon juice (~ half a lemon)
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>1/4</m> cup onion (~<m>1/8</m> a large onion)
+            </p>
+          </li>
+          <li>
+            <p>
+              1 medium tomato
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>1/2</m> cup fresh cilantro leaves
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Blend on low for 15 to 20 seconds. Do not over mix. Leave chunky. Garnish with diced tomato and parsley.
+      </p>
+      <p>
+        Yields 1.5 cups.
+      </p>
+    </assemblage>
+
+    <exercise>
+      <statement>
+        <p>
+          Use the <xref text="title" ref="guac-recipe"/> recipe. Determine the amount of each ingredient you need for the number of recipes of guacamole shown in the first column. Complete <xref ref="tbl-guac"/>.
+        </p>
+        <table xml:id="tbl-guac">
+          <title>Guacamole Ingredients</title>
+          
+          
+          <tabular halign="center">
+            <col/>
+            <col top="minor"/>
+            <col top="minor"/>
+            <col top="minor"/>
+            <col top="minor"/>
+            <row header="yes" bottom="minor">
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell colspan="4" right="minor">
+                Ingredients
+              </cell>
+            </row>
+            <row left="minor" header="yes" bottom="minor">
+              <cell right="minor">
+                Amount needed for <m>n</m><nbsp />recipes with<nbsp /><m>n =</m>
+              </cell>
+              <cell right="minor">
+                Avocados
+              </cell>
+              <cell right="minor">
+                Tomatoes
+              </cell>
+              <cell right="minor">
+                Lemons
+              </cell>
+              <cell right="minor">
+                Onions
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                <m>\frac{1}{2}</m>
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                1
+              </cell>
+              <cell right="minor">
+                2
+              </cell>
+              <cell right="minor">
+                1
+              </cell>
+              <cell right="minor">
+                <m>\frac{1}{2}</m>
+              </cell>
+              <cell right="minor">
+                <m>\frac{1}{8}</m>
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                2
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                3
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                4
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                <m>n</m>
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What patterns do you notice in the table?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Graph the data by plotting the points, (Number of recipes, amount of ingredient needed). Use <xref ref="fig-guac-graph"/>
+        </p>
+        <figure xml:id="fig-guac-graph">
+          <caption>Plot for Guacamole Ingredients</caption>
+          <image source="blank-graph" width="90%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What scale should you use for each axis? How did you decide what the scale should be?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Label the scale on each axis. Write a title on each axis showing what it represents. 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph each ingredient using a different color. Label each graph with the ingredient it represents.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Compare the graphs. What do you notice? List as many relationships as you can.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each ingredient, find an equation that will predict the amount you will need for an unknown number of recipes. Write the equations in the last row of <xref ref="tbl-guac"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          You have 5 avocados.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How many recipes of guacamole can you make and use all of them?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the equation?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          You have 1 onion but want to save half of the onion for salsa.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How many recipes of guacamole can you make?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the equation?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What does slope mean in the context of number of recipes versus amount of ingredients?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the slope from a table? From a graph? From the equation? From the recipe?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are the slopes related for the ingredients in the guacamole recipe?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-prop-reason">
+    <title>Where Else Do You Use Proportional Reasoning? Proportional Linear Function Example</title>
+    
+    <introduction>
+      <p>
+        We have seen that the relationship between distance and time is proportional when speed is constant. We have also seen that proportional reasoning arises in rescaling recipes. What other relationships are proportional? Work with your group to identify at least 3 other proportional relationships. Complete <xref text="title" ref="act-prop-reason"/> for each relationship your group identifies.
+      </p>
+      <p>
+        Once you have completed the above, look for common properties among the examples you found. With your group, answer these questions:
+        <ul>
+          <li>
+            <p>
+              What is a proportional relationship?
+            </p>
+          </li>
+          <li>
+            <p>
+              What properties do all proportional relationships have in common?
+            </p>
+          </li>
+          <li>
+            <p>
+              For a proportional relationship, how can you find the slope from:
+              <ul>
+                <li>
+                  <p>
+                    A table?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A graph?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    An equation?
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    A context?
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Choose one or two of your group's proportional relationships to share with the class. Post them as directed by your teacher. Groups will cycle through them and indicate with a checkmark if they agree with your work. They will draw a circle if they have a question about your work.
+      </p>
+    </introduction>
+
+    <p>
+      Title: <fillin characters="40" />
+    </p>
+    <p>
+      Description <fillin characters="60" />
+    </p>
+    <p>
+      Independent variable (description and variable): <fillin characters="20" />
+    </p>
+    <p>
+      Dependent variable (description and variable): <fillin characters="20" />
+    </p>
+
+    <exercise>
+      <statement>
+        <p>
+          Create a table as demonstrated in <xref ref="tbl-lin-props"/>. Briefly describe the independent variable in the cell above <m>x</m>. Briefly describe the dependent variable in the cell above <m>y</m>. Choose eight reasonable <m>x</m>-values (not all consecutive); write them in the first column of the table. Find the corresponding <m>y</m>-values; write them in the second column of the table.
+          <sidebyside widths="20% 70%">
+            <table xml:id="tbl-lin-props">
+              <title>Table for a Proportional Linear Function</title>
+              <tabular left="minor" top="minor" halign="minor">
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+                <row bottom="minor">
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/></cell>
+                </row>
+              </tabular>
+            </table>
+
+            <figure xml:id="fig-lin-prop-graph">
+              <caption>Blank Graph for a Proportional Linear Function</caption>
+              <image source="blank-graph" width="90%">
+                <description></description>
+              </image>
+            </figure>
+          </sidebyside>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Plot the data on <xref ref="fig-lin-prop-graph"/>. Label accurate scales for both <m>x</m> and <m>y</m> so that you use most of the graph. Write titles on each axis to show what quantity each axis represents. 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Find an equation.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-lin-prop-dep">
+        <statement>
+          <p>
+            How can you get the value of the dependent variable from the value of the independent variable?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write the relationship in <xref ref="exer-lin-prop-dep"/> as an equation.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Answer these questions on the back of this page.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is the slope of the graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How is the slope of the graph related to the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How is the slope of the graph related to the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How is the slope of the graph related to the context?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+
+  <exercises>
+
+    <exercise xml:id="exer-walk-cycle">
+      <introduction>
+        <p>
+          A step conversion chart indicates that if you walk 4 miles per hour, you would take approximately 140 steps per minute. The same chart shows that if you cycle at 15 miles per hour, you would take the equivalent of 160 steps per minute.
+        </p>
+        <table xml:id="tbl-steps">
+          <title>Step Conversion Chart</title>
+          <tabular halign="center" left="minor" top="minor">
+            <row header="yes" bottom="minor">
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell colspan="2" right="minor">
+                Number of steps taken
+              </cell>
+            </row>
+            <row header="yes" bottom="minor">
+              <cell right="minor">
+                Number of Minutes
+              </cell>
+              <cell right="minor">
+                Walking at 4 mph
+              </cell>
+              <cell right="minor">
+                Cycling at 15 mph
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                1
+              </cell>
+              <cell right="minor">
+                140
+              </cell>
+              <cell right="minor">
+                160
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                2
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                3
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                4
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                5
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                10
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                20
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                60
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                <m>m</m>
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete the table for one of the sports.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation that fits your data in the last row of the table. Tell how you know your equation is correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data. Label scales and titles for each axis.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For your choice of exercise, how many minutes would you have to exercise to take the equivalent of 10,000 steps? Show your work
+          </p>
+        </statement>
+      </task>
+
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          The step conversion chart in <xref ref="tbl-cycling"/> showed the following information:
+        </p>
+        <table xml:id="tbl-cycling">
+          <title>Step Conversion Chart: Cyclying</title>
+          <tabular halign="center" top="minor" left="minor">
+            <row header="yes" bottom="minor">
+              <cell right="minor">Cycling at <m>C</m> miles an hour</cell>
+              <cell right="minor">Equivalent number, <m>N</m>, of steps per minute of exercise</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor">55</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">10</cell>
+              <cell right="minor">93</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">15</cell>
+              <cell right="minor">160</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">20</cell>
+              <cell right="minor">200</cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Comparing <m>C</m> to <m>N</m>, is the relationship linear or non-linear?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from a graph?
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          When you eat at a sit-down restaurant, it is customary to leave a tip to reward the server for good service. Suppose you always leave a 15% tip.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Write in words how you would determine how much to tip a server if the amount of your check is $30.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What if your check is $40?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What if your check is <m>D</m> dollars?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-tip-eq">
+        <statement>
+          <p>
+            Write an algebraic expression to compute the amount of the tip to leave the server if the tip is 15% of the check and your check is <m>D</m> dollars.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you quickly estimate a 15% tip?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What changes in the expression you wrote in <xref ref="exer-tip-eq"/> if you leave a 20% tip?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you quickly estimate a 20% tip?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          A dog's life span is a fraction of time compared to that of humans. <xref ref="tbl-dog-age"/> shows a how a dog's age might be adjusted to compare to a human's age.
+        </p>
+        <table xml:id="tbl-dog-age">
+          <title>Dog Age vs. Human Age</title>
+          <tabular left="minor" top="minor" halign="center">
+            <row bottom="minor">
+              <cell right="minor">Number of actual years of life, <m>y</m></cell>
+              <cell right="minor">1</cell>
+              <cell right="minor">2</cell>
+              <cell right="minor">3</cell>
+              <cell right="minor">4</cell>
+              <cell right="minor">5</cell>
+              <cell right="minor">6</cell>
+              <cell right="minor">7</cell>
+              <cell right="minor">8</cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">Comparative human age (dog years), <m>d</m></cell>
+              <cell right="minor">6.5</cell>
+              <cell right="minor">13</cell>
+              <cell right="minor">19.5</cell>
+              <cell right="minor">26</cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Find the pattern and fill in the missing values in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What expression can you use to find a comparative human age for a dog that is <m>y</m> actual years old?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Would you call a dog middle-aged if she is 7 actual years old? Why or why not?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Most of the rest of the world uses kilograms rather than pounds. Note: 1 <init>kg</init> = 2.2 pounds = 2.2 <init>lbs</init>.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            When traveling in the United Kingdom, I bought 2 <init>kg</init> of bananas. How many pounds of bananas is this?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fill in <xref ref="tbl-kg-lbs"/>.
+          </p>
+          <table xml:id="tbl-kg-lbs">
+            <title>Kilograms vs. Pounds</title>
+            <tabular top="minor" left="minor" halign="center">
+              <row bottom="minor">
+                <cell right="minor">Kilograms</cell>
+                <cell right="minor">0.5</cell>
+                <cell right="minor">1</cell>
+                <cell right="minor">1.5</cell>
+                <cell right="minor">2</cell>
+                <cell right="minor">2.5</cell>
+                <cell right="minor">3</cell>
+                <cell right="minor">3.5</cell>
+                <cell right="minor">4</cell>
+                <cell right="minor">10</cell>
+                <cell right="minor"><m>k</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><m>p</m></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation you can use to convert kilograms to pounds exactly.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            When you buy bananas, how many pounds do you usually buy? (Three medium bananas weigh approximately a pound.) How many <init>kg</init> of bananas is this number of pounds?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          JoAnn Fabrics regularly runs sales. A recent flyer included a coupon for 60% + 15% off custom framing. How much would you pay for a framing bill of <m>x</m> dollars? Explain.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-coffee-milk">
+      <introduction>
+        <p>
+          Ashley loves Salted Caramel Mocha coffee. She orders her favorite with either 2% or coconut milk and occasionally also orders whipped cream. The number of calories for each type of drink depends on the number of ounces of coffee in the size of cup she buys.
+        </p>
+        <table>
+          <tabular halign="center" top="minor" left="minor">
+            <row>
+              <cell right="minor">
+                Number of ounces of coffee
+              </cell>
+              <cell colspan="3" right="minor" bottom="minor">
+                Number of calories, <m>C</m>
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+                With 2<percent /> milk
+              </cell>
+              <cell right="minor">
+                With 2<percent /> milk and whipped cream
+              </cell>
+              <cell right="minor">
+                With coconut milk
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                8
+              </cell>
+              <cell right="minor">
+                180
+              </cell>
+              <cell right="minor">
+                280
+              </cell>
+              <cell right="minor">
+                160
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                12
+              </cell>
+              <cell right="minor">
+                270
+              </cell>
+              <cell right="minor">
+                370
+              </cell>
+              <cell right="minor">
+                240
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                16
+              </cell>
+              <cell right="minor">
+                360
+              </cell>
+              <cell right="minor">
+                460
+              </cell>
+              <cell right="minor">
+                320
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                20
+              </cell>
+              <cell right="minor">
+                450
+              </cell>
+              <cell right="minor">
+                550
+              </cell>
+              <cell right="minor">
+                400
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                30
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">
+                <m>x</m>
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Plot all three sets of data on the same coordinate plane. Connect the points for each data set. Label each graph to match the data set: 2% milk, 2% milk with whipped cream, or coconut milk.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For each proportional relationship, in the last row of the table, write equations that fit the data. Tell how you know your equations are correct based on the context.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Suppose the coffee shop offered a 30-ounce cup of coffee. If Ashley ordered this size, what would be the number of calories? Include this information in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is there a data set that is not proportional? If so, which one? How do you know?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Each of the relationships can be modeled by a linear equation. For each set of data in <xref first="exer-walk-cycle" last="exer-coffee-milk"/>:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Graph the data on a separate coordinate plane. Find the slope of the graph. Write the equation under the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does the slope of the graph relate to the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the slope of the graph using the table?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Why do you think the examples in <xref first="exer-walk-cycle" last="exer-coffee-milk"/> are called linear relationships?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Think about the examples above, scaling recipes, and relationships discussed in class. What are some general properties of linear relationships?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Think of another linear relationship that arises in your life. Describe the relationship. Why do you think it is linear?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Practice using Desmos to graph the examples in <xref first="exer-walk-cycle" last="exer-coffee-milk"/>. If you need more help, click on the <q>?</q> icon (Help) in the upper right corner of the Desmos graphing screen. Choose Tables for a tutorial on entering and graphing data. Choose Sliders to see what these do. Use a slider with the equation, <m>y = mx</m> to fit your data. Explain why the equation you find makes sense for your data.
+        </p>
+      </statement>
+    </exercise>
+    
+  </exercises>
+  
+</section>
