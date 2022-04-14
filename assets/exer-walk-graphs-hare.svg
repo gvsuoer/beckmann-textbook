@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="147pt" height="125pt" viewBox="0 0 147 125">
+<g enable-background="new">
+<clipPath id="cp0">
+<path transform="matrix(1,0,0,-1,0,125)" d="M 0 0 L 147 0 L 147 125 L 0 125 Z "/>
+</clipPath>
+<g clip-path="url(#cp0)">
+<path transform="matrix(1,0,0,-1,0,125)" d="M 0 125 L 147 125 L 147 0 L 0 0 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp1">
+<path transform="matrix(1,0,0,-1,0,125)" d="M 0 .000003576279 L 147 .000003576279 L 147 125 L 0 125 Z "/>
+</clipPath>
+<g clip-path="url(#cp1)">
+<path transform="matrix(1,0,0,-1,0,125)" d="M 0 .000003576279 L 147 .000003576279 L 147 125 L 0 125 Z " fill="#ffffff"/>
+<path transform="matrix(1,0,0,-1,0,125)" d="M 0 .000003576279 L 147 .000003576279 L 147 125 L 0 125 Z " fill="#ffffff"/>
+</g>
+<clipPath id="cp2">
+<path transform="matrix(1,0,0,-1,0,125)" d="M 4.772727 20.19231 L 142.22722 20.19231 L 142.22722 124.03851 L 4.772727 124.03851 Z "/>
+</clipPath>
+<g clip-path="url(#cp2)">
+<image x="4" y="0" width="139" height="105" xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAIsAAABpCAYAAAAKldB2AAAACXBIWXMAAA7EAAAO
+xAGVKw4bAAABBklEQVR4nO3SAQEAMAjAIO0f2j/CAkAG9r6BYGWhkoVMFjJZyGQh
+k4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VM
+FjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZ
+yGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQh
+k4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VM
+FjJZyGQhk4VMFjJZyGQhk4VMFjJZyGQhk4VMFjJZyB7b2qLVEQ7RMAAAAABJRU5E
+rkJggg=="/>
+</g>
+<clipPath id="cp3">
+<path transform="matrix(1,0,0,-1,0,125)" d="M 0 .000003576279 L 147 .000003576279 L 147 125 L 0 125 Z "/>
+</clipPath>
+<g clip-path="url(#cp3)">
+<path transform="matrix(.4772727,0,0,.4807692,-29.59091,-33.653795)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#214574" d="M 72 72 L 360 72 L 360 288 L 72 288 Z "/>
+<path transform="matrix(.4772727,0,0,.4807692,-29.59091,-33.653795)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#797979" d="M 72 288 L 117 171 L 180 198 L 252 198 L 297 243 L 360 108 "/>
+<path transform="matrix(.4772727,0,0,.4807692,-29.59091,-33.653795)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 117 279 L 117 297 "/>
+<path transform="matrix(.4772727,0,0,.4807692,-29.59091,-33.653795)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 180 279 L 180 297 "/>
+<path transform="matrix(.4772727,0,0,.4807692,-29.59091,-33.653795)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 252 279 L 252 297 "/>
+<path transform="matrix(.4772727,0,0,.4807692,-29.59091,-33.653795)" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke="#000000" d="M 297 279 L 297 297 "/>
+<text xml:space="preserve" transform="matrix(.4772727 0 0 .4807692 4.802557 117.78846)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.448">0</tspan></text>
+<text xml:space="preserve" transform="matrix(.4772727 0 0 .4807692 26.27983 117.78846)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.296">a</tspan></text>
+<text xml:space="preserve" transform="matrix(.4772727 0 0 .4807692 56.34801 117.78846)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.744">b</tspan></text>
+<text xml:space="preserve" transform="matrix(.4772727 0 0 .4807692 90.71165 117.78846)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.296">c</tspan></text>
+<text xml:space="preserve" transform="matrix(.4772727 0 0 .4807692 112.1889 117.78846)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.744">d</tspan></text>
+<text xml:space="preserve" transform="matrix(.4772727 0 0 .4807692 142.2571 117.78846)" font-size="16" font-family="HelveticaNeue"><tspan y="5.776001" x="-4.296">e</tspan></text>
+</g>
+</g>
+</svg>
