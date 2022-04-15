@@ -10,12 +10,11 @@
   <book xml:id="beckmann-algebra">
 
     <title>Beginning Algebra Made Useful</title>
-    <!-- <subtitle>An example to be modified</subtitle> -->
+
     <xi:include href="./frontmatter.ptx" />
 
-    <xi:include href="C_1learnmath.ptx" />
+    <!-- <xi:include href="C_1learnmath.ptx" /> -->
     <xi:include href="C_2lin_funcs.ptx" />
-    <!-- <xi:include href="./ch_empty.ptx"/> -->
 
     <!-- <xi:include href="./backmatter.ptx" /> -->
   </book>

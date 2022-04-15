@@ -1,0 +1,1822 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_distinguish">
+  <title>Distinguishing Proportional Relationships from Other Linear Relationships</title>
+  
+  <worksheet xml:id="act-tort-head-start">
+    <title>Giving the Tortoise A Head Start</title>
+    
+    <introduction>
+      <p>
+        So far, we have seen several examples of proportional linear relationships. In each case, the graph modeling the relationship went through the origin. We return to <xref text="title" ref="act-hare-tort"/> to consider other possibilities. <xref text="title" ref="act-tort-head-start"/> introduces other linear relationships.
+      </p>
+      <p>
+        The hare challenged the tortoise to another race. He gave the tortoise a head start to make the race seem fair. They used the same 1000-meter course and started the race together.
+      </p>
+      <figure xml:id="fig-head-start-graph">
+        <caption>Empty Axes for Comparing Tortoise and Hare Races</caption>
+        <image source="head-start-graph" width="80%">
+          <description></description>
+        </image>
+      </figure>
+    </introduction>
+
+    <exercise>
+      <task xml:id="exer-tort-fhund">
+        <statement>
+          <p>
+            The tortoise started the race 500 meters from the Starting Line. As in the original race, she plodded at a rate of 20 meters per minute. On <xref ref="fig-head-start-graph"/>, draw a graph of the tortoise's distance from the starting line over the time it took her to complete the race.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The hare ran at a steady rate of 250 meters per minute throughout the race. He stopped only after he crossed the Finish Line. Also on <xref ref="fig-head-start-graph"/>, draw a graph of the hare's distance from the starting line over the time it took him to complete the race.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Who won the race? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-tort-ohund">
+        <statement>
+          <p>
+            Suppose the tortoise started the race 100 meters from the Finish Line. Who would win the race? Explain. Draw the graph on <xref ref="fig-head-start-graph"/>.
+          </p>
+          
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete all three columns in <xref ref="tbl-head-start"/> to compare the tortoise's distance from the Starting Line at the same time for these races. For each race, use a different color to highlight the time at which the tortoise reached the Finish Line. Use the same color to highlight the corresponding graph in <xref ref="fig-head-start-tort"/>. Recall: In the original race, the tortoise started at the Starting Line.
+        </p>
+        <table xml:id="tbl-head-start">
+          <title>Distance and Time of the Tortoise's Travels</title>
+          <tabular halign="center">
+            <col/>
+            <col top="minor"/>
+            <col top="minor"/>
+            <col top="minor"/>
+            <row header="yes" bottom="minor">
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell colspan="3" right="minor">
+                The tortoise's distance in meters from the Starting Line
+              </cell>
+            </row>
+            <row left="minor" header="yes" bottom="minor">
+              <cell right="minor">
+                Time elapsed in minutes
+              </cell>
+              <cell right="minor">
+                Original Race
+              </cell>
+              <cell right="minor">
+                Race in <xref ref="exer-tort-fhund"/>
+              </cell>
+              <cell right="minor">
+                Race in <xref ref="exer-tort-ohund"/>
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                0
+              </cell>
+              <cell right="minor">
+                0
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                1
+              </cell>
+              <cell right="minor">
+                20
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                2
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                3
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                4
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                5
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                10
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                20
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                30
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                40
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+            <row left="minor" bottom="minor">
+              <cell right="minor">
+                50
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+              <cell right="minor">
+                <nbsp />
+              </cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Graph the tortoise's races from <xref ref="tbl-head-start"/> on the same coordinate plane in <xref ref="fig-head-start-tort"/>. How are the graphs related?
+        </p>
+        <figure xml:id="fig-head-start-tort">
+          <caption>Time and Distance for Various Tortoise Races</caption>
+          <image source="head-start-graph" width="80%">
+            <description></description>
+          </image>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Study the table and the graphs.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            For each graph and corresponding data set, find an equation to model the graph and data.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What do the equations have in common? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is different in each of the equations? What accounts for the differences?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does Tortoise's head start show up in each equation? Why does this make sense?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          You have studied the idea of <q>head start</q> in linear relationships in previous mathematics classes. What is the mathematical name for the “head start” value in a linear equation?
+        </p>
+      </statement>
+    </exercise>
+
+    <conclusion>
+      <p>
+        With your group, discuss what new information about linear relationships is gained from the student page, <xref text="title" ref="act-head-start-tort"/>. Outline what you have learned about linear relationships through the progression of activities: <xref text="title" ref="act-hare-tort"/>, <xref text="title" ref="act-trod-tort"/>, <xref text="title" ref="act-hop-hare"/>, and <xref text="title" ref="act-head-start-tort"/>. Ask any questions you have remaining.
+      </p>
+    </conclusion>
+
+  </worksheet>
+
+  <worksheet xml:id="act-slope-int">
+    <title>Finding Equations from Tables and Interpreting Slope and y-Intercept</title>
+    
+    <introduction>
+      <p>
+        Sometimes students find it difficult to determine an equation from a table, a graph, or a story. These three representations are highly linked. If you can find a table from a graph or a story, you can always find an equation from the patterns in the table. The student page, <xref text="title" ref="act-slope-int"/>, gives you a few tools to help you find an equation from a table. Though initially, this work might seem time-consuming, complete it as directed. It is important not to simplify too soon so that you can see how patterns are forming. You will find short-cuts soon enough.
+      </p>
+      <p>
+        Work with your group to complete the student page, <xref text="title" ref="act-slope-int"/>. Pay close attention to how you can find equations from tables. Be ready to answer these questions:
+        <ul>
+          <li>
+            <p>
+              How are recursive and explicit equations related?
+            </p>
+          </li>
+          <li>
+            <p>
+              How does this activity help you distinguish proportional linear relationships from other linear relationships?
+            </p>
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-slope-1">
+      <task>
+        <statement>
+          <p>
+            What patterns do you see in <xref ref="tbl-slope-a"/>? <xref ref="tbl-slope-b"/>? (Don't complete the tables yet.)
+          </p>
+          <sidebyside>
+            <table xml:id="tbl-slope-a">
+              <title>Table A</title>
+              <tabular left="minor" top="minor" halign="yes">
+                <row header="yes" bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                  <cell right="minor">Another way to write <m>y</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">0</cell>
+                  <cell right="minor">0</cell>
+                  <cell right="minor">0</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">1</cell>
+                  <cell right="minor">3</cell>
+                  <cell right="minor"><m>0 + 3</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">2</cell>
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><m>0 + 3 + 3</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">3</cell>
+                  <cell right="minor">9</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">4</cell>
+                  <cell right="minor">12</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">5</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">27</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">108</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+              </tabular>
+            </table>
+
+            <table xml:id="tbl-slope-b">
+              <title>Table B</title>
+              <tabular left="minor" top="minor" halign="yes">
+                <row header="yes" bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                  <cell right="minor">Another way to write <m>y</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">0</cell>
+                  <cell right="minor">5</cell>
+                  <cell right="minor">5</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">1</cell>
+                  <cell right="minor">8</cell>
+                  <cell right="minor"><m>5 + 3</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">2</cell>
+                  <cell right="minor">11</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">3</cell>
+                  <cell right="minor">14</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">4</cell>
+                  <cell right="minor">17</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">5</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">27</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">108</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+              </tabular>
+            </table>
+          </sidebyside>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are <xref ref="tbl-slope-a"/> and <xref ref="tbl-slope-b"/> similar? Show your work and explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are <xref ref="tbl-slope-a"/> and <xref ref="tbl-slope-b"/> different? Show your work and explain.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Graph the data in both tables on the same pair of axes. What do you notice? Does your observation seem reasonable? Explain.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <task xml:id="exer-slope-extend-tbl">
+        <statement>
+          <p>
+            In the column labeled, <q>Another way to write <m>y</m></q>, show how the <m>y</m>-values in the table build from the <m>y</m>-value when <m>x = 0</m>. This is the starting <m>y</m>-value. Do not simplify at any step. Continue extending the table to find the <m>y</m>-values for <m>x = 5</m> and <m>x = 6</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What patterns are evident from your work in <xref ref="exer-slope-extend-tbl"/>?
+          </p>
+          <p>
+            <xref ref="tbl-slope-a"/>:
+          </p>
+          <p>
+            <xref ref="tbl-slope-b"/>:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            A recursive pattern is a rule that tells you the starting number of a pattern and how the pattern continues. It is likely that recursive patterns are the first thing you notice when working with tables. For both <xref ref="tbl-slope-a"/> and <xref ref="tbl-slope-b"/>, write a recursive rule to find the <m>y</m>-values in the table. Don't forget to list a starting <m>y</m>-value and what you have to do to get successive <m>y</m>-values in the table.
+          </p>
+          <p>
+            <xref ref="tbl-slope-a"/>:
+          </p>
+          <p>
+            <xref ref="tbl-slope-b"/>:
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-slope-4">
+        <statement>
+          <p>
+            An explicit equation is a rule that allows you to find a value for <m>y</m> directly from the corresponding value for <m>x</m>. In the recursive pattern, you found that you added the same number each time. Let's call this number a constant. In the table, for a particular value of <m>x</m>, how many times did you add the constant to get the value of <m>y</m> for that value of <m>x</m>? Use this information to write explicit equations for <xref ref="tbl-slope-a"/> and <xref ref="tbl-slope-b"/>. Use the equations to complete the tables.
+          </p>
+          <p>
+            <xref ref="tbl-slope-a"/>:
+          </p>
+          <p>
+            <xref ref="tbl-slope-b"/>:
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How does each explicit equation relate to each recursive equation?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Repeat <xref first="exer-slope-1" last="exer-slope-4"/> for <xref ref="tbl-slope-c"/> and <xref ref="tbl-slope-d"/>.
+
+          <sidebyside>
+            <table xml:id="tbl-slope-c">
+              <title>Table C</title>
+              <tabular left="minor" top="minor" halign="yes">
+                <row header="yes" bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                  <cell right="minor">Another way to write <m>y</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">0</cell>
+                  <cell right="minor">9</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">1</cell>
+                  <cell right="minor">7</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">2</cell>
+                  <cell right="minor">5</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">3</cell>
+                  <cell right="minor">3</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">4</cell>
+                  <cell right="minor">1</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">5</cell>
+                  <cell right="minor"><m>-1</m></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><m>-3</m></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+              </tabular>
+            </table>
+
+            <table xml:id="tbl-slope-d">
+              <title>Table D</title>
+              <tabular left="minor" top="minor" halign="yes">
+                <row header="yes" bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                  <cell right="minor">Another way to write <m>y</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">1</cell>
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">2</cell>
+                  <cell right="minor">8</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">3</cell>
+                  <cell right="minor">10</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">4</cell>
+                  <cell right="minor">12</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">5</cell>
+                  <cell right="minor">14</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">7</cell>
+                  <cell right="minor"><nbsp/></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+              </tabular>
+            </table>
+          </sidebyside>
+        </p>
+        <p>
+          Recursive rule:
+        </p>
+        <p>
+          Explicit equation:
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Are you tired of filling out the column, <q>Another way to write <m>y</m></q>? Now that you've experienced the constant growth of a linear relationship, you can simplify the process. Study <xref ref="tbl-slope-e"/>. Notice how the process below simplifies the work you did in <xref ref="exer-slope-1"/> and <xref ref="exer-slope-6"/>. In this process you find the difference between two consecutive <m>y</m>-values instead of writing each <m>y</m>-value in terms of the starting <m>y</m>-value. For <xref ref="tbl-slope-e"/>:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How many times do you add 4 to the starting <m>y</m>-value to get the <m>y</m>-value when <m>x = 3</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many times do you add 4 to the starting <m>y</m>-value to get the <m>y</m>-value when <m>x = 6</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an explicit equation to fit the table. How do you know your equation is correct?
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Use the same process to analyze <xref ref="tbl-slope-f"/>. Find an explicit equation to fit the table.
+          </p>
+        </statement>
+      </task>
+
+      <conclusion>
+        <p>
+          <sidebyside>
+            <table xml:id="tbl-slope-e">
+              <title>Table E</title>
+              <tabular left="minor" top="minor" halign="yes">
+                <row header="yes" bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                  <cell right="minor">Change in <m>y</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">0</cell>
+                  <cell right="minor">7</cell>
+                  <cell right="minor">Starting value</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">1</cell>
+                  <cell right="minor">11</cell>
+                  <cell right="minor">4</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">2</cell>
+                  <cell right="minor">15</cell>
+                  <cell right="minor">4</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">3</cell>
+                  <cell right="minor">19</cell>
+                  <cell right="minor">4</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">4</cell>
+                  <cell right="minor">23</cell>
+                  <cell right="minor">4</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">5</cell>
+                  <cell right="minor">27</cell>
+                  <cell right="minor">4</cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">6</cell>
+                  <cell right="minor">31</cell>
+                  <cell right="minor">4</cell>
+                </row>
+
+              </tabular>
+            </table>
+
+            <table xml:id="tbl-slope-f">
+              <title>Table F</title>
+              <tabular left="minor" top="minor" halign="yes">
+                <row header="yes" bottom="minor">
+                  <cell right="minor"><m>x</m></cell>
+                  <cell right="minor"><m>y</m></cell>
+                  <cell right="minor">Change in <m>y</m></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">0</cell>
+                  <cell right="minor">15</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">1</cell>
+                  <cell right="minor">12</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">2</cell>
+                  <cell right="minor">9</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">3</cell>
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">4</cell>
+                  <cell right="minor">3</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">5</cell>
+                  <cell right="minor">0</cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+                <row bottom="minor">
+                  <cell right="minor">6</cell>
+                  <cell right="minor"><m>-3</m></cell>
+                  <cell right="minor"><nbsp/></cell>
+                </row>
+
+              </tabular>
+            </table>
+          </sidebyside>
+        </p>
+      </conclusion>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          There are two important numbers in a linear equation.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            One is the slope. How can you find the slope from a table? How does it show up in the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The other number is called the <m>y</m>-intercept. What is a <m>y</m>-intercept? 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the <m>y</m>-intercept from a table? How does it show up in the equation?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+
+  </worksheet>
+
+    <worksheet xml:id="act-find-eqs">
+      <title>Finding Equations from Graphs and Contexts, Interpreting Slope and y-Intercept</title>
+      
+      <exercise xml:id="exer-eq-1">
+        <statement>
+          <p>
+            Compare the graphs in <xref ref="fig-four-lines"/>. Which ones are related to each other? How are they related? (Note: The green line is Graph A, blue is Graph B, black is Graph C, and red is Graph D)
+          </p>
+          <figure xml:id="fig-four-lines">
+            <caption>Four Linear Plots</caption>
+            <image source="four-lines" width="80%">
+              <description></description>
+            </image>
+          </figure>
+        </statement>
+      </exercise>
+
+      <exercise>
+        <task>
+          <statement>
+            <p>
+              Complete a table for each graph. Use <xref ref="tbl-line-one"/>, <xref ref="tbl-line-two"/>, <xref ref="tbl-line-three"/>, and <xref ref="tbl-line-four"/>.
+            </p>
+            <sidebyside>
+              <table xml:id="tbl-line-one">
+                <title>Graph A (Green)</title>
+                <tabular left="minor" halign="center" top="minor">
+                  <row header="yes" bottom="minor">
+                    <cell right="minor"><m>x</m></cell>
+                    <cell right="minor"><m>y</m></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">0</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">1</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">2</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">3</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">4</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">5</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">6</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+                </tabular>
+              </table>
+
+              <table xml:id="tbl-line-two">
+                <title>Graph B (Blue)</title>
+                <tabular left="minor" halign="center" top="minor">
+                  <row header="yes" bottom="minor">
+                    <cell right="minor"><m>x</m></cell>
+                    <cell right="minor"><m>y</m></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">0</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">1</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">2</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">3</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">4</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">5</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">6</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+                </tabular>
+              </table>
+
+              <table xml:id="tbl-line-three">
+                <title>Graph C (Black)</title>
+                <tabular left="minor" halign="center" top="minor">
+                  <row header="yes" bottom="minor">
+                    <cell right="minor"><m>x</m></cell>
+                    <cell right="minor"><m>y</m></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">0</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">1</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">2</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">3</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">4</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">5</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">6</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+                </tabular>
+              </table>
+
+              <table xml:id="tbl-line-four">
+                <title>Graph D (Red)</title>
+                <tabular left="minor" halign="center" top="minor">
+                  <row header="yes" bottom="minor">
+                    <cell right="minor"><m>x</m></cell>
+                    <cell right="minor"><m>y</m></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">0</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">1</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">2</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">3</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">4</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">5</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+
+                  <row bottom="minor">
+                    <cell right="minor">6</cell>
+                    <cell right="minor"><nbsp/></cell>
+                  </row>
+                </tabular>
+              </table>
+            </sidebyside>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Determine a recursive pattern for each table.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Use the recursive rule to find an explicit equation for each graph. Write the recursive pattern and the equation under each table.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise>
+        <task>
+          <statement>
+            <p>
+              What is slope? (See <xref ref="exer-slope-def"/> if you don't recall.)
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the slope of a graph from a table?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the slope of a graph from an equation?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the slope directly from a graph? Show how the slope arises from the graph in each case.
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise>
+        <task>
+          <statement>
+            <p>
+              What is the <m>y</m>-intercept?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the <m>y</m>-intercept from a table?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the <m>y</m>-intercept from an equation?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the <m>y</m>-intercept from a graph?
+            </p>
+          </statement>
+        </task>
+
+      </exercise>
+
+      <exercise xml:id="exer-slope-contexts">
+        <introduction>
+          <p>
+            Consider the contexts that follow.
+            <dl>
+              <li>
+                <title>Context A</title>
+                <p>
+                  Raffle tickets are $0.50 each. How much will you pay for <m>T</m> tickets?
+                </p>
+              </li>
+              <li>
+                <title>Context B</title>
+                <p>
+                  You have $6 to buy ride tickets at a fair. Each ticket costs $1. How much money do you have after you purchase <m>T</m> tickets?
+                </p>
+              </li>
+              <li>
+                <title>Context C</title>
+                <p>
+                  It costs $2 to get into a dance. At the dance you can buy glasses of punch for $0.50 each. How much will you spend for the dance and punch after buying <m>G</m> glasses of punch?
+                </p>
+              </li>
+              <li>
+                <title>Context D</title>
+                <p>
+                  The Rowing Team is selling cookies for $1 each. A friend is selling the cookies and allows you to pay later for cookies you buy beyond the $3 you have in your pocket. How much will you pay your friend if you buy <m>C</m> cookies? (Negative dollars are dollars you will pay your friend after the cookie sale.)
+                </p>
+              </li>
+            </dl>
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Create a table for each context in <xref ref="exer-slope-contexts"/>.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Graph the data in each table.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Determine a recursive rule then an explicit equation that fits each context in <xref ref="exer-slope-contexts"/>.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise xml:id="exer-slope-6">
+        <task>
+          <statement>
+            <p>
+              How can you find slope from a context?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How can you find the <m>y</m>-intercept from a context?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              What does the slope mean in the contexts in <xref ref="exer-slope-contexts"/>?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              What does the <m>y</m>-intercept mean in the contexts in <xref ref="exer-slope-contexts"/>?
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            Match the contexts in <xref ref="exer-slope-6"/> to the graphs in <xref ref="exer-eq-1"/>. How do you know you are right?
+            <md>
+              <mrow> \amp \text{Graph A} \amp \qquad \amp \text{Context A}</mrow>
+              <mrow> \amp \text{Graph B} \amp \qquad \amp \text{Context B}</mrow>
+              <mrow> \amp \text{Graph C} \amp \qquad \amp \text{Context C}</mrow>
+              <mrow> \amp \text{Graph D} \amp \qquad \amp \text{Context D}</mrow>
+            </md>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise>
+        <introduction>
+          <p>
+            Some students say that you can find the slope from a table by dividing the value of <m>y</m> by the value of <m>x</m> for a single data point. 
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Does this method ever work? If so, for which of the examples above will this method work? Why does the method work?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Try this method for finding slope on <xref ref="tbl-line-two"/>. Does the method work in this case? Why or why not?
+            </p>
+          </statement>
+        </task>
+        
+        <task>
+          <statement>
+            <p>
+              For which of the examples above will this method for finding slope fail? Why does it fail?
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+    </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <statement>
+        <p>
+          Extend the work from, <xref text="title" ref="act-slope-int"/>, to finding equations from graphs and contexts by completing <xref text="title" ref="act-find-eqs"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    
+    
+    <exercise>
+      <statement>
+        <p>
+          Look for uses of linear equations in your daily life and write a problem similar to those in <xref ref="exer-slope-contexts"/>. The problem can come from a newspaper, some other media source, through a table, graph, or story. It must be specific enough for others to determine an equation from your example. Find at least 3 examples, one of which includes the point (0, 0). Write your examples on index cards to pass around in class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          For each of the following tasks, complete parts <xref first="slope-story-c" last="slope-story-f"/> Complete <xref ref="slope-story-a"/> and <xref ref="slope-story-b"/> for the problems to which they pertain.
+          <ol>
+            <li xml:id="slope-story-a">
+              <p>
+                Fill-in the first 5 missing values in the tables (<xref ref="exer-story-water"/>, <xref ref="exer-story-rope"/>, <xref ref="exer-story-bananas"/>, <xref ref="exer-story-donuts"/>).
+              </p>
+            </li>
+            <li xml:id="slope-story-b">
+              <p>
+                Write a story to go with the two completed tables provided.
+              </p>
+            </li>
+            <li xml:id="slope-story-c">
+              <p>
+                Identify the slope. State the meaning of the slope in context.
+              </p>
+            </li>
+            <li xml:id="slope-story-d">
+              <p>
+                Determine an equation. Make sure your equation fits the data.
+              </p>
+            </li>
+            <li xml:id="slope-story-e">
+              <p>
+                Tell how you know your equation is correct in terms of the story or graph.
+              </p>
+            </li>
+            <li xml:id="slope-story-f">
+              <p>
+                Determine and write the last value in each table.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </introduction>
+
+      <task xml:id="exer-story-water">
+        <task>
+          <title>Story</title>
+          <statement>
+            <p>
+              Nasredinne drinks 64 ounces of water each day. What is the total amount of water, <m>y</m>, he has consumed by the end of <m>x</m> days?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <tabular left="minor" top="minor" halign="center">
+              <row bottom="minor" header="yes">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">1</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">2</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">3</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">4</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+               <row bottom="minor">
+                <cell right="minor">5</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">28</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope, Equation, and Explanation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task xml:id="exer-story-rope">
+        <task>
+          <title>Story</title>
+          <statement>
+            <p>
+              Jessa jumps rope for <m>\frac{3}{4}</m> hours per day. What is the total number of hours, <m>y</m>, she has jumped rope by the end of <m>x</m> days?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <tabular left="minor" top="minor" halign="center">
+              <row bottom="minor" header="yes">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">1</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">2</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">3</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">4</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+               <row bottom="minor">
+                <cell right="minor">5</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">31</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope, Equation, and Explanation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task xml:id="exer-story-blank">
+        <task>
+          <title>Story</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <tabular left="minor" top="minor" halign="center">
+              <row bottom="minor" header="yes">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">1</cell>
+                <cell right="minor">1.2</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">2</cell>
+                <cell right="minor">2.4</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">3</cell>
+                <cell right="minor">3.6</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">4</cell>
+                <cell right="minor">4.8</cell>
+              </row>
+               <row bottom="minor">
+                <cell right="minor">5</cell>
+                <cell right="minor">6.0</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">17</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope, Equation, and Explanation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task xml:id="exer-story-blank-2">
+        <task>
+          <title>Story</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <tabular left="minor" top="minor" halign="center">
+              <row bottom="minor" header="yes">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">1</cell>
+                <cell right="minor">7</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">2</cell>
+                <cell right="minor">14</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">3</cell>
+                <cell right="minor">21</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">4</cell>
+                <cell right="minor">28</cell>
+              </row>
+               <row bottom="minor">
+                <cell right="minor">5</cell>
+                <cell right="minor">35</cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">43</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope, Equation, and Explanation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task xml:id="exer-story-bananas">
+        <task>
+          <title>Graph</title>
+          <statement>
+            <image source="graph-bananas" width="60%">
+              <description></description>
+            </image>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <p>
+              Do not estimate. Use grid points to fill in the first 5 values of the table.
+            </p>
+            <tabular left="minor" top="minor" halign="center">
+              <row bottom="minor" header="yes">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">8</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope, Equation, and Explanation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task xml:id="exer-story-donuts">
+        <task>
+          <title>Graph</title>
+          <statement>
+            <image source="graph-donuts" width="60%">
+              <description></description>
+            </image>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <p>
+              Do not estimate. Use grid points to fill in the first 5 values of the table.
+            </p>
+            <tabular left="minor" top="minor" halign="center">
+              <row bottom="minor" header="yes">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+               <row bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+               <row bottom="minor">
+                <cell right="minor">32</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope, Equation, and Explanation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="100" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Find two related data sets (or create them from real contexts such as a menu). One data set must be a proportional linear relationship. The other data set must be linear but not a proportional linear relationship. Answer the following questions for each data set:
+        </p>
+      </introduction>
+
+      <task xml:id="exer-make-scenario">
+        <statement>
+          <p>
+            Present your scenario. Complete a table to fit the scenario.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Create a graph using an electronic tool. Label the horizontal (<m>x</m>) axis and the vertical (<m>y</m>) axis. Plot the data from <xref ref="exer-make-scenario"/>. Connect the points in your graph. Print the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe the shape and important features of the graph you created.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is the relationship between <m>x</m> and <m>y</m> linear? Why or why not?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the graph whether or not the linear function is proportional? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation that gives <m>y</m> in terms of <m>x</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare the data you found for the proportional linear function with the data you found for the linear function. What accounts for the differences between the data sets?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+
+</section>

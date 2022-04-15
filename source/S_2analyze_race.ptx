@@ -245,7 +245,7 @@
         </statement>
       </task>
 
-      <task>
+      <task xml:id="exer-slope-def">
         <statement>
           <p>
             The slope of a line is the steepness of the line. What is the slope of the line that models the tortoise's movement?
