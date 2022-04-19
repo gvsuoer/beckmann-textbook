@@ -52,5 +52,6 @@
   <xi:include href="S_2distinguish.ptx" />
   <xi:include href="S_2connect_graph_eq.ptx" />
   <xi:include href="S_2big_ideas.ptx" />
+  <xi:include href="S_2tiles.ptx" />
   
 </chapter>

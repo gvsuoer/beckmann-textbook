@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_tiles">
+  <title>Analyzing Tile Patterns</title>
+  
+  <introduction>
+    <p>
+      You have already experienced that functions arise in a variety of ways. You learned how to determine linear functions given a set of data, a graph, a story, or an equation. In this lesson, you will count tiles arranged in a pattern, determine how the tile arrangement is related to the step number, and analyze growing tile patterns to determine whether or not the resulting data is linear.
+    </p>
+  </introduction>
+
+  <subsection xml:id="SS_pattern-talk-29">
+    <title>Pattern Talk: Tile Pattern</title>
+    <sidebyside widths="30%">
+      <figure xml:id="fig-pattern-talk-step-3">
+        <caption>Tile Arrangement for Step 3</caption>
+        <image source="pattern-talk-step-3">
+          <description></description>
+        </image>
+      </figure>
+
+      <figure xml:id="fig-pattern-talk-step-2">
+        <caption>Tile Arrangement for Step 2</caption>
+        <image source="pattern-talk-step-2">
+          <description></description>
+        </image>
+      </figure>
+
+      <figure xml:id="fig-pattern-talk-step-1">
+        <caption>Tile Arrangement for Step 1</caption>
+        <image source="pattern-talk-step-1">
+          <description></description>
+        </image>
+      </figure>
+    </sidebyside>
+
+    <p>
+      Consider the tile arrangement in <xref ref="fig-pattern-talk-step-3"/>.
+      <ul>
+        <li>
+          <p>
+            Count the number of tiles in the arrangement.
+          </p>
+        </li>
+        <li>
+          <p>
+            How did you count the tiles?
+          </p>
+        </li>
+        <li>
+          <p>
+            Find a way to count the tiles so that so that the relationship between the number of tiles and the Step Number is evident.
+          </p>
+        </li>
+        <li>
+          <p>
+            Share your ways of counting the tiles with your group when asked to do so.
+          </p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Study the tile arrangements in <xref ref="fig-pattern-talk-step-2"/> and <xref ref="fig-pattern-talk-step-1"/>.
+      <ul>
+        <li>
+          <p>
+            Does one of the ways you counted the tiles in <xref ref="fig-pattern-talk-step-3"/> also work to count the tiles for both <xref ref="fig-pattern-talk-step-2"/> and <xref ref="fig-pattern-talk-step-1"/>?
+          </p>
+        </li>
+        <li>
+          <p>
+            Is the relationship between the number of tiles and the Step Number still evident for <xref ref="fig-pattern-talk-step-2"/> and <xref ref="fig-pattern-talk-step-1"/>? Explain your counting process and the relationship between the number of tiles and the step number.
+          </p>
+        </li>
+      </ul>
+    </p>
+    
+    <p>
+      In this lesson, you will explore several tile patterns. Each pattern grows in a predictable way. It is your job to determine how each pattern is growing. Some of the patterns are linear or proportional linear. Other patterns are not linear. Can you distinguish which patterns are linear or proportional linear from those that are not? Use what you've learned about linear relationships to help you!
+    </p>
+  </subsection>
+
+  <worksheet xml:id="act-analyze-tiles">
+    <title>Analyzing Tile Patterns</title>
+    <page>
+    <introduction>
+      <p>
+        Use tiles to model each pattern. Use color to show how each pattern grows. For example, choose a color for tiles that are new in Step 2 when compared to Step 1. Use the Step 2 color to show where these same tiles appear in all subsequent steps. Find a way to count each pattern of tiles so that the relationship between the number of tiles and the step number is evident. 
+      </p>
+      <p>
+        Work on Pattern A. When you're done, share the different ways you colored the pattern with your group and when asked to do so, with the class. Use that information to draw Steps 0 and 4 and to find the equation.
+      </p>
+      <p>
+        Continue working on Patterns B through F.
+      </p>
+      <p>
+        When the class has finished work on <xref text="title" ref="act-analyze-tiles"/>, as a group, claim one pattern. You will share your coloring of the pattern and equation with the class.
+      </p>
+      <p>
+        Once all patterns are posted, study each group's work. Determine if you agree or disagree and why. When reporting, group members who did not put the pattern on the board will explain the work presented.
+      </p>
+      <p>
+        Study the visual patterns in <xref ref="fig-visual-patterns"/>. Assume each pattern continues infinitely and grows predictably. Determine the following for each pattern:
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          How is the pattern growing? Use colors or numbers to show how tiles are added to the pattern from one step to the next. Show how the pattern builds from one step to the next.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Draw Step 4. Draw Step 0.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each step, determine the number of tiles needed.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Determine if the pattern is proportional linear, linear, or other. Explain your decision.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each linear and proportional linear pattern, find an equation that gives the number of tiles in a step based on its step number.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For linear and proportional linear patterns, determine what part of the pattern relates to the slope. Determine what part of the pattern relates to the <m>y</m>-intercept. Explain both.
+        </p>
+      </statement>
+    </exercise>
+
+    </page>
+
+    <page>
+      
+    <figure xml:id="fig-visual-patterns">
+      <caption>Visual Patterns for <xref text="title" ref="act-analyze-tiles"/></caption>
+      <image source="visual-patterns" width="100%">
+        <description></description>
+      </image>
+    </figure>
+    </page>
+
+  </worksheet>
+
+  <exercises>
+    
+    <exercise>
+      <introduction>
+        <p>
+          Some students say that you can find the slope from a table by dividing the value of <m>y</m> by the value of <m>x</m> for a single data point.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Does this method ever work? If so, for what types of functions will this method work? Give at least one example. Why does the method work?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Try this method for finding slope on the function below. Does the method work? Why or why not? Is the data below linear? How do you know?
+          </p>
+          <tabular halign="center" top="minor" left="minor">
+            <col header="yes" />
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <col/>
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor">4</cell>
+              <cell right="minor">6</cell>
+              <cell right="minor">8</cell>
+              <cell right="minor">10</cell>
+              <cell right="minor">12</cell>
+              <cell right="minor">14</cell>
+              <cell right="minor">26</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>y</m></cell>
+              <cell right="minor">7</cell>
+              <cell right="minor">11</cell>
+              <cell right="minor">15</cell>
+              <cell right="minor">19</cell>
+              <cell right="minor">23</cell>
+              <cell right="minor">27</cell>
+              <cell right="minor">51</cell>
+            </row>
+          </tabular>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For which types of functions will this method for finding slope fail? Why does it fail?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-field-goal">
+      <introduction>
+        <p>
+          Analyze the tile pattern in <xref ref="fig-exer-tile-pattern"/>. Draw the figure for Step 0 and for Step 5.
+        </p>
+        <figure xml:id="fig-exer-tile-pattern">
+          <caption>Tile Pattern for <xref ref="exer-field-goal"/></caption>
+          <image source="tile-pattern-field-goal" width="90%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="exer-field-goal-a">
+        <statement>
+          <p>
+            Describe the pattern you used to draw Step 5. How do you know you are correct?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What equation models the relationship between the step number and the number of tiles needed. How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            As the pattern grows, what physical features of the design are represented by the slope? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What part of the design is responsible for the <m>y</m>-intercept? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-field-goal-e">
+        <statement>
+          <p>
+            Suppose the tile pattern did not have the tiles creating the stem at the bottom of each figure above. How would the equation change? Explain your thinking.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Would the graph of the design in <xref ref="exer-field-goal-e"/> have the same <m>y</m>-intercept, smaller <m>y</m>-intercept, or larger <m>y</m>-intercept than the graph of the design in <xref ref="exer-field-goal-a"/>? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation to fit this new design. Explain your work.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete the student page, <xref text="title" ref="act-analyze-more-tiles"/>. Follow the directions on the student page. Be prepared to share your work with your group and class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          For the non-linear patterns in the student page, <xref text="title" ref="act-analyze-more-tiles"/>, 
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Explain how you know the pattern is not linear. Use more than one representation to justify your choices.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-pattern-g">
+        <statement>
+          <p>
+            Use a table to show how the number of tiles is growing. Remember not to simplify the table values too soon. Describe how each pattern is growing in words. For example, consider Pattern G. Create a table like the one in <xref ref="tbl-more-tile-patterns"/>. Notice that each quantity shows how it arises from the one before it. How does the number of tiles in step 4 relate to the number of tiles in step 3? How does the step number relate to the number of tiles for that step?  Back up the table from step 2 to step 1 then to step 0. 
+          </p>
+          <table xml:id="tbl-more-tile-patterns">
+            <title>Table for <xref ref="exer-pattern-g"/></title>
+            <tabular halign="center" top="minor" left="minor">
+              <row header="yes" bottom="minor">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">0</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">1</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">2</cell>
+                <cell right="minor"><m>4 = 2 \cdot 2 = 2^2</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">3</cell>
+                <cell right="minor"><m>8 = 2 \cdot 2 \cdot 2 = 2^3</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">4</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">5</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Stretch your equation-finding abilities to find equations for some of the non-linear tile patterns. Your work with tables can help. Explain how you know your equations are correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            You have seen a pattern similar to Pattern H twice before. Do you recall where? How is Pattern H related to the patterns you saw previously? How might you find an equation to model this pattern?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Consider both student pages, <xref text="title" ref="act-analyze-tiles"/> and <xref text="title" ref="act-analyze-more-tiles"/> Choose 3 tile patterns from each page. For each tile pattern:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Determine how many tiles you need to make Step 100. Explain how you know.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            A bag contains 60 tiles. What is the largest Step number you can build with 60 tiles? (You are only building the design for this single step, not any of the previous steps.) Explain your choice.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+
+  <worksheet xml:id="act-analyze-more-tiles">
+    <title>Analyzing More Tile Patterns</title>
+    <page>
+    <introduction>
+      <p>
+        Study the visual patterns in <xref ref="fig-more-tile-patterns"/>. Assume each pattern continues infinitely and grows predictably. Determine the following for each pattern:
+      </p>
+    </introduction>
+    <exercise>
+      <statement>
+        <p>
+          How is the pattern growing? Use colors or numbers to show how tiles are added to the pattern from one step to the next. Show how the pattern builds from one step to the next.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Draw Step 5. Draw Step 0.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each step, determine the number of tiles needed.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Determine if the pattern is proportional linear, linear, or other. Explain your decision.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          For each linear and proportional linear pattern,
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Find an equation that gives the number of tiles in a step based on its step number.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine what part of the pattern relates to the slope. Explain your choice.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine what part of the pattern relates to the y-intercept. Explain your choice.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    </page>
+    <page>
+
+    <figure xml:id="fig-more-tile-patterns">
+      <caption>More Tile Patterns</caption>
+      <image source="more-tile-patterns" width="100%">
+        <description></description>
+      </image>
+    </figure>
+    </page>
+  </worksheet>
+
+</section>
