@@ -186,7 +186,7 @@
           </p>
           <table xml:id="tbl-tort-travels">
             <title>The Tortoise's Travels Over Time</title>
-            <tabular left="minor" top="minor" halign="minor">
+            <tabular left="minor" top="minor" halign="center">
               <row bottom="minor" header="yes">
                 <cell right="minor">Time Interval</cell>
                 <cell right="minor">Amount of time elapsed</cell>
@@ -547,10 +547,10 @@
       <task>
         <statement>
           <p>
-            Complete <xref ref="tbl-gas-prices"/> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).
+            Complete <xref ref="tbl-gas-prices-allendale"/> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).
           </p>
         </statement>
-        <table xml:id="tbl-gas-prices">
+        <table xml:id="tbl-gas-prices-allendale">
           <title>Gas Prices in the Allendale, MI Area</title>
           <tabular halign="center" left="minor" top="minor">
             <row header="yes">
@@ -565,10 +565,10 @@
               <cell right="minor">
               </cell>
               <cell right="minor">
-                <dollar />2.03 per gallon
+                $2.03 per gallon
               </cell>
               <cell right="minor">
-                <dollar />2.69 per gallon
+                $2.69 per gallon
               </cell>
             </row>
             <row bottom="minor">

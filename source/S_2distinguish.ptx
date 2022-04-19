@@ -353,7 +353,7 @@
           <sidebyside>
             <table xml:id="tbl-slope-a">
               <title>Table A</title>
-              <tabular left="minor" top="minor" halign="yes">
+              <tabular left="minor" top="minor" halign="center">
                 <row header="yes" bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
@@ -418,7 +418,7 @@
 
             <table xml:id="tbl-slope-b">
               <title>Table B</title>
-              <tabular left="minor" top="minor" halign="yes">
+              <tabular left="minor" top="minor" halign="center">
                 <row header="yes" bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
@@ -546,8 +546,8 @@
           </p>
         </statement>
       </task>
-
-      <task xml:id="exer-slope-4">
+    </exercise>
+      <exercise xml:id="exer-slope-4">
         <statement>
           <p>
             An explicit equation is a rule that allows you to find a value for <m>y</m> directly from the corresponding value for <m>x</m>. In the recursive pattern, you found that you added the same number each time. Let's call this number a constant. In the table, for a particular value of <m>x</m>, how many times did you add the constant to get the value of <m>y</m> for that value of <m>x</m>? Use this information to write explicit equations for <xref ref="tbl-slope-a"/> and <xref ref="tbl-slope-b"/>. Use the equations to complete the tables.
@@ -559,7 +559,7 @@
             <xref ref="tbl-slope-b"/>:
           </p>
         </statement>
-      </task>
+      
 
     </exercise>
 
@@ -579,7 +579,7 @@
           <sidebyside>
             <table xml:id="tbl-slope-c">
               <title>Table C</title>
-              <tabular left="minor" top="minor" halign="yes">
+              <tabular left="minor" top="minor" halign="center">
                 <row header="yes" bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
@@ -633,7 +633,7 @@
 
             <table xml:id="tbl-slope-d">
               <title>Table D</title>
-              <tabular left="minor" top="minor" halign="yes">
+              <tabular left="minor" top="minor" halign="center">
                 <row header="yes" bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
@@ -739,7 +739,7 @@
           <sidebyside>
             <table xml:id="tbl-slope-e">
               <title>Table E</title>
-              <tabular left="minor" top="minor" halign="yes">
+              <tabular left="minor" top="minor" halign="center">
                 <row header="yes" bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
@@ -793,7 +793,7 @@
 
             <table xml:id="tbl-slope-f">
               <title>Table F</title>
-              <tabular left="minor" top="minor" halign="yes">
+              <tabular left="minor" top="minor" halign="center">
                 <row header="yes" bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
@@ -1434,7 +1434,7 @@
           <title>Slope, Equation, and Explanation</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1495,7 +1495,7 @@
           <title>Slope, Equation, and Explanation</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1506,7 +1506,7 @@
           <title>Story</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1556,7 +1556,7 @@
           <title>Slope, Equation, and Explanation</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1567,7 +1567,7 @@
           <title>Story</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1617,7 +1617,7 @@
           <title>Slope, Equation, and Explanation</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1681,7 +1681,7 @@
           <title>Slope, Equation, and Explanation</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>
@@ -1745,7 +1745,7 @@
           <title>Slope, Equation, and Explanation</title>
           <statement>
             <p>
-              Answer: <fillin characters="100" />
+              Answer: <fillin characters="75" />
             </p>
           </statement>
         </task>

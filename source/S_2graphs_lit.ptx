@@ -541,9 +541,9 @@
       <task>
         <statement>
           <p>
-            Complete <xref ref="tbl-gas"/> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).
+            Complete <xref ref="tbl-gas-prices"/> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).
           </p>
-          <table xml:id="tbl-gas">
+          <table xml:id="tbl-gas-prices">
             <title>Table of Gas Prices</title>
             
             
@@ -560,10 +560,10 @@
                 <cell left="minor" right="minor">
                 </cell>
                 <cell right="minor">
-                  <dollar />1.879 per gallon
+                  $1.879 per gallon
                 </cell>
                 <cell right="minor">
-                  <dollar />2.199 per gallon
+                  $2.199 per gallon
                 </cell>
               </row>
               <row bottom="minor">
