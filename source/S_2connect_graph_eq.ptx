@@ -1993,7 +1993,7 @@
 
   <worksheet xml:id="act-card-sort-reflect">
     <title>Reflecting on Your Group's Work on the <xref text="title" ref="act-lin-card-sort"/></title>
-    
+    <page>
     <introduction>
       <p>
         As a group, share your <xref text="title" ref="act-lin-card-sort"/> responses. 
@@ -2231,6 +2231,7 @@
         </p>
       </statement>
     </exercise>
+    </page>
   </worksheet>
   
 </section>
