@@ -258,7 +258,7 @@
 
   <worksheet xml:id="scale-cards" margins="1in">
     <title>It's a Matter of Scale Card Set</title>
-    
+    <page>
     <introduction>
       <p>
         Directions: Print or copy the following, on separate sheets of paper. Cut the cards apart. Each group member receives one card with all four cards in a row assigned to the same group.
@@ -269,7 +269,9 @@
       <description>Cards to be used with <xref text="title" ref="act-scale"/>. Note: This learning activity may not be accessible.</description>
     </image>
 
-    <pagebreak />
+    </page>
+
+    <page>
 
     <p>
       Cards continued.
@@ -278,6 +280,7 @@
     <image source="scale-cards-2" width="100%">
       <description>Cards to be used with <xref text="title" ref="act-scale"/>. Note: This learning activity may not be accessible.</description>
     </image>
+    </page>
   </worksheet>
   
   <worksheet xml:id="act-critique">

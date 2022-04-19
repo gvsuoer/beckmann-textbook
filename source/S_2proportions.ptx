@@ -466,7 +466,7 @@
           <sidebyside widths="20% 70%">
             <table xml:id="tbl-lin-props">
               <title>Table for a Proportional Linear Function</title>
-              <tabular left="minor" top="minor" halign="minor">
+              <tabular left="minor" top="minor" halign="center">
                 <row bottom="minor">
                   <cell right="minor"><nbsp/><nbsp/></cell>
                   <cell right="minor"><nbsp/><nbsp/></cell>
@@ -603,7 +603,7 @@
         <p>
           A step conversion chart indicates that if you walk 4 miles per hour, you would take approximately 140 steps per minute. The same chart shows that if you cycle at 15 miles per hour, you would take the equivalent of 160 steps per minute.
         </p>
-        <table xml:id="tbl-steps">
+        <table xml:id="tbl-steps-convert">
           <title>Step Conversion Chart</title>
           <tabular halign="center" left="minor" top="minor">
             <row header="yes" bottom="minor">
@@ -1050,10 +1050,10 @@
               <cell right="minor">
               </cell>
               <cell right="minor">
-                With 2<percent /> milk
+                With 2% milk
               </cell>
               <cell right="minor">
-                With 2<percent /> milk and whipped cream
+                With 2% milk and whipped cream
               </cell>
               <cell right="minor">
                 With coconut milk

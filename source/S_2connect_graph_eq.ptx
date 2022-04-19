@@ -1,0 +1,2236 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_connect_graph_eq">
+  <title>The Meanings of Slope and y-Intercept, Connecting Graphs and Equations</title>
+
+  <worksheet xml:id="act-linear-desmos">
+    <title>Linear Functions with Desmos <mdash/> Slopes and y-Intercepts</title>
+    
+    <introduction>
+      <p>
+        Use <url href="https://www.desmos.com/calculator" visual="desmos.com/calculator">Desmos</url> to complete the following investigation. Be ready to discuss your findings with your group and with the class.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          Type <m>y = mx + b</m> into the entry line on the left side of the screen. Notice that Desmos allows you to create sliders for <m>m</m> and <m>b</m>. Do this by clicking the <q>all</q> button.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Set <m>b = 0</m>. Play with <m>m</m>. Describe the appearance of the line when:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>m = 0</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>m \lt 0</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>m \gt 0</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What effect does changing <m>m</m> have on the graph of <m>y = mx</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Why does <m>m</m> have the effect you say it does?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Graph the line <m>y = x</m> by typing it into the next entry line on the left side of the screen.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Which line is steeper, one with a slope of 2 or one with a slope of 0.25? Why?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            When <m>b = 0</m>, how do each of these lines compare with <m>y = x</m>? Why is this sensible?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Which line is steeper, one with a slope of <m>-2</m> or one with a slope of 0.25? Why? 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            When <m>b = 0</m>, how do each of these lines compare with <m>y = x</m>? Why is this sensible?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Let <m>b = 0</m>.
+        </p>
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            What is the equation of the line when <m>m = 2</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the equation of the line when <m>m = 0.25</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the equation of the line when <m>m = -2</m>?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Set <m>m = 1</m>. Play with <m>b</m>. Describe the appearance of the line when:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>b = 0</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>b \lt 0</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>b \gt 0</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What effect does changing <m>b</m> have on the graph of <m>y = mx + b</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which direction is the graph moving, up and down or left and right? How do you know?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            In your own words, what is slope?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            State everything you can about the value of m and the appearance of the graph of <m>y = mx + b</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In your own words, what is the <m>y</m>-intercept?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            State everything you can about the value of <m>b</m> and the appearance of the graph of <m>y = mx + b</m>.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Predict the appearance of the graph of each of the following lines. Do not draw them yet.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-predict-line-a">
+        <statement>
+          <p>
+            <m>y = 0.5x + 1</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>y = -x - 2</m>
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-predict-line-c">
+        <statement>
+          <p>
+            <m>y = 3x - 0.5</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Hold an empty page protector against your computer/tablet screen. Use the viewing window on your screen and hand-draw each graph using a dry erase marker. (Trace the <m>x</m>- and <m>y</m>-axes on the page protector so you can accurately reposition the graphs if the page protector slides.)
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Without changing the viewing window, electronically graph each of the equations in <xref first="exer-predict-line-a" last="exer-predict-line-c"/>. Compare the Desmos graphs with your hand-drawn graphs. If any graph is incorrect, decide what caused the error.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Summarize your work. Answer the following questions and any others that occur to you.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Given a graph, how can you determine its slope?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In an equation of a line, <m>y = mx + b</m>, which letter, <m>m</m> or <m>b</m>, represents the slope? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Given a graph, how can you determine its <m>y</m>-intercept?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In an equation of a line, <m>y = mx + b</m>, which letter, <m>m</m> or <m>b</m>, represents the <m>y</m>-intercept? Explain.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+
+  <activity xml:id="act-polygraph-desmos">
+    <title><pubtitle>Polygraphs: Linear</pubtitle> with Desmos</title>
+    
+    
+    <statement>
+      <p>
+        <pubtitle>Polygraphs: Linear</pubtitle> is very much like the game, <pubtitle>Guess Who?</pubtitle> One partner picks a graph, the other partner asks questions to determine which graph the first person chose. You will ask questions that can be answered with <q>yes</q> or <q>no</q> to try to eliminate graphs, finally determining the one chosen by your partner. Desmos gives you a sample game to play then randomly chooses a partner for you.
+      </p>
+      <p>
+        Get on <url href="https://student.desmos.com" visual="student.desmos.com">the Desmos student page</url>. Enter our <pubtitle>Polygraphs: Linear</pubtitle> Class Code: <fillin characters="5" />. Play the game for a few rounds, until your teacher asks you to stop.
+      </p>
+      <p>
+        Which questions help the guesser determine the correct graph? Which questions help the graph chooser determine which graphs the guesser is eliminating? Which questions are not helpful to the guesser or chooser? 
+      </p>
+      <p>
+        <pubtitle>Polygraph: Linear, Part 2</pubtitle> helps you move from informal language about lines to language that is more precise and less ambiguous.
+      </p>
+      <p>
+        Get on <url href="https://student.desmos.com" visual="student.desmos.com">the Desmos student page</url>. Enter our <pubtitle>Polygraph: Linear, Part 2</pubtitle> Class Code: <fillin characters="5" />. Complete the activity.
+      </p>
+    </statement>
+  </activity>
+
+  <exercises>
+    
+    <exercise>
+      <statement>
+        <p>
+          Complete the student page, <xref text="title" ref="act-eq-represent"/>. Be ready to share your work with your group and the class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete the student page, <xref text="title" ref="act-slope-context"/>. Be ready to share your work with your group and the class.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Study the tables below. Notice that the y-intercept is not an element in any of the tables. Figure out a way to find an equation to fit each. Describe your process. Careful! How is x changing in these tables?
+
+          <sidebyside>
+            <tabular top="minor" left="minor" halign="center">
+              <row header="yes" bottom="minor">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">4</cell>
+                <cell right="minor">5</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">8</cell>
+                <cell right="minor">7</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">12</cell>
+                <cell right="minor">9</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">16</cell>
+                <cell right="minor">11</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">20</cell>
+                <cell right="minor">13</cell>
+              </row>
+            </tabular>
+
+            <tabular top="minor" left="minor" halign="center">
+              <row header="yes" bottom="minor">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">3</cell>
+                <cell right="minor">4</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">6</cell>
+                <cell right="minor">8</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">9</cell>
+                <cell right="minor">12</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">12</cell>
+                <cell right="minor">16</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">15</cell>
+                <cell right="minor">20</cell>
+              </row>
+            </tabular>
+
+            <tabular top="minor" left="minor" halign="center">
+              <row header="yes" bottom="minor">
+                <cell right="minor"><m>x</m></cell>
+                <cell right="minor"><m>y</m></cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">6</cell>
+                <cell right="minor">12</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">8</cell>
+                <cell right="minor">9</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">10</cell>
+                <cell right="minor">6</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">12</cell>
+                <cell right="minor">3</cell>
+              </row>
+
+              <row bottom="minor">
+                <cell right="minor">14</cell>
+                <cell right="minor">0</cell>
+              </row>
+            </tabular>
+          </sidebyside>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Summarize your understanding of linear functions. Answer the questions below and any others that occur to you. Be ready to ask questions over any concepts that are still unfamiliar to you.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What do you know about the slope?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the slope from a table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the slope from a graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the slope from an equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the slope from a context or story? 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What do you know about the <m>y</m>-intercept?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the <m>y</m>-intercept from a table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the <m>y</m>-intercept from a graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the <m>y</m>-intercept from an equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you determine the <m>y</m>-intercept from a context or story?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Work on <xref text="title" ref="act-lin-card-sort"/>. You may discuss your work with other members of your group. You will be submitting your individual work as well as group work. Create and print graphs electronically (Desmos is recommended). If your handwriting is hard to read, type your responses.
+        </p>
+        <p>
+          Due in class on: <fillin characters="10" />
+        </p>
+        <p>
+          On the due date, each group will collect:
+          <ol>
+            <li xml:id="card-sort-instr-1">
+              <p>
+                The individual work completed by group members,
+              </p>
+            </li>
+            <li xml:id="card-sort-instr-2">
+              <p>
+                Individual reflections on group functioning (<xref ref="exer-card-sort-reflect"/>), and
+              </p>
+            </li>
+            <li xml:id="card-sort-instr-3">
+              <p>
+                The following group reflection, <xref text="title" ref="act-card-sort-reflect"/>.
+              </p>
+            </li>
+          </ol>
+        </p>
+        <p>
+          Place the group reflection on top of the packet (<xref ref="card-sort-instr-3"/>), attach the individual work to it (<xref ref="card-sort-instr-1"/> and <xref ref="card-sort-instr-2"/>), then the group's work on the Linear Function Card Sort.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-card-sort-reflect">
+      <introduction>
+        <p>
+          Be prepared to submit your individual answers to questions 6a through 6h on the <xref text="title" ref="act-lin-card-sort"/> due date. Read the questions ahead in preparation.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Approximately how much time did you spend completing the <xref text="title" ref="act-lin-card-sort"/>? Did you work on it by yourself? Did you bring your individual work to group meetings?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Did your group work together on the <xref text="title" ref="act-lin-card-sort"/>? How did you communicate, face-to-face, through social media? Explain. 
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Did any of your group members only work on the card sort when you were together?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What steps can your group take to work together more productively?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Do you work well together in class? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Do you work well together outside of class? Elaborate.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you are dissatisfied with your group, what would need to happen for you to be satisfied with your group?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Would you like to stay with your current group? If not, with whom would you like to work? Why?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+
+  <worksheet xml:id="act-eq-represent">
+    <title>Finding Equations from Representations</title>
+    
+    <introduction>
+      <p>
+        Directions: Tables, graphs (use grid points!), and stories are provided. For each case:
+        <ol>
+          <li>
+            <p>
+              Find the slope.
+            </p>
+          </li>
+          <li>
+            <p>
+              Find the <m>y</m>-intercept.
+            </p>
+          </li>
+          <li>
+            <p>
+              Write an equation.
+            </p>
+          </li>
+          <li>
+            <p>
+              Explain how you know the slope and <m>y</m>-intercept are correct. Check 2 points in your equation to show it is correct.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </introduction>
+
+    <exercise>
+      <task>
+        <title>Linear Function Representation</title>
+        <tabular halign="center" top="minor" left="minor">
+          <row bottom="minor" header="yes">
+            <cell right="minor"><m>x</m></cell>
+            <cell right="minor"><m>y</m></cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">0</cell>
+            <cell right="minor">4</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">2</cell>
+            <cell right="minor">9</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">4</cell>
+            <cell right="minor">14</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">6</cell>
+            <cell right="minor">19</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">8</cell>
+            <cell right="minor">24</cell>
+          </row>
+        </tabular>
+      </task>
+
+      <task>
+        <title>Slope</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title><m>y</m>-intercept</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Equation</title>
+        <statement>
+          <p>
+            Answer: <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <title>Linear Function Representation</title>
+        <tabular halign="center" top="minor" left="minor">
+          <row bottom="minor" header="yes">
+            <cell right="minor"><m>x</m></cell>
+            <cell right="minor"><m>y</m></cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">6</cell>
+            <cell right="minor">11</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">9</cell>
+            <cell right="minor">9</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">12</cell>
+            <cell right="minor">7</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">15</cell>
+            <cell right="minor">5</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">18</cell>
+            <cell right="minor">3</cell>
+          </row>
+        </tabular>
+      </task>
+
+      <task>
+        <title>Slope</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title><m>y</m>-intercept</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Equation</title>
+        <statement>
+          <p>
+            Answer: <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <title>Linear Function Representation</title>
+        <image source="find-eq-graph-1" width="60%">
+          <description></description>
+        </image>
+      </task>
+
+      <task>
+        <title>Slope</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title><m>y</m>-intercept</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Equation</title>
+        <statement>
+          <p>
+            Answer: <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <title>Linear Function Representation</title>
+        <image source="find-eq-graph-2" width="60%">
+          <description></description>
+        </image>
+      </task>
+
+      <task>
+        <title>Slope</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title><m>y</m>-intercept</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Equation</title>
+        <statement>
+          <p>
+            Answer: <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <title>Linear Function Representation</title>
+        <statement>
+          <p>
+            Hannah shelters her dog at Happy Trails Kennel while she is out of town. Happy Trails requires Hannah to begin each month with $200 in her account and charges her account $15 each day her dog stays at the kennel. What amount, <m>A</m>, will Hannah have in her account at the end of the month if her dog stays at the kennel for <m>d</m> days?  
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Slope</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title><m>y</m>-intercept</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Equation</title>
+        <statement>
+          <p>
+            Answer: <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <title>Linear Function Representation</title>
+        <statement>
+          <p>
+            What is the total cost, <m>C</m>, of <m>x</m> months of use of the Fitness Fun health club? Fitness Fun charges a $75 initiation fee plus $20 per month.  
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Slope</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title><m>y</m>-intercept</title>
+        <statement>
+          <p>
+            Say how you know you are correct. <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <title>Equation</title>
+        <statement>
+          <p>
+            Answer: <fillin characters="75" />
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </worksheet>
+
+  <worksheet xml:id="act-slope-context">
+    <title>Slope and <m>y</m>-Intercept in Context</title>
+    
+    <exercise>
+      <introduction>
+        <p>
+          For each story:
+          <ol>
+            <li>
+              <p>
+                Create a table.
+              </p>
+            </li>
+            <li xml:id="slope-context-directions-b">
+              <p>
+                Plot the data in the table electronically.
+              </p>
+            </li>
+            <li>
+              <p>
+                Find the slope and <m>y</m>-intercept. Explain how you know each is correct based on the context.
+              </p>
+            </li>
+            <li>
+              <p>
+                Determine an equation.
+              </p>
+            </li>
+            <li>
+              <p>
+                Graph the equation electronically on the same graph as in <xref ref="slope-context-directions-b"/> to verify the equation fits the data.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </introduction>
+
+      <task>
+        <introduction>
+          <p>
+            At a comedy club, the entrance fee is $15. Beverages cost $5 each. How much will you pay overall including entrance fee and <m>x</m> beverages?
+          </p>
+        </introduction>
+        <task>
+          <title>Table</title>
+          <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            Charity always leaves a generous tip when she eats out. She leaves a 15% tip plus $2 regardless of the amount of the bill. How much tip will she leave based on the amount of the bill? 
+          </p>
+        </introduction>
+        <task>
+          <title>Table</title>
+          <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            Alan really likes apples. He pays $1.25 for each apple he buys at the Commons.  He has a food card with $50 on it that he only uses to purchase apples. What is the amount, <m>y</m>, available on the card after purchasing <m>x</m> apples?
+          </p>
+        </introduction>
+        <task>
+          <title>Table</title>
+          <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            To park in a downtown parking lot, you pay $60 for a sticker giving you the privilege of parking in the lot. The daily charge (once you have the sticker) is $5/day. How much have you paid to park in the lot after <m>x</m> days?
+          </p>
+        </introduction>
+        <task>
+          <title>Table</title>
+          <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            Barnes and Noble charges $25 for a yearly membership. B&amp;N members get a 20% discount on every purchase. How much will a member pay per year if she buys <m>x</m> dollars worth of books at Barnes and Noble? 
+          </p>
+        </introduction>
+        <task>
+          <title>Table</title>
+          <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">100</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">200</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">300</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">400</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">500</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">600</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            Daevon plays basketball at the Y. The Y charges $52 each month plus a $20 initiation fee. How much will Daevon pay for <m>x</m> months of use of the Y? 
+          </p>
+        </introduction>
+        <task>
+          <title>Table</title>
+          <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          
+          <statement>
+            <p>
+              How do you know you're right? <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Create two different stories that relate to your life. One story must have a negative slope. The other must have a positive slope. Fill-in the following for your stories.
+        </p>
+      </introduction>
+
+      <task>
+        <task>
+          <title>Story</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+       
+        <task>
+          <title>Story</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Table</title>
+          <statement>
+            <tabular top="minor" left="minor" halign="center">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><m>y</m></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>x</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+          </statement>
+        </task>
+
+        <task>
+          <title>Equation</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Slope</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <title>Intercept</title>
+          <statement>
+            <p>
+              Answer: <fillin characters="75" />
+            </p>
+          </statement>
+        </task>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-lin-card-sort">
+    
+    <title>Linear Function Card Sort</title>
+    <page>
+    <introduction>
+      <p>
+        Directions:
+        <ol>
+          <li>
+            <p>
+              Cut apart the cards on the next page.
+            </p>
+          </li>
+          <li>
+            <p>
+              Sort the cards into 4 sets so that each card in a set represents the same linear function. Each set contains 3 cards, one for each of 3 different representations.
+            </p>
+          </li>
+          <li>
+            <p>
+              For each card set:
+              <ul>
+                <li>
+                  <p>
+                    List the card numbers for cards that represent the same linear function in the appropriate cells.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    One representation is missing for each card set. Put an X in the cell to show the representation is missing for that card set.
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </li>
+        </ol>
+      </p>
+    </introduction>
+
+    <exercise>
+      <title>Card Set 1</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = 8x + 5</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+    
+    <exercise>
+      <title>Card Set 2</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = -0.75x + 20</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <title>Card Set 3</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = 5x + 8</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <title>Card Set 4</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = 0.5x + *</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    </page>
+    <page>
+
+    <exercise>
+      <title>Card Set 5</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                X
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-lin-card-no-match">
+    
+      <title>Cards that don't fit other card sets</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each missing representation, create a card that fits the linear function card set. For example, if the card set is missing a table, create a table that fits the linear function. Explain how you know your representation fits the linear function.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          There are 3 cards that do not fit any of the 3-card sets. For each of these cards:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Write the number of the card in <xref ref="exer-lin-card-no-match"/>. (All of the equations are listed in the previous exercises. One equation doesn't fit any card set. Write its card number in <xref ref="exer-lin-card-no-match"/>.)
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If the card does not show an equation, find an equation that fits the card.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Create a story in a real context that fits the card. The other word problems in the card sort can serve as examples.
+          </p>
+        </statement>
+      </task>
+      <conclusion>
+        <p>
+          Attach this sheet to your work.
+        </p>
+      </conclusion>
+    </exercise>
+
+    </page>
+
+    <page>
+    
+    <title>Linear Card Sort Cards</title>
+    
+    <image source="lin-card-sort-cards" width="100%">
+      <description></description>
+    </image>
+    </page>
+  </worksheet>
+
+  <worksheet xml:id="act-card-sort-reflect">
+    <title>Reflecting on Your Group's Work on the <xref text="title" ref="act-lin-card-sort"/></title>
+    
+    <introduction>
+      <p>
+        As a group, share your <xref text="title" ref="act-lin-card-sort"/> responses. 
+      </p>
+      <p>
+        For each of the exercises below, write down every card number each group member wrote in that spot. If more than one group member had the same card number for the same spot, write it only once.
+      </p>
+    </introduction>
+
+    <exercise>
+      <title>Card Set 1</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = 8x + 5</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <title>Card Set 2</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = -0.75x + 20</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <title>Card Set 3</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = 5x + 8</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <title>Card Set 4</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                <m>y = 0.5x + *</m>
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    </page>
+    <page>
+
+    <exercise>
+      <title>Card Set 5</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                X
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-lin-card-no-match-2">
+      <title>Cards that don't fit other card sets</title>
+      
+      <statement>
+        <p>
+          <dl>
+            <li>
+              <title>Equation</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Graph</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Table</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+            <li>
+              <title>Story</title>
+              <p>
+                Include card numbers for this representation: <fillin characters="10" />
+              </p>
+            </li>
+          </dl>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Resolve any differences in solutions your group members found. Do not erase any of your work on this page or on your individual work. Instead, in the exercises above, circle the solutions your group agrees are correct and indicate how you resolved any differences. 
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Are there any cards you could not sort or are still unsure of the sorting? Are there any disagreements your group could not resolve? List the card numbers here. We will work on these together as a class.
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+  
+</section>
