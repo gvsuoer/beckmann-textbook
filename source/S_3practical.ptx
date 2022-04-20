@@ -1,0 +1,724 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_practical">
+  <title>Linear Equations Arising in Practical Situations</title>
+  
+  <introduction>
+    <p>
+      In <xref ref="C_lin_funcs"/>, we became familiar with graphs, tables, and equations, particularly where each represents a linear function. We also investigated many contexts that can be modeled by linear functions. In this chapter, we introduce several others. Our goals for <xref ref="C_use_lin_funcs"/> include solving equations and interpreting the solutions to help you make decisions about each context. The examples we study might trigger your recall of situations in your life that can be modeled by linear functions. Let's begin with pricing pizza!
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-pricing-pizza">
+    <title>Pricing Pizzas</title>
+    
+    <introduction>
+      <p>
+        Pizza restaurants let you customize your pizza. You can also order specialty pizzas. Are you getting a good deal? If so, how good is the deal are you getting? If not, why is the deal not so good?
+      </p>
+      <p>
+        Work together to analyze the pricing of a pizza restaurant. Use a pizza restaurant's website for a location close to you as sometimes different locations of the same chain charge different prices. Each group should choose a different pizza size or crust type to investigate. Fill in the table as you go and share your work with the class. 
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          Play with a pizza restaurant's online menu to determine prices requested in the table below. Check prices on more than one ingredient to determine if the prices are the same or different based on ingredient type. For example, are meats more expensive than veggies? Fill-in <xref ref="tbl-pizza-prices"/>.
+        </p>
+        <table xml:id="tbl-pizza-prices">
+          <title>Pizza Prices</title>
+          <tabular halign="center" top="minor" left="minor">
+            <row header="yes" bottom="minor">
+              <cell right="minor">Description</cell>
+              <cell right="minor">Small, original crust</cell>
+              <cell right="minor">Medium, original crust</cell>
+              <cell right="minor">Large, original crust</cell>
+              <cell right="minor">Large, thin crust</cell>
+              <cell right="minor">Extra Large, original crust</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">Diameter of pizza</cell>
+              <cell right="minor">10 inches</cell>
+              <cell right="minor">12 inches</cell>
+              <cell right="minor">14 inches</cell>
+              <cell right="minor">14 inches</cell>
+              <cell right="minor">16 inches</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">Price of Plain Cheese Pizza</cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="major">
+              <cell right="minor">Cost of one topping on pizza</cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><line>Price of Cheese Pizza</line><line>with 1 topping</line></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><line>Price of Cheese Pizza</line><line>with 2 toppings</line></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><line>Price of Cheese Pizza</line><line>with 3 toppings</line></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><line>Price of Cheese Pizza</line><line>with 4 toppings</line></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><line>Price of Cheese Pizza</line><line>with 5 toppings</line></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><line>Price, <m>P</m>, of Cheese Pizza</line><line>with <m>t</m> toppings (equation)</line></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each type of pizza, find an equation that gives the price of a pizza with <m>t</m> toppings. Write the equation in the last row of the table above.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Compare the equations for each pizza type. If you graph these equations, which graph would you expect to be steepest? Why?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Using an electronic graphing tool and different colors for each pizza size/crust type, graph all of the pizza data. Choose appropriate scales for each axis. Label the scales and titles. Label each graph with pizza size and crust type. Compare the graphs. What do you notice?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Which graph is the steepest? What is the slope of the steepest graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does the slope show up in the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does the slope show up in the equation?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Which graph has the largest <m>y</m>-intercept?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the equation?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-special-pizza">
+      <introduction>
+        <p>
+          Choose two different specialty pizzas from the same pizza restaurant as previous problems. For each specialty pizza:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Use the pizza restaurant's website to find the price for each pizza size. Fill in <xref ref="tbl-special-pizza"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine the price if you customized the pizza instead of ordering the specialty pizza.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which is the better deal? Why?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise xml:id="exer-eight-toppings">
+      <introduction>
+        <p>
+          Choose one size of pizza. Show your work as you answer each problem. Write your answers in <xref ref="tbl-special-pizza"/>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Determine the price of a pizza with 8 toppings.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine the number of toppings you can get for $25.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <table xml:id="tbl-special-pizza">
+      <title>Price Comparisons of Specialty Pizzas</title>
+      <tabular halign="center" top="minor" left="minor">
+        <row header="yes" bottom="minor">
+          <cell right="minor">Description</cell>
+          <cell right="minor">Small, original crust</cell>
+          <cell right="minor">Medium, original crust</cell>
+          <cell right="minor">Large, original crust</cell>
+          <cell right="minor">Large, thin crust</cell>
+          <cell right="minor">Extra Large, original crust</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><line>Price of speciality pizza</line><line>(list name): <fillin characters="10" /></line></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">Number of toppings on pizza</cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">Customized price</cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="major">
+          <cell right="minor"><line>Which is the better</line><line>deal? Why?</line></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><line>Price of speciality pizza</line><line>(list name): <fillin characters="10" /></line></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">Number of toppings on pizza</cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor">Customized price</cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="major">
+          <cell right="minor"><line>Which is the better</line><line>deal? Why?</line></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><line>Price of a pizza</line><line>with 8 toppings</line></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="major">
+          <cell right="minor"><line>Number of toppings you</line><line>can get for $25</line></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+        
+      </tabular>
+    </table>
+
+      <p>
+        Share how you determined your responses in <xref ref="tbl-special-pizza"/>, and particularly for the solutions to <xref ref="exer-special-pizza"/>. Keep track of approaches different students used to solve <xref ref="exer-special-pizza"/> and <xref ref="exer-eight-toppings"/>. What similarities were there in solution strategies?
+      </p>
+    
+    <p>
+      What strategy do you want to remember when determining the price of a pizza with 8 toppings? What strategy do you want to remember when determining how many toppings you can afford for $25? Apply those strategies to solve the following problems:
+    </p>
+
+    <exercise>
+      <introduction>
+        <p>
+          You're going to the state fair. The entrance fee is $15. Each ride costs $3.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Determine an equation that gives the total amount you will pay for entrance and rides based on the number of rides.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the equation to determine the amount you will pay for admission and rides if you ride 6 rides.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            You have $45 to spend for the fair. How many rides can you take?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Your favorite clothing store has a storewide 20% off sale going on.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Determine an equation that works for the sale for every original price of items.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the sale price for a $35 shirt?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What was the original price of an item you paid $47 to buy?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <conclusion>
+      <p>
+        How does the context help you decide how to solve each problem? How does the context help you determine for which variable you're solving?
+      </p>
+    </conclusion>
+
+  </worksheet>
+
+  <exercises>
+    
+    <exercise>
+      <introduction>
+        <p>
+          A local grocery store sells coffee by the cup on an honor system. A customer can choose from a variety of K-cups to make the cup of coffee. The store charges 50¢ per cup.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Assuming customers are honest and pay 50¢ for each cup consumed, how much will the store take in based on any number of individual cups of coffee sold?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If 105 people buy single cups of coffee, how much will the store take in?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many cups must the store sell in order to take in $250?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-kcup-takehome">
+        <statement>
+          <p>
+            The store also sells K-cups in cartons for customers to take home to make their own coffee. One carton of a popular brand contains 18 K-cups and costs $8.59. What is the per cup cost for a customer who buys this product?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-kcup-takehome-eq">
+        <statement>
+          <p>
+            Determine an equation that shows the cost per cup over time if customers buy the product in <xref ref="exer-kcup-takehome"/> to make coffee at home.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the equation you found in <xref ref="exer-kcup-takehome-eq"/> to determine how many cups of coffee a customer can make at home for $250. How many cartons of coffee is this?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Complete the student page, <xref ref="act-eq-hands-on"/>. Use an algebra tile app online to model equations with integer coefficients. For example: <url href="http://media.mivu.org/mvu_pd/a4a/homework/index.html" visual="media.mivu.org/mvu_pd/a4a/homework/index.html">mivu.org</url> or <url href="http://www.mathplayground.com/AlgebraEquations.html" visual="http://www.mathplayground.com/AlgebraEquations.html">mathplayground.com</url>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you have trouble solving any of the problems on the student page, use one of the apps to try additional problems until you are comfortable solving them.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Explain how to solve a linear equation.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Solve each equation. Show your steps one at a time. Put your solution back into the original equation and show that you are correct. If you are not correct, illustrate your work using pawns for x and cubes for constants. Use the illustration to solve the equation then revisit your algebraic work, find your error, and try again. Think about a context such as balancing a scale to help you. Be ready to convince others that your work is correct.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>4x + 3 = 7x</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>3x + 2 = 5x + 1</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>-4x + 3 = -x + 9</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>3x + 2 = 2 \left( x + 1 \right)</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>2 \left( x + 6 \right) = 5 \left( x - 3 \right)</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>5 \left( 7 + 4x \right) = 5 \left( 3x + 10 \right)</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>-2 \left( x - 3 \right) = - \left( x + 7 \right)</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>8 + 2x = 1.4x + 11</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>200 - 7.5x = 35</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>4 \left( x - 3 \right) + 2 = 2 \left( 3x + 5 \right)</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What questions do you have regarding solving equations? Share your work with your group. Resolve any differences.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </exercises>
+
+  <worksheet xml:id="act-eq-hands-on">
+    <title>Solving Equations <mdash/> Hands and Minds On</title>
+    
+    <introduction>
+      <p>
+        When set in context, it is easier to decide how to solve an equation. For example, when trying to determine how many toppings you can get on a large original pizza for $25, you might have thought about the solution in one of the following ways:
+      
+
+    <ol>
+      <li>
+        <p>
+          An original crust large cheese pizza costs $10.99. To figure out the number of toppings I can get, I see that I have <m>\$25 - \$10.99 = \$14.01</m> to spend on toppings. Each topping costs $1.50. (Parts a, b, and c are different possible ways to proceed from here.)
+        
+
+      <ol>
+        <li>
+          <p>
+            I can find the number of toppings I can afford by dividing $14.01 by $1.50. This gives me 9.34. The pizza restaurant will only allow me to buy whole numbers of toppings so I can get 9 toppings on a $25 large original crust pizza.
+          </p>
+        </li>
+      
+        <li>
+          <p>
+            If I start with $14.01 and subtract 1.50 until I can't subtract it anymore, I can do that 9 times, so I can afford 9 toppings on my pizza if I have $25 to spend.
+          </p>
+        </li>
+      
+        <li>
+          <p>
+            Two toppings cost $3. $3 <times/> 4 = $12 with $2.01 left over for one more topping. So I can afford 8 toppings + 1 topping = 9 toppings for $25.
+          </p>
+        </li>
+      </ol>
+      </p>
+    </li>
+
+    </ol>
+
+    </p>
+    </introduction>
+
+    <p>
+      Notice that it helps to keep the context in mind. The context helps you make sense of the operations you are using. This allows you to be very flexible with the ways you solve the problem because you know what each of the parts represent.
+    </p>
+
+    <p>
+      Here is another context for solving equations: Let a pawn represent an unknown value of <m>x</m>. Let small cubes represent 1. Think about each side of an equation as sitting on a balance scale. Because one side equals the other side of the equation, the scale is balanced. In order to keep a scale balanced, it is necessary to add the same thing to both sides, remove the same thing from both sides, or divide both sides into the same number of groups then remove parts that equal each other from both sides, leaving only one group on each side of the scale. Following are examples that we will solve using this context. (The problems with negative signs and the problems with subtraction symbols require 2 different colors of cubes (pawns), one color to represent positive one (<m>+x</m>), and one color to represent negative one (<m>-x</m>).)
+    </p>
+
+    <tabular halign="center" top="minor" left="minor">
+      <row bottom="minor">
+        <cell right="minor"><m>x + 1 = 5</m></cell>
+        <cell right="minor"><m>2x = 6</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell right="minor"><m>2x + 1 = 7</m></cell>
+        <cell right="minor"><m>2x + 1 = 3x</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell right="minor"><m>2x + 7 = 3x</m></cell>
+        <cell right="minor"><m>2x + 7 = 3x + 5</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell right="minor"><m>2 \left( x + 2 \right) = 3x + 2</m></cell>
+        <cell right="minor"><m>1 + -1 = x + -x</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell right="minor"><m>x - 1 = 5</m></cell>
+        <cell right="minor"><m>2x -1 = 3</m></cell>
+      </row>
+
+      <row bottom="minor">
+        <cell right="minor"><m>3 \left( x - 1 \right) = x + 3</m></cell>
+        <cell right="minor"><m>-2x + 6 = x</m></cell>
+      </row>
+      
+    </tabular>
+
+    <p>
+      Now resolve the above problems, this time thinking of <m>x</m> as some unknown number of bananas.  The constants (those numbers not multiplied by <m>x</m>) are known numbers of bananas. (Omit the problems with subtraction symbols and the problems with negative signs.)
+    </p>
+
+  </worksheet>
+
+</section>
