@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_stacked_cups">
+  <title>Solving Linear Equations: Packaging Stacked Cups</title>
+
+  <introduction>
+    <p>
+      As you have experienced, there are many examples from your life that are reasonably modeled by linear functions. In this lesson, you will consider a packaging problem. As you solve the problem, think of other items of similar size that you stack and store.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-stacked-cups">
+    <title>Packaging Stacked Cups</title>
+
+    <introduction>
+      <p>
+        Using a stack of at least 15 same-size cups, gather the data requested in <xref ref="exer-cups-table"/>. Share the data with the class. Find the average data for the groups that measured the same types of cups. Use the average data to complete <xref first="exer-cups-graph" last="exer-cups-capacity"/>.
+      </p>
+      <p>
+        Consider the second size of cups. Answer <xref ref="exer-cups-large"/> for these cups in comparison with the smaller cups.
+      </p>
+      <p>
+        What other questions can you ask and answer?
+      </p>
+      <p>
+        A company manufactures disposable cups and rectangular cardboard cartons to package them. The cups come in several sizes. You job is to develop a mathematical model that will help determine the relationship between the inside height, <m>h</m>, of the carton and the number of cups, <m>c</m>, it will hold if the cups are to be stacked in the carton.
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-cups-table">
+      <statement>
+        <p>
+          You have been provided two different types of disposable cups. For the small cup, complete <xref ref="tbl-stacked-cups"/> showing the relationship between the number of cups, <m>c</m>, in a stack and the total height in centimeters, <m>h</m>, of the stack. Show accuracy to the nearest tenth of a centimeter.
+        </p>
+        <table xml:id="tbl-stacked-cups">
+          <title>Number of Cups vs. Height of Stack</title>
+          <tabular halign="center" top="minor" left="minor">
+            <row header="yes" bottom="minor">
+              <cell right="minor">Number of Cups, <m>c</m></cell>
+              <cell right="minor">Height of Stack, <m>h</m>, in <init>cm</init></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>c</m></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-cups-graph">
+      <statement>
+        <p>
+          Graph the data. Label the axes showing the variables and scales.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find a formula that allows you to predict the height of the stack of cups based on the number of cups.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Predict the height of a stack of:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            10 cups
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            26 cups
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What physical features of a cup are relevant to how high the cups stack? In terms of the physical features of a cup, write a general rule for the height of a stack based on these physical features.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Someone said, <q>If you double the number of cups in a stack, the height of the stack doubles.</q> Is this thinking right or wrong? Why do you think so?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-cups-capacity">
+      <introduction>
+        <p>
+          Using the graph in <xref ref="exer-cups-graph"/>, how many cups will cartons of the following heights hold?
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            30 <init>cm</init>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            50 <init>cm</init>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-cups-large">
+      <introduction>
+        <p>
+          Use the large cups.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How would the graph be different from the graph of the small cups in terms of steepness? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Sketch an approximate graph for the large cups on the same set of axes as the graph in <xref ref="exer-cups-graph"/>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <introduction>
+        <p>
+          Graph <xref text="title" ref="act-stacked-cups"/> average class data and your group data.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-cups-desmos-class">
+        <statement>
+          <p>
+            On Desmos, type the class data into a table, then type, <m>y = mx + b</m>. Choose <sq>both</sq> to set up sliders for <m>m</m> and <m>b</m>. Then play with both <m>m</m> and <m>b</m> until you find a line that seems to best fit the data. Record the equation for the line.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Repeat <xref ref="exer-cups-desmos-class"/> for your group's data. Some equations exactly fit the data. If this is the case for your group, also find the equation algebraically.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare the equations you found for the average class data and for your group data. Which one do you think is more accurate? Why?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Save your work on this problem. It will be revisited in a later lesson.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Data for <xref text="title" ref="act-stacked-cups"/> from a previous class is listed in <xref ref="tbl-cups-prev-class"/>. The table shows the relationship between the number of cups, <m>c</m>, in a stack and the total height in centimeters, <m>h</m>, of the stack with accuracy to the nearest tenth of a centimeter.
+        </p>
+        <table xml:id="tbl-cups-prev-class">
+          <title>Previous Class Data for <xref text="title" ref="act-stacked-cups"/></title>
+          <tabular left="minor" top="minor" halign="center">
+            <row header="yes">
+              <cell right="minor">
+                Number of Cups, <m>c</m>
+              </cell>
+              <cell colspan="7" right="minor" bottom="minor">
+                Height of Stack, <m>h</m>, in cm
+              </cell>
+            </row>
+            <row header="yes" bottom="minor">
+              <cell right="minor">
+              </cell>
+              <cell right="minor">
+                Group 1
+              </cell>
+              <cell right="minor">
+                Group 2
+              </cell>
+              <cell right="minor">
+                Group 3
+              </cell>
+              <cell right="minor">
+                Group 4
+              </cell>
+              <cell right="minor">
+                Group 5
+              </cell>
+              <cell right="minor">
+                Group 6
+              </cell>
+              <cell right="minor">
+                Average
+              </cell>
+            </row>
+            <row bottom="minor">
+              <cell right="minor">1</cell>
+              <cell right="minor">7</cell>
+              <cell right="minor">7</cell>
+              <cell right="minor">7.2</cell>
+              <cell right="minor">7</cell>
+              <cell right="minor">7.4</cell>
+              <cell right="minor">7</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">2</cell>
+              <cell right="minor">7.5</cell>
+              <cell right="minor">7.5</cell>
+              <cell right="minor">7.6</cell>
+              <cell right="minor">7.5</cell>
+              <cell right="minor">7.9</cell>
+              <cell right="minor">7.5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">3</cell>
+              <cell right="minor">8</cell>
+              <cell right="minor">8</cell>
+              <cell right="minor">8.1</cell>
+              <cell right="minor">8</cell>
+              <cell right="minor">8.1</cell>
+              <cell right="minor">8</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor">8.5</cell>
+              <cell right="minor">8.5</cell>
+              <cell right="minor">8.6</cell>
+              <cell right="minor">8.5</cell>
+              <cell right="minor">8.6</cell>
+              <cell right="minor">8.5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor">9</cell>
+              <cell right="minor">9</cell>
+              <cell right="minor">9</cell>
+              <cell right="minor">9</cell>
+              <cell right="minor">9.1</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor">9.7</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor"><m>c</m></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+              <cell right="minor"><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task xml:id="exer-cups-linear">
+        <statement>
+          <p>
+            In the table above, which set of data is perfectly linear? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation to fit the linear data you chose in <xref ref="exer-cups-linear"/> (see <xref ref="exer-cups-desmos-class"/>). Explain both the slope and <m>y</m>-intercept in terms of stacked cups.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-cups-height">
+        <statement>
+          <p>
+            Use the equation you found to determine the internal height of a package that will contain 50 cups. Show and explain your work.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-cups-num-cups">
+        <statement>
+          <p>
+            Use the equation you found to determine the number of stacked cups that will fit inside a package with internal height of 100 <init>cm</init>. Show and explain your work.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-cups-prev-eq">
+        <statement>
+          <p>
+            Find the average class data for the data <xref ref="tbl-cups-prev-class"/>. Fit an equation to the data (see <xref ref="exer-cups-desmos-class"/>).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve <xref ref="exer-cups-height"/> and <xref ref="exer-cups-num-cups"/> using the equation in <xref ref="exer-cups-prev-eq"/>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          You pay a $5 entrance fee and $3 per ride at a fair.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-fair-eq">
+        <statement>
+          <p>
+            Find an equation that fits this situation. How do you know your equation is correct?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            You want to go on 7 rides at the fair (see <xref ref="exer-cups-desmos-class"/>). How much money do you need to bring along?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            You go to the fair with $15 in your pocket. How many rides can you ride?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the equation in <xref ref="exer-fair-eq"/> for the independent variable. What does this new equation mean?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Solve each of the following equations for <m>x</m>, the independent variable.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>y = 3x - 4</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>y = \frac{1}{2}x + 6</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>y = -4.2x + 5</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+
+</section>
