@@ -2,7 +2,8 @@
 
 <chapter xml:id="C_use_lin_funcs" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Using Linear Functions to Solve Problems</title>
-  
+
   <xi:include href="S_3practical.ptx" />
+  <xi:include href="S_3stacked_cups.ptx" />
 
 </chapter>
