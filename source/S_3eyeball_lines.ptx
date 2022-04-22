@@ -355,7 +355,7 @@
 
   <exercises>
 
-    <exercise>
+    <exercise xml:id="exer-shoe-sizes">
       <introduction>
         <p>
           <xref ref="tbl-shoe-sizes"/> shows <init>U.S.</init> shoe sizes for women as compared with foot lengths in inches and centimeters and Euro and <init>UK</init> shoe sizes (<url href="http://www.zappos.com/c/shoe-size-conversion" visual="zappos.com/c/shoe-size-conversion">Source</url>, retrieved April 22, 2020). Let <init>U.S.</init> shoe sizes be the independent variable. Choose a variable to represent each column of data. Use function notation when recording equations.

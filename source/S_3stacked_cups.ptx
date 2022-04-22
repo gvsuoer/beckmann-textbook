@@ -184,7 +184,7 @@
 
   <exercises>
 
-    <exercise>
+    <exercise xml:id="exer-cups-graph-hmwk">
       <introduction>
         <p>
           Graph <xref text="title" ref="act-stacked-cups"/> average class data and your group data.
@@ -225,7 +225,7 @@
 
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-old-cups-graph">
       <introduction>
         <p>
           Data for <xref text="title" ref="act-stacked-cups"/> from a previous class is listed in <xref ref="tbl-cups-prev-class"/>. The table shows the relationship between the number of cups, <m>c</m>, in a stack and the total height in centimeters, <m>h</m>, of the stack with accuracy to the nearest tenth of a centimeter.

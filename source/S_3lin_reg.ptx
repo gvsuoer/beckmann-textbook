@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_lin_reg">
+  <title>Linear Regression and Lines of Best Fit</title>
+
+  <introduction>
+    <p>
+      In the activities and homework for <xref ref="S_eyeball_lines"/>, you might have found a different equation than other members of your group or class. Even if your equations had similar slopes or <m>y</m>-intercepts, it might be disconcerting to use different equations to model the same set of data. 
+    </p>
+    <p>
+      Statisticians worked on the problem of finding lines of best fit over many years. Initially, the idea was to get a line that had as many points above the line as below so that the sum of the distances of points away from the line added to 0. Even though the process worked fairly well, the same problem occurred as in our work with eyeballed lines of best fit. Scientists were not satisfied with estimates that worked most of the time. They wanted precision and a method that was mathematically justifiable. Carl Friedrich Gauss developed the method of least squares to solve celestial problems.
+    </p>
+    <p>
+      To understand the method of least squares, consider an example. In <xref ref="fig-resids"/>, three points and an eyeballed line of best fit are indicated. Each point is connected to the line with a segment the length of which is a residual, the directed distance of the point from the eyeballed line of best fit; a residual is positive if the point lies above the line and negative if the point lies below the line. Notice that the sum of the residuals is 0. In <xref ref="fig-resids-sq"/>, each residual is the same as in <xref ref="fig-resids"/> but this time, a square with side length equal to the residual is drawn. In the method of least squares, the squares of the residuals are found; these are the areas of the squares. The one line that best fits all of the points is the line for which the sum of the areas of the squares is least.
+
+      <sidebyside>
+        <figure xml:id="fig-resids">
+          <caption>Residuals</caption>
+          <image source="resids">
+            <description></description>
+          </image>
+        </figure>
+
+        <figure xml:id="fig-resids-sq">
+          <caption>Square Residuals</caption>
+          <image source="resids-sq">
+            <description></description>
+          </image>
+        </figure>
+      </sidebyside>
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-wave">
+    <title>The Wave</title>
+    
+    <introduction>
+      <p>
+        Let's try another experiment. Think about the Wave as it happens at a football game. Someone starts it and gets most of the people in the stadium standing up and sitting down as the wave approaches then leaves them. We'll practice the wave in the same way, keeping track of how long it takes to complete the wave based on the number of participants in the wave.
+      </p>
+      <p>
+        Use <xref ref="tbl-wave"/> to record the amount of time it takes to complete a wave for the given number of participants.
+      </p>
+      <table xml:id="tbl-wave">
+        <title>The Wave</title>
+        <tabular halign="center" top="minor" left='minor'>
+          <row bottom='minor' header='yes'>
+            <cell right='minor'>Number of Participants</cell>
+            <cell right='minor'>Time to Complete the Wave</cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>5</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>10</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>15</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>20</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>25</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>30</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>35</cell>
+            <cell right='minor'><nbsp/></cell>
+          </row>
+        </tabular>
+      </table>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          Plot the data.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Describe the graph.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Eyeball a line of best fit.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find the equation of the line you just found.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What does the slope represent in this context?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Wat does the <m>y</m>-intercept represent in this context?
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <activity>
+    <statement>
+      <p>
+        As you might have guessed, there are electronic tools to find regression equations and lines of best fit. Both Desmos and graphing calculators have tools that will determine lines of best fit using the method of least squares. The graphing calculator directions are included at the end of the homework in this lesson. Desmos includes directions in the on-line graphing calculator. To find the Regression directions on Desmos, click on the <q>?</q> button in the upper right corner of the screen. At the top of the screen that appears, there is a list of Tours. Choose <q>Regressions</q>. Follow the directions using the data set Desmos provides. Use Desmos' directions to enter and analyze additional data sets.
+      </p>
+      <p>
+        In this lesson, use Desmos or a graphing calculator to find a regression equation to fit the Wave data. How close does your eyeballed line of best fit approximate the regression line? How long would it take to complete the wave if 100 people participated? How many people would have to participate to keep the wave going for 10 minutes?
+      </p>
+    </statement>
+  </activity>
+
+  <exercises>
+
+    <exercise xml:id="exer-monop-reg">
+      <introduction>
+        <p>
+          Each space in the Monopoly board game is numbered with GO being space 0. The price of the property by space number is provided.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the regression capability of an electronic tool to find a regression equation to fit the data at right. Record the equation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the slope? What does the slope represent in this context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the <m>y</m>-intercept? What does the <m>y</m>-intercept represent in this context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare the slope and <m>y</m>-intercept from your regression line with those of the eyeballed line of best fit (see <xref ref="exer-monopoly"/>). How close was your eyeballed line to the line you found electronically? Would your eyeballed line be a reasonable approximation for the regression line? Why or why not?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Does the regression line agree with the price for property 18 in <xref ref="tbl-monop-prices"/>?
+          </p>
+          <table xml:id="tbl-monop-prices">
+            <title>Monopoly Prices</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Space Number</cell>
+                <cell right='major'>Price of Property</cell>
+                <cell right='minor'>Space Number</cell>
+                <cell right='minor'>Price of Property</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>1</cell>
+                <cell right='major'>60</cell>
+                <cell right='minor'>21</cell>
+                <cell right='minor'>220</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>3</cell>
+                <cell right='major'>60</cell>
+                <cell right='minor'>23</cell>
+                <cell right='minor'>220</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>6</cell>
+                <cell right='major'>100</cell>
+                <cell right='minor'>24</cell>
+                <cell right='minor'>240</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>8</cell>
+                <cell right='major'>100</cell>
+                <cell right='minor'>26</cell>
+                <cell right='minor'>260</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>9</cell>
+                <cell right='major'>120</cell>
+                <cell right='minor'>27</cell>
+                <cell right='minor'>260</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>11</cell>
+                <cell right='major'>140</cell>
+                <cell right='minor'>29</cell>
+                <cell right='minor'>280</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>13</cell>
+                <cell right='major'>140</cell>
+                <cell right='minor'>31</cell>
+                <cell right='minor'>300</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>14</cell>
+                <cell right='major'>160</cell>
+                <cell right='minor'>32</cell>
+                <cell right='minor'>300</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>16</cell>
+                <cell right='major'>180</cell>
+                <cell right='minor'>34</cell>
+                <cell right='minor'>320</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>18</cell>
+                <cell right='major'>180</cell>
+                <cell right='minor'>37</cell>
+                <cell right='minor'>350</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>19</cell>
+                <cell right='major'>200</cell>
+                <cell right='minor'>39</cell>
+                <cell right='minor'>400</cell>
+              </row>
+
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What property number would cost $500 if the board was expanded to include more spaces?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          In the table at right, several Monopoly properties were deleted from <xref ref="tbl-monop-prices"/>. Only the third property in each group of three of the same colored properties remain in this table. Space numbers and prices are provided.
+        </p>
+        <table xml:id="tbl-select-monopoly">
+        <title>Select Monopoly Prices</title>
+        <tabular halign="center" top='minor' left='minor'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'>Space Number</cell>
+              <cell right='minor'>Price of Property</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>9</cell>
+              <cell right='minor'>120</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>14</cell>
+              <cell right='minor'>160</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>19</cell>
+              <cell right='minor'>200</cell>
+            </row>
+            
+            <row bottom='minor'>
+              <cell right='minor'>24</cell>
+              <cell right='minor'>240</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>29</cell>
+              <cell right='minor'>280</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>34</cell>
+              <cell right='minor'>320</cell>
+            </row>
+            </tabular>
+          </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is the slope? What does the slope mean in this context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the <m>y</m>-intercept? What does the <m>y</m>-intercept mean in this context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine an equation to fit this new table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does the equation fit the data in this table? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Draw the graph of this line using another color on the scatterplot you created in <xref ref="exer-monop-reg"/>. What do you notice?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If every space had a price associated with it, how much would space 25 cost?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which space number would cost $500?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Revisit the problems below.
+          <ul>
+            <li>
+              <p>
+                Find regression equations to fit each data set.
+              </p>
+            </li>
+            <li>
+              <p>
+                Compare the regression equation with the equation you found earlier. Comment on the accuracy of your previous work when compared with the regression equation.
+              </p>
+            </li>
+            <li>
+              <p>
+                Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the dependent variable.
+              </p>
+            </li>
+            <li>
+              <p>
+                Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the independent variable.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <xref ref="act-stacked-cups"/> (<xref ref="exer-cups-graph-hwmk"/> and <xref ref="exer-old-cups-graph"/>): Choose one of the class data sets. Find a regression equation to fit the average height of the cups depending on the number of cups stacked.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <xref ref="act-gulliver"/> (<xref ref="S_eyeball_lines"/>): Choose one of the data sets, (Thumb, Wrist), (Wrist, Neck), or (Thumb, Neck). Find three regression equations, one for each group, female, male, and entire group.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <init>U.S.</init> shoe sizes (<xref ref="exer-shoe-sizes"/>): Online, find a Men's Shoe Conversion Chart. Compare men's shoe sizes to women's shoe sizes for the same foot lengths. Use foot length in either inches or centimeters as the independent variable and shoe sizes as the dependent variable. Provide a printed list of the data.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          World records for human accomplishments in sports over time provide interesting data to analyze. Locate a sport of interest for which world record progressions can be found. For example, the men's world records for the mile run are available online for 1865 to 1999.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Provide a printed list of the data.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Using an electronic tool, plot the data with year being the independent variable and world record time being the dependent variable.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find a regression equation to fit the data. Graph the equation on the same axes as the scatterplot of the data.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Interpret the slope and the <m>y</m>-intercept in terms of the years and world record times.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is a reasonable domain for the sport you are investigating? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the range corresponding to your chosen domain?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the independent variable.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the dependent variable.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write a paragraph discussing your findings and including your opinion about whether or not a linear regression equation will be a good predictor for future world record winning times and years.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+  </exercises>
+
+  <worksheet xml:id="act-calc-graph">
+    <title>Entering and Graphing Data and Finding Regression Equations</title>
+    
+    <exercise>
+      <introduction>
+        <p>
+          To Enter the Data:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Press STAT then choose 1: Edit<ellipsis/>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Enter the values for the independent variable (domain) into L1.
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Enter the values for the dependent variable (range) into L2.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          To Graph the Data:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Press STAT PLOT (2ND Y=) then choose 1: Plot1<ellipsis/> Press ENTER
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Settings: On, Scatter plot (first graph), Xlist: L1, Ylsit: L2, Mark: +
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Press GRAPH
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          To Set the Viewing Window:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Press WINDOW
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the table to determine
+          </p>
+          <p>
+            Xmin, Xmax, Xscl
+          </p>
+          <p>
+            Ymin, Ymax, Yscl
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            OR Press ZOOM then scroll down to 9: ZoomStat, Press ENTER
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          To Fit a Function to the Data:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Press STAT
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Move the cursor to the right to highlight CALC
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Scroll down to the function type you want to use, for example, 4: LinReg(ax+b) (to fit a linear function), then Press ENTER.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Indicate the lists of the data (separated by commas for older TI-84 calculators, L1, L2).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Choose where you want to place the function equation, for example, Y1. Press VARS, move the cursor to the right to highlight Y-VARS, Press ENTER to choose 1: Function, scroll to highlight the Y-variable you want, then press ENTER again
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The screen should read:
+          </p>
+          <console>
+            <output>
+            LinReg(ax+b)
+            Xlist: L1
+            Ylist: L2
+            FreqList:
+            Store RegEQ: Y1
+            Calculate
+            </output>
+          </console>
+          <p>
+            (For older TI-84s, the screen will read 4: LinReg(ax+b) L1, L2, Y1). Press ENTER (to fit a linear function).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The regression equation will be in Y1 or whatever Y-variable you chose.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Press GRAPH to plot the regression equation with the data.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+  
+</section>
