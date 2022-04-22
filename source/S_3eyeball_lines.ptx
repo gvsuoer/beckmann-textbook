@@ -1,0 +1,628 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_eyeball_lines">
+  <title>Eyeballing Lines of Best Fit</title>
+
+  <introduction>
+    <p>
+      Sometimes data is not perfectly linear, but has a linear trend. An example follows.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-price-cans">
+    <title>Pricing Canisters</title>
+
+    <p>
+      The height and price of each of the canisters in <xref ref="fig-canisters"/> is provided in <xref ref="tbl-price-cans"/>:
+    </p>
+
+    <sidebyside>
+      <figure xml:id="fig-canisters">
+        <caption>Canisters</caption>
+        <image source="canisters" width="50%">
+
+        </image>
+      </figure>
+
+      <table xml:id="tbl-price-cans">
+        <caption>Height and Price of Canisters</caption>
+        <tabular top="minor" left="minor" halign="center">
+          <row header="yes" bottom="minor">
+            <cell right="minor">Height (in inches)</cell>
+            <cell right="minor">Price (in dollars)</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">7</cell>
+            <cell right="minor">24.95</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">8.75</cell>
+            <cell right="minor">29.95</cell>
+          </row>
+
+          <row bottom="minor">
+            <cell right="minor">12</cell>
+            <cell right="minor">39.95</cell>
+          </row>
+        </tabular>
+      </table>
+    </sidebyside>
+
+    <exercise>
+      <statement>
+        <p>
+          Would you expect the data in the table to be linear? Why or why not?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Is the relationship between the height and the price of the canisters linear? Why or why not?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Is the data perfectly linear? If not, which canister seems to be priced too high or too low? Explain your thinking.
+        </p>
+      </statement>
+    </exercise>
+
+    <conclusion>
+      <p>
+        In this lesson, we will consider other experiments and data sets. We will first determine if we think a linear trend would be a good fit. If so, we will eyeball a line of best fit, determine an equation for the eyeballed line, and use the line to test data and make predictions.
+      </p>
+      <p>
+        A line of best fit has these properties:
+        <list xml:id="best-fit-props">
+        <ol>
+          <li>
+            <p>
+              The direction of the line is evident from the data.
+            </p>
+          </li>
+          <li>
+            <p>
+              As many points as possible should be on the line as long as the same number of points are above and below it.
+            </p>
+          </li>
+          <li>
+            <p>
+              The points above the line should not be concentrated at one end of the line nor should the points below the line.
+            </p>
+          </li>
+        </ol>
+      </list>
+      </p>
+    </conclusion>
+
+  </worksheet>
+
+  <worksheet xml:id="act-gulliver">
+    <title>Gulliver Graphs</title>
+
+    <introduction>
+      <p>
+        In <pubtitle>Gulliver’s Travels</pubtitle>, the Lilliputians made a coat for Gulliver that fit him perfectly. They did this after taking only one measurement, the circumference of Gulliver's thumb. The Lilliputians then used the following well-known Lilliputian <q>Rule of Thumb</q>:
+        <blockquote>
+          <p>
+            The circumferences of each body part are related as in the following equations:
+          </p>
+          <p>
+            <m>\text{Wrist} = 2 \cdot \text{Thumb}</m>, <m>\text{Neck} = 2 \cdot \text{Wrist}</m>, and <m>\text{Waist} = 2 \cdot \text{Neck}</m>
+          </p>
+        </blockquote>
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          By gender, gather thumb, wrist, and neck measurements, in centimeters, for at least 20 adults. Measure the thumb between the knuckles. Measure the wrist on the arm just above the wrist bones. Measure the neck just below the chin. Put your data in <xref ref="tbl-thumb-data"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-thumb-graph">
+      <statement>
+        <p>
+          Graph the data for (Thumb, Wrist), one graph each for females, males, and entire data set. Use a different color for each data set.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Draw lines that best fit each data set. Explain why you think each line is a reasonable fit.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-thumb-test-rule">
+      <introduction>
+        Test the Lilliputian <q>Rule of Thumb</q> for:
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            The female sample
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The male sample
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The entire sample
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Repeat <xref first="exer-thumb-graph" last="exer-thumb-test-rule"/> for the data, (Wrist, Neck) and for the data, (Thumb, Neck).
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Were the Lilliputians lucky that Gulliver's coat fit or were they quite clever? Explain.
+        </p>
+      </statement>
+    </exercise>
+
+    <table xml:id="tbl-thumb-data">
+      <caption>Thumb, Wrist, and Neck Data</caption>
+      <tabular halign="center" left="minor" top="minor">
+        <row bottom="minor" header="yes">
+          <cell colspan="3" right="medium">Female</cell>
+          <cell colspan="3" right="minor">Male</cell>
+        </row>
+
+        <row bottom="minor" header="yes">
+          <cell right="minor">Thumb</cell>
+          <cell right="minor">Wrist</cell>
+          <cell right="medium">Neck</cell>
+          <cell right="minor">Thumb</cell>
+          <cell right="minor">Wrist</cell>
+          <cell right="minor">Neck</cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+
+        <row bottom="minor">
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="medium"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+          <cell right="minor"><nbsp/></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <sidebyside>
+      <p>
+        Functions for Females:
+        <md>
+          <mrow>W(T) \amp = <fillin characters="10"/></mrow>
+          <mrow>N(W) \amp = <fillin characters="10"/></mrow>
+          <mrow>N(T) \amp = <fillin characters="10"/></mrow>
+        </md>
+      </p>
+
+      <p>
+        Functions for Males:
+        <md>
+          <mrow>W(T) \amp = <fillin characters="10"/></mrow>
+          <mrow>N(W) \amp = <fillin characters="10"/></mrow>
+          <mrow>N(T) \amp = <fillin characters="10"/></mrow>
+        </md>
+      </p>
+
+      <p>
+        Functions for Entire Sample:
+        <md>
+          <mrow>W(T) \amp = <fillin characters="10"/></mrow>
+          <mrow>N(W) \amp = <fillin characters="10"/></mrow>
+          <mrow>N(T) \amp = <fillin characters="10"/></mrow>
+        </md>
+      </p>
+    </sidebyside>
+
+    <paragraphs>
+      <title>A Word about Function Notation</title>
+      <p>
+        When you were asked to record the functions you found for <xref text="title" ref="act-gulliver"/>, did you find the notation a bit strange? Notice that the notation gives important information about the columns of data being related to each other. <m>W(T)</m> indicates that we want to know the wrist measurement in terms of the thumb measurement, instead of just using <m>W</m>. We read the symbols, <m>W</m> of <m>T</m>. What do you think <m>N(W)</m> represents? <m>N(T)</m>?
+      </p>
+      <p>
+        If we want to be very specific, we could indicate <m>W_F(T_F)</m> to indicate the that we want to know the wrist measurements for females in terms of the thumb measurements for females. How would we write the wrist measurement for males in terms of the thumb measurements for males? We are not using subscript notation in <xref text="title" ref="act-gulliver"/>, instead opting to use headings to make clear which data sets are being related.
+      </p>
+      <p>
+        From this point on, we will use function notation to avoid ambiguity in cases where it is necessary to make clear which quantities we are relating.
+      </p>
+    </paragraphs>
+
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <introduction>
+        <p>
+          <xref ref="tbl-shoe-sizes"/> shows <init>U.S.</init> shoe sizes for women as compared with foot lengths in inches and centimeters and Euro and <init>UK</init> shoe sizes (<url href="http://www.zappos.com/c/shoe-size-conversion" visual="zappos.com/c/shoe-size-conversion">Source</url>, retrieved April 22, 2020). Let <init>U.S.</init> shoe sizes be the independent variable. Choose a variable to represent each column of data. Use function notation when recording equations.
+        </p>
+        <table xml:id="tbl-shoe-sizes">
+          <caption>Shoe Sizes for Women</caption>
+          <tabular halign="center" top="minor" left="minor">
+            <row bottom="minor" header="yes">
+              <cell right="minor"><init>U.S.</init> Sizes</cell>
+              <cell right="minor">Inches</cell>
+              <cell right="minor"><init>CM</init></cell>
+              <cell right="minor">Euro Sizes</cell>
+              <cell right="minor"><init>UK</init> Sizes</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4</cell>
+              <cell right="minor">8.1875</cell>
+              <cell right="minor">20.8</cell>
+              <cell right="minor">35</cell>
+              <cell right="minor">2</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">4.5</cell>
+              <cell right="minor">8.375</cell>
+              <cell right="minor">21.3</cell>
+              <cell right="minor">35</cell>
+              <cell right="minor">2.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5</cell>
+              <cell right="minor">8.5</cell>
+              <cell right="minor">21.6</cell>
+              <cell right="minor">35-36</cell>
+              <cell right="minor">3</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">5.5</cell>
+              <cell right="minor">8.75</cell>
+              <cell right="minor">22.2</cell>
+              <cell right="minor">36</cell>
+              <cell right="minor">3.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6</cell>
+              <cell right="minor">8.875</cell>
+              <cell right="minor">22.5</cell>
+              <cell right="minor">36-37</cell>
+              <cell right="minor">4</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">6.5</cell>
+              <cell right="minor">9.0625</cell>
+              <cell right="minor">23</cell>
+              <cell right="minor">37</cell>
+              <cell right="minor">4.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">7</cell>
+              <cell right="minor">9.25</cell>
+              <cell right="minor">23.5</cell>
+              <cell right="minor">37-38</cell>
+              <cell right="minor">5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">7.5</cell>
+              <cell right="minor">9.375</cell>
+              <cell right="minor">23.8</cell>
+              <cell right="minor">38</cell>
+              <cell right="minor">5.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">8</cell>
+              <cell right="minor">9.5</cell>
+              <cell right="minor">24.1</cell>
+              <cell right="minor">38-39</cell>
+              <cell right="minor">6</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">8.5</cell>
+              <cell right="minor">9.6875</cell>
+              <cell right="minor">24.6</cell>
+              <cell right="minor">39</cell>
+              <cell right="minor">6.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">9</cell>
+              <cell right="minor">9.875</cell>
+              <cell right="minor">25.1</cell>
+              <cell right="minor">39-40</cell>
+              <cell right="minor">7</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">9.5</cell>
+              <cell right="minor">10</cell>
+              <cell right="minor">25.4</cell>
+              <cell right="minor">40</cell>
+              <cell right="minor">7.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">10</cell>
+              <cell right="minor">10.1875</cell>
+              <cell right="minor">25.9</cell>
+              <cell right="minor">40-41</cell>
+              <cell right="minor">8</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">10.5</cell>
+              <cell right="minor">10.3125</cell>
+              <cell right="minor">26.2</cell>
+              <cell right="minor">41</cell>
+              <cell right="minor">8.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">11</cell>
+              <cell right="minor">10.5</cell>
+              <cell right="minor">26.7</cell>
+              <cell right="minor">41-42</cell>
+              <cell right="minor">9</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">11.5</cell>
+              <cell right="minor">10.6875</cell>
+              <cell right="minor">27.1</cell>
+              <cell right="minor">42</cell>
+              <cell right="minor">9.5</cell>
+            </row>
+
+            <row bottom="minor">
+              <cell right="minor">12</cell>
+              <cell right="minor">10.1875</cell>
+              <cell right="minor">27.6</cell>
+              <cell right="minor">42-43</cell>
+              <cell right="minor">10</cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Graph the data, (<init>US</init> sizes, length measurement) for inches or centimeters. Is the data linear? Why or why not? Estimate a line of best fit. Find an equation for the line.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the data, (<init>US</init> sizes, Other sizes) for Euro or <init>UK</init>. If you choose Euro Sizes, what should you do to accommodate the range of sizes shown for <init>US</init> half sizes? Is the data linear? Why or why not? Estimate a line of best fit. Find an equation for the line.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Are any of the data sets perfectly linear? If so, which ones? If not, what do you think causes the data set to not be perfectly linear?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-monopoly">
+      <introduction>
+        <p>
+          Have you played Monopoly? The graph in <xref ref="fig-monopoly"/> shows the number of the space (after GO) and the price for the space on a Monopoly game board. GO is space 0. (You can look up the gameboard on the Internet.)
+        </p>
+        <figure xml:id="fig-monopoly">
+          <caption>Monopoly: Space Number vs. Price</caption>
+          <image source="monopoly" width="75%">
+
+          </image>
+        </figure>
+
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Does a linear model appear to fit the data? Explain your thinking.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            On the graph in <xref ref="fig-monopoly"/>, draw your best guess for a line of best fit for the data (see <xref ref="best-fit-props"/> for a reminder for properties of a line of best fit).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation for your hand-drawn line. Show your work!
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the slope mean in terms of Monopoly space numbers and prices?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the <m>y</m>-intercept mean in terms of Monopoly space numbers and prices?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the independent variable? Why do you think so?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          The <term>domain</term> of a function is the set of all possible values of the independent variable (<m>x</m> or whatever variable you are using for the context) for which the function is defined. The <term>range</term> is the set of possible values of the dependent variable (usually <m>y</m>, sometimes expressed as <m>f(x)</m>) that result from using the same function.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is the domain of the function in the graph in <xref ref="exer-monopoly"/> in terms of the context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the range of the function in the graph in <xref ref="exer-monopoly"/> in terms of the context?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+
+
+</section>
