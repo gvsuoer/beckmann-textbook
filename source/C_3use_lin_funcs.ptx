@@ -7,5 +7,6 @@
   <xi:include href="S_3stacked_cups.ptx" />
   <xi:include href="S_3eyeball_lines.ptx" />
   <xi:include href="S_3lin_reg.ptx" />
+  <xi:include href="S_3systems.ptx" />
 
 </chapter>
