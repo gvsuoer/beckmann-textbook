@@ -1,0 +1,1243 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_systems">
+  <title>Systems of Equations</title>
+  
+  <introduction>
+    <p>
+      In <xref ref="S_systems"/>, we expand our focus. So far in <xref ref="C_use_lin_funcs"/>, we have analyzed and solved linear functions and used regression to model linear functions that arise from data. We now consider how two or more linear functions interact with each other. As consumers, we are often faced with choices. In this lesson, we will solve systems of equations in order to determine the best deal for our needs. 
+    </p>
+    <p>
+      Much of the mathematics work we have done this semester has depended on making connections among representations. To study and solve systems of equations, the interrelationships between tables, graphs, and equations are critical. Think about the contexts, and create tables, graphs, and equations to extend what you have learned about linear functions to work with them two or more at a time.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-fitness">
+    <title>Linear Functions and Fitness Plans</title>
+    
+    
+    <introduction>
+      <p>
+        By now, you are proficient at finding equations. In the student page, <xref text="title" ref="act-fitness"/>, you will use tables to locate an interval over which two or more of the fitness plans cost the same amount. You will refine your search for an intersection point with graphs and then by solving pairs of equations.
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          Consider payment plans for three different fitness centers:
+          <ul>
+            <li>
+              <p>
+                Shape Up charges an initiation fee of $39 plus $35 per month per person.
+              </p>
+            </li>
+            <li>
+              <p>
+                Fitness Fun charges an initiation fee of $75 plus $20 per month per person.
+              </p>
+            </li>
+            <li>
+              <p>
+                Be Your Best has no initiation fee and charges $52 per month per person.
+              </p>
+            </li>
+          </ul>
+        </p>
+        <p>
+          Complete <xref ref="tbl-fitness-costs"/> showing the total cost for the first 6 months for each fitness company's payment plan (initiation fees are only charged once).
+        </p>
+        <table xml:id="tbl-fitness-costs">
+          <title>Fitness Costs</title>
+          <tabular halign='center' top='minor' left='minor'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'><nbsp/></cell>
+              <cell bottom='minor' right='minor' colspan="3">Amount Paid so far (in dollars)</cell>
+            </row>
+
+            <row bottom='minor' header='yes'>
+              <cell right='minor'>Month</cell>
+              <cell right='minor'>Shape Up</cell>
+              <cell right='minor'>Fitness Fun</cell>
+              <cell right='minor'>Be Your Best</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>1</cell>
+              <cell right='minor'>74</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>2</cell>
+              <cell right='minor'>109</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>3</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>4</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>5</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>6</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'><m>m</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each set of data, graph (month, amount paid so far). Label each graph with the company's name.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Which company charges the most after 6 months of membership? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from a graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the table?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Which company has the steepest graph? Why does that make sense?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          What does the <m>y</m>-intercept represent for each fitness payment plan?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-fitness-eq">
+      <statement>
+        <p>
+          Find an equation that fits each data set. Include the equation in the last row of <xref ref="tbl-fitness-costs"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-fitness-spend">
+      <introduction>
+        <p>
+          You have $500 to spend on a fitness plan this year. Show your work.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Which fitness plans can you afford?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For how many months can you afford each fitness plan?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-fitness-summer">
+      <introduction>
+        <p>
+          In the summer, you are very active outside. You only want to join a fitness center for 7, 8, or 9 months of the year. The fitness centers offer the same amenities with one exception, Be Your Best also has a pool.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Determine the cost for all three fitness plans for these numbers of months. Fill in <xref ref="tbl-fitness-summer"/>
+          </p>
+          <table xml:id="tbl-fitness-summer">
+            <title>Fitness Costs for Select Lengths</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row header='yes'>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor' bottom='minor' colspan='3'>Amount Paid so far ($)</cell>
+              </row>
+
+              <row header='yes' bottom='minor'>
+                <cell right='minor'>Month</cell>
+                <cell right='minor'>Shape Up</cell>
+                <cell right='minor'>Fitness Fun</cell>
+                <cell right='minor'>Be Your Best</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>7</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>8</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>9</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which fitness plan would you choose and for how many months? Explain.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What variable are you solving for in <xref ref="exer-fitness-spend"/>? How can you tell?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What variable are you solving for in <xref ref="exer-fitness-summer"/>? How can you tell?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Solve each equation you found in <xref ref="exer-fitness-eq"/> for the variable that represents months.
+          </p>
+          <p>
+            Shape Up:
+          </p>
+          <p>
+            Fitness Fun:
+          </p>
+          <p>
+            Be Your Best:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What do these equations allow you to do directly that the equations in <xref ref="exer-fitness-eq"/> require more work to do?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Consider the following pairs of fitness plans. For what number of months will you pay the same amount for a membership in either plan?
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Shape Up and Fitness Fun:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fitness Fun and Be Your Best:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Be Your Best and Shape Up:
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+
+  </worksheet>
+
+  <worksheet xml:id="act-rent-bikes">
+    <title>Systems of Equations in Context: Renting Bicycles</title>
+    
+    <introduction>
+      <p>
+        Four different bike rental companies are competing for your business on Mackinac Island. Which one gives the best deal for the number of hours you plan to rent a bike?
+      </p>
+      <p>
+        This activity helps you determine the best deal. It also helps you make sense of the importance of domain and range both in context and without a context.
+      </p>
+      <p>
+        When you finish the <xref text="title" ref="act-rent-bikes"/> activity, answer the following questions for <xref ref="S_systems"/>:
+        <ul>
+          <li>
+            <p>
+              How can you solve a system of two linear equations in two unknowns graphically?
+            </p>
+          </li>
+          <li>
+            <p>
+              How can you also solve a system algebraically?
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        You and your friends plan to rent bikes while visiting Mackinac Island.
+        <ul>
+          <li>
+            <p>
+              Island Rentals charges a base fee of $16 plus $6 per hour per bike.
+            </p>
+          </li>
+          <li>
+            <p>
+              Bikes Unlimited does not charge a base fee, but charges $10 per hour per bike.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-compare-bikes">
+      <task>
+        <statement>
+          <p>
+            You plan to use bikes for 3 hours. Which company is least expensive?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which company should you use if you plan to use bikes for 6 hours?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Tegan noticed that if the group uses bikes for exactly 4 hours, the companies charge the same for rentals. Is she correct? Why or why not?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-rent-bikes-table">
+      <task>
+        <statement>
+          <p>
+            Find the slope, both intercepts, and meanings of all of these for each company.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find equations for both bike rental companies. Enter them in <xref ref="tbl-rent-bikes"/>.
+          </p>
+          <table xml:id="tbl-rent-bikes">
+            <title>Bike Rental Information</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Rental Company</cell>
+                <cell right='minor'>Slope</cell>
+                <cell right='minor'><m>y</m>-intercept</cell>
+                <cell right='minor'><m>x</m>-intercept</cell>
+                <cell right='minor'>Equation</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Island Rentals</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Bikes Unlimited</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Beckmann's Bikes</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Colleen's Cyclery</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the equations. Label axes and scales.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data from <xref ref="exer-compare-bikes"/> on each graph. Do your equations fit the data you found in <xref ref="exer-compare-bikes"/>?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Recall that the <term>domain</term> of a function is the set of all possible values of the independent variable (<m>x</m> or whatever variable you are using for the context) for which the function is defined. The range is the set of possible values of the dependent variable (usually <m>y</m>, sometimes expressed as <m>f(x)</m>) that result from using the same function.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Find the domain in terms of the bike rental context.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find the domain disregarding the context.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are these similar? How are they different?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find the range in terms of one of the bike rental companies.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find the range disregarding the context.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are these similar? How are they different?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise xml:id="exer-rent-bikes-new-cos">
+      <introduction>
+        <p>
+          Suppose there are two other bike rental companies on the island.
+          <ul>
+            <li>
+              <p>
+                Beckmann's Bikes charges a base fee of $5 and $10 per hour per bike.
+              </p>
+            </li>
+            <li>
+              <p>
+                Colleen's Cyclery charges a base fee of $20 and $5 per hour per bike.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How are the charges from these bike rental companies similar to the charges for Island Rentals and Bikes Unlimited?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find equations for each company. Record slopes, intercepts, and equations in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the equations on the same coordinate plane you used in <xref ref="exer-rent-bikes-table"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare the graphs of these two companies with those above. What do you notice?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Are any of the lines in <xref ref="exer-rent-bikes-table"/> or <xref ref="exer-rent-bikes-new-cos"/> parallel? If so, which ones? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In the context of bike rentals, what aspects of the bike rental make the lines modeling the rental charges parallel?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+    
+    <exercise>
+      <statement>
+        <p>
+          Write and answer two questions related to bike rentals and the fees the four companies above charge.
+        </p>
+      </statement>
+    </exercise>
+
+
+  </worksheet>
+
+  <exercises>
+
+    <exercise xml:id="exer-two-lines-35">
+      <introduction>
+        <p>
+          Study the lines in <xref ref="fig-two-lines-35"/>.
+        </p>
+        <figure xml:id="fig-two-lines-35">
+          <caption>Lines for <xref ref="exer-two-lines-35"/></caption>
+          <image source="two-lines-35" width="50%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="exer-two-lines-intersect">
+        <statement>
+          <p>
+            Estimate the intersection point of the lines.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find at least two grid points on each graph. Do not estimate. Label the points on the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation for each line. This is called a system of equations in two unknowns because the values of <m>x</m> and <m>y</m> of the intersection point are both unknown.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you solve the system of equations algebraically?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-two-lines-solve">
+        <statement>
+          <p>
+            Solve the system algebraically.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare your answers in <xref ref="exer-two-lines-intersect"/> and <xref ref="exer-two-lines-solve"/>. Is your estimate reasonable?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Graph the following equations.
+          <md>
+            <mrow>y \amp = 2x - 3</mrow>
+            <mrow>y \amp = -0.5x + 4</mrow>
+          </md>
+        </p>
+      </introduction>
+
+      <task xml:id="exer-know-intersect">
+        <statement>
+          <p>
+            What do you know about the intersection point of the two lines?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Estimate the intersection point graphically.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does the answer to <xref ref="exer-know-intersect"/> help you determine a way to solve the problem algebraically?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the problem algebraically.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Replace the variables in both equations with the coordinates of the intersection point. Does the point you found satisfy both equations? Should it? Explain.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          A video game is available for your cell phone in two versions. The free versions charges $0.99 for each <q>booster,</q> an award that helps you win a level more easily. The full version costs $5.99 then charges $0.49 per booster.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How much will the game cost you to play overall based on the number of boosters you buy? Fill in <xref ref="tbl-booster-cost"/> Include equations in the last column for both versions of the game.
+          </p>
+          <table xml:id="tbl-booster-cost">
+            <title>Video Game Booster Costs</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Number of Boosters</cell>
+                <cell right='minor'>0</cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'>5</cell>
+                <cell right='minor'><m>x</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Free Version</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Full Version</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task xml:id="exer-vgame-table">
+        <statement>
+          <p>
+            For each of the video games, complete the table with values accurate to at least 2 decimal places. Do not estimate from a graph!
+          </p>
+          <table xml:id="tbl-more-vgame">
+            <title>More Information On Video Game Costs</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>Free Version</cell>
+                <cell right='minor'>Full Version</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>y</m>-intercept</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>slope of the line</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>equation that fits the line</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>x</m>-intercept</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the equations. Estimate the coordinates of the intersection point. Write the intersection point as an ordered pair <m>(x, y)</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For what number of boosters will both versions of the game cost the same amount? Solve the problem algebraically and say how you know you are correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the domain for the Free Version? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the range for the Free Version? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you ignore the context, what is the domain for the equation you wrote in <xref ref="tbl-more-vgame"/> in <xref ref="exer-vgame-table"/>? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you ignore the context, what is the range for the equation you wrote in <xref ref="tbl-more-vgame"/> in <xref ref="exer-vgame-table"/>? Explain.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Revisit <xref text="title" ref="act-fitness"/>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is the domain of each fitness plan? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the domain of each of the functions you found without context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are the domains different?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are they related?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Revisit <xref text="title" ref="act-fitness"/>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is the range of each fitness plan? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the range of each of the functions you found without context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are the ranges different?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are they related?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          You've studied <m>y</m>-intercepts throughout <xref ref="C_lin_funcs"/> and <xref ref="C_use_lin_funcs"/>. In <xref ref="S_systems"/>, you were asked to find <m>x</m>-intercepts without a definition. 
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is an <m>x</m>-intercept?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find an <m>x</m>-intercept from a graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find an <m>x</m>-intercept in a table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find an <m>x</m>-intercept from an equation?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Suppose you owe your parents $2000 for a car they bought you. You're paying it off at a rate of $100 each month.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation to model this situation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the slope mean in this situation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the <m>y</m>-intercept mean in this situation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What does the <m>x</m>-intercept mean in this situation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find the <m>x</m>-intercept.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Revisit <xref text="title" ref="act-rent-bikes"/> Solve each problem. Explain!
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Based on pricing alone, which bike rental company would you not use? Why?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-revisit-bikes-less">
+        <statement>
+          <p>
+            Which bike rental company will you use if you want to rent bikes for less than 4 hours?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-revisit-bikes-more">
+        <statement>
+          <p>
+            Which bike rental company will you use if you want to rent bikes for more than 4 hours?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How do graphs of the equations help you solve <xref ref="exer-revisit-bikes-less"/> and <xref ref="exer-revisit-bikes-more"/>?
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          You want to rent a game system and some games to try the system out before you buy it. You check with several companies and find the following information for one-week rentals:
+          <ul>
+            <li>
+              <p>
+                Game Galaxy charges $50 for the game system rental and $5 per game.
+              </p>
+            </li>
+            <li>
+              <p>
+                Electronic Emporium charges $25 for the game system rental and $10 per game.
+              </p>
+            </li>
+            <li>
+              <p>
+                Why Buy? doesn't charge for the game system rental, but charges $15 per game.
+              </p>
+            </li>
+          </ul>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-game-sys"/>.
+          </p>
+          <table xml:id="tbl-game-sys">
+            <title>Game System Fees</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Rental Company</cell>
+                <cell right='minor'>Game System Rental Fee</cell>
+                <cell right='minor'>Rental Per Game</cell>
+                <cell right='minor'>Equation</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Game Galaxy</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Electronic Emporium</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Why Buy?</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the equations. Estimate where each pair of lines intersects. Write the solutions as ordered pairs in <xref ref="tbl-game-sys-intersect"/>.
+          </p>
+          <table xml:id="tbl-game-sys-intersect">
+            <title>Game System Intersections</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Pair of Companies</cell>
+                <cell right='minor'>Intersection Point</cell>
+                
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Game Galaxy and Electronic Emporium</cell>
+                <cell right='minor'><nbsp/></cell>
+                
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Game Galaxy and Why Buy?</cell>
+                <cell right='minor'><nbsp/></cell>
+                
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Electronic Emporium and Why Buy?</cell>
+                <cell right='minor'><nbsp/></cell>
+                
+              </row>
+
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which game system rental company gives the best deal if who want to rent a small number of games (1 or 2 games)? How do you know? Show your work.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Which game system rental company gives the best deal for people who want to rent more than 10 games? How do you know? Show your work.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Do any of the game system rental companies ever charge the same amount for the same number of games rented? (Note: Include the game system rental fee.)
+          </p>
+          <p>
+            If so, which companies and for what number of games? How much do they charge for this number of games?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the system of equations algebraically for one pair of companies. List the companies. Show your work.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+    
+  </exercises>
+</section>
