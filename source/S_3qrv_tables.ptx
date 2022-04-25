@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+
+<section xml:id="S_qrv_tables">
+  <title>Using Quantity Rate Value Tables to Determine Equations</title>
+  
+  <introduction>
+    <p>
+      Half the battle in solving a system of equations has to do with finding the equations in the first place. In <xref ref="S_qrv_tables"/>, you will learn a convenient tool to help you set up equations for problems that involve rates.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-setup-qrv">
+    <title>Setting Up Systems of Equations with Quantity Rate Value Tables</title>
+    
+    
+    <introduction>
+      <p>
+        This activity guides you in creating a system of equations based on known information in a context. Contexts well-suited for use of <init>QRV</init> tables generally involve two unknown quantities that are added together to get a total, different rates (price per pound, price per ticket, level of acidity, etc.) for each quantity, and a value obtained by multiplying the rate by the corresponding quantity. Read carefully and make sense of each step as you solve the problems below.
+      </p>
+    </introduction>
+
+    <exercise>
+      <introduction>
+        <p>
+          The admission fee at the Grand Rapids Public Museum is $3 for children and $8 for adults. One day 575 people paid to enter the museum. The museum collected $3450 for admissions.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Fill in the first two rows of <xref ref="tbl-qrv-grpm"/>.
+            <ul>
+              <li>
+                <p>
+                  Initially, the number of Children and the number of Adults are unknown. Choose variables to indicate each of these.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The rates (ticket prices) are given in the problem.
+                </p>
+              </li>
+              <li>
+                <p>
+                  How can you use each Quantity and Rate to get the Value?
+                </p>
+              </li>
+            </ul>
+          </p>
+          <table xml:id="tbl-qrv-grpm">
+            <title><init>GRPM</init> <init>QRV</init> Table</title>
+            <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Children</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Adults</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">X</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fill in the empty cells in the last row of <xref ref="tbl-qrv-grpm"/>. The Total Quantity and the Total Value are both given in the problem.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-grpm-quant-eq">
+        <statement>
+          <p>
+            Write an equation showing the relationship between the Quantity of Children, the Quantity of Adults, and the Total Quantity.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-grpm-value-eq">
+        <statement>
+          <p>
+            Write an equation showing the relationship between the Value of Children's tickets, the Value of Adults' tickets, and the Total Value.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            The equations you wrote in <xref ref="exer-grpm-quant-eq"/> and <xref ref="exer-grpm-value-eq"/> provide a system of linear equations.
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              Solve the system in two different ways. Verify that your solution works.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How many children and how many adults paid for admission to the museum that day?
+            </p>
+          </statement>
+        </task>
+      </task>
+      
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Melanie's favorite ways to exercise are playing basketball and running. Her goal is to exercise 60 minutes each day, splitting her time between both basketball and running. She also wants to achieve the equivalent of 10,000 steps per day. Playing basketball for one minute is equivalent to taking 130 steps/minute. Running at the rate of 5 miles per hour is equivalent to taking 185 steps per minute. 
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Use <xref ref="tbl-qrv-run-bask"/> to set up two equations, one showing the relationship between the number of minutes Melanie will play each sport, and one showing the relationship between the equivalent numbers of steps Melanie will take during each activity.
+          </p>
+          <table xml:id="tbl-qrv-run-bask">
+            <title>QRV Table of Melanie's Sports</title>
+            <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Playing Basketball</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Running</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">X</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the system of equations using two different methods.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many minutes of basketball, <m>B</m>, and minutes of running, <m>R</m>, should Melanie do each day to exercise 60 minutes and take the equivalent of 10,000 steps?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Filiz's favorite ways to exercise in the summer are walking and cycling. Her goal is to exercise 90 minutes each day, splitting her time between both types of exercise. She also wants to achieve the equivalent of 12,000 steps per day. Walking for one minute at the rate of 3.5 miles per hour is equivalent to taking 130 steps/minute. Cycling at the rate of 15 miles per hour is equivalent to taking 160 steps per minute. 
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Use <xref ref="tbl-qrv-walk-cycle"/> to set up two equations, one showing the relationship between the number of minutes Filiz will engage in each type of exercise, and one showing the relationship between the equivalent numbers of steps Filiz will take during each activity.
+          </p>
+          <table xml:id="tbl-qrv-walk-cycle">
+            <title>QRV Table of Filiz's Sports</title>
+            <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Walking</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Cycling</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">X</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the system of equations using two different methods.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many minutes of walking, <m>W</m>, and how many minutes of cycling, <m>C</m>, should Filiz do each day to exercise 90 minutes and take the equivalent of 12,000 steps?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <conclusion>
+      <p>
+        What did you learn about using Quantity Rate Value Tables? How can you use what you learned to set-up systems of equations problems?
+      </p>
+    </conclusion>
+
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <introduction>
+        <p>
+          Use what you learned about Quantity Rate Value Tables (<init>QRV</init> Tables) to solve this problem.
+        </p>
+        <p>
+          Gummy candy costs $5 per pound. Taffy candy costs $4 per pound. You want to buy 4 pounds of candy and spend exactly $17.50.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Fill in the first two rows of <xref ref="tbl-qrv-candy"/> using information from the story. 
+          </p>
+        
+        <table xml:id="tbl-qrv-candy">
+          <title><init>QRV</init> Table for Candy</title>
+          <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Gummy Candy</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Taffy Candy</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">X</cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+        </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Define your variables. Be specific about what each one means.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write two equations that arise directly from the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the system of equations. Use two different methods. Show your work. Verify that your solution works.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Interpret your solution based on the problem with gummy and taffy candies.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Gavin wants to start-up a food truck that uses locally grown ingredients. He plans to sell crepes and smoothies; he will offer different types of each item. In this case, you need a variation of the <init>QRV</init> table to find each equation needed to solve the system.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-crepe-costs">
+        <statement>
+          <p>
+            Gavin expects to spend on average $0.70 for ingredients for each crepe and $1.20 for ingredients for each smoothie. He wants to spend only $200 for ingredients each day. Write an equation showing the relationship between costs per item and amount spent on food per day.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-crepe-sell">
+        <statement>
+          <p>
+            Gavin wants to sell crepes for $4 each and smoothies for $5 each. He hopes to take in $1000 each day selling just these two items. Write an equation showing the relationship between the prices he will charge and the amount he will take in each day.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the equations from <xref ref="exer-crepe-costs"/> and <xref ref="exer-crepe-sell"/> to determine how many crepes and how many smoothies Gavin should be prepared to sell each day to reach his goals. Solve the problem in at least 2 different ways.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          <init>QRV</init> tables can also be used to solve mixture problems such as those found in chemistry. Complete the student page, <xref text="title" ref="act-qrv-chem"/> Using Quantity Rate Value Tables.
+        </p>
+      </statement>
+    </exercise>
+    
+  </exercises>
+
+  <worksheet xml:id="act-qrv-chem">
+    <title>Chemistry Mixture Problems Using Quantity Rate Value Tables</title>
+    
+    <introduction>
+      <p>
+        Quantity Rate Value Tables are helpful in setting up equations to solve mixture problems in chemistry and other fields. As you solve these problems, notice that a Rate is needed in all three rows. Add Quantities and Values to obtain equations to solve these problems.
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-chem-intro">
+      <introduction>
+        <p>
+          How much 10% sulfuric acid (<m>H_2SO_4</m>) must be mixed with how much 30% sulfuric acid to make 200 milliliters of 15% sulfuric acid?
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Fill in the first two rows of <xref ref="tbl-qrv-chem"/> using information from the problem.
+          </p>
+        
+        <table xml:id="tbl-qrv-chem">
+          <title><init>QRV</init> Table For Acids</title>
+          <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Weak Acid</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Strong Acid</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+        </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Define your variables. Be specific about what each one means.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine equations arising from the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Solve the system of equations. Show your work. Show that your solution works.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Interpret your solution based on the problem with two different strengths of acid solution.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Solve these two problems similarly to problem 1. Draw your own table for each problem.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            You need 20 liters of 20% acid solution. You have jugs of 10% solution and 25% solution. How many liters of each should you combine to get the needed solution?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            A medical technician has 20% alcohol solution and 70% alcohol solution. She needs 20 liters of a 40% alcohol solution. What amount of each type of solution should she combine?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          For each problem, add Quantities to get an expression. Add Values to get another expression. Use the rate for the Total row to find a relationship between the expressions.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            A chemist has 6 liters of a 25% alcohol solution. How much alcohol must he add so that the resulting solution contains 50% alcohol?
+          </p>
+          <table xml:id="tbl-qrv-alcohol">
+          <title><init>QRV</init> Table For Alcohol</title>
+          <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Weak Acid</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Strong Acid</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+        </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many liters of a 14 percent alcohol solution must be mixed with 20 liters of a 50 percent alcohol solution to get a 20 percent alcohol solution? (Draw your own table.)
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Sterling Silver is 92.5% pure silver. How many grams of pure silver and sterling silver must be mixed to obtain 100g of a 94% Silver alloy?
+        </p>
+        <table xml:id="tbl-qrv-silver">
+          <title><init>QRV</init> Table For Silver</title>
+          <tabular halign="center">
+              <col header="yes"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <col top="minor"/>
+              <row header="yes" bottom="minor">
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor">Quantity</cell>
+                <cell right="minor">Rate</cell>
+                <cell right="minor">Value</cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Sterling Silver</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Pure Silver</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+
+              <row bottom="minor" left="minor">
+                <cell right="minor">Total</cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+                <cell right="minor"><nbsp/></cell>
+              </row>
+            </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+
+  </worksheet>
+
+</section>

@@ -9,5 +9,6 @@
   <xi:include href="S_3lin_reg.ptx" />
   <xi:include href="S_3systems.ptx" />
   <xi:include href="S_3more_systems.ptx" />
+  <xi:include href="S_3qrv_tables.ptx" />
 
 </chapter>
