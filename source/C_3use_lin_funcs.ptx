@@ -8,5 +8,6 @@
   <xi:include href="S_3eyeball_lines.ptx" />
   <xi:include href="S_3lin_reg.ptx" />
   <xi:include href="S_3systems.ptx" />
+  <xi:include href="S_3more_systems.ptx" />
 
 </chapter>

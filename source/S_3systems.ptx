@@ -626,7 +626,7 @@
 
   </worksheet>
 
-  <exercises>
+  <exercises xml:id="hmwk-35">
 
     <exercise xml:id="exer-two-lines-35">
       <introduction>
