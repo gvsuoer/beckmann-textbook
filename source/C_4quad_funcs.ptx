@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<chapter xml:id="C_quad_funcs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction to Quadratic Functions</title>
+
+  <introduction>
+    <p>
+      In <xref ref="C_lin_funcs"/> and <xref ref="C_use_lin_funcs"/>, we studied several aspects of linear functions, including slope, <m>x</m>- and <m>y</m>-intercepts, solving equations, and modeling. We considered patterns in tables, patterns illustrated with tiles, appearances of graphs, etc. We also compared linear patterns to non-linear patterns.
+    </p>
+    <p>
+      Noticing that not all patterns and functions are linear, many questions arise:
+      <ul>
+        <li>
+          <p>
+            To what family of functions might a non-linear function belong?
+          </p>
+        </li>
+        <li>
+          <p>
+            Are any non-linear functions related to linear functions? If so, how are they related?
+          </p>
+        </li>
+        <li>
+          <p>
+            Can we use what we learned about linear functions to analyze other families of functions?
+          </p>
+        </li>
+      </ul>
+    </p>
+    <p>
+      In <xref ref="C_quad_funcs"/>, we begin to consider a function family that is not linear. We begin in context and with patterns. We look for connections that link the new function family to linear functions. Then we use some of what we've explored to make sense of the new function family.
+    </p>
+  </introduction>
+
+  <xi:include href="S_4new_func.ptx" />
+  
+
+</chapter>
