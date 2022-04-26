@@ -1,0 +1,1014 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_new_func">
+  <title>Another Type of Function?</title>
+
+  <introduction>
+    <p>
+      As with linear functions, non-linear functions can arise in context. In this lesson, we will analyze the numbers of performers based on group number in two books by Kathi Appelt, <pubtitle>Bats on Parade</pubtitle> and <pubtitle>Bat Jamboree</pubtitle>. Though written for children, the underlying mathematics is much more advanced. The simplicity of the context helps us makes sense of the more complex mathematics.
+    </p>
+    <p>
+      As you complete the <xref text="title" ref="act-batty-func"/> activity, look for several non-linear patterns that arise in the stories.
+      <fn>Adapted from Mathematical Explorations: Batty Functions: Exploring Quadratic Functions through Children's Literature by Charlene Beckmann and Jessica Roy, <pubtitle>Mathematics Teaching in the Middle School</pubtitle>, Vol. 13, Issue 1, August 2007, pp. 52<mdash/>64.</fn>
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-batty-func">
+    <title>Batty Functions</title>
+    
+    <page>
+    <exercise>
+      <introduction>
+        <p>
+          Listen to the story, <pubtitle>Bats on Parade</pubtitle>, by Kathi Appelt. (Find online a YouTube video of someone reading <pubtitle>Bats on Parade</pubtitle>.) Read the scenarios found in or adapted from the story. Scenario A describes the characters in the story as they appear in the book. In Scenario B, you will also count the flag bearer as shown in the story. In Scenario C, the story is adapted to include more flag bearers.
+          <dl>
+            <li>
+              <title>Scenario A</title>
+              <p>
+                The first group has 1 marcher in 1 row. The second group has 2 marchers in each of 2 rows. The third group has 3 marchers in each of 3 rows, and so on.
+              </p>
+            </li>
+            <li>
+              <title>Scenario B</title>
+              <p>
+                Each group that joins the parade also has a single flag bearer. Include the flag bearer in the number of marchers in each group.
+              </p>
+            </li>
+            <li>
+              <title>Scenario C</title>
+              <p>
+                Each group that joins the parade has as many flag bearers as columns in the group. For example, the third group of bats marches in 3 rows and 3 columns and has 3 flag bearers.
+              </p>
+            </li>
+          </dl>
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            In <xref ref="tbl-batty-scenes"/>, draw a tile pattern to match each Scenario A, B, and C.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write the numbers of tiles for each of Scenarios A, B, and C in <xref ref="tbl-marchers"/>. The step number above becomes the group number in <xref ref="tbl-marchers"/>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+      
+
+      
+
+        <table xml:id="tbl-batty-scenes">
+          <title><pubtitle>Bats on Parade</pubtitle> Tile Patterns</title>
+          <tabular halign="center" left='minor' top='minor'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'>Scenario</cell>
+              <cell right='minor'>Step 1</cell>
+              <cell right='minor'>Step 2</cell>
+              <cell right='minor'>Step 3</cell>
+              <cell right='minor'>Step 4</cell>
+              <cell right='minor'>Step 5</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>A</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>Number of Tiles</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>B</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>Number of Tiles</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>C</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>Number of Tiles</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>D</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>Number of Tiles</cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+              <cell right='minor'><line><nbsp/></line><line><nbsp/></line></cell>
+            </row>
+          </tabular>
+        </table>
+
+
+      </page>
+      
+      <page>
+    
+        <table xml:id="tbl-marchers">
+          <title>Number of Marchers</title>
+          <tabular halign='center'>
+            <col/>
+            <col top='minor'/>
+            <col top='minor'/>
+            <col top='minor'/>
+            <col top='minor'/>
+            <col top='minor'/>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'>Scenario A</cell>
+              <cell right='minor'>Scenario B</cell>
+              <cell right='minor'>Scenario C</cell>
+              <cell right='minor'>Scenario D</cell>
+              <cell right='minor'>Scenario E</cell>
+            </row>
+            
+            <row left='minor' bottom='minor' header='yes'>
+              <cell right='minor'>Group Number</cell>
+              <cell right='minor'>Number of Marchers in the Group</cell>
+              <cell right='minor'>Number of Marchers in the Group</cell>
+              <cell right='minor'>Number of Marchers in the Group</cell>
+              <cell right='minor'>Number of Marchers in the Group</cell>
+              <cell right='minor'>Number of Performers So Far</cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>1</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>2</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>3</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>4</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>5</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>6</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>7</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>8</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>9</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'>10</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row left='minor' bottom='minor'>
+              <cell right='minor'><m>x</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+
+        <exercise>
+          <introduction>
+            <p>
+              For each of Scenarios A, B, and C:
+            </p>
+          </introduction>
+
+          <task>
+            <statement>
+              <p>
+                What patterns do you see in the data?
+              </p>
+            </statement>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+                Are any of the patterns linear? How do you know?
+              </p>
+            </statement>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+                How are the columns of data related to each other?
+              </p>
+            </statement>
+          </task>
+        </exercise>
+
+        <exercise>
+          <task xml:id="exer-marchers-graph">
+            <statement>
+              <p>
+                Graph each set of data with Group Number as the independent variable and the number of marchers for the scenario as the dependent variable.
+              </p>
+            </statement>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+                How are the graphs related to each other?
+              </p>
+            </statement>
+          </task>
+        </exercise>
+
+        <exercise>
+          <task>
+            <statement>
+              <p>
+                For each data set, find an equation giving the number of marchers in group <m>x</m>. Write the equations in the last row of <xref ref="tbl-marchers"/>.
+              </p>
+            </statement>
+          </task>
+
+          <task>
+            <statement>
+              <p>
+                Are any of the equations linear? Should they be? Explain.
+              </p>
+            </statement>
+          </task>
+        </exercise>
+
+    </page>
+
+    <page>
+
+      <exercise>
+        <statement>
+          <p>
+            Listen to another story, <pubtitle>Bat Jamboree</pubtitle>, also by Kathi Appelt. (Google <pubtitle>Bat Jamboree</pubtitle> to find this story online in a YouTube video.) Complete <xref ref="tbl-batty-scenes"/> and <xref ref="tbl-marchers"/> for Scenarios D and E.
+            <dl>
+              <li>
+                <title>Scenario D</title>
+                <p>
+                  Each group has the same number of performers as the group number.
+                </p>
+              </li>
+              <li>
+                <title>Scenario E</title>
+                <p>
+                  The number of performers who have appeared so far is the number of new performers and all performers who appeared before the new group. For example, when Group 3 performs, the number of performers who have appeared so far plus the new group are <m>1 + 2 + 3 = 6</m> performers.
+                </p>
+              </li>
+            </dl>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise>
+        <task>
+          <statement>
+            <p>
+              Compare the data for Scenario E to the data for Scenarios A, B, and C. What do you notice?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Is the data for any of Scenarios A, B, or C related to Scenario E? How?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Graph the data with Group Number as the independent variable and Scenario E as the dependent variable.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              How is the graph related to the graphs in <xref ref="exer-marchers-graph"/>?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Determine an equation to model the data for Scenario E as it relates to group number.
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise>
+        <statement>
+          <p>
+            Share your work on <xref text="title" ref="act-batty-func"/>. Resolve differences and ask questions before continuing.
+          </p>
+        </statement>
+      </exercise>
+
+    </page> 
+    
+  </worksheet>
+
+  <activity xml:id="act-func-graphs">
+    <title>Solving Functions Graphically</title>
+    
+    <statement>
+      <p>
+        In <xref text="title" ref="act-batty-func"/>, you found many equations, most of them non-linear. Relationships between some of the data sets helped you determine other equations. What questions might we ask about the data sets that can be answered using the equations? Brainstorm with your group. Write at least 3 questions about <xref text="title" ref="act-batty-func"/> that can be answered using one or more of the equations. Share your questions with the class.
+      </p>
+      <p>
+        Questions that are frequently asked about Batty Functions include:
+        <ul>
+          <li>
+            <p>
+              How many bats are in group 7? Group <m>n</m>?
+            </p>
+          </li>
+          <li>
+            <p>
+              If a group has 37 bats, what is the group number? If a group has <m>b</m> bats, what is the group number?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is a reasonable domain for each function?
+            </p>
+          </li>
+          <li>
+            <p>
+              What is a reasonable range for each function?
+            </p>
+          </li>
+        </ul>
+      </p>
+      <p>
+        Did you ask questions like these? Look at the graphs you drew for <xref text="title" ref="act-batty-func"/> How can a graph help you answer these questions? How can a table help? Choose some of the questions about <xref text="title" ref="act-batty-func"/> that you and others wrote. Answer as many of them as you can in context. If you still have questions, write them down to ask once the <xref text="title" ref="act-batty-func"/> questions have been answered.
+      </p>
+      <p>
+        Look at the graph in <xref ref="fig-parab-ball"/>. Suppose the graph represents the height, <m>h</m>, of a ball <m>t</m> seconds after it is thrown. Ask and answer similar questions as those above for this context and graph. Can you find the answer exactly in each case? Why or why not?
+      </p>
+      <figure xml:id="fig-parab-ball">
+        <caption></caption>
+        <image source="parab-ball" width="50%">
+          <description></description>
+        </image>
+      </figure>
+    </statement>
+  </activity>
+
+  <exercises>
+
+    <exercise>
+      <introduction>
+        <p>
+          Some of the patterns from <xref text="title" ref="act-batty-func"/> might be familiar.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Which patterns from <xref text="title" ref="act-batty-func"/> have you seen before?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Where have they come up in the past? In this text?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Can you now find equations for previous patterns from this text that you were wondering about? List the context, data, and equation.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Look back through patterns you have explored in this text.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Find examples of non-linear patterns. List where you found the patterns.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Identify which non-linear patterns are similar to one or more of the Batty Functions.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How many total bats appear in <pubtitle>Bat Jamboree</pubtitle>? How do you know?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Notice that most of the <xref text="title" ref="act-batty-func"/> are non-linear. Look at the equations you found to represent each of the <xref text="title" ref="act-batty-func"/>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            The Batty Function described for Column B arises from the story directly. How did you determine the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The Batty Function described for Column C is related to the first one. How?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The Batty Function described for Column D is also related to the first one. How did you determine the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How did you determine the equation that represents the Batty Function described for Column F?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Are any of the equations above related to linear functions? How?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise xml:id="exer-goat-pen">
+      <introduction>
+        <p>
+          Terri wants to build a rectangular pen for her goats. A barn will form the wall on one side of the pen. A garage will form another wall next to the barn. No fencing is needed on these sides of the pen. She has 15 yards of fencing to use to make the pen. Help Terri determine the dimensions that will make the area of the pen as large as possible. (Recall: For a rectangle,Area = Length x Width.)
+        </p>
+        <figure xml:id="fig-goat-pen">
+          <caption>Terri's Goat Pen Plan</caption>
+          <image source="goat-pen" width="40%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Explain how <xref ref="fig-goat-pen"/> is related to this context.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Some possible lengths to use all 15 yards of fencing are shown in <xref ref="tbl-goat-pen"/>. Complete <xref ref="tbl-goat-pen"/> for other dimensions.
+          </p>
+          <table xml:id="tbl-goat-pen">
+            <title>Area of Terri's Pen</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor'>
+                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'>5</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>15 - x</m></cell>
+                <cell right='minor'>14</cell>
+                <cell right='minor'>13</cell>
+                <cell right='minor'>12</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Area of pen</cell>
+                <cell right='minor'>14</cell>
+                <cell right='minor'>26</cell>
+                <cell right='minor'>36</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What patterns do you notice in the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write an equation that can be used to find the area of the pen based on the side lengths of the pen.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the equation. For what value of <m>x</m> is the area largest? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is the area function linear or non-linear function? Why do you think so?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-horse-pen">
+      <introduction>
+        <p>
+          Holly wants to build a rectangular pen for her horses. One side of the pen will share the wall of the stable. The other three sides of the pen will be fenced. Her stable is 100 feet on one side. She can afford 150 feet of fencing.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Draw a diagram to illustrate this situation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find at least 5 pairs of dimensions that will use all of the fencing Holly can afford. Build an organized table with the dimensions. Also find the area of the pen in each case.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine an equation that can be used to find the area of the pen.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine the dimensions that give the largest area for the pen.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the largest area?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is the area function linear or non-linear function? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Make an open top box by cutting out squares and folding up the corners of an 8.5 by 11 sheet of paper. See <xref ref="fig-open-box"/>.
+          </p>
+          <figure xml:id="fig-open-box">
+            <caption></caption>
+            <image source="open-box" width="40%">
+              <description></description>
+            </image>
+          </figure>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Record the dimensions and the volume of the box in <xref ref="tbl-open-box"/>. (Recall: For a rectangular prism (a box), Volume = Height x Length x Width.)
+          </p>
+          <table xml:id="tbl-open-box">
+            <title>Open Box Volume</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Depth, <m>x</m></cell>
+                <cell right='minor'>Height</cell>
+                <cell right='minor'>Width</cell>
+                <cell right='minor'>Area of Base</cell>
+                <cell right='minor'>Volume</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>0</cell>
+                <cell right='minor'>8.5</cell>
+                <cell right='minor'>11</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>1</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>2</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>3</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>4</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find equations for the height of the box, the width of the box, the area of the base, and the volume of the box. Write them in the last row of <xref ref="tbl-open-box"/>. How do you know your equations are correct? Use the figure provided to show how you found the equations.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the largest side length of a square that can be cut from each corner of the paper and still be able to make a box? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What are the dimensions of the box with smallest volume? What is the smallest volume? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What are the dimensions of the box with largest volume? What is the largest volume of a box created as directed in this problem? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Build the box with largest volume. Are you surprised by its appearance?
+          </p>
+        </statement>
+      </task>
+      
+      <task>
+        <statement>
+          <p>
+            Is the volume function linear or non-linear function? Why do you think so? Is it the same type of non-linear function as the functions in <xref ref="exer-goat-pen"/> and <xref ref="exer-horse-pen"/>? Explain.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-evens">
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-evens"/> to show the sums of consecutive even numbers beginning with 2.
+          </p>
+          <table xml:id="tbl-evens">
+            <title>Consecutive Even Numbers</title>
+            <tabular halign='center' top='minor' left='minor'>
+              <col header='yes'/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              <col/>
+              
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Number of consecutive</line><line>even numbers</line></cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'>5</cell>
+                <cell right='minor'>6</cell>
+                <cell right='minor'>7</cell>
+                <cell right='minor'>8</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Sum of consecutive</line><line>even numbers</line></cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'><m>2 + 4 = 6</m></cell>
+                <cell right='minor'><m>2 + 4 + 6 =</m></cell>
+                <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the data in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation to fit the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is the function linear or non-linear function? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the domain of the function given the context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the range of the function given the context?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the sum of the first 100 even numbers?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Will the sum of consecutive even numbers ever be 100?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Repeat <xref ref="exer-evens"/> for the sums of consecutive odd numbers beginning with 1.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Have you seen either of these patterns before? Where?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+  </exercises>
+  
+</section>
