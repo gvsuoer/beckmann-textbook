@@ -33,6 +33,7 @@
   </introduction>
 
   <xi:include href="S_4new_func.ptx" />
+  <xi:include href="S_4products.ptx" />
   
 
 </chapter>
