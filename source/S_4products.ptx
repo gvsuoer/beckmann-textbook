@@ -1,0 +1,1139 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_products">
+  <title>Functions Arising from the Products of Two Lines</title>
+
+  <introduction>
+    <p>
+      You have likely noticed that we are now investigating a new type of function. The graphs have an obvious curve to them; they are not straight lines. As you investigate products of linear functions, think about <xref text="title" ref="act-batty-func"/> and what you remember about non-linear functions from your previous work in mathematics courses.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-invest-prods">
+    <title>Investigating Products of Linear Functions</title>
+    
+    <introduction>
+      <p>
+        Solve the problems that follow to investigate the appearance of products of linear functions. Think about these questions as you work: To what family of functions do products of linear functions belong? What shape is the graph of this function family? (Note: For a review of function notation, please see <xref ref="function-notation"/>)
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-tbl-plot-prods">
+      <introduction>
+        <p>
+          Graphs of lines are provided in <xref ref="fig-prod-parallel"/>, <xref ref="fig-prod-origin"/>, and <xref ref="fig-prod-one"/>. Complete the following for each pair of graphs:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            For each value of <m>x</m> in <xref ref="tbl-prod-parallel"/>, <xref ref="tbl-prod-origin"/> or <xref ref="tbl-prod-one"/>, determine the values of <m>f(x)</m>, <m>g(x)</m>, and the product <m>h(x) = f(x) \cdot g(x)</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the points <m>(x, h(x))</m> on the graph in <xref ref="fig-prod-parallel"/>, <xref ref="fig-prod-origin"/>, or <xref ref="fig-prod-one"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Connect the points to show the graph of <m>y = h(x)</m>.
+          </p>
+        </statement>
+      </task>
+
+      <conclusion>
+        <p>
+          <sidebyside>
+            <figure xml:id="fig-prod-parallel">
+              <image source="prod-parallel">
+                <description></description>
+              </image>
+            </figure>
+
+            <figure xml:id="fig-prod-origin">
+              <image source="prod-origin">
+                <description></description>
+              </image>
+            </figure>
+
+            <figure xml:id="fig-prod-one">
+              <image source="prod-one">
+                <description></description>
+              </image>
+            </figure>
+          </sidebyside>
+
+          <sidebyside>
+            <table xml:id="tbl-prod-parallel">
+              <title>Table for <xref ref="fig-prod-parallel"/></title>
+              <tabular halign='center' top='minor' left='minor'>
+                <row bottom='minor' header='yes'>
+                  <cell right='minor'><m>x</m></cell>
+                  <cell right='minor'><m>f(x)</m></cell>
+                  <cell right='minor'><m>g(x)</m></cell>
+                  <cell right='minor'><line><m>h(x) =</m></line><line><m>f(x) \cdot g(x)</m></line></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-4</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-3</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-2</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-1</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>0</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>1</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>2</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>3</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+              </tabular>
+            </table>
+
+            <table xml:id="tbl-prod-origin">
+              <title>Table for <xref ref="fig-prod-origin"/></title>
+              <tabular halign='center' top='minor' left='minor'>
+                <row bottom='minor' header='yes'>
+                  <cell right='minor'><m>x</m></cell>
+                  <cell right='minor'><m>f(x)</m></cell>
+                  <cell right='minor'><m>g(x)</m></cell>
+                  <cell right='minor'><line><m>h(x) =</m></line><line><m>f(x) \cdot g(x)</m></line></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-4</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-3</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-2</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-1</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>0</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>1</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>2</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>3</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+              </tabular>
+            </table>
+
+            <table xml:id="tbl-prod-one">
+              <title>Table for <xref ref="fig-prod-one"/></title>
+              <tabular halign='center' top='minor' left='minor'>
+                <row bottom='minor' header='yes'>
+                  <cell right='minor'><m>x</m></cell>
+                  <cell right='minor'><m>f(x)</m></cell>
+                  <cell right='minor'><m>g(x)</m></cell>
+                  <cell right='minor'><line><m>h(x) =</m></line><line><m>f(x) \cdot g(x)</m></line></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-4</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-3</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-2</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>-1</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>0</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>1</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>2</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+
+                <row bottom='minor'>
+                  <cell right='minor'><m>3</m></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                  <cell right='minor'><nbsp/></cell>
+                </row>
+              </tabular>
+            </table>
+          </sidebyside>
+        </p>
+      </conclusion>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What observations can you make about the graph of <m>y = h(x)</m> based on the graphs of <m>y = f(x)</m> and <m>y = g(x)</m>? Explain why your observations make sense.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the shape of the product graph? Why is the product graph shaped this way?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What type of function arises from multiplying two linear functions together?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task xml:id="exer-prod-zero">
+        <statement>
+          <p>
+            In order for a product of two numbers to be zero, what do you know about one or both of the numbers you are multiplying together?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            A function arising from the product of two lines has an <m>x</m>-intercept at <m>x = 3</m>. The equation is written as a product of two linear functions. What do you know about one of the linear functions? How does this information relate to <xref ref="exer-prod-zero"/>?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Through investigating the product of two lines, we are able to find an equation of a function from the equations of the lines that are multiplied together to form it.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation for each of the products of the pairs of lines in <xref ref="exer-tbl-plot-prods"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are the <m>x</m>-intercepts of each line related to the <m>x</m>-intercepts of the product graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are the <m>x</m>-intercepts of each function related to its equation?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-mult-lines-desmos">
+    <title>Multiplying Lines Electronically With Desmos</title>
+    
+    <introduction>
+      <p>
+        Now that you have graphed the product of two lines by hand, explore the product of two lines using Desmos as you complete the student page, <xref text="title" ref="act-mult-lines-desmos"/>. Do you get the same results? What more do you notice?
+      </p>
+    </introduction>
+
+    <exercise>
+      <introduction>
+        <p>
+          Set up Desmos to play with products of linear functions, as follows:
+        </p>
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            Type <m>y = x - p</m> into the first input line. Click on the <m>p</m> button to create a slider for <m>p</m>. Start the slider at <m>p = 0</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Type <m>y = x - q</m> into the first input line. Click on the <m>q</m> button to create a slider for <m>q</m>. Start the slider at <m>p = 1</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Type <m>y = (x - p)(x - q)</m> into the third input line.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Type <m>y = x^2</m> into the fourth input line.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Play with the <m>p</m> slider.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            How does the graph of the product of two lines change as you change <m>p</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Why does the change in <m>p</m> cause the product graph to appear as it does?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What happens to the product graph with <m>p</m> is less than 0? Why does that make sense?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            From your previous mathematical experiences, what is the graph of the product called?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Play with the <m>q</m> slider until you can explain what is happening to the product graph and why it is happening. We call the graph to the product of two lines a parabola. A parabola is the graph of the quadratic function.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Edit the first input line to be <m>y = a (x - p)</m>. Create a slider for <m>a</m>. Edit the third input line to be <m>y = a (x - p)(x - q)</m>. Play with the <m>a</m> slider.
+        </p>
+      </introduction>
+      
+      <task xml:id="exer-parab-changea">
+        <statement>
+          <p>
+            For what values of <m>a</m> does the parabola appear to be wider than <m>y = x^2</m>? Why do you think <m>a</m> has this effect on the parabola?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For <xref ref="exer-parab-changea"/>, is the parabola wider than <m>y = x^2</m>? Why or why not? Argue from the equations, not the appearance of the graphs.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For what values of <m>a</m> does the parabola appear to be steeper than <m>y = x^2</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Explain what <m>a</m> does to the parabola.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Turn off <m>y = x^2</m> (click on the colored button to the left of the equation). Reset the <m>a</m> slider so that <m>a = 1</m>. Play with the sliders for <m>p</m> and <m>q</m>. Compare the lines to the parabola. What do the lines and teh parabola always have in common no matter how you change <m>p</m> and <m>q</m>?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Continute to play with all three sliders, <m>a</m>, <m>p</m>, and <m>q</m>.
+        </p>
+      </introduction>
+
+      <task>
+        <introduction>
+          <p>
+            Try each of these three possibilities:
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Both lines have positive slopes.
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Both lines have negative slopes. (What additional change do you need to make?)
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              One line has a positive slope and the other line has a negative slope.
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the lines what a parabola created from the product of the lines will open upward? Reason from the equations of the lines and the parabola.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the lines what a parabola created from the product of the lines will open downward? Reason from the equations of the lines and the parabola.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the lines where the parabola will intersect the <m>x</m>-axis?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the lines where the parabola will intersect the <m>y</m>-axis?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is a line of symmetry?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the line of symmetry for a function that is the product of two lines? Why does this make sense?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Each parabola has a highest or lowest point, called the vertex. What information about the vertex can you determine from the lines? Explain.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+
+  <activity xml:id="act-polygraph">
+    <title>Polygraph for Parabolas</title>
+    
+    <statement>
+      <p>
+        Now that we have learned something about how quadratic functions arise in context and their connection to linear functions, let's spend some time describing them. You teacher will provide a Class Code for the Desmos activity, <pubtitle>Polygraph: Parabolas</pubtitle> in the Quadratic Bundle on Teacher Desmos. You will be randomly paired with another classmate. Polygraph is a variation of the commercial game, <pubtitle>Guess Who?</pubtitle>. Play 2 rounds of the game or as directed by your teacher.
+      </p>
+      <p>
+        When time is called, your teacher will provide you another Class Code, this time for the Desmos activity, <pubtitle>Polygraph: Parabolas, Part 2</pubtitle>. Complete the activity, taking notes on vocabulary that will help you describe and discuss quadratic functions and their graphs more efficiently.
+      </p>
+    </statement>
+  </activity>
+
+  <exercises>
+
+    <exercise>
+      <introduction>
+        <p>
+          Study the graphs in <xref ref="fig-hmwk42-graph"/>. Answer <xref first="exer-hmwk42-1a" last="exer-hmwk42-1f"/> for the lines provided.
+        </p>
+        <figure xml:id="fig-hmwk42-graph">
+          <image source="hmwk42-1" width="50%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task xml:id="exer-hmwk42-1a">
+        <statement>
+          <p>
+            Complete <xref ref="tbl-hmwk42-1"/>. Do not estimate any of the coordinates.
+          </p>
+          <table xml:id="tbl-hmwk42-1">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><m>f(x)</m></cell>
+                <cell right='minor'><m>g(x)</m></cell>
+                <cell right='minor'><m>h(x) = f(x) \cdot g(x)</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-3</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-2</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-1</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>0</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>1</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>2</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>3</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the <m>x</m>-intercept? Write the point as an ordered pair, <m>(x, y)</m>.
+          </p>
+          <p>
+            for <m>y = f(x)</m> <fillin characters="10" />
+          </p>
+          <p>
+            for <m>y = g(x)</m> <fillin characters="10" />
+          </p>
+          <p>
+            for <m>y = h(x)</m> <fillin characters="10" />
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How are the <m>x</m>-intercepts for <m>y = h(x)</m> related to the <m>x</m>-intercepts of <m>y = f(x)</m> and <m>y = g(x)</m>? Why does that make sense?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            From your table, draw an accurate graph of <m>y = h(x)</m>. Connect the points in a smooth curve. State everything you can about why the graph looks as it does.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The vertex of a parabola is its highest or lowest point. Find the vertex for the function <m>y = h(x)</m>. How do you know you're correct?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-hmwk42-1f">
+        <statement>
+          <p>
+            Write an equation for each function. Do not simplify the equation for <m>y = h(x)</m>.
+          </p>
+          <p>
+            <m>y = f(x) =</m> <fillin characters="10" />
+          </p>
+          <p>
+            <m>y = g(x) =</m> <fillin characters="10" />
+          </p>
+          <p>
+            <m>y = h(x) =</m> <fillin characters="10" />
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          <xref ref="tbl-factored-eqs"/> includes several quadratic functions, each provided as a product of two linear factors. Most of the equations are in the form, <m>y = a(x - p)(x - q)</m>, the factored form of a quadratic function. Graph each function.
+        </p>
+        <table xml:id="tbl-factored-eqs">
+          
+          <tabular left='minor' top='minor' halign='center'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><line>Factored Form,</line><line><m>y = a(x - p)(x - q)</m></line></cell>
+              <cell right='minor' colspan="2"><m>x</m>-intercepts</cell>
+              <cell right='minor'><m>y</m>-intercept</cell>
+              <cell right='minor'>Vertex, <m>(h, k)</m></cell>
+              <cell right='minor'>Opens (Up or Down)</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>A</cell>
+              <cell right='minor'><m>y = (x)(x + 1)</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>B</cell>
+              <cell right='minor'><m>y = 2(x)(x - 1)</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>C</cell>
+              <cell right='minor'><m>y = -0.5(x)(x + 2)</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>D</cell>
+              <cell right='minor'><m>y = (-1)(x + 3)(x - 5)</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>E</cell>
+              <cell right='minor'><m>y = (-1)(x - 2)(x + 2)</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>F</cell>
+              <cell right='minor'><m>y = (-x + 2)(-2x - 4)</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Find the <m>x</m>-intercepts, <m>y</m>-intercept, and vertex for the quadratic graph (parabola). Record each point in <xref ref="tbl-factored-eqs"/> as an ordered pair.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Record the direction the parabola opens, Up or Down.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The final equation is not yet in factored form though it shows two factors. Write the equation in factored form. What information about the quadratic function is more evident in factored form than in the form provided in the table?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            How can you find the <m>x</m>-intercepts from the factored form of a quadratic function?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the factored form of a quadratic function whether or not the graph of the product will open upward?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How is the <m>y</m>-intercept of the quadratic function related to the linear factors?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you find the vertex from the factored form of a quadratic function?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Each quadratic function in <xref ref="tbl-quad-funcs-stnd"/> is given in standard form, <m>y = ax2 + bx + c</m>. For each function:
+        </p>
+        <table xml:id="tbl-quad-funcs-stnd">
+          
+          <tabular left='minor' top='minor' halign='center'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><line>Standard Form,</line><line><m>y = ax^2 + bx + c</m></line></cell>
+              <cell right='minor' colspan="2"><m>x</m>-intercepts</cell>
+              <cell right='minor'><m>y</m>-intercept</cell>
+              <cell right='minor'>Vertex, <m>(h, k)</m></cell>
+              <cell right='minor'>Opens (Up or Down)</cell>
+              <cell right='minor'><line>Factored Form,</line><line><m>y = a(x - p)(x - q)</m></line></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>A</cell>
+              <cell right='minor'><m>y = x^2 + 5x + 6</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>B</cell>
+              <cell right='minor'><m>y = -x^2 - 5x - 6</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>C</cell>
+              <cell right='minor'><m>y = x^2 - x - 2</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>D</cell>
+              <cell right='minor'><m>y = 2x^2 - 4x - 6</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>E</cell>
+              <cell right='minor'><m>y = -0.5x^2 + 3x - 4</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>F</cell>
+              <cell right='minor'><m>y = x^2 - 1</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Graph the quadratic function.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Complete all but the last column of <xref ref="tbl-quad-funcs-stnd"/>. Record points as ordered pairs.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Suppose one <m>x</m>-intercept of a parabola is at point (4, 0). Write the equation of a line that has the same <m>x</m>-intercept. Explain how you know your equation is correct.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-share-x">
+        <statement>
+          <p>
+            Determine a linear equation that shares one of the <m>x</m>-intercepts. Write the equation and graph the line with the parabola. Repeat for the other <m>x</m>-intercept. If a line does not share an <m>x</m>-intercept with the parabola, think more about the equation of the line, fix it, and re-graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the product of the lines you found in <xref ref="exer-share-x"/>. How does the product compare with the graph of the quadratic function given in standard form? If the graphs are not the same, adjust this equation so the graphs coincide. Compare the equation in factored form with the equation in standard form. What do these equations have in common?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Two of the equations in the first table could have been factored differently than they were. Study both examples to see the possibilities:
+            <md>
+              <mrow>y \amp = 2(x)(x - 1) = (2x)(x - 1) = (x)(2x - 2)</mrow>
+              <mrow>y \amp = -0.5(x)(x + 2) = (-0.5x)(x + 2) = (x)(-0.5x - 1)</mrow>
+            </md>
+          </p>
+          <p>
+            In each example, the first version is considered to be the factored form of the equation. For each equation in this table, determine the factored form and write it in the table. Describe how to find the factored form of a quadratic function.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Some students say that the vertex of a parabola coincides with the interception of the two lines are multiplied together to find the quadratic function. Is this a true statement? Why or why not?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Some students remember from previous mathematics classes that the line of symmetry for a quadratic function can be found using the expression, <m>\<frac>-b</frac>
+            2a</m>. Where do <m>a</m> and <m>b</m> come from? If we don't have an equation for the quadratic function, is this method useful?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Are there any quadratic functions that cannot be factored? If not, why not? If so, give three examples that cannot be factored and explain why they are not factorable.
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            How many quadratic functions can share the points <m>(1, 0)</m> and <m>(-3, 0)</m>? How do you know? Give examples of equations that contain these two points.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many points must you know in order to fit them with a quadratic function? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Suppose three points all lie on the same line. Is it reasonable to exactly fit the points with a quadratic function? Why or why not?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find the factored form of the equation, <m>y = -3x2 + 12x + 15</m>. Find out everything you canabout this function (<m>x</m>-intercepts, <m>y</m>-intercept, vertex, etc.)
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Study the parabolas in <xref ref="fig-3parabs"/>.
+        </p>
+        <figure xml:id="fig-3parabs">
+          <image source="3parabs" width="70%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            If possible, find an equation for each graph. Explain how you know each equation is correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you cannot find an equation for a graph, explain why it is not possible with your current knowledge of quadratic functions.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+    
+  </exercises>
+  
+</section>

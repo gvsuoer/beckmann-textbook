@@ -338,7 +338,7 @@
       </p>
     </sidebyside>
 
-    <paragraphs>
+    <paragraphs xml:id="function-notation">
       <title>A Word about Function Notation</title>
       <p>
         When you were asked to record the functions you found for <xref text="title" ref="act-gulliver"/>, did you find the notation a bit strange? Notice that the notation gives important information about the columns of data being related to each other. <m>W(T)</m> indicates that we want to know the wrist measurement in terms of the thumb measurement, instead of just using <m>W</m>. We read the symbols, <m>W</m> of <m>T</m>. What do you think <m>N(W)</m> represents? <m>N(T)</m>?
