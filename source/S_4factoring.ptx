@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_factoring">
+  <title>Multiplying Linear Factors and Factoring Quadratic Expressions</title>
+  
+  <introduction>
+    <p>
+      This lesson is designed to help learners refresh their conceptual understanding of multiplying terms and simplifying the result. This lesson helps you build on your understanding of area and multiplication of numbers to simplify expressions such as <m>x(x + 3)</m>, <m>5x(x - 1)</m>, <m>(x + 5)(x + 3)</m>, <m>(x - 2)(x + 2</m>), or <m>(2x + 1)(x - 4)</m>. If you are proficient at multiplying these expressions together, this section is optional. If you find this work challenging, revisit <xref ref="main-prob-six"/>, video 2: Drawing and Representing. Multiplying binomials is modeled from 2:20<mdash/>3:35 minutes in this video.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-mult-binom">
+    <title>Conceptual Underpinnings of Multiplying Binomials: Using Algebra Tiles to Multiply Linear Factors and Factor Quadratic Expressions</title>
+    
+    <introduction>
+      <p>
+        Determine the area of the first rectangle in <xref ref="fig-mult-binom1"/>. It might help to think about the number of tiles you need to cover the surface of a coffee table with the dimensions shown.
+      </p>
+      <p>
+        Study the remaining examples. Determine the area of the other rectangles whose side lengths are shown. The first four examples are shown using an algebra tile model for area. The final example uses a pseudo-area model that is often referred to as <sq>the box method.</sq> It represents the same product as the algebra tile model to its left.
+
+        <sidebyside>
+          <figure xml:id="fig-mult-binom1">
+            <image source="mult-binom1" width="50%">
+              <description></description>
+            </image>
+          </figure>
+
+          <figure xml:id="fig-mult-binom2">
+            <image source="mult-binom2" width="50%">
+              <description></description>
+            </image>
+          </figure>
+
+          <figure xml:id="fig-mult-binom3">
+            <image source="mult-binom3" width="50%">
+              <description></description>
+            </image>
+          </figure>
+        </sidebyside>
+
+        <sidebyside>
+          <figure xml:id="fig-mult-binom4">
+            <image source="mult-binom4" width="50%">
+              <description></description>
+            </image>
+          </figure>
+
+          <figure xml:id="fig-mult-binom5">
+            <image source="mult-binom5" width="50%">
+              <description></description>
+            </image>
+          </figure>
+        </sidebyside>
+      </p>
+      <p>
+        Note that the algebra tile model preserves the scale of the side lengths and areas. The box method does not necessarily represent scale accurately though some effort is made to keep the dimensions of regions with the same dimensions equal in length. In this case, the dimensions representing <m>x</m> for both horizontal and vertical sides are equal. Which of these models do you prefer, if any?
+      </p>
+      <p>
+        Complete the student page, <xref text="title" ref="act-mult-binom"/>, using the model you prefer (make minor adaptations as needed for the box method). Be ready to ask questions over any problems you find challenging.
+        <fn>Adapted from Beckmann, C.E., Thompson, D.R., and Rubenstein, R.N., <pubtitle>Teaching and Learning High School Mathematics</pubtitle>, Hoboken, NJ: John Wiley &amp; Sons, Inc., 2010, pp. 258<mdash/>9.</fn>
+      </p>
+      <p>
+        Use both graph paper and algebra tiles to complete the student page, <xref text="title" ref="act-mult-binom"/>. If you do not have algebra tiles available, use an algebra tile app online or on an electronic tablet. The apps, <url href="http://media.mivu.org/mvu_pd/a4a/homework/index.html" visual="media.mivu.org/mvu_pd/a4a/homework/index.html">Multiplication Activities, on this website</url> can help you complete this student page. Alternatively, you can use a hand drawn area model to help you find the product of two linear expressions.
+      </p>
+      <p>
+        Materials:
+        <ul>
+          <li>
+            <p>
+              one set of algebra tiles and one algebra tile frame for each pair of students
+            </p>
+          </li>
+          <li>
+            <p>
+              one sheet of graph or grid paper for each pair of students
+            </p>
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          On a piece of graph paper, draw a rectangle with dimensions 6 units by 4 units. What is the area of the rectangle? How does the graph paper help you determine the area?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Draw a rectangle to show the area of a rectangle with one dimension of 3 units and the other dimension of <m>4 + 5</m> units.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Show the area the rectangle as the sum of the area of two regions.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Show the area as a single result.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What property is illustrated by this example?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          You can use algebra tiles to visualize the product of two expressions containing variables.
+        </p>
+      </introduction>
+
+      <task xml:id="exer-tile-two-lengths">
+        <statement>
+          <p>
+            One of the algebra tiles has two different side lengths. The short side length is 1 unit; the longer side length is <m>x</m>. Trace the tile. Label its side lengths.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the area of the tile in <xref ref="exer-tile-two-lengths"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-tile-new-lengths">
+        <statement>
+          <p>
+            Use the tile in <xref ref="exer-tile-two-lengths"/> to determine the side lengths of the other two sizes of algebra tiles. Trace each tile. Label each side length.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For each tile in <xref ref="exer-tile-new-lengths"/>,find the area and write the number in the center of each tile you drew.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            To find the product of <m>x</m> and 4, what algebra tile pieces are needed to represent <m>x</m> and 4?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is the area of a rectangle whose dimensions are <m>x</m> and 4? Show this area with algebra tiles and label the dimensions of the sides. Draw a picture.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task xml:id="exer-tile-frame">
+        <statement>
+          <p>
+            The algebra tile frame in <xref ref="fig-tile-frame"/> shows the dimensions of x and 3 on the outside of the frame (indicated with heavy black lines). Notice that one factor is placed along the upper edge of the frame; the other factor is placed along the left edge of the frame. Fill in the rectangle so the dimensions of the pieces you use match with side lengths of the pieces along the outside of the frame.
+          </p>
+          <figure xml:id="fig-tile-frame">
+            <image source="tile-frame" width="50%">
+              <description></description>
+            </image>
+          </figure>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find the sum of the areas of the pieces forming the interior of the rectangle to determine the product <m>x \cdot 3</m>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Suppose you want to find the product of <m>x</m> and <m>x + 2</m>. What algebra tile pieces are needed to represent <m>x</m> and <m>x + 2</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use your work in <xref ref="exer-tile-frame"/> to place the algebra tiles along the edge of the frame to find the product of <m>x</m> and <m>x + 2</m>. Use algebra tiles to fill in a rectangle so the dimensions of the pieces you use match with the dimensions of the pieces along the outside of the frame. Draw a picture of your work with tiles.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-sum-area-inter">
+        <statement>
+          <p>
+            Find the sum of the areas of the pieces forming the interior of the rectangle to determine the product of <m>x</m> and <m>x + 2</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Check that your product for <m>x</m> and <m>x + 2</m> makes sense as follows:
+            <ul>
+              <li>
+                <p>
+                  Substitute <m>x = 4</m> into <m>x</m> and <m>x + 2</m>. Find the product of these two values.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Substitute <m>x = 4</m> into the product you found in <xref ref="exer-sum-area-inter"/>.
+                </p>
+              </li>
+            </ul>
+            Do your results agree? If not, revisit how you constructed your rectangle in <xref ref="exer-sum-area-inter"/> and check that your revised product works.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Outline a rectangle with dimensions <m>x + 3</m> and <m>x + 4</m>. Fill in the rectangle with algebra tile pieces to find the product <m>(x + 3)(x + 4)</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Check your result by choosing a value for <m>x \ne 0</m> and substituting the value into <m>x + 3</m>, <m>x + 4</m>, the product of these two binomials, and the algebraic expression you obtainedfor <m>(x + 3)(x + 4)</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use algebra tiles to illustrate the product of <m>(2x + 1)(3x + 2)</m>. Write the product.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Algebra tiles can also be used to work backwards from a product to find, if possible, two factors that generate that product.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Collect the pieces for <m>x^2 + 6x + 8</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-arrange-quad">
+        <statement>
+          <p>
+            Arrange the pieces to form a rectangle. The factors are the dimensions of the rectangle showing the area <m>x^2 + 6x + 8</m>. What are the factors?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the process you used in <xref ref="exer-arrange-quad"/> to find the factors of <m>2x^2 + 5x + 2</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How do algebra tile pieces help you think about factoring?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+  </worksheet>
+
+  <exercises xml:id="hmwk-43">
+    
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            In <xref ref="S_patterns_100"/>, you worked with algebra tiles to combine like terms. Revisit <xref ref="exer-placeholder"/> and <xref ref="exer-like-terms-tiles"/> to remind you of this work.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <introduction>
+          <p>
+            For each expression:
+            <ul>
+              <li>
+                <p>
+                  Draw algebra tile representations for each term.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Combine like terms using the algebra tile representations. Show and explain your work.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Write a simplified expression for the combined algebra tile representations.
+                </p>
+              </li>
+            </ul>
+          </p>
+        </introduction>
+
+        <task>
+          <statement>
+            <p>
+              <m>(x^2 + 3x + 2) + (2x^2 + x - 3)</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>(x^2 - 3x + 2) + (2x^2 + x - 3)</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>(2x^2 + x + 3) - (x^2 + 3x + 2)</m>
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              <m>(2x^2 + x - 3) - (x^2 + 3x + 2)</m>
+            </p>
+          </statement>
+        </task>
+
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          There are free apps online to help you make sense of multiplying factors and factoring quadratic expressions using algebra tiles. Use the app on <url href="http://media.mivu.org/mvu_pd/a4a/homework/index.html" visual="media.mivu.org/mvu_pd/a4a/homework/index.html">media.mivu.org</url>. Read the introductory pages carefully. These pages tell you how to use the apps. Navigate through the introduction using the arrow in the upper right corner. Watch the videos and play with the apps for <pubtitle>Multiplication Activities</pubtitle>. Look for <pubtitle>Multiplication and Factoring Trinomials</pubtitle>. Solve at least 2 problems at each difficulty level, until you conceptually understand the link between the algebra tiles and the expressions they represent.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Use what you learned in <xref ref="S_factoring"/> and <xref ref="hmwk-43"/> to solve the problems on the student page, <xref text="title" ref="act-mult-fact-tiles"/> Be ready to ask questions in class. The student page can be found after this homework problem set. If you choose to use the box method, think carefully about which terms arise in which parts of the box to help you solve <xref ref="exer-factor-quad-2"/>, <xref ref="exer-factor-quad-3"/>, and <xref ref="exer-factor-quad-4"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Find the standard form of each quadratic function in the table in <xref ref="exer-factored-eqs"/> of the <xref ref="hmwk-42"/>. Record the equations in <xref ref="tbl-factored-eqs"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Verify that each standard form equation is equivalent to the factored form given in <xref ref="tbl-factored-eqs"/>. Describe your verification process.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </exercises>
+
+  <worksheet xml:id="act-mult-fact-tiles">
+    <title>Multiplying and Factoring with Algebra Tiles</title>
+    
+    <introduction>
+      <p>
+        Materials: One set of algebra tiles and one algebra tile frame for each pair of students
+      </p>
+    </introduction>
+
+    <tabular top='minor' left='minor'>
+      <row bottom='minor'>
+        <cell right='minor'>
+          <line><m>(x + 1)(x + 2)</m><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+        </cell>
+        <cell right='minor'>
+          <line><m>(2x)(x + 2)</m><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+        </cell>
+      </row>
+
+      <row bottom='minor'>
+        <cell right='minor'>
+          <line><m>(2x + 1)(x + 2)</m><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+        </cell>
+        <cell right='minor'>
+          <line><m>(x + 1)(x - 2)</m><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+        </cell>
+      </row>
+
+      <row bottom='minor'>
+        <cell right='minor'>
+          <line><m>(x - 1)(x - 2)</m><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+        </cell>
+        <cell right='minor'>
+          <line><m>(2x + 1)(x - 2)</m><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+          <line></line>
+        </cell>
+      </row>
+    </tabular>
+
+    <exercise>
+      <introduction>
+        <p>
+          For each expression in the table above:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            In the space provided, draw a picture of an area model to show the product of the two terms.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Multiply the factors together to get a sum of terms.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Replace <m>x</m> with 7 in both original and final expressions. Check to see that you get the same result in both cases.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise  xml:id="exer-factor-quad-2">
+      <introduction>
+        <p>
+          Use algebra tiles to work backwards from a product to find two factors that generate that product.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Collect the pieces for <m>x^2 + 7x + 12</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-arrange-tiles-rect">
+        <statement>
+          <p>
+            Arrange the pieces to form a rectangle. The dimensions of the rectangle are the factors of <m>x^2 + 7x + 12</m>. What are the factors?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Repeat <xref ref="exer-arrange-tiles-rect"/> using the pieces for <m>x^2 + 8x + 12</m> and then for <m>x^2 + 13x + 12</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare your work for all three expressions. What do you notice?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How do the algebra tile pieces help you think about factoring?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise  xml:id="exer-factor-quad-3">
+      <introduction>
+        <p>
+          Use algebra tiles to factor these expressions.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            <m>2x^2 + 5x + 3</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>2x^2 + 7x + 3</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does your work change from one to the next? Discuss the arrangements of tiles. Which tiles should you position first?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-factor-quad-4">
+      <introduction>
+        <p>
+          Use what you learned in <xref ref="exer-factor-quad-2"/> and <xref ref="exer-factor-quad-3"/> to factor the following expressions:
+        </p>
+      </introduction>
+      
+      <task>
+        <statement>
+          <p>
+            <m>x^2 + 4x + 4</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>x^2 - 2x - 3</m>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            <m>x^2 - 4</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+</section>
