@@ -618,7 +618,7 @@
     </statement>
   </activity>
 
-  <exercises>
+  <exercises xml:id="hmwk-42">
 
     <exercise>
       <introduction>
@@ -760,7 +760,7 @@
 
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-factored-eqs">
       <introduction>
         <p>
           <xref ref="tbl-factored-eqs"/> includes several quadratic functions, each provided as a product of two linear factors. Most of the equations are in the form, <m>y = a(x - p)(x - q)</m>, the factored form of a quadratic function. Graph each function.

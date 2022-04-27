@@ -362,7 +362,7 @@
       </statement>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-placeholder">
       <introduction>
         <p>
           Revisit <xref ref="analyze100-x"/> in <xref ref="act-analyze100"/>. Because the initial value of <m>x</m> is irrelevant, <m>x</m> is considered a variable. Once a particular value of <m>x</m> is chosen, then all of the values in the rectangle that are currently represented by expressions in terms of <m>x</m> can be determined. In this second case, <m>x</m> is a placeholder. Look at the expressions and equations below. For each, decide if <m>x</m> is a variable or if <m>x</m> is a placeholder.
@@ -403,7 +403,7 @@
 
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-like-terms-tiles">
       <statement>
         <p>
           You probably have learned to combine like terms in previous mathematics classes. As with the Order of Operations, there are mathematical reasons underlying which terms can be combined. 
