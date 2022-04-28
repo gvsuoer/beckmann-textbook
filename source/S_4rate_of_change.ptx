@@ -1,0 +1,1248 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_rate_of_change">
+  <title>Rates of Change of Quadratic Functions</title>
+  
+
+  <worksheet xml:id="act-quad-quilts">
+    <title>Quadratic Quilts and Rates of Change for <m>y = ax^2 + bx + c</m></title>
+    
+    <introduction>
+      <p>
+        Because the area of bedding is measured in square inches, it might not be surprising that quilts provide a context in which to study quadratic functions. We use the context of making quilts to also study rate of change for quadratic functions. Recall that the rate of change of a linear function was always constant. We will notice that quadratic functions change differently. Explore the student page, <xref text='title' ref="act-quad-quilts"/>, to explore quadratic rate of change.
+        <fn>Adapted from Beckmann, C.E., Thompson, D.R., and Rubenstein, R.N., <pubtitle>Teaching and Learning High School Mathematics</pubtitle>, Hoboken, NJ: John Wiley &amp; Sons, Inc., 2010, pp. 252<mdash/>4.</fn>
+      </p>
+    </introduction>
+
+    <exercise>
+      <introduction>
+        <p>
+          Esther designs and makes quilts. The completed square in <xref ref="fig-quilt-block"/> is called a quilt block. She makes different sizes of square quilts using the same pattern and colors for each block in each quilt. To ensure that each quilt block matches, she purchases all of the fabric she needs at the same time.
+        </p>
+        <figure xml:id="fig-quilt-block">
+          <caption>A Quilt Block</caption>
+          <image source="quilt-block" width="50%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            The quilt block at right has dimensions 1 <times/> 1. Determine the number of same-size small square pieces of each color Esther needs for the quilt block.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How many small square pieces of each color does she need for each of the different projects listed? Complete <xref ref="tbl-quilt-dims"/>.
+          </p>
+          <table xml:id="tbl-quilt-dims">
+            <tabular halign='center' left='minor' top='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Quilt Dimensions in Blocks</cell>
+                <cell right='minor'>Project Type</cell>
+                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'>Number of Quilt Blocks</cell>
+                <cell right='minor'>Number of Yellow (Y) Squares</cell>
+                <cell right='minor'>Number of Blue (B) Squares</cell>
+                <cell right='minor'>Number of Red (R) Squares</cell>
+                <cell right='minor'>Number of White (W) Squares</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>1 <times/> 1</cell>
+                <cell right='minor'>Potholder</cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'>8</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>2 <times/> 2</cell>
+                <cell right='minor'>Nightstand cover</cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>12</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>3 <times/> 3</cell>
+                <cell right='minor'>Doll blanket</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>9</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>4 <times/> 4</cell>
+                <cell right='minor'>Baby blanket</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>5 <times/> 5</cell>
+                <cell right='minor'>Lap blanket</cell>
+                <cell right='minor'>5</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>6 <times/> 6</cell>
+                <cell right='minor'>Tablecloth</cell>
+                <cell right='minor'>6</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>7 <times/> 7</cell>
+                <cell right='minor'>Twin bed cover</cell>
+                <cell right='minor'>7</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task xml:id="exer-dim-square-relation">
+        <statement>
+          <p>
+            Consider one color at a time. What is the relationship between the quilt's dimension, <m>x</m>, and the number of individual squares needed to make the quilt?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine an equation for each relationship in <xref ref="exer-dim-square-relation"/>.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-quad-change1"/>. Let <m>f(x) = x^2</m>.
+          </p>
+          <table xml:id="tbl-quad-change1">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><m>y = f(x)</m></cell>
+                <cell right='minor'><m>g(x) = f(x) - f(x - 1)</m></cell>
+                <cell right='minor'><m>g(x) - g(x - 1)</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-3</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-2</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-1</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>0</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>1</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>2</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>3</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>4</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-change">
+        <statement>
+          <p>
+            Describe how <m>f(x) = x^2</m> is changing as <m>x</m> increases.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-symm">
+        <statement>
+          <p>
+            Describe any patterns or symmetry you see in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-graph">
+        <statement>
+          <p>
+            Without graphing the function, state what you know about the graph from your table and responses to <xref ref="exer-quad-change"/> and <xref ref="exer-quad-symm"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Sketch the graph without plotting points.
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Complete a table like <xref ref="tbl-quad-change2"/> for each equation you found in <xref ref="exer-quad-graph"/>.
+          </p>
+          <table xml:id="tbl-quad-change2">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><m>y = f(x)</m></cell>
+                <cell right='minor'><m>g(x) = f(x) - f(x - 1)</m></cell>
+                <cell right='minor'><m>g(x) - g(x - 1)</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-3</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-2</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>-1</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>0</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>1</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>2</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>3</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>4</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Complete a table like the one in <xref ref="tbl-quad-change2"/> for <m>f(x) = ax^2 + bx + c</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What patterns do you see in the first differences, <m>f(x) - f(x - 1)</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What patterns do you see in the second differences, <m>g(x) - g(x - 1)</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What do these patterns suggest about the rates of change of all quadratic functions?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Graph the parent function, <m>f(x) = x^2</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What are the coordinates of the <m>y</m>-intercept? <m>x</m>-intercept?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe the shape of the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Why does the graph look as it does? Compare the table values to the graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What new information is provided by the graph that is not evident in the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What information is provided in the table that is not evident in the graph?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          The vertex of a quadratic function is the point at which it changes direction.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What are the coordinates of the vertex of <m>f(x)=x^2</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph each equation from <xref ref="exer-quad-graph"/>. How are the graphs related to <m>f(x)=x^2</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For each equation in <xref ref="exer-quad-graph"/>, what is the vertex for each graph?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Two other important points on the graph of <m>f(x)=x^2 </m> are <m>(1,1)</m> and <m>(-1,1)</m>. Graph each equation from <xref ref="exer-quad-graph"/> for <m>x</m> in <m>[-5, 5]</m>. What points correspond with <m>(1, 1)</m> and <m>(-1, 1)</m> for these quadratic function family members? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For functions in the quadratic function family, why are the points that correspond to <m>(0, 0)</m>, <m>(1, 1)</m>, and <m>(-1, 1)</m> on <m>f(x) = x^2</m> important?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How might these points help you determine the equation of the function represented by the table or graph? Explain.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <introduction>
+        <p>
+          Tiffany makes quilts for different purposes. All of the quilts are made using the same three sizes of squares: 8 inch, 4 inch, and 2 inch. Study each quilt. The first 3 sizes of quilts are shown in <xref ref="fig-tiff-quilts"/>. Tiffany makes larger sizes but always in the same pattern as these.
+        </p>
+        <figure xml:id="fig-tiff-quilts">
+          <caption>3 sizes of Tiffany's Quilts</caption>
+          <image source="tiff-quilts" width="95%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Determine the number of each size square needed to make the quilts. Fill in <xref ref="tbl-tiff-quilts"/>.
+          </p>
+          <table xml:id="tbl-tiff-quilts">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Quilt Number</cell>
+                <cell right='minor'>Number of 8-inch Squares</cell>
+                <cell right='minor'>Number of 4-inch Squares</cell>
+                <cell right='minor'>Number of 2-inch Squares</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>1</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>2</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>3</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>4</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>5</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>6</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Equation</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Function Family</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Explain your function family choice.</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Extend the quilt pattern to other sizes of quilts. Complete <xref ref="tbl-tiff-quilts"/>.
+          </p>
+        </statement>
+      </task>
+      
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Study Patterns A and B in <xref ref="fig-quad-blocks"/>. Visualize the patterns being built with blocks.
+        </p>
+        <figure xml:id="fig-quad-blocks">
+          <image source="quad-blocks" width="90%">
+            <description></description>
+          </image>
+        </figure>
+        <p>
+          To get Pattern C (not shown), double all but the center column of Pattern B. To build Pattern C with blocks, build 4 sets of stair-steps around a central tower so that the stair-steps are sticking out at right angles to each other.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Using <xref ref="tbl-quad-block"/>, record how many blocks you need to build each step of each pattern.
+          </p>
+          <table xml:id="tbl-quad-block">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Step Number</cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'>5</cell>
+                <cell right='minor'><m>x</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Pattern A:</line><line>Number of Squares</line></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><m>x</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Pattern B:</line><line>Number of Squares</line></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><m>x</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Pattern C:</line><line>Number of Squares</line></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><m>x</m></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data using different colors for each graph. Label the graphs A, B, and C. Indicate the scales on the axes.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For each set of data, determine if the data represents a linear function, quadratic function, or some other type of function. Explain your choice. (Do not depend solely on the graph. Graphs can be deceiving.)
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            You have seen the data for Patterns A and B before. Find equations to fit both sets of data. Verify that each equation fits at least 3 points of the corresponding data set.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-blocks-avalue">
+        <statement>
+          <p>
+            For Pattern C, determine the value of a in the equation <m>y = ax^2 + bx + </m>. Explain how you know you are right.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the graph of the equation <m>y = ax^2</m> using the value of <m>a</m> you found in <xref ref="exer-quad-blocks-avalue"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Does the graph fit the data? If not, is the graph too high or too low?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-blocks-adjust">
+        <statement>
+          <p>
+            Try to adjust your equation to fit the data. Play with values of <m>b</m> and values of <m>c</m> until your graph seems to fit the data. Record the equation.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-blocks-try">
+        <statement>
+          <p>
+            Try at least 3 data points for Pattern C to see if the equation you found in <xref ref="exer-quad-blocks-adjust"/> works. Adjust the equation further if needed.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          In Leapfrogs,<fn>Adapted from: Mason, John, Leone Burton, and Kaye Stacey. <pubtitle>Thinking Mathematically</pubtitle> (Revised Edition). Harlowe, UK: Prentice Hall, 1985, p. 57.</fn> two different colors of objects are arranged in the colored spaces to represent two types of frogs on a log. See <xref ref="fig-quad-frogs"/>.
+        </p>
+        <figure xml:id="fig-quad-frogs">
+          <image source="quad-frogs" width="90%">
+            <description></description>
+          </image>
+        </figure>
+        <p>
+          Your job is to interchange the frogs on one end of the log with the frogs on the other end of the log. There are two restrictions:
+          <ul>
+            <li>
+              <p>
+                A frog can move into an adjacent empty space.
+              </p>
+            </li>
+            <li>
+              <p>
+                A frog can jump over a frog of the other color.
+              </p>
+            </li>
+          </ul>
+          You need 5 each of two different types of small objects (for example, pennies and dimes, cubes of 2 colors, paper clips and coins) and the Leapfrogs gameboard in <xref ref="fig-frogs-board"/>. Objects on the yellow spaces are referred to as Yellow Frogs. Objects on the green spaces are referred to as Green Frogs. Using the same number of frogs on each end of the board, find the least number of moves needed to interchange the colors of frogs as the number of frogs increases.
+        </p>
+        <figure xml:id="fig-frogs-board">
+          <image source="frogs-board" width="70%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Record the <em>least number of moves</em> needed to interchange the two colors of frogs in <xref ref="tbl-frogs-least"/>.
+          </p>
+          <table xml:id="tbl-frogs-least">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Number of Yellow Frogs</cell>
+                <cell right='minor'>1</cell>
+                <cell right='minor'>2</cell>
+                <cell right='minor'>3</cell>
+                <cell right='minor'>4</cell>
+                <cell right='minor'>5</cell>
+                <cell right='minor'><m>F</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Least Number of Moves</line><line>Needed to Interchange Frogs</line></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Plot the data. To what function family do the data belong? Why do you think so? (Your analysis must include more than looking at the graph.)
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation that fits the data. What is the least number of moves, <m>M</m>, needed to interchange <m>F</m> frogs on each end of the log? Use the process in <xref first="exer-quad-blocks-avalue" last='exer-quad-blocks-try'/>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What is the equation to find the area of a circle given its radius?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How is the diameter of a circle related to its radius?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Write the equation for the area of a circle in terms of its diameter.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Complete Columns C, E, and G of <xref ref="tbl-quad-pizza"/>.
+          </p>
+          <table xml:id="tbl-quad-pizza">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>A</cell>
+                <cell right='minor'>B</cell>
+                <cell right='minor'>C</cell>
+                <cell right='minor'>D</cell>
+                <cell right='minor'>E</cell>
+                <cell right='minor'>F</cell>
+                <cell right='minor'>G</cell>
+              </row>
+
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Pizza Size</cell>
+                <cell right='minor'>Diameter, <m>D</m>, in inches</cell>
+                <cell right='minor'><m>\text{Inches}^2</m> of pizza</cell>
+                <cell right='minor'>Base price, <m>B</m>, for Cheese Pizza</cell>
+                <cell right='minor'>Price of cheese pizza per <m>\text{inch}^2</m></cell>
+                <cell right='minor'>Single Topping Price, <m>T</m></cell>
+                <cell right='minor'>Topping Price per <m>\text{inch}^2</m></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Small</cell>
+                <cell right='minor'>10</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>7</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.00</cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Medium</cell>
+                <cell right='minor'>12</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>9</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.25</cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Large</cell>
+                <cell right='minor'>14</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>11</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.50</cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Extra Large</cell>
+                <cell right='minor'>16</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>13</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.75</cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>Equation</cell>
+                <cell right='minor'><m>D</m></cell>
+                <cell right='minor'><m>A(D) =</m></cell>
+                <cell right='minor'><m>B(D) =</m></cell>
+                <cell right='minor'>X</cell>
+                <cell right='minor'><m>T(D) =</m></cell>
+                <cell right='minor'>X</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The cheese pizza prices for a local pizza parlor are shown in Column D. Is the pizza parlor's method for pricing pizzas reasonable? Why or why not? Discuss area versus cheese pizza price in your response.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-quad-pizza-better-eq">
+        <statement>
+          <p>
+            Suggest a better equation to use to set the price for each size cheese pizza so the customer is paying the same amount for each square inch of cheese pizza regardless of the pizza's diameter.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use your equation from <xref ref="exer-quad-pizza-better-eq"/> to find prices for each cheese pizza in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Consider the topping price per square inch in Column G. Is the pizza parlor's method for pricing toppings reasonable? Discuss area versus per topping price in your response.
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-eq-topping-price">
+        <statement>
+          <p>
+            Suggest an equation to set the topping price for each size pizza so the customer is paying the same amount per topping for each square inch of pizza regardless of the pizza's diameter.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use your equation from <xref ref="exer-eq-topping-price"/> to find prices for added toppings.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            To what function family does each equation in Columns C, G, and E belong? How do you know?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Revisit the Tile Patterns (<xref text='title' ref="act-analyze-tiles"/>, <xref text='title' ref="act-analyze-more-tiles"/>) in <xref ref="S_tiles"/> and <xref ref="hmwk-29"/>.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Determine which tile patterns are quadratic.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Explain how you can tell from the arrangement of tiles.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Explain how you can tell from the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation for each quadratic pattern. Use the process in <xref first="exer-quad-blocks-avalue" last="exer-quad-blocks-try"/>, if needed.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          As with linear functions, you can use an electronic graphing tool to fit regression equations to the data. (See <xref ref="S_lin_reg"/> for a reminder.)
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Revisit each of the problems above. Fit a quadratic regression equation to each data set.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For each data set, compare the regression equation with the equation you found in other ways. How close was your equation to the regression equation? Do you need to adjust your thinking or were your equations correct?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            A student page describing how to find the regression equation using a Texas Instruments (<init>TI</init>) graphing calculator follows (<xref ref="act-reg-eq-calc"/>). If you need a reminder of how to use Desmos to find a regression equation, click on the <q>?</q> icon (Help) in the upper right corner of the Desmos screen, click on Regressions, then follow the directions provided.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+    
+  </exercises>
+
+  <worksheet xml:id="act-reg-eq-calc">
+    <title>Entering, Graphing, and Plotting Data: Finding Regression Equations</title>
+    
+    <exercise>
+      <title>Entering the Data</title>
+      
+      <introduction>
+        <p>
+          Use your graphing calculator to enter the data:
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Press STAT then choose 1: Edit<ellipsis/>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Enter the values for the independent variable (domain) into L1.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Enter the values for the dependent variable (range) into L2.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <title>Graphing the Data</title>
+
+      <task>
+        <statement>
+          <p>
+            Press STAT PLOT (2ND Y=) then choose 1: Plot1<ellipsis/> Press ENTER
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Settings:
+            <ul>
+              <li>
+                <p>
+                  On,
+                </p>
+              </li>
+              <li>
+                <p>
+                  Scatter plot (first graph type)
+                </p>
+              </li>
+              <li>
+                <p>
+                  Xlist: L1
+                </p>
+              </li>
+              <li>
+                <p>
+                  Ylist: L2
+                </p>
+              </li>
+              <li>
+                <p>
+                  Mark: +
+                </p>
+              </li>
+            </ul>
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Press GRAPH
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <title>Setting the Viewing Window</title>
+      
+      
+      <task>
+        <statement>
+          <p>
+            Press WINDOW
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Use the table to determine
+          </p>
+          <p>
+            Xmin, Xmax, Xscl
+          </p>
+          <p>
+            Ymin, Ymax, Yscl
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            OR Press ZOOM then scroll down to 9: ZoomStat, Press ENTER
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <title>Fitting a Function to the Data</title>
+      
+      
+      <task>
+        <statement>
+          <p>
+            Press STAT
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Move the cursor to the right to highlight CALC
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Scroll down to the function type you want to use, for example, 5: QuadReg, then Press ENTER (to fit a quadratic function)
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Indicate the lists of the data separated by commas, for example, L1, L2.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Choose where you want to place the function equation, for example, Y1. Press VARS, move the cursor to the right to highlight Y-VARS, Press ENTER to choose 1: Function, scroll to highlight the Y-variable you want, then press ENTER again.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The screen should read: 5: QuadReg L1, L2, Y1. Press ENTER (to fit a quadratic function)
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The regression equation will be in Y1 or whatever Y-variable you chose.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Press GRAPH to plot the regression equation with the data.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+    
+  </worksheet>
+</section>
