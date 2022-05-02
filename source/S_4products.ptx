@@ -899,7 +899,7 @@
       </task>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-quad-funcs-stnd">
       <introduction>
         <p>
           Each quadratic function in <xref ref="tbl-quad-funcs-stnd"/> is given in standard form, <m>y = ax2 + bx + c</m>. For each function:
@@ -1104,7 +1104,7 @@
       </statement>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-3parabs">
       <introduction>
         <p>
           Study the parabolas in <xref ref="fig-3parabs"/>.
