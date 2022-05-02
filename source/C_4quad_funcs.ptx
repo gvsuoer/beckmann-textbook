@@ -36,6 +36,7 @@
   <xi:include href="S_4products.ptx" />
   <xi:include href="S_4factoring.ptx" />
   <xi:include href="S_4rate_of_change.ptx" />
+  <xi:include href="S_4func_fams.ptx" />
   
 
 </chapter>

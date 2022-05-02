@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_func_fams">
+  <title>Function Families</title>
+
+  <introduction>
+    <p>
+      In <xref ref="C_lin_funcs"/> and <xref ref="C_use_lin_funcs"/>, we saw that linear functions have very predictable behaviors depending on the values of m and b in the equation, <m>y = mx + b</m>. All linear functions are members of the linear function family. Each function family has a parent function, the member of the function family in its most basic form. The parent of the linear function family is the function <m>y = x</m> or in function notation, <m>f(x) = x</m>. In this form, we see <m>m = 1</m> and <m>b = 0</m>. In <xref ref="S_func_fams"/>, we examine other families of functions.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-trans-funcs">
+    <title>Transformation of Functions</title>
+    
+    <introduction>
+      <p>
+        In this activity, we examine the absolute value function family whose parent function is <m>f(x) = |x|</m> and the quadratic function family whose parent function is <m>f(x) = x^2</m>. To investigate these function families, we need three different parameters, <m>a</m>, <m>h</m>, and <m>k</m>. By changing each parameter, we will see how changes in <m>a</m>, <m>h</m>, and <m>k</m> affect the graphs of the parent functions.
+      </p>
+      <p>
+        To begin, we create a large coordinate plane on the floor with both <m>x</m>- and <m>y</m>-axes labeled from <m>-10</m> to 10. Volunteers use string to mark the <m>x</m>- and <m>y</m>-axes and sticky notes to label the axes. (Use 3 <times/> 3 inch sticky notes or larger to label the axes). Make the grid large enough so that volunteers can stand next to each other on the <m>x</m>-axis. A tiled floor is very helpful!
+      </p>
+      <p>
+        We also need to prepare a set of hang tags that volunteers can wear. Tags can be made from light color cardstock. Punch a hole in the center of a short side, thread string, yarn, or ribbon through the hole so the tag can hang round a volunteer's neck. Label each tag with values of <m>x</m> between <m>-10</m> and 10. It is helpful if numbers are not all the same distance apart and if the positive numbers chosen are not all the same as the absolute value of the negative numbers chosen. A possible set of numbered tags might include: <m>-10</m>, <m>-7</m>, <m>-4</m>, <m>-1</m>, 0, 2, 5, 8, and 10.
+      </p>
+      <p>
+        Let's begin:
+      </p>
+    </introduction>
+
+    <exercise>
+      <statement>
+        <p>
+          Each of 9 volunteers wears a tag with a number on it. The number on the tag represents your assigned value of <m>x</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-start-point">
+      <statement>
+        <p>
+          Stand on the <m>x</m>-axis at the point, <m>(x, 0)</m>, where <m>x</m> is the number on your tag.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-new-point">
+      <statement>
+        <p>
+          Move to the ordered pair <m>(x, |x|)</m>. Tape a colored cord to the floor to mark the graph you're standing on. You have just created the graph of <m>y = |x|</m>. Discuss the appearance of the graph.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          At your teacher's request, transform <m>y = |x|</m> in various ways. Consider the equation,
+          <me>
+            y = a \cdot | x - h | + k
+          </me>
+          
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Repeat <xref ref="exer-start-point"/> and <xref ref="exer-new-point"/>. The point to which you move is the ordered pair indicated in the table, as guided by your teacher. Use a different color of string for each graph.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What are the values of <m>a</m>, <m>h</m>, and <m>k</m> for each graph? Write them in <xref ref="tbl-transform"/>.
+          </p>
+          <table xml:id="tbl-transform">
+            
+            <tabular halign='center' top='minor' left='minor'>
+              <row bottom='minor' header='yes'>
+                <cell right='minor'>Move to:</cell>
+                <cell right='minor'><m>a</m></cell>
+                <cell right='minor'><m>h</m></cell>
+                <cell right='minor'><m>k</m></cell>
+                <cell right='minor'>Equation</cell>
+              </row>
+
+              <row bottom='medium'>
+                <cell right='minor'><m>(x, |x|)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>(x, |x| + 1)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='medium'>
+                <cell right='minor'><m>(x, |x| - 2)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>(x, -|x|)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='medium'>
+                <cell right='minor'><m>(x, 0.5 \cdot |x|)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>(x, |x - 2|)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='medium'>
+                <cell right='minor'><m>(x, |x + 1|)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><m>(x, 0.5 \cdot |x - 2|)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+
+              <row bottom='medium'>
+                <cell right='minor'><m>(x, 0.5 \cdot |x| - 2)</m></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'><nbsp/></cell>
+              </row>
+              
+            </tabular>
+          </table>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Explain <em>why</em> the new graph is located where it is. Use the equation and the graph in your explanation. Compare each new graph to <m>y = |x|</m> and other related graphs.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            In the final column, write the equation of the function defined by each ordered pair.
+          </p>
+          <p>
+            Return the room to its original condition. Use Desmos to explore transformations of the parent quadratic function, <m>y = x^2</m>.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Continue the investigation using Desmos.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Enter <m>y = a(x - h)2 + k</m> into the entry line of Desmos. This is another important form of a quadratic function.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Set up sliders for <m>a</m>, <m>h</m>, and <m>k</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Play with <m>k</m> first. What does <m>k</m> do? Why does the graph change as it does? Explain from the equation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Play with <m>a</m> next. What does <m>a</m> do? Why does the graph change as it does? Explain from the equation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Play with <m>h</m>. What does <m>h</m> do? Why does the graph change as it does? Explain from the equation.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            What is significant about <m>h</m> and <m>k</m>? What is significant about <m>a</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            This form of the quadratic equation, <m>y = a(x - h)^2 + k</m>, is called the Vertex Form. Why do you think that is?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Your teacher will provide you a Class Code to complete the Desmos activity, <pubtitle>Card Sort: Parabolas</pubtitle> in the Teacher Desmos Quadratic Bundle. Complete the activity. The fourth slide is challenging because it does not include scales for any of the graphs. Describe how you knew how to sort each of the equations to fit the graphs provided. Provide illustrations in your description.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Quadratic functions can be written in the following forms*:
+          <dl>
+            <li>
+              <title>Standard Form</title>
+              <p>
+                <m>y=ax^2 +bx+c</m>
+              </p>
+            </li>
+            <li>
+              <title>Vertex Form</title>
+              <p>
+                <m>y=a(x-h)^2 +k</m>
+              </p>
+            </li>
+            <li>
+              <title>Factored Form</title>
+              <p>
+                <m>y = a(x - p)(x - q)</m> (*Some quadratic functions cannot be written in this form. Do you know why?)
+              </p>
+            </li>
+          </dl>
+        </p>
+      </introduction>
+
+      <task>
+        <introduction>
+          <p>
+            What information about a quadratic function is most evident when it is given in:
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Standard Form?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Vertex Form?
+            </p>
+          </statement>
+        </task>
+
+        <task>
+          <statement>
+            <p>
+              Factored Form?
+            </p>
+          </statement>
+        </task>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What information about a quadratic function is the same for each form of the equation?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+  </worksheet>
+
+  <worksheet xml:id="act-angry-birds">
+    <title>Angry Birds and Quadratic Functions</title>
+    
+    <introduction>
+      <p>
+        The video game, <pubtitle>Angry Birds</pubtitle>, has become so popular that now there are toys and movies created with the popular animals defending their homes from the visiting pigs. Why do we care? Because every time you launch an angry bird, the bird takes a parabolic flight path! To find the equation for the path of an angry bird, revisit your work with <xref text='title' ref="act-trans-funcs"/>. Complete the student page, <xref text='title' ref="act-angry-birds"/>, to think more deeply about transforming functions.
+      </p>
+    </introduction>
+
+    <exercise xml:id="exer-angry-birds-eq">
+      <statement>
+        <p>
+          The graph in <xref ref="fig-angry-birds"/> shows an Angry Bird waiting to be launched to hit a pig. The bird must go from the origin <m>(0, 0)</m>, through the point <m>(5, 4)</m>, and hit the pig located at <m>(10, 0)</m>.
+        </p>
+        <figure xml:id="fig-angry-birds">
+          <image source="angry-birds" width="60%">
+            <description></description>
+          </image>
+        </figure>
+        <p>
+          What equation will allow the Angry Bird to take the right path? Write an equation. Show the work you do to find the equation in the space to the right of the picture.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find both coordinates of the vertex of the quadratic function in <xref ref="exer-angry-birds-eq"/> Write the vertex as an ordered pair. How do you know your solution is correct?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-angry-birds-neweq">
+      <statement>
+        <p>
+          Suppose the Angry Bird is launched from <m>(0,2)</m>, the pig is sitting on a pedestal at <m>(10,2)</m>, and the bird's path must go through <m>(5, 6)</m>. Adjust your equation in <xref ref="exer-angry-birds-eq"/> for this new scenario. Explain how you know you are correct.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find both coordinates of the vertex of the equation in <xref ref="exer-angry-birds-neweq"/>. How do you know your solution is correct?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Suppose the Angry Bird was launched from <m>(-1,0)</m>. What equation would you need to use to hit a pig at <m>(9, 0)</m> and go through the point, <m>(h, 4)</m>, where <m>h</m> is the <m>x</m>-coordinate of the vertex? Show your work.
+        </p>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <statement>
+        <p>
+          Your teacher will provide you a Class Code to complete the Desmos activity, <pubtitle>Match My Parabola</pubtitle> in the Teacher Desmos Quadratic Bundle. Describe how you were able to find equations for the points and graphs provided. What do you know about quadratic functions that helped you complete this activity?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Your teacher will provide you a Class Code to complete the Desmos activity, <pubtitle>Marbleslides: Parabolas</pubtitle> in the Teacher Desmos Quadratic Bundle. Complete the activity. This fun activity gives you a chance to test your ability to transform functions and earn stars.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete the student page, <xref text='title' ref="act-tile-tables"/>, to extend your newly acquired skills with transformations of functions.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Consider the picture of water flowing from a spout in <xref ref="fig-water-spout"/>. A coordinate grid has been imposed on the picture so that the <m>y</m>-axis goes through the vertex and the <m>x</m>-axis is the line on the blind just above the spout. Outline a curve that coincides with either the lower edge of the water flow or the upper edge of the water flow. Refer to your chosen curve as you answer the following questions. The grid increments by 1 unit for both <m>x</m> and <m>y</m> scales.
+        </p>
+        <figure xml:id="fig-water-spout">
+          <caption>Water Flowing From a Spout</caption>
+          <image source="water-spout" width="60%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            To what function family does this curve belong? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Fit an equation to the graph you chose for the scale given. Determine the values of the parameters, <m>a</m>, <m>h</m>, and <m>k</m> in the equation, <m>y = a \cdot f(x - h) + k</m>. Explain how you know each parameter is correct.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is a sensible domain for the function that models this flow of water? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            What is a sensible range for the function that models this flow of water? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How would the picture change if the water pressure increased? What parameters would change? How would each change? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If the water pressure decreased, how would the picture change? What parameters would change? How would each change? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Suppose <m>a=2</m>, <m>h=0</m>, and <m>k=3</m> for the equation, <m>y=a \cdot f(x-h)+k</m>. Describe the location of the spout and the water pressure as compared with the water pressure being used in the picture. Explain how you know you are correct.
+          </p>
+        </statement>
+      </task>
+
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Revisit <xref ref="exer-factored-eqs"/> and <xref ref="exer-quad-funcs-stnd"/> from <xref ref="hmwk-42"/>. Find the vertex form for each of the quadratic equations in both tables. Record them next to the tables in <xref ref="exer-factored-eqs"/> and <xref ref="exer-quad-funcs-stnd"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you verify that each form represents the same quadratic function?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            For the forms of the same function you entered into the tables in <xref ref="exer-factored-eqs"/> and <xref ref="exer-quad-funcs-stnd"/>, verify that each form of the equation represents the same quadratic function.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Revisit <xref ref="exer-3parabs"/> from <xref ref="hmwk-42"/>. Determine equations in vertex form for all three graphs. Explain your work. Use grid points to determine equations; do not estimate coordinates of any points.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+  </exercises>
+
+  <worksheet xml:id="act-tile-tables">
+    <title>Tiling Tables</title>
+    
+    <exercise>
+      <introduction>
+        <p>
+          Kelly makes square tables and then tiles the tops. To cover the tabletops, she uses quarter tiles for each corner, half tiles along the sides, and full square tiles to fill in the rest. The first 5 sizes in her line of tabletops are shown in <xref ref="fig-table-tops"/>. Both side lengths of the first tabletop are 10 inches.
+        </p>
+        <figure xml:id="fig-table-tops">
+          <caption></caption>
+          <image source="table-tops" width="80%">
+            <description></description>
+          </image>
+        </figure>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Complete <xref ref="tbl-table-tops"/> for the first 6 tabletops.
+          </p>
+        </statement>
+        <table xml:id="tbl-table-tops">
+          <title>Kelly's Tabletops</title>
+          <tabular halign='center' left='minor' top='minor'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'>A</cell>
+              <cell right='minor'>B</cell>
+              <cell right='minor'>C</cell>
+              <cell right='minor'>D</cell>
+              <cell right='minor'>E</cell>
+            </row>
+
+            <row bottom='minor' header='yes'>
+              <cell right='minor'>Table number, <m>n</m></cell>
+              <cell right='minor'>Dimension of one side, <m>D</m></cell>
+              <cell right='minor'>Number of quarter tiles, <m>Q</m></cell>
+              <cell right='minor'>Number of half tiles, <m>H</m></cell>
+              <cell right='minor'>Number of full tiles, <m>F</m></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>1</cell>
+              <cell right='minor'>10</cell>
+              <cell right='minor'>4</cell>
+              <cell right='minor'>0</cell>
+              <cell right='minor'>1</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>2</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'>4</cell>
+              <cell right='minor'>5</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>3</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>4</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>5</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>6</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'><m>n</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Look for patterns in <xref ref="tbl-table-tops"/>. Describe at least 3 patterns you see in the data.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise xml:id="exer-table-tops-family">
+      <introduction>
+        <p>
+          Let the table number, <m>n</m>, be the independent variable. Plot the data in the columns indicated. Analyze the data in the table. Determine to what function family the data belongs. Explain how you know.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Columns A and B:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Columns A and C:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Columns A and D:
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Columns A and E:
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find equations for each set of data in <xref ref="exer-table-tops-family"/>. Enter the equations into the last row of <xref ref="tbl-table-tops"/>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-table-tops-quad">
+      <task>
+        <statement>
+          <p>
+            Write any quadratic equations in standard form.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is it possible to factor the quadratic equation? Why or why not?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-table-tops-noconst">
+        <statement>
+          <p>
+            Subtract the constant from the standard form of the equation. Write this new equation.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Compare the graph of the equation in <xref ref="exer-table-tops-quad"/> to the graph of the equation in <xref ref="exer-table-tops-noconst"/>. How do these graphs comapre with each other? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-table-tops-factor">
+        <statement>
+          <p>
+            Factor the equation you found in <xref ref="exer-table-tops-noconst"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find the vertex of the equation in <xref ref="exer-table-tops-noconst"/> from the factored form of the equation (in <xref ref="exer-table-tops-factor"/>).
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How does this vertex relate to the vertex of the equation in <xref ref="exer-table-tops-quad"/>. Find the vertex of the equation in <xref ref="exer-table-tops-quad"/>
+          </p>
+        </statement>
+      </task>
+
+      <task xml:id="exer-table-tops-vtx-form">
+        <statement>
+          <p>
+            Write the vertex form of the quadratic equation in <xref ref="exer-table-tops-quad"/>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Show that the equations in <xref ref="exer-table-tops-quad"/> and <xref ref="exer-table-tops-vtx-form"/> are equivalent.
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+  </worksheet>
+  
+</section>
