@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<section xml:id="S_what_know">
+  <title>What Do You Know about Functions?</title>
+  
+  <introduction>
+    <p>
+      In <xref ref="S_big_ideas"/>, you reviewed the big ideas of linear functions. From your work in <xref first="S_new_func" last="S_func_fams"/>, what do you think are the big ideas of quadratic functions? Brainstorm with your group. Write each new idea on an index card or a sticky note. Arrange the cards or sticky notes in a way that shows how ideas are linked to each other. Your arrangement is a concept map. When your group is satisfied with your concept map, compare your concept map to that of other groups. Add any ideas you missed. Discuss with the class any ideas that you think are misplaced or that could be placed differently.
+    </p>
+  </introduction>
+
+  <worksheet xml:id="act-func-card-sort">
+    <title>Linear, Quadratic, and Other Functions Card Sort</title>
+    
+    <page>
+
+    <introduction>
+      <p>
+        Can you distinguish linear from quadratic and other functions? The function card sort helps you think about similarities and differences among functions. See if you can find cards with functions that belong to the same function family.
+      </p>
+    </introduction>
+
+    <p>
+      There are three groups of cards in <xref ref="fig-func-card-sort"/>. Functions on Cards 1 through 5 are represented in context and as tables. Functions on Cards 6 through 10 are represented through practical situations. Functions on Cards 11 through 15 are represented through children's literature. Cards in the same function family do not represent the same equation in this case.
+    </p>
+
+    <exercise>
+      <statement>
+        <p>
+          Print out and cut the cards apart.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Sort each card into one of the categories: Linear, Quadratic, or Other.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Explain how you know a card fits the category you chose and cannot fit another category.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          For each card in the Linear and Quadratic categories, find an equation to fit the representation.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Do all of the cards you categorized as Other fit the same function family? Explain.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If you think there is more than one function family represented by the cards you sorted as Other, sort the cards into piles that seem to represent the same function family. Describe each category. Explain why you sorted the cards as you did.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find equations for as many of the cards in the Other category as possible. Explain how you know each equation is correct.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    </page>
+
+    <page>
+
+    <figure xml:id="fig-func-card-sort">
+      <caption>Cards for <xref text='title' ref="act-func-card-sort"/></caption>
+
+      <image source="func-card-sort" width="100%">
+        <description></description>
+      </image>
+    </figure>
+
+    </page>
+  </worksheet>
+
+  <exercises>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete the student page, <xref text="title" ref="act-grow-tiles"/>. How can you tell from a tile pattern that it is growing linearly? How can you tell from a tile pattern that it is growing quadratically?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          The Saffir-Simpson Hurricane Scale rates a hurricane's intensity using wind speed and storm surge, which is the abnormal rise in sea level accompanying a hurricane or other intense storm. The scale also estimates the potential damage and flooding expected along the coast from a hurricane landfall.
+          <fn><url href="http://www.cnn.com/2007/US/07/06/hurricane.scale/">Resource</url>, retrieved April 23, 2020</fn>
+        </p>
+        <p>
+          Let the category number be the independent variable. Let the highest wind speed in the category be the dependent variable.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            To what function family does this data belong? Why do you think so?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            How can you tell from the table?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Graph the data. How can you tell from the graph?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Determine an equation to fit the data. Explain your process.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            No highest wind speed is given for a Category 5 hurricane. If the data continued to follow the pattern in the table, what would be the highest wind speed for a Category 5 hurricane?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Hurricanes have been getting stronger over the past several years prompting the National Hurricane Center to propose a Category 6. If the data continued to follow the pattern in the table, what would be the highest wind speed for a Category 6 hurricane?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The highest recorded wind speed was a gust of 253 miles per hour during Tropical Cyclone Olivia on April 10, 1996. Into what hurricane category would this wind speed fall? Explain.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete the student page, <xref text="title" ref="act-quad-forms-card-sort"/>. Be ready to discuss your solutions with your group. Write down questions you still have.
+        </p>
+      </statement>
+    </exercise>
+    
+  </exercises>
+
+  <worksheet xml:id="act-grow-tiles">
+    <title>Growing Tile Patterns</title>
+    
+    <introduction>
+      <p>
+        There are 10 growing tile patterns to investigate in <xref ref="fig-grow-tiles"/>.
+        <ul>
+          <li>
+            <p>
+              Patterns A through D are in Rows A through D respectively, with Step 1 in Column 1 and Step 4 in Column 4.
+            </p>
+          </li>
+          <li>
+            <p>
+              Patterns 1 through 4 are in Columns 1 through 4 respectively, with Step 1 in Row A and Step 4 in Row D.
+            </p>
+          </li>
+          <li>
+            <p>
+              Diagonal 1 begins in the upper left corner at Step 1 and moves diagonally to the lower right corner at Step 4.
+            </p>
+          </li>
+          <li>
+            <p>
+              Diagonal 2 begins in the upper right corner at Step 1 and moves diagonally to the lower left corner at Step 4.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </introduction>
+
+    <figure xml:id="fig-grow-tiles">
+      <caption>Growing Tile Patterns</caption>
+      <image source="grow-tiles" width="90%">
+        <description></description>
+      </image>
+    </figure>
+
+    <p>
+      Choose one tile pattern to investigate. Solve each problem for the pattern you choose.
+    </p>
+
+    <exercise xml:id="exer-grow-tiles-study">
+      <introduction>
+        <p>
+          Study the pattern.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            Describe how the number of white tiles is changing as the pattern progresses from Step 1 to Step 4.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Describe how the number of shaded tiles is changing as the pattern progresses from Step 1 to Step 4.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Draw Step 5. Explain how you know it follows the same pattern.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is Step 5 possible for all 10 patterns? Why or why not?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Complete <xref ref="tbl-grow-tiles"/> showing the number of white, shaded, and total tiles for each step.
+        </p>
+        <table xml:id="tbl-grow-tiles">
+          
+          <tabular halign='center' top='minor' left='minor'>
+            <row bottom='minor' header='yes'>
+              <cell right='minor'>Step Number</cell>
+              <cell right='minor'>Number of Light Colored Tiles</cell>
+              <cell right='minor'>Number of Dark Colored Tiles</cell>
+              <cell right='minor'>Total Number of Tiles</cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>1</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>2</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>3</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>4</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'>5</cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+
+            <row bottom='minor'>
+              <cell right='minor'><m>x</m></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+              <cell right='minor'><nbsp/></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find patterns in <xref ref="tbl-grow-tiles"/>. How are the numbers changing in each column?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Find equations to fit white, shaded, and total tiles, respectively, assuming the pattern continues predictably. Enter the equations in the last row of the table.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How are the equations you found related to how each pattern of tiles is growing?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          How are the equations related to each other?
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer-grow-tiles-large">
+      <introduction>
+        <p>
+          Suppose you have 200 white tiles and 200 shaded tiles.
+        </p>
+      </introduction>
+
+      <task>
+        <statement>
+          <p>
+            What is the largest step number of your chosen tile pattern you can create? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            If the tiles are 1-inch squares, how large will the project be?
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <statement>
+        <p>
+          Patterns E and F are shown in <xref ref="fig-grow-tiles-ef"/>. Solve <xref first="exer-grow-tiles-study" last="exer-grow-tiles-large"/> for one of these patterns.
+        </p>
+        <figure xml:id="fig-grow-tiles-ef">
+          <image source="grow-tiles-ef" width="90%">
+            <description></description>
+          </image>
+        </figure>
+      </statement>
+    </exercise>
+  </worksheet>
+
+  <worksheet xml:id="act-quad-forms-card-sort">
+    <title>Forms of Quadratic Functions Card Sort</title>
+    
+    <introduction>
+      <p>
+        There are three forms of a quadratic function. Each one is important in its own way. Each one makes one or more aspects of a quadratic function evident. The forms are:
+        <me>
+          \text{Standard: } ax^2 + bx + c \qquad \text{Vertex: } a(x - h)^2 + k \qquad \text{Factored: } y = a(x - p)(x - q)
+        </me>
+        
+      </p>
+    </introduction>
+
+    <exercise>
+      <introduction>
+        <p>
+          A card sort and recording sheet are included below. Cut the cards apart.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            Sort the cards to find pairs of equations that represent the same quadratic function. Write the equations in the table below.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Verify algebraically that the cards you have matched name the same function. Show your work! (Check the graphs, too!)
+          </p>
+        </statement>
+      </task>
+
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
+          <p>
+            Find the vertex and <m>x</m>-intercepts for each card set. List them as ordered pairs in the table.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            One equation form is missing from each set. Determine the missing form and write the missing equation (replace letters with appropriate numbers) in the table below. Verify algebraically that the missing equation matches the other equations in the set.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          What features of the graph of a quadratic function are evident from:
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            The standard form of the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The vertex form of the equation?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            The factored form of the equation?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+    
+      <task xml:id="exer-three-formsx">
+        <statement>
+          <p>
+            Find all three forms of a quadratic function with <m>x</m>-intercepts at <m>x = 2</m> and <m>x = -1.5</m>.
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Is there only one function that satisfies the conditions in <xref ref="exer-three-formsx"/>? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation for a quadratic function that satisfies the conditions in <xref ref="exer-three-formsx"/> and contains the point <m>(3, 6)</m>. How many such quadratic functions are there?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task xml:id="exer-quad-eq-int-vtx">
+        <statement>
+          <p>
+            A quadratic function has vertex <m>(2, 4)</m> and an <m>x</m>-intercept at <m>x = 0</m>. Where is the other <m>x</m>-intercept? How do you know?
+          </p>
+        </statement>
+      </task>
+
+      <task>
+        <statement>
+          <p>
+            Find an equation for a quadratic function that fits the conditions in <xref ref="exer-quad-eq-int-vtx"/>. Show that your equation works.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <table xml:id="tbl-quad-cards-fill">
+      
+      <tabular halign='center' left='minor' top='minor'>
+        <row bottom='minor' header='yes'>
+          <cell right='minor'>Card Set</cell>
+          <cell right='minor'>Standard Form</cell>
+          <cell right='minor'>Vertex Form</cell>
+          <cell right='minor'>Factored Form</cell>
+          <cell right='minor'>Vertex</cell>
+          <cell right='minor'><m>x</m>-intercepts</cell>
+        </row>
+
+        <row bottom='minor'>
+          <cell right='minor'>1</cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+        </row>
+
+        <row bottom='minor'>
+          <cell right='minor'>2</cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+        </row>
+
+        <row bottom='minor'>
+          <cell right='minor'>3</cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+        </row>
+
+        <row bottom='minor'>
+          <cell right='minor'>4</cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+          <cell right='minor'><nbsp/></cell>
+        </row>
+      </tabular>
+    </table>
+
+    <table xml:id="tbl-quad-cards-sort">
+      <title>Cards to Sort</title>
+      <tabular halign='center' top='minor' left='minor'>
+        <row bottom='minor'>
+          <cell right='minor'><line><nbsp/></line><line><m>y = (x + 1)(x - 3)</m></line><line><nbsp/></line></cell>
+          <cell right='minor'><line><nbsp/></line><line><m>y = 2(x + 1)(x - 1)</m></line><line><nbsp/></line></cell>
+          <cell right='minor'><line><nbsp/></line><line><m>y = (x + 0.5)^2 - 0.25</m></line><line><nbsp/></line></cell>
+          <cell right='minor'><line><nbsp/></line><line><m>y = 2(x - 0)^2 - 2</m></line><line><nbsp/></line></cell>
+        </row>
+
+        <row bottom='minor'>
+          <cell right='minor'><line><nbsp/></line><line><m>y = x^2 + x</m></line><line><nbsp/></line></cell>
+          <cell right='minor'><line><nbsp/></line><line><m>y = -0.5(x)(x - 4)</m></line><line><nbsp/></line></cell>
+          <cell right='minor'><line><nbsp/></line><line><m>y = (x - 1)^2 - 4</m></line><line><nbsp/></line></cell>
+          <cell right='minor'><line><nbsp/></line><line><m>y = -0.5x^2 + 2x</m></line><line><nbsp/></line></cell>
+        </row>
+      </tabular>
+    </table>
+  </worksheet>
+
+</section>
