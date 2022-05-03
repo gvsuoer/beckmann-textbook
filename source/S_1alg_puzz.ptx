@@ -412,7 +412,7 @@
     <exercise>
       <statement>
         <p>
-          Go back to <xref text="title" ref="subsubsec-directions"/>. Complete <xref ref="main-prob-nine"/>. You will hand in your written reflections for <xref ref="main-prob-nine"/> in class.
+          Go back to <xref text="title" ref="htlmfs-directions"/>. Complete <xref ref="main-prob-nine"/>. You will hand in your written reflections for <xref ref="main-prob-nine"/> in class.
         </p>
       </statement>
     </exercise>
@@ -420,7 +420,7 @@
     <exercise>
       <statement>
         <p>
-          Finish solving <xref ref="act-translate-magic"/> Be ready to discuss solutions and ask any remaining questions in class.
+          Finish solving <xref text='title' ref="act-translate-magic"/> Be ready to discuss solutions and ask any remaining questions in class.
         </p>
       </statement>
     </exercise>

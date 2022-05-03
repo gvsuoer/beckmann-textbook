@@ -17,24 +17,25 @@
     </figure>
   
   
-  <activity xml:id="act-group-work">
+  <worksheet xml:id="act-group-work">
     <title>Good Group Work (Also from Week 1 of Inspirational Math)</title>
     <introduction>
       <blockquote>
-        <attribution>
-          African Proverb
-        </attribution>
+        
         <p>
           If you want to go fast, go alone, if you want to go far, go together.
         </p>
+        <attribution>
+          African Proverb
+        </attribution>
       </blockquote>
       <p>
-        Before you work on math together, complete this activity. Use the cooperative learning strategy, <xref ref="mindset-roundtable"/>, to 
+        Before you work on math together, complete this activity. Use the cooperative learning strategy, <xref text='title' ref="mindset-roundtable"/>, to 
         generate ideas.
       </p>
     </introduction>
     
-    <task xml:id="mindset-roundtable">
+    <paragraphs xml:id="mindset-roundtable">
       <title>Roundtable</title>
       <p>
         Each team uses a single sheet of paper. 
@@ -48,13 +49,14 @@
       <p>
         Continue until time is called.
       </p>
-    </task>
-    <conclusion>
+    </paragraphs>
+
+    
       <p>
         This activity will help improve group interactions. Teachers who have tried this activity have been pleased by 
         students' thoughtful responses and found students' thoughts and words helpful in creating a positive and supportive 
-        environment. Use <xref ref="mindset-roundtable"/> to reflect on things you like people to say or do in a group when you are working together.
-        After you have thought of and written down a few of the ideas, use <xref ref="mindset-roundtable" /> to reflect on 
+        environment. Use <xref text='title' ref="mindset-roundtable"/> to reflect on things you like people to say or do in a group when you are working together.
+        After you have thought of and written down a few of the ideas, use <xref text='title' ref="mindset-roundtable" /> to reflect on 
         things you don't like people to say or do when you are working in a group.  
       </p>
       <p>
@@ -68,10 +70,10 @@
         classroom norms; refer back to them throughout the course, as needed. Don't include negative comments such as, 
         <q>I don't like waiting for slow people,</q> instead discuss the issue. 
       </p>
-    </conclusion>
-  </activity>
+   
+  </worksheet>
 
-  <activity xml:id="act-mindset">
+  <worksheet xml:id="act-mindset">
     <title>Mindset Survey</title>
     <introduction>
       <p>
@@ -79,22 +81,36 @@
       </p>
     </introduction>
 
-    <task xml:id="mindset-one">
+    <exercise xml:id="mindset-one">
       <statement>
         <p>
           Look at <xref ref="fig-mindsets"/>. Follow the directions to get a baseline of your attitudes 
           concerning your ability to learn mathematics.
         </p>
+          <figure xml:id="fig-mindsets">
+
+          <caption>A depiction of mathematical mindsets.</caption>
+            
+            <image source="mindsets" width="75%">
+              <description>Ten boxes containing mathematical mindsets. Instructions are to star mindsets that apply to you.</description>
+
+            </image>
+        </figure>
       </statement>  
-    </task>
-    <task xml:id="mindset-two">
+    </exercise>
+
+    <exercise xml:id="mindset-two">
+      <task>
       <statement>
         <p>
           The boxes in the first column of <xref ref="fig-mindsets"/> describe a person with a Fixed Mindset. The 
           boxes in the second column describe a person with a Growth Mindset. At the present time, do you tend to have a 
           Fixed Mindset or a Growth Mindset in terms of learning mathematics? Explain why you think so.
         </p>
-        
+      </statement>
+      </task>
+      <task>
+        <statement>
         <p>
           Having a Growth Mindset helps you overcome obstacles as you work to learn mathematics. Having a Fixed Mindset, 
           on the other hand, can prevent you from learning mathematics. It is important to work to overcome a Fixed Mindset 
@@ -102,43 +118,48 @@
           you transition from a Fixed to a Growth Mindset?
         </p>
       </statement>
-    </task>
-    <task xml:id="mindset-three">
+      </task>
+    </exercise>
+
+    <exercise xml:id="mindset-three">
+      <task>
       <statement>
         <p>
           Keep your responses to <xref ref="mindset-one"/> and <xref ref="mindset-two"/>. Revisit them often. Each time, ask yourself:
-        </p>
-        <p>
-          Have any of my beliefs changed?
-        </p>
-        <p>
-          Do I believe in myself and my ability to learn mathematics?
-        </p>
-      </statement>
-      <statement>
-        <p>
+          <ul>
+            <li>
+              <p>
+                Have any of my beliefs changed?
+              </p>
+            </li>
+            <li>
+              <p>
+                Do I believe in myself and my ability to learn mathematics?
+              </p>
+            </li>
+          </ul>
           If the answer to either question is no, ask yourself:
-        </p>
-        <p>
-          What messages am I giving myself that keep me from believing in myself?
-        </p>
-        <p>
-          What messages would be more helpful?
+          <ul>
+            <li>
+              <p>
+                What messages am I giving myself that keep me from believing in myself?
+              </p>
+            </li>
+            <li>
+              <p>
+                What messages would be more helpful?
+              </p>
+            </li>
+          </ul>
         </p>
       </statement>
     </task>
-    </activity>
+    </exercise>
+   
+    </worksheet>
     
   
-  <figure xml:id="fig-mindsets">
-
-    <caption>A depiction of mathematical mindsets.</caption>
-      <!-- Must remake this image so screen readers can view it. -->
-      <image source="mindsets" xml:id="img-mindsets" width="75%">
-        <description>Ten boxes containing mathematical mindsets. Instructions are to star mindsets that apply to you.</description>
-        
-      </image>
-  </figure>
+  
   
 
   <activity xml:id="act-introductions">
@@ -190,6 +211,7 @@
         </task>
     
   </activity>
+  
   </subsection>
 
   
@@ -197,13 +219,13 @@
     <exercises xml:id="exercises-12">
       <exercise>
         <p>
-          Complete <xref ref="main-prob-two"/>, <pubtitle>How to Learn Math for Students</pubtitle>. You will hand in your 
+          Complete <xref ref="main-prob-two"/>. You will hand in your 
           written reflections for <xref ref="main-prob-two"/> in class.
         </p>
       </exercise>
       <exercise>
         <p>
-          Answer the bulleted questions in <xref ref="act-introductions"/>. Be ready to share your responses with the class.
+          Answer the bulleted questions in <xref text='title' ref="act-introductions"/>. Be ready to share your responses with the class.
         </p>
       </exercise>
       <exercise>

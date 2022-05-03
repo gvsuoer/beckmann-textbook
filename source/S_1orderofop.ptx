@@ -57,10 +57,24 @@
     <figure xml:id="fig-order-ops">
       <caption>Two visualizations of the Order of Operations.</caption>
       <sidebyside>
-        <image source="pemdas" xml:id="img-pemdas">
-          <description></description>
-          
-        </image>
+        <tabular halign='center' top='minor' left='minor'>
+          <row bottom='minor'>
+            <cell right='minor'>P</cell>
+            <cell right='minor'>Simplify <em>P</em>arentheses (and other grouping symbols)</cell>
+          </row>
+          <row bottom='minor'>
+            <cell right='minor'><em></em></cell>
+            <cell right='minor'>Simplify <em>E</em>xponents</cell>
+          </row>
+          <row bottom='minor'>
+            <cell right='minor'><line>M</line><line>D</line></cell>
+            <cell right='minor'><line>Complete <em>M</em>ultiplication and <em>D</em>ivision in</line><line>the order found, left to right.</line></cell>
+          </row>
+          <row bottom='minor'>
+            <cell right='minor'><line>A</line><line>S</line></cell>
+            <cell right='minor'><line>Complete <em>A</em>ddition and <em>S</em>ubtraction in</line><line>the order found, left to right.</line></cell>
+          </row>
+        </tabular>
         <image source="order-ops-pyr" xml:id="img-order-ops-pyr">
           <description></description>
           
@@ -70,7 +84,7 @@
     <fn>Resource: Bay-Williams, Jennifer M. and Sherri L. Martinie. <pubtitle>Order of Operations, The Myth and the Math</pubtitle>. Teaching Children Mathematics, Vol. 22, No. 1, August 2015.</fn>
   </p>
 
-  <activity xml:id="three-threes">
+  <worksheet xml:id="three-threes">
     <title>Three Threes</title>
     
     <introduction>
@@ -86,21 +100,21 @@
     </figure>
     </introduction>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Verify that each expression is correct. Show your work. (As they arise, write any questions you have about any of the expressions.)
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Find other expressions for some of the numbers 1 through 12 using three threes. Show your work.
         </p>
       </statement>
-    </task>
+    </exercise>
 
     <conclusion>
       <p>
@@ -108,9 +122,9 @@
       </p>
     </conclusion>
     
-  </activity>
+  </worksheet>
 
-  <activity xml:id="act-four-fours">
+  <worksheet xml:id="act-four-fours">
     <title>Four Fours</title>
     
     <introduction>
@@ -167,7 +181,7 @@
       </p>
     </introduction>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Complete the table. Find at least one expression using 4 fours for each number. Use the Order of Operations; include grouping symbols as needed. Check your responses using a graphing calculator. Some examples for <m>n = 4</m> are provided. For the numbers whose solutions are shown in the table, find at least one more expression that works.
@@ -273,31 +287,31 @@
       </statement>
 
       
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           What strategies did you use to find solutions?
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Find more than one solution for at least 3 of the numbers. Record them in the table.
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Which of your solutions are not dependent on the number 4?  For example <m>1=\ \left(\frac{4}{4}\right)^{44}</m> is also true when each 4 is replaced with 2, 6, or 9.  Highlight these solutions in your table.
         </p>
       </statement>
-    </task>
+    </exercise>
 
     <conclusion>
       <p>
@@ -305,7 +319,7 @@
       </p>
     </conclusion>
 
-  </activity>
+  </worksheet>
 
   <exercises xml:id="exers-14">
     <introduction>
@@ -317,7 +331,7 @@
     <exercise>
       <statement>
         <p>
-          Go back to <xref ref="subsubsec-directions"/>, <pubtitle>How to Learn Math for Students</pubtitle>. Complete <xref ref="main-prob-four"/>. You will hand in your written reflections for <xref ref="main-prob-four"/> in class.
+          Go back to <xref text='title' ref="htlmfs-directions"/>. Complete <xref ref="main-prob-four"/>. You will hand in your written reflections for <xref ref="main-prob-four"/> in class.
         </p>
       </statement>
     </exercise>
@@ -347,7 +361,7 @@
     <exercise>
       <introduction>
         <p>
-          While working on <xref ref="act-four-fours"/>, students solved the following expression in these four ways.
+          While working on <xref text='title' ref="act-four-fours"/>, students solved the following expression in these four ways.
           
             <md>
               <mrow> \amp 4 + 4 / \sqrt{4} \times \sqrt{4} \amp \amp 4 + 4 / \sqrt{4} \times \sqrt{4} \amp \amp 4 + 4 / \sqrt{4} \times \sqrt{4} \amp \amp 4 + 4 / \sqrt{4} \times \sqrt{4}</mrow>
@@ -380,7 +394,7 @@
       <task>
         <statement>
           <p>
-            As you work on <xref ref="act-four-fours"/> check the expressions you find to make sure they work for the numbers you think they do. 
+            As you work on <xref text='title' ref="act-four-fours"/> check the expressions you find to make sure they work for the numbers you think they do. 
           </p>
         </statement>
       </task>

@@ -64,7 +64,7 @@
 
   </subsection>
 
-  <activity xml:id="act-analyze100">
+  <worksheet xml:id="act-analyze100">
     <title>Analyzing the 100s Chart</title>
     
     <introduction>
@@ -72,11 +72,11 @@
         Generalization is an important concept in algebra. It is the basis of the use of variables. Think about what the word, variable, means when you are not thinking about mathematics. Share your ideas about this.
       </p>
       <p>
-        We will continue to refine our meaning of variable through today's activities. Work on <xref ref="act-analyze100"/>. As with the Four Fours collection of activities, use your creativity. Work to give clear descriptions of any patterns you find. Color code each pattern and illustrate it in the same color on the 100s Chart.
+        We will continue to refine our meaning of variable through today's activities. Work on <xref text='title' ref="act-analyze100"/>. As with the Four Fours collection of activities, use your creativity. Work to give clear descriptions of any patterns you find. Color code each pattern and illustrate it in the same color on the 100s Chart.
       </p>
     </introduction>
 
-    <task>
+    <exercise>
       <introduction>
         <p>
           Study <xref ref="hunds-chart"/>.
@@ -257,33 +257,33 @@
           </p>
         </statement>
       </task>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Replace 6 with the letter <m>n</m> so that <m>n = 6</m>. When <m>n = 6</m>, notice that <m>7 = n + 1</m>. Rewrite 8 and 5 in terms of n where <m>n = 6</m>. Also write the expressions in <xref ref="hunds-chart"/>.
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Replace the number 23 with the letter <m>m</m> so that <m>m = 23</m>. What are the next two odd numbers after 23? Write these odd numbers using the letter <m>m</m> instead of 23. Write the expressions in <xref ref="hunds-chart"/>.
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           How can you represent the number just below 23 on the 100s chart in terms of <m>m</m> where <m>m = 23</m>? How can you represent the number just above 23 on the 100s chart using <m>m</m>? Write the expressions in <xref ref="hunds-chart"/>.
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Suppose <xref ref="hunds-subchart"/> is located somewhere in <xref ref="hunds-chart"/>. Write each value in the rectangle in terms of <m>x</m>. 
@@ -323,41 +323,41 @@
       </statement>
 
       
-    </task>
+    </exercise>
 
-    <task xml:id="analyze100-x">
+    <exercise xml:id="analyze100-x">
       <statement>
         <p>
         Notice that every rectangle in <xref ref="hunds-chart"/> with the same dimensions as <xref ref="hunds-subchart"/> can be labeled exactly the same way. The initial value of <m>x</m> is irrelevant. Why is that?
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           What patterns do you see in <xref ref="hunds-chart"/>? Find at least 3. Color code each pattern in the chart. Describe each pattern in writing. Include a description of how to move to successive numbers and how much is added or subtracted each time you make the move. Explain why the pattern works as you say it does.
         </p>
       </statement>
-    </task>
+    </exercise>
 
     <conclusion>
       <p>
-        For <xref ref="act-analyze100"/>, share your solutions to each problem with your group. Share two of the more challenging patterns your group found with the class.
+        For <xref text='title' ref="act-analyze100"/>, share your solutions to each problem with your group. Share two of the more challenging patterns your group found with the class.
       </p>
       <p>
         Of the patterns shared by the class, choose 2 to work on with your group. Together, describe the pattern carefully then figure out why each pattern works. Does the starting number matter? Be ready to share with the class.
       </p>
     </conclusion>
 
-  </activity>
+  </worksheet>
 
   <exercises>
     
     <exercise>
       <statement>
         <p>
-          Go back to <xref text="title" ref="subsubsec-directions"/> from <xref ref="S_learnmath"/>, How to Learn Math for Students. Complete <xref ref="main-prob-six"/>. You will hand in your written reflections for <xref ref="main-prob-six"/> in class.
+          Go back to <xref text="title" ref="htlmfs-directions"/> from <xref ref="S_learnmath"/>, How to Learn Math for Students. Complete <xref ref="main-prob-six"/>. You will hand in your written reflections for <xref ref="main-prob-six"/> in class.
         </p>
       </statement>
     </exercise>
@@ -365,7 +365,7 @@
     <exercise xml:id="exer-placeholder">
       <introduction>
         <p>
-          Revisit <xref ref="analyze100-x"/> in <xref ref="act-analyze100"/>. Because the initial value of <m>x</m> is irrelevant, <m>x</m> is considered a variable. Once a particular value of <m>x</m> is chosen, then all of the values in the rectangle that are currently represented by expressions in terms of <m>x</m> can be determined. In this second case, <m>x</m> is a placeholder. Look at the expressions and equations below. For each, decide if <m>x</m> is a variable or if <m>x</m> is a placeholder.
+          Revisit <xref ref="analyze100-x"/> in <xref text='title' ref="act-analyze100"/>. Because the initial value of <m>x</m> is irrelevant, <m>x</m> is considered a variable. Once a particular value of <m>x</m> is chosen, then all of the values in the rectangle that are currently represented by expressions in terms of <m>x</m> can be determined. In this second case, <m>x</m> is a placeholder. Look at the expressions and equations below. For each, decide if <m>x</m> is a variable or if <m>x</m> is a placeholder.
         </p>
       </introduction>
 
@@ -409,7 +409,7 @@
           You probably have learned to combine like terms in previous mathematics classes. As with the Order of Operations, there are mathematical reasons underlying which terms can be combined. 
         </p>
         <p>
-          When children learn to multiply, they use arrays such as those in <xref ref="fig-like-terms-array"/> to make sense of repeated addition. The product of the dimensions of an array is the number of squares in the array; the number of rows shows how many times the number of squares in the first row is repeated. <xref ref="act-like-terms"/> builds on this experience in learning multiplication to help you think about the meaning of the terms 1, <m>x</m>, and <m>x^2</m> in the context of area as you model expressions with algebra tiles. Complete <xref ref="act-like-terms"/>. Write down any questions you have as you work so you can ask them in class.
+          When children learn to multiply, they use arrays such as those in <xref ref="fig-like-terms-array"/> to make sense of repeated addition. The product of the dimensions of an array is the number of squares in the array; the number of rows shows how many times the number of squares in the first row is repeated. <xref text='title' ref="act-like-terms"/> builds on this experience in learning multiplication to help you think about the meaning of the terms 1, <m>x</m>, and <m>x^2</m> in the context of area as you model expressions with algebra tiles. Complete <xref text='title' ref="act-like-terms"/>. Write down any questions you have as you work so you can ask them in class.
         </p>
         <figure xml:id="fig-like-terms-array">
           <caption>Like Terms Array</caption>
@@ -431,8 +431,11 @@
 
   </exercises>
 
-  <activity xml:id="act-like-terms">
-    <task>
+  <worksheet xml:id="act-like-terms">
+    <title>Combining Like Terms</title>
+    
+    
+    <exercise>
       <statement>
         <p>
           Find the area of each of the algebra tiles shown. The side lengths are labeled. The variable, <m>x</m>, represents an unknown length.
@@ -441,9 +444,9 @@
           <description></description>
         </image>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <introduction>
         <p>
           Translate each of the figures into algebra. Explain your translation. Simplify each expression as much as possible and explain why you cannot simplify further.
@@ -473,9 +476,9 @@
           <description></description>
         </image>
       </task>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <introduction>
         <p>
           Draw algebra tiles to illustrate each expression. Use your illustration to simplify each of the algebraic expressions. Explain how you know you are correct.
@@ -513,17 +516,17 @@
           </p>
         </statement>
       </task>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <statement>
         <p>
           Summarize your work with combining like terms. Which terms can you combine? How do you know?
         </p>
       </statement>
-    </task>
+    </exercise>
 
-    <task>
+    <exercise>
       <introduction>
         <p>
           Simplify the following expressions. Show and explain your work.
@@ -565,9 +568,9 @@
         </statement>
       </task>
    
-  </task>
+  </exercise>
       
 
-  </activity>
+  </worksheet>
 
 </section>

@@ -1035,7 +1035,7 @@
       <task>
         <statement>
           <p>
-            A student page describing how to find the regression equation using a Texas Instruments (<init>TI</init>) graphing calculator follows (<xref ref="act-reg-eq-calc"/>). If you need a reminder of how to use Desmos to find a regression equation, click on the <q>?</q> icon (Help) in the upper right corner of the Desmos screen, click on Regressions, then follow the directions provided.
+            A student page describing how to find the regression equation using a Texas Instruments (<init>TI</init>) graphing calculator follows (<xref text='title' ref="act-reg-eq-calc"/>). If you need a reminder of how to use Desmos to find a regression equation, click on the <q>?</q> icon (Help) in the upper right corner of the Desmos screen, click on Regressions, then follow the directions provided.
           </p>
         </statement>
       </task>

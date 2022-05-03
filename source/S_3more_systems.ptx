@@ -15,7 +15,7 @@
     <page>
     <p>
       Play <xref text="title" ref="act-lin-sov"/> until each player has had 3 turns. Use the gameboard in <xref ref="fig-lin-sov"/>.
-      <fn><xref ref="act-lin-sov"/> is adapted from <pubtitle>Linear Sovereignty</pubtitle> by Trevor Rice and Charlene Beckmann in Adventures with Mathematics: Climbing from Grade 8 to Algebra 1, Michigan Council of Teachers of Mathematics, 2012, pp. 46<mdash/>47.</fn>
+      <fn><xref text='title' ref="act-lin-sov"/> is adapted from <pubtitle>Linear Sovereignty</pubtitle> by Trevor Rice and Charlene Beckmann in Adventures with Mathematics: Climbing from Grade 8 to Algebra 1, Michigan Council of Teachers of Mathematics, 2012, pp. 46<mdash/>47.</fn>
     </p>
     
     <paragraphs>
@@ -77,7 +77,7 @@
     </paragraphs>
 
     <p>
-      Answer the following questions when you have finished playing <xref ref="act-lin-sov"/>:
+      Answer the following questions when you have finished playing <xref text='title' ref="act-lin-sov"/>:
     </p>
 
     <exercise>
@@ -141,7 +141,7 @@
     <introduction>
       <p>
         Use pretzel sticks and cheerios to measure an 8.5-inch by 11-inch sheet of paper. The student page provides an interesting way to measure something if conventional tools are not available. As a bonus, you get to eat the pretzels and the cheerios when you're done measuring!
-        <fn><xref ref="act-pretz-cheer"/> is adapted from <pubtitle>Pretzels &amp; Cheerios</pubtitle> by Tiffany Stob, in Adventures with Mathematics: Climbing from Algebra 1 to Geometry, Michigan Council of Teachers of Mathematics, 2010, pp. 19<mdash/>20.</fn>
+        <fn><xref text='title' ref="act-pretz-cheer"/> is adapted from <pubtitle>Pretzels &amp; Cheerios</pubtitle> by Tiffany Stob, in Adventures with Mathematics: Climbing from Algebra 1 to Geometry, Michigan Council of Teachers of Mathematics, 2010, pp. 19<mdash/>20.</fn>
       </p>
     </introduction>
 
@@ -263,7 +263,7 @@
       <task>
         <statement>
           <p>
-            Show how to use an algebraic process to solve the system of equations in <xref ref="act-pretz-cheer"/>. Explain why your process works.
+            Show how to use an algebraic process to solve the system of equations in <xref text='title' ref="act-pretz-cheer"/>. Explain why your process works.
           </p>
         </statement>
       </task>
@@ -271,7 +271,7 @@
       <task>
         <statement>
           <p>
-            Is there another algebraic solution process you can use to solve a system of equations? If so, explain the process and use it to solve <xref ref="act-pretz-cheer"/>.
+            Is there another algebraic solution process you can use to solve a system of equations? If so, explain the process and use it to solve <xref text='title' ref="act-pretz-cheer"/>.
           </p>
         </statement>
       </task>

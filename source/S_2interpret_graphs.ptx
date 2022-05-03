@@ -154,7 +154,7 @@
             On the coordinate grid in <xref ref="fig-hare-grid"/>, draw a graph to illustrate the tortoise's distance from the starting line over the time it took her to complete the race. 
           </p>
           <figure xml:id="fig-hare-grid">
-            <caption>Coordinate Grid for <xref ref="act-hare-tort"/></caption>
+            <caption>Coordinate Grid for <xref text='title' ref="act-hare-tort"/></caption>
             <image source="hare-grid" width="70%">
               <description></description>
             </image>

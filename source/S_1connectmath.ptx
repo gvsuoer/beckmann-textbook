@@ -23,154 +23,168 @@
       Week 1 of Inspirational Math, Day 2</url>.
     </p>
 
-    <figure xml:id="vid-brain-crossing">
+    <!-- <figure xml:id="vid-brain-crossing">
       <caption><q>Brain Crossing</q> Video.</caption>
       <video vimeo="126647645"/>
-    </figure>
+    </figure> -->
   </subsection>
   
-  <subsection xml:id="subsec-activities-13">
-    <title>Activities</title>
-    <activity xml:id="act-dots">
-      <title>Pattern Talk: Dot Pattern</title>
+  <subsection xml:id="SS_dot_pattern">
+    <title>Pattern Talk: Dot Pattern</title>
     
-      <task xml:id="dot-act-one">
-        <statement>
+      
           <p>
             Consider the dot arrangement in <xref ref="fig-dots"/>. How many dots are in the arrangement? Explain how you counted the dots. 
             Share as many ways of counting the dots as possible. 
           </p>
           <figure xml:id="fig-dots">
-            <caption>Reference for <xref ref="dot-act-one"/>.</caption>
-            <image source="/dots" xml:id="img-dots" width="20%">
+            <image source="tri-dots" width="20%">
               <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
               bottom right corner. The triangle contains six circles.</description>
 
             </image>
           </figure>
-        </statement>
-      </task>      
-      
-      <task xml:id="dot-act-two">
-        <statement>
           <p>
             Show the different ways you counted the dots by drawing on each 
             figure in <xref ref="fig-five-dots"/>.
           </p>
-        
-      
+             
       <figure xml:id="fig-five-dots">
-        <caption>Reference for <xref ref="dot-act-two"/>.</caption>
+
         <sidebyside width="17%">
-          <image source="dots">
+          <image source="tri-dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The first square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots">
+          <image source="tri-dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The second square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots">
+          <image source="tri-dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The third square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots">
+          <image source="tri-dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The fourth square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
-          <image source="dots">
+          <image source="tri-dots">
             <description>A square containing circles in the shape of an isoceles right triangle with its right angle in the 
             bottom right corner. The fifth square in a group of five identical squares. Each triangle contains six circles.</description>
           </image>
         </sidebyside>
       </figure>
-      </statement>
-    </task>
-      <conclusion>
-        <p>
-          Mathematics is a creative endeavor. There is always more than one way to solve a problem. If you get stuck, 
-          try to find another route!
-        </p>
-      </conclusion>
-      
-    </activity>
 
-    <activity xml:id="act-growing-dots">
+    <p>
+      Mathematics is a creative endeavor. There is always more than one way to solve a problem. If you get stuck, try to find another route!
+    </p>
+
+    <worksheet xml:id="act-growing-dots">
       <title>Growing Pattern of Dots</title>
       <introduction>
 
         <p>
-          Now consider a pattern related to <xref ref="fig-five-dots"/>. <!-- See the student page, Growing Pattern of Dots -->
+          Now consider a pattern related to <xref ref="fig-five-dots"/>. See the student page, <xref text='title' ref="act-growing-dots"/>.
         </p>
         <p>
           Spend at least 5 minutes thinking about the problem on your own.
         </p>
         <p>
-          When everyone in your group is ready, share your solutions to <xref ref="act-growing-dots"/> with each other. 
+          When everyone in your group is ready, share your solutions to <xref text='title' ref="act-growing-dots"/> with each other. 
           Try to resolve any differences you have in your understandings. If you and your group members are still uncertain 
           about something after your discussion, write a question or two to ask the full class. 
         </p>
-      </introduction>
-
-      <task xml:id="growing-dots-one">
+      
         <p>
           Consider the pattern of dot arrangements in <xref ref="fig-growing-dots"/>.
         </p>
         <figure xml:id="fig-growing-dots">
-          <caption>Reference for <xref ref="growing-dots-one"/>.</caption>
-          <image source="growingdots" xml:id="img-growing-dots">
+          
+          <image source="growing-dots">
             <description>An image showing a series of of 5 steps. Each step is a vertical rectangle containing circles. 
             The number of circles increases with each step creating a larger isoceles right triangle after each step. 
             </description>
             
           </image>
         </figure>
-      </task>
+      </introduction>
 
-      <task xml:id="growing-dots-two">
+    <exercise>
+        <statement>
         <p>
-          How are these dots related to the dots you counted in the <xref ref="act-dots"/>?
+          How are these dots related to the dots you counted in the <xref text='title' ref="SS_dot_pattern"/>?
         </p>
-      </task>
+        </statement>
+    </exercise>
 
-      <task xml:id="growing-dots-three">
+    <exercise>
+      <task>
+        <statement>
         <p>
           How is each arrangement of dots related to the arrangement in the step before it?
         </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
         <p>
           How is each arrangement of dots related to the arrangement in the step after it?
         </p>
+        </statement>
       </task>
-      <task xml:id="growing-dots-four">
+    </exercise>
+
+    <exercise>
+      <task>
+        <statement>
         <p>
-          Is this pattern of dots related to <xref ref="act-introductions"/>? How?
+          Is this pattern of dots related to <xref text='title' ref="act-introductions"/>? How?
         </p>
+        </statement>
       </task>
-      <task xml:id="growing-dots-five">
+    </exercise>
+
+    <exercise xml:id="exer-grow-dots-describe-strat">
+      <introduction>
         <p>
-          Consider the strategies you and classmates used to count the arrangement of dots in the <xref ref="act-dots" />. 
+          Consider the strategies you and classmates used to count the arrangement of dots in the <xref text='title' ref="SS_dot_pattern" />. 
           Choose one strategy that works to count the dots in each of the arrangements. 
         </p>
+      </introduction>
+
+      <task>
+        <statement>
         <p>
           Describe the strategy.
         </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
         <p>
           Use the strategy, show how you used it for each step, and record the number of dots in each arrangement in the 
-          bottom row of the table above.
+          bottom row of <xref ref="fig-growing-dots"/>.
         </p>
+        </statement>
       </task>
-      <task xml:id="growing-dots-six">
+    </exercise>
+
+    <exercise xml:id="exer-grow-dots-step10">
+      
+        <statement>
         <p>
           How many dots will there be in step 10? How do you know?
         </p>
-      </task>
-      <task>
+        </statement>
+    </exercise>
+    
+      <conclusion>
         <p>
           Share your responses with the full class:
         </p>
         <p>
           Which strategy did you use to count the dots in each of these arrangements? Show how you used the same strategy to 
-          count the dots in <xref ref="growing-dots-five"/> and <xref ref="growing-dots-six"/>.
+          count the dots in <xref ref="exer-grow-dots-describe-strat"/> and <xref ref="exer-grow-dots-step10"/>.
         </p>
         <p>
           Does the strategy you used to count each dot arrangement help you determine the number of introductions that 
@@ -179,59 +193,88 @@
         <p>
           What questions do you still have? (Resolve these as a class.)
         </p>
-      </task>
+      </conclusion>
       
-    </activity>
-    <activity xml:id="graphing-dots">
+    </worksheet>
+
+    <worksheet xml:id="act-graphing-dots">
       <title>Graphing a Growing Pattern of Dots</title>
+    
+      
+      <exercise>
       <introduction>
         <p>
-          Consider the graphs in <xref ref="fig-graphing-dots"/>. For each graph, determine if the graph 
-          is a correct representation of the data. Explain why or why not. 
-        </p>
-        <figure xml:id="fig-graphing-dots">
-        <caption>Reference for <xref ref="graphing-dots"/></caption>
-        <image source="dotsgraphs" xml:id="img-graphing-dots">
-          <description></description>
-          
-        </image>
-      </figure>
-      </introduction>
-      
-      <task>
-        <p>
-          Consider the data table you created for <xref ref="act-growing-dots"/>. The data is plotted in the following 
+          Consider the data table you created for <xref text='title' ref="act-growing-dots"/>. The data is plotted in the following 
           graphs. For each graph, determine:
+          <sidebyside>
+            <figure xml:id="fig-graphing-dots1">
+              <image source="graphing-dots1">
+                <description></description>
+
+              </image>
+            </figure>
+
+            <figure xml:id="fig-graphing-dots2">
+              <image source="graphing-dots2">
+                <description></description>
+
+              </image>
+            </figure>
+
+            <figure xml:id="fig-graphing-dots3">
+              <image source="graphing-dots3">
+                <description></description>
+
+              </image>
+            </figure>
+
+            <figure xml:id="fig-graphing-dots4">
+              <image source="graphing-dots4">
+                <description></description>
+
+              </image>
+            </figure>
+          </sidebyside>
         </p>
+      </introduction>
+
+      <task>
+        <statement>
         <p>
           Is the graph a correct representation of the data?
         </p>
+        </statement>
+      </task>
+      <task>
+        <statement>
         <p>
           Why or why not?
         </p>
+        </statement>
       </task>
-      <task>
+    </exercise>
+
+    <exercise>
+      <statement>
         <p>
           What are some important characteristics of an accurate graph? List of at least 5 items.
         </p>
-      </task>
+      </statement>
+    </exercise>
       
-    </activity>
+    </worksheet>
   </subsection>
 
   <conclusion>
     <p>
-      This collection of activities <ndash/> <xref ref="act-introductions"/>, <xref ref="act-dots"/>, 
-      <xref ref="act-growing-dots"/>, and <xref ref="graphing-dots"/> <ndash/> shows how 
+      This collection of activities <ndash/> <xref text='title' ref="act-introductions"/>, <xref text='title' ref="SS_dot_pattern"/>, 
+      <xref text='title' ref="act-growing-dots"/>, and <xref text='title' ref="act-graphing-dots"/> <ndash/> shows how 
       seemingly unrelated contexts and representations can have the same underlying mathematical structure. We see this a 
       lot in mathematics. Making these connections requires Brain Crossing (recall the video you watched today). Remember 
       that Brain Crossing helps you with recall and grows your brain!
     </p>
     <p>
-      When you work on a new problem, try to connect the work you're doing to problems you've worked on in the past. 
-      Connecting related mathematics problems helps reduce your reliance on memorized procedures. It also helps move your 
-      working (short-term) memory into long-term memory so that it can be retrieved to help you make sense of new problems 
-      and concepts.
+      When you work on a new problem, try to connect the work you're doing to problems you've worked on in the past. Connecting related mathematics problems helps reduce your reliance on memorized procedures. It also helps move your working (short-term) memory into long-term memory so that it can be retrieved to help you make sense of new problems and concepts.
     </p>
   </conclusion>
   
@@ -245,7 +288,7 @@
     <exercise>
       <statement>
         <p>
-          Go back to <xref text="title" ref="subsubsec-directions"/> from <xref ref="S_learnmath"/>. 
+          Go back to <xref text="title" ref="htlmfs-directions"/> from <xref ref="S_learnmath"/>. 
           Complete <xref ref="main-prob-three"/>. You will hand in your written reflections for 
           <xref ref="main-prob-three"/> in class.
         </p>
@@ -255,8 +298,8 @@
     <exercise>
       <statement>
         <p>
-          Revisit each of teh related activites <xref ref="act-introductions"/>, <xref ref="act-dots"/>, 
-          <xref ref="act-growing-dots"/>, and <xref ref="graphing-dots"/>. Write a paragraph or two 
+          Revisit each of teh related activites <xref text='title' ref="act-introductions"/>, <xref text='title' ref="SS_dot_pattern"/>, 
+          <xref text='title' ref="act-growing-dots"/>, and <xref text='title' ref="act-graphing-dots"/>. Write a paragraph or two 
           that shows your understanding of how each of these activities is related.
         </p>
       </statement>
@@ -268,10 +311,37 @@
           Critique the graph below. If the graph is accurate, say how you know. If the graph is 
           incorrect, indicate all the ways it needs to be fixed, label the axes correctly, 
           and redraw the graph.
-          <image source="exer1-3-3_graph">
-            <description></description>
-            
-          </image>
+        <sidebyside>
+        <tabular halign='center' top='minor' left='minor'>
+          <row bottom='minor' header='yes'>
+            <cell right='minor'><m>x</m></cell>
+            <cell right='minor'><m>y</m></cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>1</cell>
+            <cell right='minor'>1.2</cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>10</cell>
+            <cell right='minor'>24</cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>15</cell>
+            <cell right='minor'>36</cell>
+          </row>
+
+          <row bottom='minor'>
+            <cell right='minor'>50</cell>
+            <cell right='minor'>60</cell>
+          </row>
+        </tabular>
+        <image source="critique-graph" width="50%">
+          <description></description>
+        </image>
+        </sidebyside>
         </p>
       </statement>
     </exercise>
@@ -279,20 +349,23 @@
     <exercise>
       <introduction>
         <p>
-          The same growing number pattern is shown twice in the figure below. Illustrate on the 
-          figures and explain in words how you are counting each set of dots in the pattern.
+          The same growing number pattern is shown twice in <xref ref="fig-counting-dots"/> Illustrate on the figures and explain in words how you are counting each set of dots in the pattern.
         </p>
+        <figure xml:id="fig-counting-dots">
+          <image source="counting-dots" width="70%">
+            <description></description>
+          </image>
+          <image source="counting-dots" width="70%">
+            <description></description>
+          </image>
+        </figure>
       </introduction>
 
       <task xml:id="countingdotsa">
         <statement>
         <p>
-          Count the number of dots in the first set of figures using the same method to count 
+          Count the number of dots in the first set of <xref ref="fig-counting-dots"/> using the same method to count 
           all three arrangements of dots. 
-          <image source="exer1-3-4_dotsa">
-            <description></description>
-            
-          </image>
         </p>
         </statement>
       </task>
@@ -300,13 +373,7 @@
       <task>
         <statement>
         <p>
-          Count the number of dots in the second set of figures using a different method from the 
-          method you used in <xref ref="countingdotsa"/>. Use this second method to count all three arrangements 
-          of dots. 
-          <image source="exer1-3-4_dotsa">
-            <description></description>
-            
-          </image>
+          Count the number of dots in the second set of <xref ref="fig-counting-dots"/> using a different method from the method you used in <xref ref="countingdotsa"/>. Use this second method to count all three arrangements of dots. 
         </p>
         </statement>
       </task>
@@ -321,73 +388,70 @@
       </task>
     </exercise>
 
-    <exercise xml:id="interpretexpress">
-      <title>Interpreting Expressions</title>
-      <introduction>
+    <exercise>
+      <statement>
         <p>
-          Consider each of the stories and expressions in the following.
-          <tabular>
-            <col/>
-            <col halign="center"/>
-
-            <row bottom="minor">
-              <cell right="minor">I am making apple pie and apple turnovers. One recipe calls for 2 apples.  
-              The other recipe calls for 3 apples. I'm making 5 recipes of each dessert. 
-              How many apples do I need?</cell>
-              <cell><m>2 + ( 3 \times 5 )</m></cell>
-            </row>
-            <row>
-              <cell right="minor">I have 2 one-dollar bills and 3 five-dollar bills. 
-              How much money do I have?</cell>
-              <cell><m>( 2 + 3 ) \times 5</m></cell>
-            </row>
-            <row>
-              <cell right="minor">Mom lets me keep any money I find when I clean the house. She also quadruples 
-              any money I find to pay me for my work. I found $2 in the couch and $3 in my dad's 
-              jacket. How much money will I have after Mom pays me?</cell>
-              <cell><m>2 + 3 \times 5</m></cell>
-            </row>
-            <row>
-              <cell right="minor">I need 2 cups of almond flour to make a batch of pancakes and 
-              3 cups of almond flour to make a cake. I'm going to make 5 cakes and 1 batch of 
-              pancakes. How much flour will I need?</cell>
-              <cell><m>2 + 3 + ( 2 + 3 ) \times 4</m></cell>
-            </row>
-          </tabular>
+          Consider each of the stories and expressions on the student page, <xref text='title' ref="act-interpret-express"/>. What do you notice about the expressions? Which ones name the same number? Why? 
         </p>
-      </introduction>
-      
-      <task>
-        <statement>
-          <p>
-            Decide which numeric expression best fits each story. Be ready to defend your choices.
-          </p>
-        </statement>
-      </task>
-      <task>
-        <statement>
-          <p>
-            Decide which numeric expressions, if any, represent the same value.
-          </p>
-        </statement>
-      </task>
-
-      <conclusion>
-        <p>
-          What do you notice about the expressions? Which ones name the same number? Why?
-        </p>
-      </conclusion>
+      </statement>
     </exercise>
 
     <exercise>
       <statement>
         <p>
-          Read the introduction to <xref ref="S_1orderofop"/> Flexibility with Numbers and Order 
-          of Operations. 
+          Read the introduction to <xref ref="S_orderofop"/>. 
           In writing, answer each question in the reading.
         </p>
       </statement>
     </exercise>
+
+    <worksheet xml:id="act-interpret-express">
+      <title>Interpreting Expressions</title>
+
+      <introduction>
+
+          <tabular top='minor' left='minor'>
+            <col/>
+            <col halign="center"/>
+
+            <row bottom="minor">
+              <cell right="medium"><line>I am making apple pie and apple turnovers.</line><line>One recipe calls for 2 apples. The other</line><line>recipe calls for 3 apples. I'm making 5</line><line>recipes of each dessert. How many apples</line><line>do I need?</line></cell>
+              <cell right='minor'><m>2 + ( 3 \times 5 )</m></cell>
+            </row>
+            <row bottom='minor'>
+              <cell right="medium"><line>I have 2 one-dollar bills and 3 five-dollar</line><line>bills. How much money do I have?</line></cell>
+              <cell right='minor'><m>( 2 + 3 ) \times 5</m></cell>
+            </row>
+            <row bottom='minor'>
+              <cell right="medium"><line>Mom lets me keep any money I find when I</line><line>clean the house. She also quadruples any</line><line>money I find to pay me for my work. I</line><line>found $2 in the couch and $3 in my dad's</line><line>jacket. How much money will I have after</line><line>Mom pays me?</line></cell>
+              <cell right='minor'><m>2 + 3 \times 5</m></cell>
+            </row>
+            <row bottom='minor'>
+              <cell right="medium"><line>I need 2 cups of almond flour to make a</line><line>batch of pancakes and 3 cups of almond</line><line>flour to make a cake. I'm going to make 5</line><line>cakes and 1 batch of pancakes. How much</line><line>flour will I need?</line></cell>
+              <cell right='minor'><m>2 + 3 + ( 2 + 3 ) \times 4</m></cell>
+            </row>
+          </tabular>
+        
+      </introduction>
+      
+      <exercise>
+        <statement>
+          <p>
+            Decide which numeric expression best fits each story. Be ready to defend your choices.
+          </p>
+        </statement>
+      </exercise>
+      <exercise>
+        <statement>
+          <p>
+            Decide which numeric expressions, if any, represent the same value.
+          </p>
+        </statement>
+      </exercise>
+
+    </worksheet>
+
+    
 
   </exercises>
 </section>

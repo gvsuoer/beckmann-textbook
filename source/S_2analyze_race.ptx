@@ -269,7 +269,7 @@
     
     <introduction>
       <p>
-        Extend what you learned through <xref ref="act-trod-tort"/> to analyze the Hopping Hare's motion, data, and graph and relate these to equations that model each part of his race.
+        Extend what you learned through <xref text='title' ref="act-trod-tort"/> to analyze the Hopping Hare's motion, data, and graph and relate these to equations that model each part of his race.
       </p>
     </introduction>
 
@@ -492,7 +492,7 @@
     <exercise>
       <statement>
         <p>
-          Revisit <xref ref="act-eyes"/>. The relationships you investigated in <xref ref="act-eyes"/> are called proportional relationships. In linear proportional relationships, you get one quantity by multiplying the other by a constant. Are any of the Tortoise and Hare relationships proportional? See if you can find 2 or 3 examples.
+          Revisit <xref text='title' ref="act-eyes"/>. The relationships you investigated in <xref text='title' ref="act-eyes"/> are called proportional relationships. In linear proportional relationships, you get one quantity by multiplying the other by a constant. Are any of the Tortoise and Hare relationships proportional? See if you can find 2 or 3 examples.
         </p>
       </statement>
     </exercise>

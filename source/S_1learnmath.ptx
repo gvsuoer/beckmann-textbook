@@ -99,7 +99,7 @@
       </p>
     </paragraphs>
 
-    <paragraphs xml:id="stagetwo">_questioning
+    <paragraphs xml:id="stagetwo_questioning">
       <title>Stage 2: Devising a Plan</title>
       <p>
         If you understand the problem and have trouble starting to solve it, think about general problem-solving strategies 
@@ -293,9 +293,9 @@
       when you get stuck, for suggestions of other strategies you might try as you're trying to solve problems. 
       <url href="http://www.corestandards.org/Math/Practice/" visual="corestandards.org/Math/Practice/">Resource.</url>
     </p>
-    <figure xml:id="math-practices">
+    <figure xml:id="fig-math-practices">
       <caption>A diagram of the mathematical practices.</caption>
-      <image source="ch1mathpractices" xml:id="img-math-practices">
+      <image source="math-practices">
         <description>Eight boxes explaining critical math practices.</description>
         
       </image>
@@ -309,8 +309,8 @@
     <exercise>
       <statement>
         <p>
-          Go back to <xref ref="subsec-math-students"/>, <pubtitle>How to Learn Math for Students</pubtitle>. 
-          Complete Problem 1. 
+          Go back to <xref text='title' ref="htlmfs-directions"/>. 
+          Complete <xref ref="main-prob-one"/>.
           You will hand in your written reflections for problem 1 in class.
         </p>
       </statement>
@@ -318,8 +318,8 @@
     <exercise>
       <statement>
         <p>
-          Read the sections above, <xref ref="subsec-good-questions"/>, 
-          <xref ref="subsec-practices"/>, and <xref ref="subsec-math-practices"/>. Remember these 
+          Read the sections above, <xref text='title' ref="subsec-good-questions"/>, 
+          <xref text='title' ref="subsec-practices"/>, and <xref text='title' ref="subsec-math-practices"/>. Remember these 
           sections as you work your way through the activities in this course. Refer to each section as needed. Write a one 
           sentence description of each section to help you remember when to consult each of these sections.
         </p>
