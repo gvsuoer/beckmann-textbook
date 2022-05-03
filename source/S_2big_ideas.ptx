@@ -18,7 +18,7 @@
     <exercise>
       <introduction>
         <p>
-          Type this general form of a linear equation into Desmos. Create sliders for <m>m</m> and <m>b</m>. For <xref ref="exer-play-with-m"/> and <xref ref="exer-play-with-b"/>, use one or two rounds of Roundtable (see <xref ref="mindset-roundtable"/>) to share everything you have learned. Explain each item in your list as you create it.
+          Type this general form of a linear equation into Desmos. Create sliders for <m>m</m> and <m>b</m>. For <xref ref="exer-play-with-m"/> and <xref ref="exer-play-with-b"/>, use one or two rounds of Roundtable (see <xref text='title' ref="mindset-roundtable"/>) to share everything you have learned. Explain each item in your list as you create it.
         </p>
       </introduction>
 

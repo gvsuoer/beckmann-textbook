@@ -512,7 +512,7 @@
       <task>
         <statement>
           <p>
-            Complete the student page, <xref ref="act-eq-hands-on"/>. Use an algebra tile app online to model equations with integer coefficients. For example: <url href="http://media.mivu.org/mvu_pd/a4a/homework/index.html" visual="media.mivu.org/mvu_pd/a4a/homework/index.html">mivu.org</url> or <url href="http://www.mathplayground.com/AlgebraEquations.html" visual="http://www.mathplayground.com/AlgebraEquations.html">mathplayground.com</url>.
+            Complete the student page, <xref text='title' ref="act-eq-hands-on"/>. Use an algebra tile app online to model equations with integer coefficients. For example: <url href="http://media.mivu.org/mvu_pd/a4a/homework/index.html" visual="media.mivu.org/mvu_pd/a4a/homework/index.html">mivu.org</url> or <url href="http://www.mathplayground.com/AlgebraEquations.html" visual="http://www.mathplayground.com/AlgebraEquations.html">mathplayground.com</url>.
           </p>
         </statement>
       </task>

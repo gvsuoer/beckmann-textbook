@@ -167,7 +167,7 @@
     
     <introduction>
       <p>
-        Read the following instructions. Open Desmos on a computer, a smart phone, or an electronic tablet. Use the directions to plot the data from <xref ref="act-eyes"/>. What questions do you have? Share your graph with your group.
+        Read the following instructions. Open Desmos on a computer, a smart phone, or an electronic tablet. Use the directions to plot the data from <xref text='title' ref="act-eyes"/>. What questions do you have? Share your graph with your group.
       </p>
     </introduction>
 
@@ -354,7 +354,7 @@
     <exercise>
       <statement>
         <p>
-          Go back to <xref text="title" ref="subsubsec-directions"/>. Complete <xref ref="main-prob-ten"/>. You will hand in your written reflections for <xref ref="main-prob-ten"/> in class.
+          Go back to <xref text="title" ref="htlmfs-directions"/>. Complete <xref ref="main-prob-ten"/>. You will hand in your written reflections for <xref ref="main-prob-ten"/> in class.
         </p>
       </statement>
     </exercise>

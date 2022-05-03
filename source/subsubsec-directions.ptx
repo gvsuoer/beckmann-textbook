@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<paragraphs xml:id="subsubsec-directions">
+<paragraphs xml:id="htlmfs-directions">
       <title>How To Learn Math For Students Directions</title>
       
         <p>
@@ -161,7 +161,7 @@
       </statement>
     </task>
 
-    <task>
+    <task xml:id="htlmfs-185-illustrate">
       <statement>
         <p>
           Watch the second video, <pubtitle><m>18 \times 5</m></pubtitle> (5:27 minutes). In writing, answer the question posed at the end of the video. Match each illustration with the solution process that fits it. Include drawings in your submission.
@@ -169,7 +169,7 @@
       </statement>
     </task>
 
-    <task>
+    <task xml:id="htlmfs-solve-mentally">
       <statement>
         <p>
           Watch the third video, <pubtitle><m>12 \times 15</m></pubtitle> (1:18 minutes). Solve the problem stated without using the usual algorithm. Try to solve the problem mentally first using friendly numbers. Then try to draw a picture that goes with the way you solved the problem.
@@ -177,10 +177,10 @@
       </statement>
     </task>
 
-    <task>
+    <task xml:id="htlmfs-solve-again">
       <statement>
         <p>
-          Solve the problem in problem 4c another way, and again without paper and pencil. Draw a picture that illustrates the way you solved the problem this time.
+          Solve the problem in <xref ref="htlmfs-solve-mentally"/> another way, and again without paper and pencil. Draw a picture that illustrates the way you solved the problem this time.
         </p>
       </statement>
     </task>
@@ -227,7 +227,7 @@
   <exercise xml:id="main-prob-six">
     <title>Lesson 5: Number Patterns and Representations.</title>
     
-    <task>
+    <task xml:id="htlmfs-pattern-solve">
       <statement>
         <p>
           Watch the first video in Lesson 5, <pubtitle>Making Sense and Intuition</pubtitle> (4:04 minutes). Solve the problem posed immediately after this video. Show how you solved the problem. Do not go on to the next video until you find a solution you think works.
@@ -238,7 +238,7 @@
     <task>
       <statement>
         <p>
-          Watch the second video in Lesson 5, <pubtitle>Drawing and Representing</pubtitle> (5:11 minutes). How did the video solution compare with your solution in problem 6a? How did the video help you think about the problem differently?
+          Watch the second video in Lesson 5, <pubtitle>Drawing and Representing</pubtitle> (5:11 minutes). How did the video solution compare with your solution in <xref ref="htlmfs-pattern-solve"/>? How did the video help you think about the problem differently?
         </p>
       </statement>
     </task>
@@ -283,13 +283,12 @@
     <task>
       <statement>
         <p>
-          What fraction represents the area of the white triangle in <xref ref="fig_tri_squares"/>? Explain your answer.
+          What fraction represents the area of the white triangle in <xref ref="fig-tri-squares"/>? Explain your answer.
         </p>
-        <figure xml:id="prob-seven-c">
+        <figure xml:id="fig-tri-squares">
           <caption>Reference for Problem 7c.</caption>
-          <image source="prob7c" width="25%">
+          <image source="tri-squares" width="25%">
             <description></description>
-            <!-- Figure out how to get the images to work. -->
           </image>
         </figure>
       </statement>
@@ -306,7 +305,7 @@
     <task>
       <statement>
         <p>
-          From the videos in problems 4b and 4d, what big ideas about fractions will help you make sense of them? List at least two. 
+          From the videos in <xref ref="htlmfs-htlmfs-185-illustrate"/> and <xref ref="htlmfs-solve-again"/>, what big ideas about fractions will help you make sense of them? List at least two. 
         </p>
       </statement>
     </task>

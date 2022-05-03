@@ -5,9 +5,9 @@
 
   <title>Getting Ready to Learn Mathematics</title>
 
-  <xi:include href="./S_1learnmath.ptx" />
-  <xi:include href="./S_1mathmindset.ptx" />
-  <xi:include href="./S_1connectmath.ptx"/>
+  <xi:include href="S_1learnmath.ptx" />
+  <xi:include href="S_1mathmindset.ptx" />
+  <xi:include href="S_1connectmath.ptx"/>
   <xi:include href="S_1orderofop.ptx" />
   <xi:include href="S_1fours_extend.ptx" />
   <xi:include href="S_1patterns_100.ptx" />

@@ -11,7 +11,7 @@
 
   <subsection xml:id="SS_pattern-talk-29">
     <title>Pattern Talk: Tile Pattern</title>
-    <sidebyside widths="30%">
+    <sidebyside>
       <figure xml:id="fig-pattern-talk-step-3">
         <caption>Tile Arrangement for Step 3</caption>
         <image source="pattern-talk-step-3">

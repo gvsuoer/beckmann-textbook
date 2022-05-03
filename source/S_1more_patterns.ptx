@@ -33,7 +33,7 @@
 
     <introduction>
       <p>
-        In <xref ref="act-analyze100"/> you found patterns in rows, columns, or diagonals. This time your pattern search will be confined to rectangles. 
+        In <xref text='title' ref="act-analyze100"/> you found patterns in rows, columns, or diagonals. This time your pattern search will be confined to rectangles. 
       </p>
     </introduction>
     
@@ -44,7 +44,7 @@
       </p>
 
       <table xml:id="rec-patt-rectang">
-        <title>Rectangle for <xref ref="act-rec-patterns"/>.</title>
+        <title>Rectangle for <xref text='title' ref="act-rec-patterns"/>.</title>
         <tabular left="minor">
         <col top="minor"/>
         <col top="minor"/>
@@ -349,7 +349,7 @@
     <exercise>
       <statement>
         <p>
-          Go back to <xref text="title" ref="subsubsec-directions"/> Complete <xref ref="main-prob-seven"/>. You will hand in your written reflections for <xref ref="main-prob-seven"/> in class.
+          Go back to <xref text="title" ref="htlmfs-directions"/> Complete <xref ref="main-prob-seven"/>. You will hand in your written reflections for <xref ref="main-prob-seven"/> in class.
         </p>
       </statement>
     </exercise>
