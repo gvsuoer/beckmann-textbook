@@ -84,7 +84,7 @@
     <fn>Resource: Bay-Williams, Jennifer M. and Sherri L. Martinie. <pubtitle>Order of Operations, The Myth and the Math</pubtitle>. Teaching Children Mathematics, Vol. 22, No. 1, August 2015.</fn>
   </p>
 
-  <worksheet xml:id="three-threes">
+  <worksheet xml:id="act-three-threes">
     <title>Three Threes</title>
     
     <introduction>
@@ -320,8 +320,8 @@
     </conclusion>
 
   </worksheet>
-
-  <exercises xml:id="exers-14">
+  
+  <exercises xml:id="hmwk-14">
     <introduction>
       <p>
         Complete the following homework before the next class period:

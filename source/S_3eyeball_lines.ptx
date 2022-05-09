@@ -25,7 +25,7 @@
       </figure>
 
       <table xml:id="tbl-price-cans">
-        <caption>Height and Price of Canisters</caption>
+        <title>Height and Price of Canisters</title>
         <tabular top="minor" left="minor" halign="center">
           <row header="yes" bottom="minor">
             <cell right="minor">Height (in inches)</cell>
@@ -192,7 +192,7 @@
     </exercise>
 
     <table xml:id="tbl-thumb-data">
-      <caption>Thumb, Wrist, and Neck Data</caption>
+      <title>Thumb, Wrist, and Neck Data</title>
       <tabular halign="center" left="minor" top="minor">
         <row bottom="minor" header="yes">
           <cell colspan="3" right="medium">Female</cell>
@@ -361,7 +361,7 @@
           <xref ref="tbl-shoe-sizes"/> shows <init>U.S.</init> shoe sizes for women as compared with foot lengths in inches and centimeters and Euro and <init>UK</init> shoe sizes (<url href="http://www.zappos.com/c/shoe-size-conversion" visual="zappos.com/c/shoe-size-conversion">Source</url>, retrieved April 22, 2020). Let <init>U.S.</init> shoe sizes be the independent variable. Choose a variable to represent each column of data. Use function notation when recording equations.
         </p>
         <table xml:id="tbl-shoe-sizes">
-          <caption>Shoe Sizes for Women</caption>
+          <title>Shoe Sizes for Women</title>
           <tabular halign="center" top="minor" left="minor">
             <row bottom="minor" header="yes">
               <cell right="minor"><init>U.S.</init> Sizes</cell>

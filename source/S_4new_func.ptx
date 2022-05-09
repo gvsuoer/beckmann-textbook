@@ -924,7 +924,7 @@
                 <cell right='minor'><line>Sum of consecutive</line><line>even numbers</line></cell>
                 <cell right='minor'>2</cell>
                 <cell right='minor'><m>2 + 4 = 6</m></cell>
-                <cell right='minor'><m>2 + 4 + 6 =</m></cell>
+                <cell right='minor'><m>2 + 4 + 6 =</m><fillin characters="5" /></cell>
                 <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 <cell right='minor'><nbsp/><nbsp/><nbsp/><nbsp/></cell>

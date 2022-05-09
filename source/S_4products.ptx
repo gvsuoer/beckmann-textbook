@@ -14,7 +14,7 @@
     
     <introduction>
       <p>
-        Solve the problems that follow to investigate the appearance of products of linear functions. Think about these questions as you work: To what family of functions do products of linear functions belong? What shape is the graph of this function family? (Note: For a review of function notation, please see <xref ref="function-notation"/>)
+        Solve the problems that follow to investigate the appearance of products of linear functions. Think about these questions as you work: To what family of functions do products of linear functions belong? What shape is the graph of this function family? (Note: For a review of function notation, please see <xref text="title" ref="function-notation"/>)
       </p>
     </introduction>
 
@@ -208,7 +208,9 @@
               </tabular>
             </table>
 
-            <table xml:id="tbl-prod-one">
+            
+          </sidebyside>
+          <table xml:id="tbl-prod-one">
               <title>Table for <xref ref="fig-prod-one"/></title>
               <tabular halign='center' top='minor' left='minor'>
                 <row bottom='minor' header='yes'>
@@ -275,7 +277,6 @@
                 </row>
               </tabular>
             </table>
-          </sidebyside>
         </p>
       </conclusion>
 
@@ -770,7 +771,7 @@
           <tabular left='minor' top='minor' halign='center'>
             <row bottom='minor' header='yes'>
               <cell right='minor'><nbsp/></cell>
-              <cell right='minor'><line>Factored Form,</line><line><m>y = a(x - p)(x - q)</m></line></cell>
+              <cell right='minor'><line>Factored Form,</line><line><m>y =</m></line><line><m>a(x - p)(x - q)</m></line></cell>
               <cell right='minor' colspan="2"><m>x</m>-intercepts</cell>
               <cell right='minor'><m>y</m>-intercept</cell>
               <cell right='minor'>Vertex, <m>(h, k)</m></cell>
