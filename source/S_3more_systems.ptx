@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-lin-sov">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-lin-sov">
     <title>Linear Sovereignty</title>
 
     <page>
@@ -135,7 +135,7 @@
 
   </worksheet>
 
-  <worksheet xml:id="act-pretz-cheer">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-pretz-cheer">
     <title>Measuring with Pretzles and Cheerios</title>
     
     <introduction>

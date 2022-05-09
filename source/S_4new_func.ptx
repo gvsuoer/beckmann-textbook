@@ -13,7 +13,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-batty-func">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-batty-func">
     <title>Batty Functions</title>
     
     <page>
@@ -176,11 +176,11 @@
             
             <row left='minor' bottom='minor' header='yes'>
               <cell right='minor'>Group Number</cell>
-              <cell right='minor'>Number of Marchers in the Group</cell>
-              <cell right='minor'>Number of Marchers in the Group</cell>
-              <cell right='minor'>Number of Marchers in the Group</cell>
-              <cell right='minor'>Number of Marchers in the Group</cell>
-              <cell right='minor'>Number of Performers So Far</cell>
+              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of</line><line>Performers So Far</line></cell>
             </row>
 
             <row left='minor' bottom='minor'>
@@ -909,7 +909,7 @@
               
 
               <row bottom='minor'>
-                <cell right='minor'><line>Number of consecutive</line><line>even numbers</line></cell>
+                <cell right='minor'><line>Number of</line><line>consecutive</line><line>even numbers</line></cell>
                 <cell right='minor'>1</cell>
                 <cell right='minor'>2</cell>
                 <cell right='minor'>3</cell>
@@ -921,7 +921,7 @@
               </row>
 
               <row bottom='minor'>
-                <cell right='minor'><line>Sum of consecutive</line><line>even numbers</line></cell>
+                <cell right='minor'><line>Sum of</line><line>consecutive</line><line>even numbers</line></cell>
                 <cell right='minor'>2</cell>
                 <cell right='minor'><m>2 + 4 = 6</m></cell>
                 <cell right='minor'><m>2 + 4 + 6 =</m><fillin characters="5" /></cell>

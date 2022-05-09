@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-invest-prods">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-invest-prods">
     <title>Investigating Products of Linear Functions</title>
     
     <introduction>
@@ -361,7 +361,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-mult-lines-desmos">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-mult-lines-desmos">
     <title>Multiplying Lines Electronically With Desmos</title>
     
     <introduction>
@@ -774,8 +774,8 @@
               <cell right='minor'><line>Factored Form,</line><line><m>y =</m></line><line><m>a(x - p)(x - q)</m></line></cell>
               <cell right='minor' colspan="2"><m>x</m>-intercepts</cell>
               <cell right='minor'><m>y</m>-intercept</cell>
-              <cell right='minor'>Vertex, <m>(h, k)</m></cell>
-              <cell right='minor'>Opens (Up or Down)</cell>
+              <cell right='minor'><line>Vertex,</line><line><m>(h, k)</m></line></cell>
+              <cell right='minor'><line>Opens</line><line>(Up or Down)</line></cell>
             </row>
 
             <row bottom='minor'>
@@ -913,8 +913,8 @@
               <cell right='minor'><line>Standard Form,</line><line><m>y = ax^2 + bx + c</m></line></cell>
               <cell right='minor' colspan="2"><m>x</m>-intercepts</cell>
               <cell right='minor'><m>y</m>-intercept</cell>
-              <cell right='minor'>Vertex, <m>(h, k)</m></cell>
-              <cell right='minor'>Opens (Up or Down)</cell>
+              <cell right='minor'><line>Vertex,</line><line><m>(h, k)</m></line></cell>
+              <cell right='minor'><line>Opens</line><line>(Up or Down)</line></cell>
               <cell right='minor'><line>Factored Form,</line><line><m>y = a(x - p)(x - q)</m></line></cell>
             </row>
 

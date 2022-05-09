@@ -7,7 +7,7 @@
     You have seen that graphs can be helpful in representing data. In Lesson 2.2, you will specifically explore the importance of scale when graphing equations.
   </p>
 
-  <worksheet xml:id="act-location">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-location">
     <title>Location, Location, Location</title>
     
     <introduction>
@@ -115,7 +115,7 @@
     
   </worksheet>
 
-  <worksheet xml:id="act-scale">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-scale">
     <title>It's A Matter of Scale</title>
     
     <introduction>
@@ -256,7 +256,7 @@
     
   </worksheet>
 
-  <worksheet xml:id="scale-cards" margins="1in">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="scale-cards" margins="1in">
     <title>It's a Matter of Scale Card Set</title>
     <page>
     <introduction>
@@ -283,7 +283,7 @@
     </page>
   </worksheet>
   
-  <worksheet xml:id="act-critique">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-critique">
     <title>What's Wrong with this Picture? Critiquing Graphs</title>
     
     <introduction>

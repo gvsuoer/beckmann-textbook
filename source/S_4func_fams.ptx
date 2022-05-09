@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-trans-funcs">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-trans-funcs">
     <title>Transformation of Functions</title>
     
     <introduction>
@@ -327,7 +327,7 @@
 
   </worksheet>
 
-  <worksheet xml:id="act-angry-birds">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-angry-birds">
     <title>Angry Birds and Quadratic Functions</title>
     
     <introduction>
@@ -519,7 +519,7 @@
     
   </exercises>
 
-  <worksheet xml:id="act-tile-tables">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-tile-tables">
     <title>Tiling Tables</title>
     
     <exercise>

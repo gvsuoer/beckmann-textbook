@@ -3,7 +3,7 @@
 <section xml:id="S_big_ideas">
   <title>Linear Functions: Big Ideas</title>
 
-  <worksheet xml:id="act-slope-big-ideas">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-slope-big-ideas">
     <title>Big Ideas <mdash/> Slope and <m>y</m>-Intercept</title>
     
     <introduction>
@@ -756,7 +756,7 @@
 
   </exercises>
 
-  <worksheet xml:id="act-distinguish-linear">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-distinguish-linear">
     <title>Distinguishing Linear from Other Functions</title>
     
     <exercise>

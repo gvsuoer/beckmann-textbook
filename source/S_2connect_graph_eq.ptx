@@ -3,7 +3,7 @@
 <section xml:id="S_connect_graph_eq">
   <title>The Meanings of Slope and y-Intercept, Connecting Graphs and Equations</title>
 
-  <worksheet xml:id="act-linear-desmos">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-linear-desmos">
     <title>Linear Functions with Desmos <mdash/> Slopes and y-Intercepts</title>
     
     <introduction>
@@ -665,7 +665,7 @@
 
   </exercises>
 
-  <worksheet xml:id="act-eq-represent">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-eq-represent">
     <title>Finding Equations from Representations</title>
     
     <introduction>
@@ -974,7 +974,7 @@
 
   </worksheet>
 
-  <worksheet xml:id="act-slope-context">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-slope-context">
     <title>Slope and <m>y</m>-Intercept in Context</title>
     
     <exercise>
@@ -1682,7 +1682,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-lin-card-sort">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-lin-card-sort">
     
     <title>Linear Function Card Sort</title>
     <page>
@@ -1991,7 +1991,7 @@
     </page>
   </worksheet>
 
-  <worksheet xml:id="act-card-sort-reflect">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-card-sort-reflect">
     <title>Reflecting on Your Group's Work on the <xref text="title" ref="act-lin-card-sort"/></title>
     <page>
     <introduction>

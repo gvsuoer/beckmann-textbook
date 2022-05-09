@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-stacked-cups">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-stacked-cups">
     <title>Packaging Stacked Cups</title>
 
     <introduction>
@@ -36,7 +36,7 @@
           <title>Number of Cups vs. Height of Stack</title>
           <tabular halign="center" top="minor" left="minor">
             <row header="yes" bottom="minor">
-              <cell right="minor">Number of Cups, <m>c</m></cell>
+              <cell right="minor"><line>Number of</line><line>Cups, <m>c</m></line></cell>
               <cell right="minor">Height of Stack, <m>h</m>, in <init>cm</init></cell>
             </row>
 

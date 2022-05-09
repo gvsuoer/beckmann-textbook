@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-func-card-sort">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-func-card-sort">
     <title>Linear, Quadratic, and Other Functions Card Sort</title>
     
     <page>
@@ -185,7 +185,7 @@
     
   </exercises>
 
-  <worksheet xml:id="act-grow-tiles">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-grow-tiles">
     <title>Growing Tile Patterns</title>
     
     <introduction>
@@ -277,9 +277,9 @@
           <tabular halign='center' top='minor' left='minor'>
             <row bottom='minor' header='yes'>
               <cell right='minor'>Step Number</cell>
-              <cell right='minor'>Number of Light Colored Tiles</cell>
-              <cell right='minor'>Number of Dark Colored Tiles</cell>
-              <cell right='minor'>Total Number of Tiles</cell>
+              <cell right='minor'><line>Number of Light</line><line>Colored Tiles</line></cell>
+              <cell right='minor'><line>Number of Dark</line><line>Colored Tiles</line></cell>
+              <cell right='minor'><line>Total Number</line><line>of Tiles</line></cell>
             </row>
 
             <row bottom='minor'>
@@ -399,7 +399,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-quad-forms-card-sort">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-quad-forms-card-sort">
     <title>Forms of Quadratic Functions Card Sort</title>
     
     <introduction>

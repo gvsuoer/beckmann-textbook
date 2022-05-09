@@ -18,7 +18,7 @@
 
   </subsection>
 
-  <worksheet xml:id="act-eyes">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-eyes">
     <title>The Eyes Have It</title>
     
     <introduction>
@@ -162,7 +162,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-desmos">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-desmos">
     <title>Graphing with Desmos</title>
     
     <introduction>
@@ -207,7 +207,7 @@
       <task>
         <statement>
           <p>
-            CLick on the add item menu, <q>+</q> (upper left). Choose table.
+            Click on the add item menu, <q>+</q> (upper left). Choose table.
           </p>
         </statement>
       </task>
@@ -313,7 +313,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-eyes-extend">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-eyes-extend">
     <title>The Eyes Have It, Extended</title>
     
     
@@ -550,7 +550,7 @@
             <tabular left="minor" halign="center" top="minor">
               <row header="yes">
                 <cell left="minor" right="minor">
-                  Number of Gallons of Gas Purchased, <m>g</m>
+                  <line>Number of Gallons</line><line>of Gas Purchased, <m>g</m></line>
                 </cell>
                 <cell colspan="2" right="minor" bottom="minor">
                   Price of Gas, <m>P</m>

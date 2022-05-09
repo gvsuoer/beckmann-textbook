@@ -3,7 +3,7 @@
 <section xml:id="S_anlayze_race">
   <title>Graphs, Tables, and Linear Functions: Analyzing a Race</title>
   
-  <worksheet xml:id="act-trod-tort">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-trod-tort">
     <title>Trodding Tortoise</title>
     
     <introduction>
@@ -189,8 +189,8 @@
             <tabular left="minor" top="minor" halign="center">
               <row bottom="minor" header="yes">
                 <cell right="minor">Time Interval</cell>
-                <cell right="minor">Amount of time elapsed</cell>
-                <cell right="minor">Change in distance during the time interval</cell>
+                <cell right="minor"><line>Amount of</line><line>time elapsed</line></cell>
+                <cell right="minor"><line>Change in distance</line><line>during the time interval</line></cell>
                 <cell right="minor">The tortoise's speed</cell>
               </row>
 
@@ -264,7 +264,7 @@
 
   </worksheet>
 
-  <worksheet xml:id="act-hop-hare">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-hop-hare">
     <title>Hopping Hare</title>
     
     <introduction>
@@ -307,8 +307,8 @@
             <tabular left="minor" top="minor" halign="center">
               <row header="yes" bottom="minor">
                 <cell right="minor">Time Interval</cell>
-                <cell right="minor">Amount of time elapsed</cell>
-                <cell right="minor">Change in distance during the time interval</cell>
+                <cell right="minor"><line>Amount of</line><line>time elapsed</line></cell>
+                <cell right="minor"><line>Change in distance</line><line>during the time interval</line></cell>
                 <cell right="minor">The hare's speed</cell>
               </row>
 
@@ -754,7 +754,7 @@
 
   </exercises>
 
-  <worksheet xml:id="act-slope-trees">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-slope-trees">
     <title>Slopes and Tree Trunks</title>
     
     <introduction>

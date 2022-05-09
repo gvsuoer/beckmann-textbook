@@ -3,7 +3,7 @@
 <section xml:id="S_distinguish">
   <title>Distinguishing Proportional Relationships from Other Linear Relationships</title>
   
-  <worksheet xml:id="act-head-start-tort">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-head-start-tort">
     <title>Giving the Tortoise A Head Start</title>
     
     <introduction>
@@ -78,7 +78,7 @@
             </row>
             <row left="minor" header="yes" bottom="minor">
               <cell right="minor">
-                Time elapsed in minutes
+                <line>Time elapsed</line><line>in minutes</line>
               </cell>
               <cell right="minor">
                 Original Race
@@ -320,7 +320,7 @@
 
   </worksheet>
 
-  <worksheet xml:id="act-slope-int">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-slope-int">
     <title>Finding Equations from Tables and Interpreting Slope and y-Intercept</title>
     
     <introduction>
@@ -886,7 +886,7 @@
 
   </worksheet>
 
-    <worksheet xml:id="act-find-eqs">
+    <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-find-eqs">
       <title>Finding Equations from Graphs and Contexts, Interpreting Slope and y-Intercept</title>
       
       <exercise xml:id="exer-eq-1">

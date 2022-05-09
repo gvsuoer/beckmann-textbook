@@ -3,7 +3,7 @@
 <section xml:id="S_interpret_graphs">
   <title>Interpreting and Creating Graphs: The Hare and the Tortoise</title>
 
-  <worksheet xml:id="act-walk-graphs">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-walk-graphs">
     <title>Can You Walk These Graphs?</title>
     
     <introduction>
@@ -129,7 +129,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-hare-tort">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-hare-tort">
     <title>The Hare and the Tortoise</title>
     
     <introduction>

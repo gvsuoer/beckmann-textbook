@@ -84,7 +84,7 @@
     <fn>Resource: Bay-Williams, Jennifer M. and Sherri L. Martinie. <pubtitle>Order of Operations, The Myth and the Math</pubtitle>. Teaching Children Mathematics, Vol. 22, No. 1, August 2015.</fn>
   </p>
 
-  <worksheet xml:id="act-three-threes">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-three-threes">
     <title>Three Threes</title>
     
     <introduction>
@@ -124,7 +124,7 @@
     
   </worksheet>
 
-  <worksheet xml:id="act-four-fours">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-four-fours">
     <title>Four Fours</title>
     
     <introduction>
@@ -410,14 +410,14 @@
       <task>
         <statement>
           <p>
-            Insert parentheses so this equation is true: <m>4\ +\ 4\ \ \div\ .4\ \div\ \sqrt4\ =7</m>.
+            Insert parentheses so this equation is true: <m>4 + 4 \div .4 \div \sqrt{4} = 7</m>.
           </p>
         </statement>
       </task>
       <task>
         <statement>
           <p>
-            Insert parentheses so this equation is true:  <m>\sqrt4\ \ ^\ \sqrt4\ \ +\ \sqrt4\ \ /\ 4\  =  4</m>.
+            Insert parentheses so this equation is true: <m>\sqrt{4}^ \sqrt{4} + \sqrt{4} / 4 = 4</m>.
           </p>
         </statement>
       </task>

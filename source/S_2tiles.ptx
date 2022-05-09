@@ -81,7 +81,7 @@
     </p>
   </subsection>
 
-  <worksheet xml:id="act-analyze-tiles">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-analyze-tiles">
     <title>Analyzing Tile Patterns</title>
     <page>
     <introduction>
@@ -414,7 +414,7 @@
 
   </exercises>
 
-  <worksheet xml:id="act-analyze-more-tiles">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-analyze-more-tiles">
     <title>Analyzing More Tile Patterns</title>
     <page>
     <introduction>
@@ -490,7 +490,7 @@
 
     <figure xml:id="fig-more-tile-patterns">
       <caption>More Tile Patterns</caption>
-      <image source="more-tile-patterns" width="100%">
+      <image source="more-tile-patterns" width="80%">
         <description></description>
       </image>
     </figure>

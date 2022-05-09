@@ -10,7 +10,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-setup-qrv">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-setup-qrv">
     <title>Setting Up Systems of Equations with Quantity Rate Value Tables</title>
     
     
@@ -417,7 +417,7 @@
     
   </exercises>
 
-  <worksheet xml:id="act-qrv-chem">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-qrv-chem">
     <title>Chemistry Mixture Problems Using Quantity Rate Value Tables</title>
     
     <introduction>

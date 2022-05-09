@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-recipes">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-recipes">
     <title>Recipes and Proportional Reasoning</title>
     
     <introduction>
@@ -106,7 +106,7 @@
             </row>
             <row left="minor" header="yes" bottom="minor">
               <cell right="minor">
-                Amount needed for <m>n</m><nbsp />recipes with<nbsp /><m>n =</m>
+                <line>Amount needed for</line><line><m>n</m>recipes with<nbsp /><m>n =</m></line>
               </cell>
               <cell right="minor">
                 Avocados
@@ -392,7 +392,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet xml:id="act-prop-reason">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-prop-reason">
     <title>Where Else Do You Use Proportional Reasoning? Proportional Linear Function Example</title>
     
     <introduction>
@@ -773,7 +773,7 @@
           <tabular halign="center" top="minor" left="minor">
             <row header="yes" bottom="minor">
               <cell right="minor">Cycling at <m>C</m> miles an hour</cell>
-              <cell right="minor">Equivalent number, <m>N</m>, of steps per minute of exercise</cell>
+              <cell right="minor"><line>Equivalent number, <m>N</m>,</line><line>of steps per minute of exercise</line></cell>
             </row>
 
             <row bottom="minor">
@@ -899,7 +899,7 @@
           <title>Dog Age vs. Human Age</title>
           <tabular left="minor" top="minor" halign="center">
             <row bottom="minor">
-              <cell right="minor">Number of actual years of life, <m>y</m></cell>
+              <cell right="minor"><line>Number of actual</line><line>years of life, <m>y</m></line></cell>
               <cell right="minor">1</cell>
               <cell right="minor">2</cell>
               <cell right="minor">3</cell>
@@ -912,7 +912,7 @@
             </row>
 
             <row bottom="minor">
-              <cell right="minor">Comparative human age (dog years), <m>d</m></cell>
+              <cell right="minor"><line>Comparative human age</line><line>(dog years), <m>d</m></line></cell>
               <cell right="minor">6.5</cell>
               <cell right="minor">13</cell>
               <cell right="minor">19.5</cell>
@@ -1040,7 +1040,7 @@
           <tabular halign="center" top="minor" left="minor">
             <row>
               <cell right="minor">
-                Number of ounces of coffee
+                <line>Number of ounces</line><line>of coffee</line>
               </cell>
               <cell colspan="3" right="minor" bottom="minor">
                 Number of calories, <m>C</m>

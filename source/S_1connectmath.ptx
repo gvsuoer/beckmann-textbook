@@ -79,7 +79,7 @@
       Mathematics is a creative endeavor. There is always more than one way to solve a problem. If you get stuck, try to find another route!
     </p>
 
-    <worksheet xml:id="act-growing-dots">
+    <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-growing-dots">
       <title>Growing Pattern of Dots</title>
       <introduction>
 
@@ -197,7 +197,7 @@
       
     </worksheet>
 
-    <worksheet xml:id="act-graphing-dots">
+    <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-graphing-dots">
       <title>Graphing a Growing Pattern of Dots</title>
     
       
@@ -404,8 +404,9 @@
         </p>
       </statement>
     </exercise>
+  </exercises>
 
-    <worksheet xml:id="act-interpret-express">
+    <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-interpret-express">
       <title>Interpreting Expressions</title>
 
       <introduction>
@@ -453,6 +454,6 @@
 
     
 
-  </exercises>
+  
 </section>
 

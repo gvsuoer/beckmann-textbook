@@ -9,7 +9,7 @@
     </p>
   </introduction>
 
-  <worksheet xml:id="act-pricing-pizza">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-pricing-pizza">
     <title>Pricing Pizzas</title>
     
     <introduction>
@@ -31,11 +31,11 @@
           <tabular halign="center" top="minor" left="minor">
             <row header="yes" bottom="minor">
               <cell right="minor">Description</cell>
-              <cell right="minor">Small, original crust</cell>
-              <cell right="minor">Medium, original crust</cell>
-              <cell right="minor">Large, original crust</cell>
-              <cell right="minor">Large, thin crust</cell>
-              <cell right="minor">Extra Large, original crust</cell>
+              <cell right="minor"><line>Small,</line><line>original crust</line></cell>
+              <cell right="minor"><line>Medium,</line><line>original crust</line></cell>
+              <cell right="minor"><line>Large,</line><line>original crust</line></cell>
+              <cell right="minor"><line>Large,</line><line>thin crust</line></cell>
+              <cell right="minor"><line>Extra Large,</line><line>original crust</line></cell>
             </row>
 
             <row bottom="minor">
@@ -48,7 +48,7 @@
             </row>
 
             <row bottom="minor">
-              <cell right="minor">Price of Plain Cheese Pizza</cell>
+              <cell right="minor"><line>Price of Plain</line><line>Cheese Pizza</line></cell>
               <cell right="minor"><nbsp/></cell>
               <cell right="minor"><nbsp/></cell>
               <cell right="minor"><nbsp/></cell>
@@ -57,7 +57,7 @@
             </row>
 
             <row bottom="major">
-              <cell right="minor">Cost of one topping on pizza</cell>
+              <cell right="minor"><line>Cost of one</line><line>topping on pizza</line></cell>
               <cell right="minor"><nbsp/></cell>
               <cell right="minor"><nbsp/></cell>
               <cell right="minor"><nbsp/></cell>
@@ -270,11 +270,11 @@
       <tabular halign="center" top="minor" left="minor">
         <row header="yes" bottom="minor">
           <cell right="minor">Description</cell>
-          <cell right="minor">Small, original crust</cell>
-          <cell right="minor">Medium, original crust</cell>
-          <cell right="minor">Large, original crust</cell>
-          <cell right="minor">Large, thin crust</cell>
-          <cell right="minor">Extra Large, original crust</cell>
+          <cell right="minor"><line>Small,</line><line>original crust</line></cell>
+          <cell right="minor"><line>Medium,</line><line>original crust</line></cell>
+          <cell right="minor"><line>Large,</line><line>original crust</line></cell>
+          <cell right="minor"><line>Large,</line><line>thin crust</line></cell>
+          <cell right="minor"><line>Extra Large,</line><line>original crust</line></cell>
         </row>
 
         <row bottom="minor">
@@ -287,7 +287,7 @@
         </row>
 
         <row bottom="minor">
-          <cell right="minor">Number of toppings on pizza</cell>
+          <cell right="minor"><line>Number of</line><line>toppings on pizza</line></cell>
           <cell right="minor"><nbsp/></cell>
           <cell right="minor"><nbsp/></cell>
           <cell right="minor"><nbsp/></cell>
@@ -323,7 +323,7 @@
         </row>
 
         <row bottom="minor">
-          <cell right="minor">Number of toppings on pizza</cell>
+          <cell right="minor"><line>Number of</line><line>toppings on pizza</line></cell>
           <cell right="minor"><nbsp/></cell>
           <cell right="minor"><nbsp/></cell>
           <cell right="minor"><nbsp/></cell>
@@ -633,7 +633,7 @@
 
   </exercises>
 
-  <worksheet xml:id="act-eq-hands-on">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-eq-hands-on">
     <title>Solving Equations <mdash/> Hands and Minds On</title>
     
     <introduction>

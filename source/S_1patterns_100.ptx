@@ -64,7 +64,7 @@
 
   </subsection>
 
-  <worksheet xml:id="act-analyze100">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-analyze100">
     <title>Analyzing the 100s Chart</title>
     
     <introduction>
@@ -429,7 +429,7 @@
 
   </exercises>
 
-  <worksheet xml:id="act-like-terms">
+  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-like-terms">
     <title>Combining Like Terms</title>
     
     
