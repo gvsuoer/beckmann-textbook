@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-05-09T15:19:49-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Linear Regression and Lines of Best Fit</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_eyeball_lines.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_use_lin_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_systems.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_eyeball_lines.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_use_lin_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_systems.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_anlayze_race.html" data-scroll="S_anlayze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and y-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="active">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="S_lin_reg"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.4</span> <span class="title">Linear Regression and Lines of Best Fit</span>
+</h2>
+<section class="introduction" id="introduction-184"><p id="p-1406">In the activities and homework for <a href="S_eyeball_lines.html" class="internal" title="Section 3.3: Eyeballing Lines of Best Fit">Section 3.3</a>, you might have found a different equation than other members of your group or class. Even if your equations had similar slopes or <span class="process-math">\(y\)</span>-intercepts, it might be disconcerting to use different equations to model the same set of data.</p>
+<p id="p-1407">Statisticians worked on the problem of finding lines of best fit over many years. Initially, the idea was to get a line that had as many points above the line as below so that the sum of the distances of points away from the line added to 0. Even though the process worked fairly well, the same problem occurred as in our work with eyeballed lines of best fit. Scientists were not satisfied with estimates that worked most of the time. They wanted precision and a method that was mathematically justifiable. Carl Friedrich Gauss developed the method of least squares to solve celestial problems.</p>
+<p id="p-1408">To understand the method of least squares, consider an example. In <a href="" class="xref" data-knowl="./knowl/fig-resids.html" title="Figure 3.4.0.1">Figure 3.4.0.1</a>, three points and an eyeballed line of best fit are indicated. Each point is connected to the line with a segment the length of which is a residual, the directed distance of the point from the eyeballed line of best fit; a residual is positive if the point lies above the line and negative if the point lies below the line. Notice that the sum of the residuals is 0. In <a href="" class="xref" data-knowl="./knowl/fig-resids-sq.html" title="Figure 3.4.0.2">Figure 3.4.0.2</a>, each residual is the same as in <a href="" class="xref" data-knowl="./knowl/fig-resids.html" title="Figure 3.4.0.1">Figure 3.4.0.1</a> but this time, a square with side length equal to the residual is drawn. In the method of least squares, the squares of the residuals are found; these are the areas of the squares. The one line that best fits all of the points is the line for which the sum of the areas of the squares is least. <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-resids"><img src="external/resids.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.0.1<span class="period">.</span></span><span class="space"> </span>Residuals</figcaption></figure></div>
+<div class="sbspanel top" style="width:50%;"><figure class="figure figure-like" id="fig-resids-sq"><img src="external/resids-sq.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.4.0.2<span class="period">.</span></span><span class="space"> </span>Square Residuals</figcaption></figure></div>
+</div></div></p></section><section class="worksheet" id="act-wave"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">The Wave</span><div class="print-links">
+<a href="act-wave-a4.html" class="a4">A4</a><a href="act-wave-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-185"><p id="p-1409">Let's try another experiment. Think about the Wave as it happens at a football game. Someone starts it and gets most of the people in the stadium standing up and sitting down as the wave approaches then leaves them. We'll practice the wave in the same way, keeping track of how long it takes to complete the wave based on the number of participants in the wave.</p>
+<p id="p-1410">Use <a href="" class="xref" data-knowl="./knowl/tbl-wave.html" title="Table 3.4.0.3: The Wave">Table 3.4.0.3</a> to record the amount of time it takes to complete a wave for the given number of participants.</p>
+<figure class="table table-like" id="tbl-wave"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.0.3<span class="period">.</span></span><span class="space"> </span>The Wave</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Number of Participants</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Time to Complete the Wave</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">25</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">35</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></section><article class="exercise exercise-like" id="exercise-336"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-1411">Plot the data.</p></article><article class="exercise exercise-like" id="exercise-337"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-1412">Describe the graph.</p></article><article class="exercise exercise-like" id="exercise-338"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-1413">Eyeball a line of best fit.</p></article><article class="exercise exercise-like" id="exercise-339"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<p id="p-1414">Find the equation of the line you just found.</p></article><article class="exercise exercise-like" id="exercise-340"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-1415">What does the slope represent in this context?</p></article><article class="exercise exercise-like" id="exercise-341"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-1416">Wat does the <span class="process-math">\(y\)</span>-intercept represent in this context?</p></article></section><article class="activity project-like" id="activity-7"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">7</span><span class="period">.</span>
+</h3>
+<p id="p-1417">As you might have guessed, there are electronic tools to find regression equations and lines of best fit. Both Desmos and graphing calculators have tools that will determine lines of best fit using the method of least squares. The graphing calculator directions are included at the end of the homework in this lesson. Desmos includes directions in the on-line graphing calculator. To find the Regression directions on Desmos, click on the “?” button in the upper right corner of the screen. At the top of the screen that appears, there is a list of Tours. Choose “Regressions”. Follow the directions using the data set Desmos provides. Use Desmos' directions to enter and analyze additional data sets.</p>
+<p id="p-1418">In this lesson, use Desmos or a graphing calculator to find a regression equation to fit the Wave data. How close does your eyeballed line of best fit approximate the regression line? How long would it take to complete the wave if 100 people participated? How many people would have to participate to keep the wave going for 10 minutes?</p></article><section class="exercises" id="exercises-22"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber"></span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exer-monop-reg"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-186"><p id="p-1419">Each space in the Monopoly board game is numbered with GO being space 0. The price of the property by space number is provided.</p></div>
+<article class="task exercise-like" id="task-679"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1420">Plot the data.</p></article><article class="task exercise-like" id="task-680"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1421">Use the regression capability of an electronic tool to find a regression equation to fit the data at right. Record the equation.</p></article><article class="task exercise-like" id="task-681"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1422">What is the slope? What does the slope represent in this context?</p></article><article class="task exercise-like" id="task-682"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1423">What is the <span class="process-math">\(y\)</span>-intercept? What does the <span class="process-math">\(y\)</span>-intercept represent in this context?</p></article><article class="task exercise-like" id="task-683"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1424">Compare the slope and <span class="process-math">\(y\)</span>-intercept from your regression line with those of the eyeballed line of best fit (see <a href="" class="xref" data-knowl="./knowl/exer-monopoly.html" title="Exercise 3.3.2">Exercise 3.3.2</a>). How close was your eyeballed line to the line you found electronically? Would your eyeballed line be a reasonable approximation for the regression line? Why or why not?</p></article><article class="task exercise-like" id="task-684"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1425">Does the regression line agree with the price for property 18 in <a href="" class="xref" data-knowl="./knowl/tbl-monop-prices.html" title="Table 3.4.0.4: Monopoly Prices">Table 3.4.0.4</a>?</p>
+<figure class="table table-like" id="tbl-monop-prices"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.0.4<span class="period">.</span></span><span class="space"> </span>Monopoly Prices</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Space Number</th>
+<th scope="col" class="c m b1 r3 l0 t1 lines">Price of<br>Property</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Space Number</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Price of<br>Property</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r3 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+<td class="c m b1 r1 l0 t0 lines">220</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r3 l0 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">220</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r3 l0 t0 lines">100</td>
+<td class="c m b1 r1 l0 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">240</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r3 l0 t0 lines">100</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines">260</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">9</td>
+<td class="c m b1 r3 l0 t0 lines">120</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">260</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">11</td>
+<td class="c m b1 r3 l0 t0 lines">140</td>
+<td class="c m b1 r1 l0 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">280</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">13</td>
+<td class="c m b1 r3 l0 t0 lines">140</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">14</td>
+<td class="c m b1 r3 l0 t0 lines">160</td>
+<td class="c m b1 r1 l0 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines">300</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">16</td>
+<td class="c m b1 r3 l0 t0 lines">180</td>
+<td class="c m b1 r1 l0 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">18</td>
+<td class="c m b1 r3 l0 t0 lines">180</td>
+<td class="c m b1 r1 l0 t0 lines">37</td>
+<td class="c m b1 r1 l0 t0 lines">350</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">19</td>
+<td class="c m b1 r3 l0 t0 lines">200</td>
+<td class="c m b1 r1 l0 t0 lines">39</td>
+<td class="c m b1 r1 l0 t0 lines">400</td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-685"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-1426">What property number would cost $500 if the board was expanded to include more spaces?</p></article></article><article class="exercise exercise-like" id="exercise-343"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-187">
+<p id="p-1427">In the table at right, several Monopoly properties were deleted from <a href="" class="xref" data-knowl="./knowl/tbl-monop-prices.html" title="Table 3.4.0.4: Monopoly Prices">Table 3.4.0.4</a>. Only the third property in each group of three of the same colored properties remain in this table. Space numbers and prices are provided.</p>
+<figure class="table table-like" id="tbl-select-monopoly"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.4.0.5<span class="period">.</span></span><span class="space"> </span>Select Monopoly Prices</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Space Number</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Price of Property</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines">120</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines">160</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">200</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">24</td>
+<td class="c m b1 r1 l0 t0 lines">240</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">29</td>
+<td class="c m b1 r1 l0 t0 lines">280</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">34</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="task-686"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1428">What is the slope? What does the slope mean in this context?</p></article><article class="task exercise-like" id="task-687"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1429">What is the <span class="process-math">\(y\)</span>-intercept? What does the <span class="process-math">\(y\)</span>-intercept mean in this context?</p></article><article class="task exercise-like" id="task-688"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1430">Determine an equation to fit this new table.</p></article><article class="task exercise-like" id="task-689"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1431">How does the equation fit the data in this table? Explain.</p></article><article class="task exercise-like" id="task-690"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1432">Draw the graph of this line using another color on the scatterplot you created in <a href="" class="xref" data-knowl="./knowl/exer-monop-reg.html" title="Exercise 3.4.1">Exercise 3.4.1</a>. What do you notice?</p></article><article class="task exercise-like" id="task-691"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1433">If every space had a price associated with it, how much would space 25 cost?</p></article><article class="task exercise-like" id="task-692"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-1434">Which space number would cost $500?</p></article></article><article class="exercise exercise-like" id="exercise-344"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-188">
+<p id="p-1435">Revisit the problems below.</p>
+<ul class="disc">
+<li id="li-221"><p id="p-1436">Find regression equations to fit each data set.</p></li>
+<li id="li-222"><p id="p-1437">Compare the regression equation with the equation you found earlier. Comment on the accuracy of your previous work when compared with the regression equation.</p></li>
+<li id="li-223"><p id="p-1438">Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the dependent variable.</p></li>
+<li id="li-224"><p id="p-1439">Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the independent variable.</p></li>
+</ul>
+</div>
+<article class="task exercise-like" id="task-693"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1440"><a href="S_stacked_cups.html#act-stacked-cups" class="internal" title="Student Page 3.2: Packaging Stacked Cups">Packaging Stacked Cups</a> (<a href="" class="xref" data-knowl="./knowl/exer-cups-graph-hmwk.html" title="Exercise 3.2.1">Exercise 3.2.1</a> and <a href="" class="xref" data-knowl="./knowl/exer-old-cups-graph.html" title="Exercise 3.2.2">Exercise 3.2.2</a>): Choose one of the class data sets. Find a regression equation to fit the average height of the cups depending on the number of cups stacked.</p></article><article class="task exercise-like" id="task-694"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1441"><a href="S_eyeball_lines.html#act-gulliver" class="internal" title="Student Page 3.3: Gulliver Graphs">Gulliver Graphs</a> (<a href="S_eyeball_lines.html" class="internal" title="Section 3.3: Eyeballing Lines of Best Fit">Section 3.3</a>): Choose one of the data sets, (Thumb, Wrist), (Wrist, Neck), or (Thumb, Neck). Find three regression equations, one for each group, female, male, and entire group.</p></article><article class="task exercise-like" id="task-695"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1442"><abbr class="initialism">U.S.</abbr> shoe sizes (<a href="" class="xref" data-knowl="./knowl/exer-shoe-sizes.html" title="Exercise 3.3.1">Exercise 3.3.1</a>): Online, find a Men's Shoe Conversion Chart. Compare men's shoe sizes to women's shoe sizes for the same foot lengths. Use foot length in either inches or centimeters as the independent variable and shoe sizes as the dependent variable. Provide a printed list of the data.</p></article></article><article class="exercise exercise-like" id="exercise-345"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-189"><p id="p-1443">World records for human accomplishments in sports over time provide interesting data to analyze. Locate a sport of interest for which world record progressions can be found. For example, the men's world records for the mile run are available online for 1865 to 1999.</p></div>
+<article class="task exercise-like" id="task-696"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1444">Provide a printed list of the data.</p></article><article class="task exercise-like" id="task-697"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1445">Using an electronic tool, plot the data with year being the independent variable and world record time being the dependent variable.</p></article><article class="task exercise-like" id="task-698"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1446">Find a regression equation to fit the data. Graph the equation on the same axes as the scatterplot of the data.</p></article><article class="task exercise-like" id="task-699"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1447">Interpret the slope and the <span class="process-math">\(y\)</span>-intercept in terms of the years and world record times.</p></article><article class="task exercise-like" id="task-700"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1448">What is a reasonable domain for the sport you are investigating? Why do you think so?</p></article><article class="task exercise-like" id="task-701"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1449">What is the range corresponding to your chosen domain?</p></article><article class="task exercise-like" id="task-702"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-1450">Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the independent variable.</p></article><article class="task exercise-like" id="task-703"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-1451">Write and answer a meaningful question in context that requires you to solve the regression equation using your choice of a value of the dependent variable.</p></article><article class="task exercise-like" id="task-704"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<p id="p-1452">Write a paragraph discussing your findings and including your opinion about whether or not a linear regression equation will be a good predictor for future world record winning times and years.</p></article></article></section><section class="worksheet" id="act-calc-graph"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Entering and Graphing Data and Finding Regression Equations</span><div class="print-links">
+<a href="act-calc-graph-a4.html" class="a4">A4</a><a href="act-calc-graph-letter.html" class="us">US</a>
+</div>
+</h3>
+<article class="exercise exercise-like" id="exercise-346"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-190"><p id="p-1453">To Enter the Data:</p></div>
+<article class="task exercise-like" id="task-705"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1454">Press STAT then choose 1: Edit…</p></article><article class="task exercise-like" id="task-706"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1455">Enter the values for the independent variable (domain) into L1.</p></article><article class="task exercise-like" id="task-707"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1456">Enter the values for the dependent variable (range) into L2.</p></article></article><article class="exercise exercise-like" id="exercise-347"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-191"><p id="p-1457">To Graph the Data:</p></div>
+<article class="task exercise-like" id="task-708"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1458">Press STAT PLOT (2ND Y=) then choose 1: Plot1… Press ENTER</p></article><article class="task exercise-like" id="task-709"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1459">Settings: On, Scatter plot (first graph), Xlist: L1, Ylsit: L2, Mark: +</p></article><article class="task exercise-like" id="task-710"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1460">Press GRAPH</p></article></article><article class="exercise exercise-like" id="exercise-348"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-192"><p id="p-1461">To Set the Viewing Window:</p></div>
+<article class="task exercise-like" id="task-711"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1462">Press WINDOW</p></article><article class="task exercise-like" id="task-712"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1463">Use the table to determine</p>
+<p id="p-1464">Xmin, Xmax, Xscl</p>
+<p id="p-1465">Ymin, Ymax, Yscl</p></article><article class="task exercise-like" id="task-713"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1466">OR Press ZOOM then scroll down to 9: ZoomStat, Press ENTER</p></article></article><article class="exercise exercise-like" id="exercise-349"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-193"><p id="p-1467">To Fit a Function to the Data:</p></div>
+<article class="task exercise-like" id="task-714"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1468">Press STAT</p></article><article class="task exercise-like" id="task-715"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1469">Move the cursor to the right to highlight CALC</p></article><article class="task exercise-like" id="task-716"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1470">Scroll down to the function type you want to use, for example, 4: LinReg(ax+b) (to fit a linear function), then Press ENTER.</p></article><article class="task exercise-like" id="task-717"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1471">Indicate the lists of the data (separated by commas for older TI-84 calculators, L1, L2).</p></article><article class="task exercise-like" id="task-718"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1472">Choose where you want to place the function equation, for example, Y1. Press VARS, move the cursor to the right to highlight Y-VARS, Press ENTER to choose 1: Function, scroll to highlight the Y-variable you want, then press ENTER again</p></article><article class="task exercise-like" id="task-719"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1473">The screen should read:</p>
+<div class="code-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><pre class="console">LinReg(ax+b)
+Xlist: L1
+Ylist: L2
+FreqList:
+Store RegEQ: Y1
+Calculate
+</pre></div>
+<p id="p-1474">(For older TI-84s, the screen will read 4: LinReg(ax+b) L1, L2, Y1). Press ENTER (to fit a linear function).</p></article><article class="task exercise-like" id="task-720"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-1475">The regression equation will be in Y1 or whatever Y-variable you chose.</p></article><article class="task exercise-like" id="task-721"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-1476">Press GRAPH to plot the regression equation with the data.</p></article></article></section></section></div></main>
+</div>
+</body>
+</html>

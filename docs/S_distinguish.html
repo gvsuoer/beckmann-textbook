@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-05-09T15:19:13-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Distinguishing Proportional Relationships from Other Linear Relationships</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_proportions.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_lin_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_connect_graph_eq.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_proportions.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_lin_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_connect_graph_eq.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_anlayze_race.html" data-scroll="S_anlayze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="active">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and y-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="S_distinguish"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.6</span> <span class="title">Distinguishing Proportional Relationships from Other Linear Relationships</span>
+</h2>
+<section class="worksheet" id="act-head-start-tort"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Giving the Tortoise A Head Start</span><div class="print-links">
+<a href="act-head-start-tort-a4.html" class="a4">A4</a><a href="act-head-start-tort-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-104"><p id="p-809">So far, we have seen several examples of proportional linear relationships. In each case, the graph modeling the relationship went through the origin. We return to <a href="S_interpret_graphs.html#act-hare-tort" class="internal" title="Student Page 2.3: The Hare and the Tortoise">The Hare and the Tortoise</a> to consider other possibilities. <a href="S_distinguish.html#act-head-start-tort" class="internal" title="Student Page 2.6: Giving the Tortoise A Head Start">Giving the Tortoise A Head Start</a> introduces other linear relationships.</p>
+<p id="p-810">The hare challenged the tortoise to another race. He gave the tortoise a head start to make the race seem fair. They used the same 1000-meter course and started the race together.</p>
+<figure class="figure figure-like" id="fig-head-start-graph"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/head-start-graph.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.6.0.1<span class="period">.</span></span><span class="space"> </span>Empty Axes for Comparing Tortoise and Hare Races</figcaption></figure></section><article class="exercise exercise-like" id="exercise-200"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="exer-tort-fhund"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-811">The tortoise started the race 500 meters from the Starting Line. As in the original race, she plodded at a rate of 20 meters per minute. On <a href="" class="xref" data-knowl="./knowl/fig-head-start-graph.html" title="Figure 2.6.0.1">Figure 2.6.0.1</a>, draw a graph of the tortoise's distance from the starting line over the time it took her to complete the race.</p></article><article class="task exercise-like" id="task-326"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-812">The hare ran at a steady rate of 250 meters per minute throughout the race. He stopped only after he crossed the Finish Line. Also on <a href="" class="xref" data-knowl="./knowl/fig-head-start-graph.html" title="Figure 2.6.0.1">Figure 2.6.0.1</a>, draw a graph of the hare's distance from the starting line over the time it took him to complete the race.</p></article><article class="task exercise-like" id="task-327"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-813">Who won the race? How do you know?</p></article><article class="task exercise-like" id="exer-tort-ohund"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-814">Suppose the tortoise started the race 100 meters from the Finish Line. Who would win the race? Explain. Draw the graph on <a href="" class="xref" data-knowl="./knowl/fig-head-start-graph.html" title="Figure 2.6.0.1">Figure 2.6.0.1</a>.</p></article></article><article class="exercise exercise-like" id="exercise-201"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-815">Complete all three columns in <a href="" class="xref" data-knowl="./knowl/tbl-head-start.html" title="Table 2.6.0.2: Distance and Time of the Tortoise's Travels">Table 2.6.0.2</a> to compare the tortoise's distance from the Starting Line at the same time for these races. For each race, use a different color to highlight the time at which the tortoise reached the Finish Line. Use the same color to highlight the corresponding graph in <a href="" class="xref" data-knowl="./knowl/fig-head-start-tort.html" title="Figure 2.6.0.3">Figure 2.6.0.3</a>. Recall: In the original race, the tortoise started at the Starting Line.</p>
+<figure class="table table-like" id="tbl-head-start"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.2<span class="period">.</span></span><span class="space"> </span>Distance and Time of the Tortoise's Travels</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l0 t0 lines"> </th>
+<th scope="col" class="c m b1 r1 l0 t1 lines" colspan="3">The tortoise's distance in meters from the Starting Line</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t0 lines">Time elapsed<br>in minutes</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Original Race</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Race in <a href="" class="xref" data-knowl="./knowl/exer-tort-fhund.html" title="Task 2.6.1.a">Task 2.6.1.a</a>
+</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Race in <a href="" class="xref" data-knowl="./knowl/exer-tort-ohund.html" title="Task 2.6.1.d">Task 2.6.1.d</a>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">40</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">50</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="exercise exercise-like" id="exercise-202"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-816">Graph the tortoise's races from <a href="" class="xref" data-knowl="./knowl/tbl-head-start.html" title="Table 2.6.0.2: Distance and Time of the Tortoise's Travels">Table 2.6.0.2</a> on the same coordinate plane in <a href="" class="xref" data-knowl="./knowl/fig-head-start-tort.html" title="Figure 2.6.0.3">Figure 2.6.0.3</a>. How are the graphs related?</p>
+<figure class="figure figure-like" id="fig-head-start-tort"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/head-start-graph.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.6.0.3<span class="period">.</span></span><span class="space"> </span>Time and Distance for Various Tortoise Races</figcaption></figure></article><article class="exercise exercise-like" id="exercise-203"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-105"><p id="p-817">Study the table and the graphs.</p></div>
+<article class="task exercise-like" id="task-329"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-818">For each graph and corresponding data set, find an equation to model the graph and data.</p></article><article class="task exercise-like" id="task-330"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-819">What do the equations have in common? Explain.</p></article><article class="task exercise-like" id="task-331"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-820">What is different in each of the equations? What accounts for the differences?</p></article><article class="task exercise-like" id="task-332"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-821">How does Tortoise's head start show up in each equation? Why does this make sense?</p></article></article><article class="exercise exercise-like" id="exercise-204"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-822">You have studied the idea of “head start” in linear relationships in previous mathematics classes. What is the mathematical name for the “head start” value in a linear equation?</p></article><section class="conclusion" id="conclusion-12"><p id="p-823">With your group, discuss what new information about linear relationships is gained from the student page, <a href="S_distinguish.html#act-head-start-tort" class="internal" title="Student Page 2.6: Giving the Tortoise A Head Start">Giving the Tortoise A Head Start</a>. Outline what you have learned about linear relationships through the progression of activities: <a href="S_interpret_graphs.html#act-hare-tort" class="internal" title="Student Page 2.3: The Hare and the Tortoise">The Hare and the Tortoise</a>, <a href="S_anlayze_race.html#act-trod-tort" class="internal" title="Student Page 2.4: Trodding Tortoise">Trodding Tortoise</a>, <a href="S_anlayze_race.html#act-hop-hare" class="internal" title="Student Page 2.4: Hopping Hare">Hopping Hare</a>, and <a href="S_distinguish.html#act-head-start-tort" class="internal" title="Student Page 2.6: Giving the Tortoise A Head Start">Giving the Tortoise A Head Start</a>. Ask any questions you have remaining.</p></section></section><section class="worksheet" id="act-slope-int"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Finding Equations from Tables and Interpreting Slope and y-Intercept</span><div class="print-links">
+<a href="act-slope-int-a4.html" class="a4">A4</a><a href="act-slope-int-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-106"><p id="p-824">Sometimes students find it difficult to determine an equation from a table, a graph, or a story. These three representations are highly linked. If you can find a table from a graph or a story, you can always find an equation from the patterns in the table. The student page, <a href="S_distinguish.html#act-slope-int" class="internal" title="Student Page 2.6: Finding Equations from Tables and Interpreting Slope and y-Intercept">Finding Equations from Tables and Interpreting Slope and y-Intercept</a>, gives you a few tools to help you find an equation from a table. Though initially, this work might seem time-consuming, complete it as directed. It is important not to simplify too soon so that you can see how patterns are forming. You will find short-cuts soon enough.</p>
+<p id="p-825">Work with your group to complete the student page, <a href="S_distinguish.html#act-slope-int" class="internal" title="Student Page 2.6: Finding Equations from Tables and Interpreting Slope and y-Intercept">Finding Equations from Tables and Interpreting Slope and y-Intercept</a>. Pay close attention to how you can find equations from tables. Be ready to answer these questions:</p>
+<ul class="disc">
+<li id="li-131"><p id="p-826">How are recursive and explicit equations related?</p></li>
+<li id="li-132"><p id="p-827">How does this activity help you distinguish proportional linear relationships from other linear relationships?</p></li>
+</ul></section><article class="exercise exercise-like" id="exer-slope-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-333"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-828">What patterns do you see in <a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a>? <a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a>? (Don't complete the tables yet.)</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><figure class="table table-like" id="tbl-slope-a"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.4<span class="period">.</span></span><span class="space"> </span>Table A</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Another way to write <span class="process-math">\(y\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0 + 3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(0 + 3 + 3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">108</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+<div class="sbspanel fixed-width top" style="width:50%;"><figure class="table table-like" id="tbl-slope-b"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.5<span class="period">.</span></span><span class="space"> </span>Table B</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Another way to write <span class="process-math">\(y\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(5 + 3\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">11</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">108</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+</div></div></article><article class="task exercise-like" id="task-334"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-829">How are <a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a> and <a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a> similar? Show your work and explain.</p></article><article class="task exercise-like" id="task-335"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-830">How are <a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a> and <a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a> different? Show your work and explain.</p></article></article><article class="exercise exercise-like" id="exercise-206"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-831">Graph the data in both tables on the same pair of axes. What do you notice? Does your observation seem reasonable? Explain.</p></article><article class="exercise exercise-like" id="exercise-207"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="exer-slope-extend-tbl"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-832">In the column labeled, “Another way to write <span class="process-math">\(y\)</span>”, show how the <span class="process-math">\(y\)</span>-values in the table build from the <span class="process-math">\(y\)</span>-value when <span class="process-math">\(x = 0\text{.}\)</span> This is the starting <span class="process-math">\(y\)</span>-value. Do not simplify at any step. Continue extending the table to find the <span class="process-math">\(y\)</span>-values for <span class="process-math">\(x = 5\)</span> and <span class="process-math">\(x = 6\text{.}\)</span></p></article><article class="task exercise-like" id="task-337"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-833">What patterns are evident from your work in <a href="" class="xref" data-knowl="./knowl/exer-slope-extend-tbl.html" title="Task 2.6.3.a">Task 2.6.3.a</a>?</p>
+<p id="p-834"><a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a>:</p>
+<p id="p-835"><a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a>:</p></article><article class="task exercise-like" id="task-338"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-836">A recursive pattern is a rule that tells you the starting number of a pattern and how the pattern continues. It is likely that recursive patterns are the first thing you notice when working with tables. For both <a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a> and <a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a>, write a recursive rule to find the <span class="process-math">\(y\)</span>-values in the table. Don't forget to list a starting <span class="process-math">\(y\)</span>-value and what you have to do to get successive <span class="process-math">\(y\)</span>-values in the table.</p>
+<p id="p-837"><a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a>:</p>
+<p id="p-838"><a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a>:</p></article></article><article class="exercise exercise-like" id="exer-slope-4"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<p id="p-839">An explicit equation is a rule that allows you to find a value for <span class="process-math">\(y\)</span> directly from the corresponding value for <span class="process-math">\(x\text{.}\)</span> In the recursive pattern, you found that you added the same number each time. Let's call this number a constant. In the table, for a particular value of <span class="process-math">\(x\text{,}\)</span> how many times did you add the constant to get the value of <span class="process-math">\(y\)</span> for that value of <span class="process-math">\(x\text{?}\)</span> Use this information to write explicit equations for <a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a> and <a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a>. Use the equations to complete the tables.</p>
+<p id="p-840"><a href="" class="xref" data-knowl="./knowl/tbl-slope-a.html" title="Table 2.6.0.4: Table A">Table 2.6.0.4</a>:</p>
+<p id="p-841"><a href="" class="xref" data-knowl="./knowl/tbl-slope-b.html" title="Table 2.6.0.5: Table B">Table 2.6.0.5</a>:</p></article><article class="exercise exercise-like" id="exercise-209"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-842">How does each explicit equation relate to each recursive equation?</p></article><article class="exercise exercise-like" id="exercise-210"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-843">Repeat <a href="" class="xref" data-knowl="./knowl/exer-slope-1.html" title="Student Page Exercise 2.6.1">Student Page Exercise 2.6.1–2.6.4</a> for <a href="" class="xref" data-knowl="./knowl/tbl-slope-c.html" title="Table 2.6.0.6: Table C">Table 2.6.0.6</a> and <a href="" class="xref" data-knowl="./knowl/tbl-slope-d.html" title="Table 2.6.0.7: Table D">Table 2.6.0.7</a>. <div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><figure class="table table-like" id="tbl-slope-c"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.6<span class="period">.</span></span><span class="space"> </span>Table C</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Another way to write <span class="process-math">\(y\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+<div class="sbspanel fixed-width top" style="width:50%;"><figure class="table table-like" id="tbl-slope-d"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.7<span class="period">.</span></span><span class="space"> </span>Table D</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Another way to write <span class="process-math">\(y\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+</div></div></p>
+<p id="p-844">Recursive rule:</p>
+<p id="p-845">Explicit equation:</p></article><article class="exercise exercise-like" id="exercise-211"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-107"><p id="p-846">Are you tired of filling out the column, “Another way to write <span class="process-math">\(y\)</span>”? Now that you've experienced the constant growth of a linear relationship, you can simplify the process. Study <a href="" class="xref" data-knowl="./knowl/tbl-slope-e.html" title="Table 2.6.0.8: Table E">Table 2.6.0.8</a>. Notice how the process below simplifies the work you did in <a href="" class="xref" data-knowl="./knowl/exer-slope-1.html" title="Student Page Exercise 2.6.1">Student Page Exercise 2.6.1</a> and <a href="" class="xref" data-knowl="./knowl/exer-slope-6.html" title="Student Page Exercise 2.6.6">Student Page Exercise 2.6.6</a>. In this process you find the difference between two consecutive <span class="process-math">\(y\)</span>-values instead of writing each <span class="process-math">\(y\)</span>-value in terms of the starting <span class="process-math">\(y\)</span>-value. For <a href="" class="xref" data-knowl="./knowl/tbl-slope-e.html" title="Table 2.6.0.8: Table E">Table 2.6.0.8</a>:</p></div>
+<article class="task exercise-like" id="task-339"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-847">How many times do you add 4 to the starting <span class="process-math">\(y\)</span>-value to get the <span class="process-math">\(y\)</span>-value when <span class="process-math">\(x = 3\text{?}\)</span></p></article><article class="task exercise-like" id="task-340"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-848">How many times do you add 4 to the starting <span class="process-math">\(y\)</span>-value to get the <span class="process-math">\(y\)</span>-value when <span class="process-math">\(x = 6\text{?}\)</span></p></article><article class="task exercise-like" id="task-341"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-849">Find an explicit equation to fit the table. How do you know your equation is correct?</p></article><article class="task exercise-like" id="task-342"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-850">Use the same process to analyze <a href="" class="xref" data-knowl="./knowl/tbl-slope-f.html" title="Table 2.6.0.9: Table F">Table 2.6.0.9</a>. Find an explicit equation to fit the table.</p></article><div class="conclusion" id="conclusion-13"><p id="p-851"><div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:50%;"><figure class="table table-like" id="tbl-slope-e"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.8<span class="period">.</span></span><span class="space"> </span>Table E</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Change in <span class="process-math">\(y\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines">Starting value</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">11</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">23</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+</tr>
+</table></figure></div>
+<div class="sbspanel fixed-width top" style="width:50%;"><figure class="table table-like" id="tbl-slope-f"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.9<span class="period">.</span></span><span class="space"> </span>Table F</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Change in <span class="process-math">\(y\)</span>
+</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+</div></div></p></div></article><article class="exercise exercise-like" id="exercise-212"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-108"><p id="p-852">There are two important numbers in a linear equation.</p></div>
+<article class="task exercise-like" id="task-343"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-853">One is the slope. How can you find the slope from a table? How does it show up in the equation?</p></article><article class="task exercise-like" id="task-344"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-854">The other number is called the <span class="process-math">\(y\)</span>-intercept. What is a <span class="process-math">\(y\)</span>-intercept?</p></article><article class="task exercise-like" id="task-345"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-855">How can you find the <span class="process-math">\(y\)</span>-intercept from a table? How does it show up in the equation?</p></article></article></section><section class="worksheet" id="act-find-eqs"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Finding Equations from Graphs and Contexts, Interpreting Slope and y-Intercept</span><div class="print-links">
+<a href="act-find-eqs-a4.html" class="a4">A4</a><a href="act-find-eqs-letter.html" class="us">US</a>
+</div>
+</h3>
+<article class="exercise exercise-like" id="exer-eq-1"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-856">Compare the graphs in <a href="" class="xref" data-knowl="./knowl/fig-four-lines.html" title="Figure 2.6.0.10">Figure 2.6.0.10</a>. Which ones are related to each other? How are they related? (Note: The green line is Graph A, blue is Graph B, black is Graph C, and red is Graph D)</p>
+<figure class="figure figure-like" id="fig-four-lines"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/four-lines.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.6.0.10<span class="period">.</span></span><span class="space"> </span>Four Linear Plots</figcaption></figure></article><article class="exercise exercise-like" id="exercise-214"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-346"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-857">Complete a table for each graph. Use <a href="" class="xref" data-knowl="./knowl/tbl-line-one.html" title="Table 2.6.0.11: Graph A (Green)">Table 2.6.0.11</a>, <a href="" class="xref" data-knowl="./knowl/tbl-line-two.html" title="Table 2.6.0.12: Graph B (Blue)">Table 2.6.0.12</a>, <a href="" class="xref" data-knowl="./knowl/tbl-line-three.html" title="Table 2.6.0.13: Graph C (Black)">Table 2.6.0.13</a>, and <a href="" class="xref" data-knowl="./knowl/tbl-line-four.html" title="Table 2.6.0.14: Graph D (Red)">Table 2.6.0.14</a>.</p>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
+<div class="sbspanel fixed-width top" style="width:25%;"><figure class="table table-like" id="tbl-line-one"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.11<span class="period">.</span></span><span class="space"> </span>Graph A (Green)</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+<div class="sbspanel fixed-width top" style="width:25%;"><figure class="table table-like" id="tbl-line-two"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.12<span class="period">.</span></span><span class="space"> </span>Graph B (Blue)</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+<div class="sbspanel fixed-width top" style="width:25%;"><figure class="table table-like" id="tbl-line-three"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.13<span class="period">.</span></span><span class="space"> </span>Graph C (Black)</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+<div class="sbspanel fixed-width top" style="width:25%;"><figure class="table table-like" id="tbl-line-four"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.6.0.14<span class="period">.</span></span><span class="space"> </span>Graph D (Red)</figcaption><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></figure></div>
+</div></div></article><article class="task exercise-like" id="task-347"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-858">Determine a recursive pattern for each table.</p></article><article class="task exercise-like" id="task-348"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-859">Use the recursive rule to find an explicit equation for each graph. Write the recursive pattern and the equation under each table.</p></article></article><article class="exercise exercise-like" id="exercise-215"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-349"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-860">What is slope? (See <a href="" class="xref" data-knowl="./knowl/exer-slope-def.html" title="Task 2.4.4.e">Task 2.4.4.e</a> if you don't recall.)</p></article><article class="task exercise-like" id="task-350"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-861">How can you find the slope of a graph from a table?</p></article><article class="task exercise-like" id="task-351"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-862">How can you find the slope of a graph from an equation?</p></article><article class="task exercise-like" id="task-352"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-863">How can you find the slope directly from a graph? Show how the slope arises from the graph in each case.</p></article></article><article class="exercise exercise-like" id="exercise-216"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-353"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-864">What is the <span class="process-math">\(y\)</span>-intercept?</p></article><article class="task exercise-like" id="task-354"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-865">How can you find the <span class="process-math">\(y\)</span>-intercept from a table?</p></article><article class="task exercise-like" id="task-355"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-866">How can you find the <span class="process-math">\(y\)</span>-intercept from an equation?</p></article><article class="task exercise-like" id="task-356"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-867">How can you find the <span class="process-math">\(y\)</span>-intercept from a graph?</p></article></article><article class="exercise exercise-like" id="exer-slope-contexts"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-109">
+<p id="p-868">Consider the contexts that follow.</p>
+<dl class="description-list">
+<dt id="li-133">Context A</dt>
+<dd><p id="p-869">Raffle tickets are $0.50 each. How much will you pay for <span class="process-math">\(T\)</span> tickets?</p></dd>
+<dt id="li-134">Context B</dt>
+<dd><p id="p-870">You have $6 to buy ride tickets at a fair. Each ticket costs $1. How much money do you have after you purchase <span class="process-math">\(T\)</span> tickets?</p></dd>
+<dt id="li-135">Context C</dt>
+<dd><p id="p-871">It costs $2 to get into a dance. At the dance you can buy glasses of punch for $0.50 each. How much will you spend for the dance and punch after buying <span class="process-math">\(G\)</span> glasses of punch?</p></dd>
+<dt id="li-136">Context D</dt>
+<dd><p id="p-872">The Rowing Team is selling cookies for $1 each. A friend is selling the cookies and allows you to pay later for cookies you buy beyond the $3 you have in your pocket. How much will you pay your friend if you buy <span class="process-math">\(C\)</span> cookies? (Negative dollars are dollars you will pay your friend after the cookie sale.)</p></dd>
+</dl>
+</div>
+<article class="task exercise-like" id="task-357"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-873">Create a table for each context in <a href="" class="xref" data-knowl="./knowl/exer-slope-contexts.html" title="Student Page Exercise 2.6.5">Student Page Exercise 2.6.5</a>.</p></article><article class="task exercise-like" id="task-358"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-874">Graph the data in each table.</p></article><article class="task exercise-like" id="task-359"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-875">Determine a recursive rule then an explicit equation that fits each context in <a href="" class="xref" data-knowl="./knowl/exer-slope-contexts.html" title="Student Page Exercise 2.6.5">Student Page Exercise 2.6.5</a>.</p></article></article><article class="exercise exercise-like" id="exer-slope-6"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-360"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-876">How can you find slope from a context?</p></article><article class="task exercise-like" id="task-361"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-877">How can you find the <span class="process-math">\(y\)</span>-intercept from a context?</p></article><article class="task exercise-like" id="task-362"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-878">What does the slope mean in the contexts in <a href="" class="xref" data-knowl="./knowl/exer-slope-contexts.html" title="Student Page Exercise 2.6.5">Student Page Exercise 2.6.5</a>?</p></article><article class="task exercise-like" id="task-363"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-879">What does the <span class="process-math">\(y\)</span>-intercept mean in the contexts in <a href="" class="xref" data-knowl="./knowl/exer-slope-contexts.html" title="Student Page Exercise 2.6.5">Student Page Exercise 2.6.5</a>?</p></article></article><article class="exercise exercise-like" id="exercise-219"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<p id="p-880">Match the contexts in <a href="" class="xref" data-knowl="./knowl/exer-slope-6.html" title="Student Page Exercise 2.6.6">Student Page Exercise 2.6.6</a> to the graphs in <a href="" class="xref" data-knowl="./knowl/exer-eq-1.html" title="Student Page Exercise 2.6.1">Student Page Exercise 2.6.1</a>. How do you know you are right?</p>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/exer-slope-6.html ./knowl/exer-eq-1.html" id="md-5">
+\begin{align*}
+\amp \text{Graph A} \amp \qquad \amp \text{Context A}\\
+\amp \text{Graph B} \amp \qquad \amp \text{Context B}\\
+\amp \text{Graph C} \amp \qquad \amp \text{Context C}\\
+\amp \text{Graph D} \amp \qquad \amp \text{Context D}
+\end{align*}
+</div></article><article class="exercise exercise-like" id="exercise-220"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-110"><p id="p-881">Some students say that you can find the slope from a table by dividing the value of <span class="process-math">\(y\)</span> by the value of <span class="process-math">\(x\)</span> for a single data point.</p></div>
+<article class="task exercise-like" id="task-364"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-882">Does this method ever work? If so, for which of the examples above will this method work? Why does the method work?</p></article><article class="task exercise-like" id="task-365"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-883">Try this method for finding slope on <a href="" class="xref" data-knowl="./knowl/tbl-line-two.html" title="Table 2.6.0.12: Graph B (Blue)">Table 2.6.0.12</a>. Does the method work in this case? Why or why not?</p></article><article class="task exercise-like" id="task-366"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-884">For which of the examples above will this method for finding slope fail? Why does it fail?</p></article></article></section><section class="exercises" id="exercises-15"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber"></span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-221"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-885">Extend the work from, <a href="S_distinguish.html#act-slope-int" class="internal" title="Student Page 2.6: Finding Equations from Tables and Interpreting Slope and y-Intercept">Finding Equations from Tables and Interpreting Slope and y-Intercept</a>, to finding equations from graphs and contexts by completing <a href="S_distinguish.html#act-find-eqs" class="internal" title="Student Page 2.6: Finding Equations from Graphs and Contexts, Interpreting Slope and y-Intercept">Finding Equations from Graphs and Contexts, Interpreting Slope and y-Intercept</a>.</p></article><article class="exercise exercise-like" id="exercise-222"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-886">Look for uses of linear equations in your daily life and write a problem similar to those in <a href="" class="xref" data-knowl="./knowl/exer-slope-contexts.html" title="Student Page Exercise 2.6.5">Student Page Exercise 2.6.5</a>. The problem can come from a newspaper, some other media source, through a table, graph, or story. It must be specific enough for others to determine an equation from your example. Find at least 3 examples, one of which includes the point (0, 0). Write your examples on index cards to pass around in class.</p></article><article class="exercise exercise-like" id="exercise-223"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-111">
+<p id="p-887">For each of the following tasks, complete parts <a href="" class="xref" data-knowl="./knowl/slope-story-c.html" title="Item 2.6.3.c">Item 2.6.3.c–2.6.3.f</a> Complete <a href="" class="xref" data-knowl="./knowl/slope-story-a.html" title="Item 2.6.3.a">Item 2.6.3.a</a> and <a href="" class="xref" data-knowl="./knowl/slope-story-b.html" title="Item 2.6.3.b">Item 2.6.3.b</a> for the problems to which they pertain.</p>
+<ol class="lower-alpha">
+<li id="slope-story-a"><p id="p-888">Fill-in the first 5 missing values in the tables (<a href="" class="xref" data-knowl="./knowl/exer-story-water.html" title="Task 2.6.3.a">Task 2.6.3.a</a>, <a href="" class="xref" data-knowl="./knowl/exer-story-rope.html" title="Task 2.6.3.b">Task 2.6.3.b</a>, <a href="" class="xref" data-knowl="./knowl/exer-story-bananas.html" title="Task 2.6.3.e">Task 2.6.3.e</a>, <a href="" class="xref" data-knowl="./knowl/exer-story-donuts.html" title="Task 2.6.3.f">Task 2.6.3.f</a>).</p></li>
+<li id="slope-story-b"><p id="p-889">Write a story to go with the two completed tables provided.</p></li>
+<li id="slope-story-c"><p id="p-890">Identify the slope. State the meaning of the slope in context.</p></li>
+<li id="slope-story-d"><p id="p-891">Determine an equation. Make sure your equation fits the data.</p></li>
+<li id="slope-story-e"><p id="p-892">Tell how you know your equation is correct in terms of the story or graph.</p></li>
+<li id="slope-story-f"><p id="p-893">Determine and write the last value in each table.</p></li>
+</ol>
+</div>
+<article class="task exercise-like" id="exer-story-water"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<article class="task exercise-like" id="task-368"><h6 class="heading">
+<span class="codenumber">(i)</span><span class="space"> </span><span class="title">Story.</span>
+</h6>
+<p id="p-894">Nasredinne drinks 64 ounces of water each day. What is the total amount of water, <span class="process-math">\(y\text{,}\)</span> he has consumed by the end of <span class="process-math">\(x\)</span> days?</p></article><article class="task exercise-like" id="task-369"><h6 class="heading">
+<span class="codenumber">(ii)</span><span class="space"> </span><span class="title">Table.</span>
+</h6>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">28</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-370"><h6 class="heading">
+<span class="codenumber">(iii)</span><span class="space"> </span><span class="title">Slope, Equation, and Explanation.</span>
+</h6>
+<p id="p-895">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article></article><article class="task exercise-like" id="exer-story-rope"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<article class="task exercise-like" id="task-372"><h6 class="heading">
+<span class="codenumber">(i)</span><span class="space"> </span><span class="title">Story.</span>
+</h6>
+<p id="p-896">Jessa jumps rope for <span class="process-math">\(\frac{3}{4}\)</span> hours per day. What is the total number of hours, <span class="process-math">\(y\text{,}\)</span> she has jumped rope by the end of <span class="process-math">\(x\)</span> days?</p></article><article class="task exercise-like" id="task-373"><h6 class="heading">
+<span class="codenumber">(ii)</span><span class="space"> </span><span class="title">Table.</span>
+</h6>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">31</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-374"><h6 class="heading">
+<span class="codenumber">(iii)</span><span class="space"> </span><span class="title">Slope, Equation, and Explanation.</span>
+</h6>
+<p id="p-897">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article></article><article class="task exercise-like" id="exer-story-blank"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<article class="task exercise-like" id="task-376"><h6 class="heading">
+<span class="codenumber">(i)</span><span class="space"> </span><span class="title">Story.</span>
+</h6>
+<p id="p-898">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article><article class="task exercise-like" id="task-377"><h6 class="heading">
+<span class="codenumber">(ii)</span><span class="space"> </span><span class="title">Table.</span>
+</h6>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">1.2</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">2.4</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">3.6</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">4.8</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">6.0</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">17</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-378"><h6 class="heading">
+<span class="codenumber">(iii)</span><span class="space"> </span><span class="title">Slope, Equation, and Explanation.</span>
+</h6>
+<p id="p-899">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article></article><article class="task exercise-like" id="exer-story-blank-2"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<article class="task exercise-like" id="task-380"><h6 class="heading">
+<span class="codenumber">(i)</span><span class="space"> </span><span class="title">Story.</span>
+</h6>
+<p id="p-900">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article><article class="task exercise-like" id="task-381"><h6 class="heading">
+<span class="codenumber">(ii)</span><span class="space"> </span><span class="title">Table.</span>
+</h6>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">21</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">28</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">43</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-382"><h6 class="heading">
+<span class="codenumber">(iii)</span><span class="space"> </span><span class="title">Slope, Equation, and Explanation.</span>
+</h6>
+<p id="p-901">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article></article><article class="task exercise-like" id="exer-story-bananas"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<article class="task exercise-like" id="task-384"><h6 class="heading">
+<span class="codenumber">(i)</span><span class="space"> </span><span class="title">Graph.</span>
+</h6>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graph-bananas.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="task-385"><h6 class="heading">
+<span class="codenumber">(ii)</span><span class="space"> </span><span class="title">Table.</span>
+</h6>
+<p id="p-902">Do not estimate. Use grid points to fill in the first 5 values of the table.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-386"><h6 class="heading">
+<span class="codenumber">(iii)</span><span class="space"> </span><span class="title">Slope, Equation, and Explanation.</span>
+</h6>
+<p id="p-903">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article></article><article class="task exercise-like" id="exer-story-donuts"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<article class="task exercise-like" id="task-388"><h6 class="heading">
+<span class="codenumber">(i)</span><span class="space"> </span><span class="title">Graph.</span>
+</h6>
+<div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/graph-donuts.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="task-389"><h6 class="heading">
+<span class="codenumber">(ii)</span><span class="space"> </span><span class="title">Table.</span>
+</h6>
+<p id="p-904">Do not estimate. Use grid points to fill in the first 5 values of the table.</p>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">32</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-390"><h6 class="heading">
+<span class="codenumber">(iii)</span><span class="space"> </span><span class="title">Slope, Equation, and Explanation.</span>
+</h6>
+<p id="p-905">Answer: <span class="fillin" role="img" aria-label="75-character blank" style="width: 34.0909090909091em;"></span></p></article></article></article><article class="exercise exercise-like" id="exercise-224"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-112"><p id="p-906">Find two related data sets (or create them from real contexts such as a menu). One data set must be a proportional linear relationship. The other data set must be linear but not a proportional linear relationship. Answer the following questions for each data set:</p></div>
+<article class="task exercise-like" id="exer-make-scenario"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-907">Present your scenario. Complete a table to fit the scenario.</p></article><article class="task exercise-like" id="task-392"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-908">Create a graph using an electronic tool. Label the horizontal (<span class="process-math">\(x\)</span>) axis and the vertical (<span class="process-math">\(y\)</span>) axis. Plot the data from <a href="" class="xref" data-knowl="./knowl/exer-make-scenario.html" title="Task 2.6.4.a">Task 2.6.4.a</a>. Connect the points in your graph. Print the graph.</p></article><article class="task exercise-like" id="task-393"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-909">Describe the shape and important features of the graph you created.</p></article><article class="task exercise-like" id="task-394"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-910">Is the relationship between <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> linear? Why or why not?</p></article><article class="task exercise-like" id="task-395"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-911">How can you tell from the graph whether or not the linear function is proportional? Explain.</p></article><article class="task exercise-like" id="task-396"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-912">Write an equation that gives <span class="process-math">\(y\)</span> in terms of <span class="process-math">\(x\text{.}\)</span></p></article><article class="task exercise-like" id="task-397"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-913">Compare the data you found for the proportional linear function with the data you found for the linear function. What accounts for the differences between the data sets?</p></article></article></section></section></div></main>
+</div>
+</body>
+</html>

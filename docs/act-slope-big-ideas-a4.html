@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-05-09T15:19:35-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Big Ideas — Slope and y-Intercept</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left standalone worksheet a4">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_big_ideas.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="S_big_ideas.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_big_ideas.html#exercises-17" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_big_ideas.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="S_big_ideas.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_big_ideas.html#exercises-17" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_anlayze_race.html" data-scroll="S_anlayze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and y-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="worksheet" id="act-slope-big-ideas"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Big Ideas — Slope and <span class="process-math">\(y\)</span>-Intercept</span><div class="print-links">
+<a href="act-slope-big-ideas-a4.html" class="a4">A4</a><a href="act-slope-big-ideas-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-133"><p id="p-1127">Let's take some time to revisit and synthesize what you've been exploring about linear functions from this chapter. Use Desmos on your laptop, tablet, or smart phone. Be ready to share your findings and to demonstrate using the classroom computer.</p>
+<p id="p-1128">By now you have discovered that all linear equations can be represented generally by the equation, <span class="process-math">\(y = mx + b\text{,}\)</span> where <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> are variables and <span class="process-math">\(m\)</span> and <span class="process-math">\(b\)</span> represent known numbers (<span class="process-math">\(m\)</span> and <span class="process-math">\(b\)</span> are called <dfn class="terminology">parameters</dfn>).</p></section><article class="exercise exercise-like" id="exercise-265"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-134"><p id="p-1129">Type this general form of a linear equation into Desmos. Create sliders for <span class="process-math">\(m\)</span> and <span class="process-math">\(b\text{.}\)</span> For <a href="" class="xref" data-knowl="./knowl/exer-play-with-m.html" title="Task 2.8.1.a">Task 2.8.1.a</a> and <a href="" class="xref" data-knowl="./knowl/exer-play-with-b.html" title="Task 2.8.1.c">Task 2.8.1.c</a>, use one or two rounds of Roundtable (see <a href="" class="xref" data-knowl="./knowl/mindset-roundtable.html" title="Paragraphs: Roundtable">Roundtable</a>) to share everything you have learned. Explain each item in your list as you create it.</p></div>
+<article class="task exercise-like" id="exer-play-with-m"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1130">Let <span class="process-math">\(y = mx\)</span> and play with <span class="process-math">\(m\text{.}\)</span> List everything you can about the effect of <span class="process-math">\(m\)</span> on the graph of <span class="process-math">\(y = mx\text{.}\)</span></p></article><article class="task exercise-like" id="task-515"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="introduction" id="introduction-135"><p id="p-1131">Revisit your list. If you have not already answered the following, do so now. Explain! What happens to the graph of <span class="process-math">\(y = mx\)</span> when:</p></div>
+<article class="task exercise-like" id="task-516"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-1132"><span class="process-math">\(m \gt 0\text{?}\)</span></p></article><article class="task exercise-like" id="task-517"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-1133"><span class="process-math">\(m \lt 0\text{?}\)</span></p></article><article class="task exercise-like" id="task-518"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<p id="p-1134"><span class="process-math">\(\left| m \right|\)</span> is large?</p></article><article class="task exercise-like" id="task-519"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<p id="p-1135"><span class="process-math">\(\left| m \right|\)</span> is close to zero?</p></article></article><article class="task exercise-like" id="exer-play-with-b"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1136">Let <span class="process-math">\(m = 1\)</span> and play with <span class="process-math">\(b\text{.}\)</span> List everything you can about the effect of <span class="process-math">\(b\)</span> on the graph of <span class="process-math">\(y = mx + b\text{.}\)</span></p></article><article class="task exercise-like" id="task-521"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="introduction" id="introduction-136"><p id="p-1137">Revisit your list. If you have not already answered the following, do so now. What happens to the graph of <span class="process-math">\(y = mx + b\)</span> when:</p></div>
+<article class="task exercise-like" id="task-522"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-1138"><span class="process-math">\(b \gt 0\text{?}\)</span></p></article><article class="task exercise-like" id="task-523"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-1139"><span class="process-math">\(b \lt 0\text{?}\)</span></p></article><article class="task exercise-like" id="task-524"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<p id="p-1140"><span class="process-math">\(\left| b \right|\)</span> is large?</p></article><article class="task exercise-like" id="task-525"><h6 class="heading"><span class="codenumber">(iv)</span></h6>
+<p id="p-1141"><span class="process-math">\(\left| b \right|\)</span> is close to zero?</p></article><article class="task exercise-like" id="task-526"><h6 class="heading"><span class="codenumber">(v)</span></h6>
+<p id="p-1142">How is the graph of <span class="process-math">\(y = mx + b\)</span> moving as you change the value of <span class="process-math">\(b\text{?}\)</span></p></article><article class="task exercise-like" id="task-527"><h6 class="heading"><span class="codenumber">(vi)</span></h6>
+<p id="p-1143">Why is the graph moving as you say it does?</p></article></article></article><article class="exercise exercise-like" id="exercise-266"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="exer-draw-graphs-protector"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="introduction-137"><p id="p-1144">Place a page protector over the screen on your electronic tool. Trace the <span class="process-math">\(x\)</span>- and <span class="process-math">\(y\)</span>-axes on the page protector. By hand, graph the following equations. Explain how you drew each graph so that you know it is accurate.</p></div>
+<article class="task exercise-like" id="task-529"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-1145"><span class="process-math">\(y = 2x + 4\)</span></p></article><article class="task exercise-like" id="task-530"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-1146"><span class="process-math">\(y = 0.5x - 3\)</span></p></article><article class="task exercise-like" id="task-531"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<p id="p-1147"><span class="process-math">\(y = -x - 1\)</span></p></article></article><article class="task exercise-like" id="task-532"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1148">Once all group members are satisfied with the three hand-drawn graphs from <a href="" class="xref" data-knowl="./knowl/exer-draw-graphs-protector.html" title="Task 2.8.2.a">Task 2.8.2.a</a> graph them electronically. Was each hand-drawn graph accurate? If not, what needs to be fixed? What were you thinking when you drew each graph? What do you now know? Turn off the electronic graph and redraw the graph using what you now know. Recheck.</p></article></article><article class="exercise exercise-like" id="exercise-267"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-138"><p id="p-1149">Study the graphs. Find an equation for each graph. Do not estimate; use grid points to find each equation accurately. In each case, explain how you know your choices of slope and <span class="process-math">\(y\)</span>-intercept are correct.</p></div>
+<article class="task exercise-like" id="task-533"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/big-ideas-graph-1.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="task-534"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/big-ideas-graph-2.svg" role="img" class="contained"></div></article><article class="task exercise-like" id="task-535"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/big-ideas-graph-3.svg" role="img" class="contained"></div></article></article><article class="exercise exercise-like" id="exercise-268"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-139"><p id="p-1150">Study the tables. For each table, find an equation to fit the data. In each case, explain how you know your choices of slope and <span class="process-math">\(y\)</span>-intercept are correct.</p></div>
+<article class="task exercise-like" id="task-536"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-5\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-7\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-9\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-11\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(-13\)</span></td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-537"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">11</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">19</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines">27</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">35</td>
+</tr>
+</table></div></article><article class="task exercise-like" id="task-538"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1922</td>
+<td class="c m b1 r1 l0 t0 lines">450</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1928</td>
+<td class="c m b1 r1 l0 t0 lines">435</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1934</td>
+<td class="c m b1 r1 l0 t0 lines">420</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1940</td>
+<td class="c m b1 r1 l0 t0 lines">405</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1946</td>
+<td class="c m b1 r1 l0 t0 lines">390</td>
+</tr>
+</table></div></article></article><article class="exercise exercise-like" id="exercise-269"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-140"><p id="p-1151">Study each context. For each context, find an equation. In each case, explain how you know your choices of slope and <span class="process-math">\(y\)</span>-intercept are correct.</p></div>
+<article class="task exercise-like" id="task-539"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1152">Fia earns 3 points every time she finds a star in her <span class="booktitle">Dora the Explorer</span> game. She earns a one-time bonus of 50 points in each level for finding a banana for her monkey friend, Boots. Based on the number of stars she finds, how many points will Fia earn in a level if she always finds the banana?</p></article><article class="task exercise-like" id="task-540"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1153">Valen earns $5 each week for doing his chores. Each time his mom has to remind him, there is a $0.50 deduction from his allowance. How much will Valen earn in a week based on the number of times he needs to be reminded to do his chores?</p></article><article class="task exercise-like" id="task-541"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1154">Jackson has $18. Each month, he pays $4 to stream music on his iPod. How much does he have or owe based on the number of months he streams music?</p></article></article><article class="exercise exercise-like" id="exercise-270"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-141"><p id="p-1155">In each case below, explain how you find the slope and the <span class="process-math">\(y\)</span>-intercept in each representation.</p></div>
+<article class="task exercise-like" id="task-542"><h5 class="heading">
+<span class="codenumber">(a)</span><span class="space"> </span><span class="title"><span class="process-math">\(y\)</span>-intercept, <span class="process-math">\(b\)</span>.</span>
+</h5>
+<article class="task exercise-like" id="task-543"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-1156">Table: <span class="fillin" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p></article><article class="task exercise-like" id="task-544"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-1157">Graph: <span class="fillin" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p></article><article class="task exercise-like" id="task-545"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<p id="p-1158">Context: <span class="fillin" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p></article></article><article class="task exercise-like" id="task-546"><h5 class="heading">
+<span class="codenumber">(b)</span><span class="space"> </span><span class="title">Slope, <span class="process-math">\(m\)</span>.</span>
+</h5>
+<article class="task exercise-like" id="task-547"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-1159">Table: <span class="fillin" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p></article><article class="task exercise-like" id="task-548"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-1160">Graph: <span class="fillin" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p></article><article class="task exercise-like" id="task-549"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<p id="p-1161">Context: <span class="fillin" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p></article></article></article></section></div></main>
+</div>
+</body>
+</html>
