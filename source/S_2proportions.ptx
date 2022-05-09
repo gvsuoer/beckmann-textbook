@@ -468,44 +468,44 @@
               <title>Table for a Proportional Linear Function</title>
               <tabular left="minor" top="minor" halign="center">
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><line><nbsp/><nbsp/></line><line><nbsp/><nbsp/></line><line><nbsp/><nbsp/></line></cell>
+                  <cell right="minor"><line><nbsp/><nbsp/></line><line><nbsp/><nbsp/></line><line><nbsp/><nbsp/></line></cell>
                 </row>
                 <row bottom="minor">
                   <cell right="minor"><m>x</m></cell>
                   <cell right="minor"><m>y</m></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
                 <row bottom="minor">
-                  <cell right="minor"><nbsp/><nbsp/></cell>
-                  <cell right="minor"><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
+                  <cell right="minor"><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/><nbsp/></cell>
                 </row>
               </tabular>
             </table>
@@ -1053,7 +1053,7 @@
                 With 2% milk
               </cell>
               <cell right="minor">
-                With 2% milk and whipped cream
+                <line>With 2% milk</line><line>and whipped cream</line>
               </cell>
               <cell right="minor">
                 With coconut milk

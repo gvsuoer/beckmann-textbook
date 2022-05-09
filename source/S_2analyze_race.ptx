@@ -126,7 +126,7 @@
       <task>
         <statement>
           <p>
-            Sketch a graph that represents the tortoise's progress during the race using the data in <xref ref="tbl-tort-time"/>.
+            Sketch a graph that represents the tortoise's progress during the race using the data in <xref ref="tbl-tort-dist"/>.
           </p>
         </statement>
       </task>
@@ -761,6 +761,11 @@
       <p>
         Near the Calder Plaza in downtown Grand Rapids, Michigan a stand of trees is planted in a 5 by 5 grid as shown in <xref ref="fig-calder-trees"/>. Each green dot represents the location of a tree. The trunks of the trees are uniform in size. All of the trunks are straight and perpendicular to the ground.
       </p>
+      <figure xml:id="fig-calder-trees">
+        <image source="calder-trees" width="50%">
+          <description></description>
+        </image>
+      </figure>
     </introduction>
 
     <exercise>

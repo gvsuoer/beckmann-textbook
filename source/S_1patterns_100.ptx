@@ -5,7 +5,7 @@
   
   <introduction>
     <p>
-      We saw that variables can be used to generalize expressions in <xref ref="four-nums-prob"/> such as <m>2=\frac{2+2}{\sqrt2\sqrt2}=\frac{6+6}{\sqrt6\sqrt6}=\frac{n+n}{\sqrt n\sqrt n}</m>. Variables can also be used in other ways. In this lesson, you will explore other ways that variables can be used in algebra.
+      We saw that variables can be used to generalize expressions in <xref ref="act-four-nums-prob"/> such as <m>2=\frac{2+2}{\sqrt2\sqrt2}=\frac{6+6}{\sqrt6\sqrt6}=\frac{n+n}{\sqrt n\sqrt n}</m>. Variables can also be used in other ways. In this lesson, you will explore other ways that variables can be used in algebra.
     </p>
   </introduction>
 
@@ -290,27 +290,25 @@
         </p>
         <table xml:id="hunds-subchart">
         <title>100s Subchart</title>
-        <tabular left="minor">
-          <col top="minor"/>
-          <col top="minor"/>
-          <col top="minor"/>
+        <tabular left="minor" top="minor">
+          
 
           <row bottom="minor">
-            <cell right="minor"><nbsp/></cell>
-            <cell right="minor"><nbsp/></cell>
-            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
           </row>
 
           <row bottom="minor">
-            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
             <cell right="minor"><m>x</m></cell>
-            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
           </row>
 
           <row bottom="minor">
-            <cell right="minor"><nbsp/></cell>
-            <cell right="minor"><nbsp/></cell>
-            <cell right="minor"><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
+            <cell right="minor"><nbsp/><nbsp/><nbsp/></cell>
           </row>
 
           <row bottom="minor">

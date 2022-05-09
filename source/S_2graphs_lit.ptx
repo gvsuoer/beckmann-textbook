@@ -40,15 +40,15 @@
         </p>
         <table xml:id="tbl-monsters">
           <title>Monsters/Eyes Table for <xref ref="exer-monsters-1"/></title>
-          <tabular left="minor">
-            <col top="minor"/>
-            <col halign="center" top="minor"/>
-            <col halign="center" top="minor"/>
-            <col halign="center" top="minor"/>
-            <col halign="center" top="minor"/>
-            <col halign="center" top="minor"/>
-            <col halign="center" top="minor"/>
-            <col halign="center" top="minor"/>
+          <tabular left="minor" top="minor">
+            <col/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
+            <col halign="center"/>
             
             <row bottom="minor">
               <cell right="minor">Number of Monsters, <m>M</m></cell>
@@ -69,14 +69,14 @@
               <cell right="minor"><nbsp/></cell>
               <cell right="minor"><nbsp/></cell>
               <cell right="minor"><nbsp/></cell>
-              <cell right="minor"><m>E =</m></cell>
+              <cell right="minor"><m>E =</m><fillin characters="10" /></cell>
             </row>
           </tabular>
         </table>
       </statement>
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-monsters-graph">
       <introduction>
         <p>
           Graph the data in <xref ref="tbl-monsters"/> using <xref ref="fig-monsters-graph"/>. Label the horizontal axis, Number of Monsters, and the vertical axis, Total Number of Eyes.
@@ -123,7 +123,7 @@
 
     </exercise>
 
-    <exercise>
+    <exercise xml:id="exer-monsters-relation">
       <statement>
         <p>
           Describe the relationship between the number of monsters and the total number of eyes the monsters have. Here is one way to phase into the use of variables:
@@ -148,7 +148,7 @@
     <exercise xml:id="exer-body-parts">
       <statement>
         <p>
-          Choose a body part that humans have more than 2 of. Repeat problems 1, 2, and 3 for the body part you choose. You are welcome to look up numbers on the Internet if you don't know them.
+          Choose a body part that humans have more than 2 of. Repeat <xref ref="exer-monsters-1"/>, <xref ref="exer-monsters-graph"/>, and <xref ref="exer-monsters-relation"/> for the body part you choose. You are welcome to look up numbers on the Internet if you don't know them.
         </p>
       </statement>
     </exercise>
