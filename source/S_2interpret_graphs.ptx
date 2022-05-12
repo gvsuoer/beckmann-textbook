@@ -3,6 +3,13 @@
 <section xml:id="S_interpret_graphs">
   <title>Interpreting and Creating Graphs: The Hare and the Tortoise</title>
 
+  <subsection>
+    <title>Overview</title>
+    <p>
+      This section explores graphs in more detail, specifically how to interpret and create graphs. We will explore the common tale of the Hare and the Tortoise for this purpose.
+    </p>
+  </subsection>
+
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-walk-graphs">
     <title>Can You Walk These Graphs?</title>
     
@@ -22,7 +29,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-1" width="50%">
+            <image source="walk-graphs-1" width="35%">
               <description></description>
             </image>
           </p>
@@ -32,7 +39,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-2" width="50%">
+            <image source="walk-graphs-2" width="35%">
               <description></description>
             </image>
           </p>
@@ -42,7 +49,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-3" width="50%">
+            <image source="walk-graphs-3" width="35%">
               <description></description>
             </image>
           </p>
@@ -52,7 +59,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-4" width="50%">
+            <image source="walk-graphs-4" width="35%">
               <description></description>
             </image>
           </p>
@@ -62,7 +69,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-5" width="50%">
+            <image source="walk-graphs-5" width="35%">
               <description></description>
             </image>
           </p>
@@ -72,7 +79,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-6" width="50%">
+            <image source="walk-graphs-6" width="35%">
               <description></description>
             </image>
           </p>
@@ -82,7 +89,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-7" width="50%">
+            <image source="walk-graphs-7" width="35%">
               <description></description>
             </image>
           </p>
@@ -92,7 +99,7 @@
       <task>
         <statement>
           <p>
-            <image source="walk-graphs-8" width="50%">
+            <image source="walk-graphs-8" width="35%">
               <description></description>
             </image>
           </p>

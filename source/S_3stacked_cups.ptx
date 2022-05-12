@@ -3,11 +3,14 @@
 <section xml:id="S_stacked_cups">
   <title>Solving Linear Equations: Packaging Stacked Cups</title>
 
-  <introduction>
+  <subsection>
+  <title>Overview</title>
+  
+  
     <p>
       As you have experienced, there are many examples from your life that are reasonably modeled by linear functions. In this lesson, you will consider a packaging problem. As you solve the problem, think of other items of similar size that you stack and store.
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-stacked-cups">
     <title>Packaging Stacked Cups</title>

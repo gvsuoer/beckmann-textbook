@@ -3,14 +3,17 @@
 <section xml:id="S_systems">
   <title>Systems of Equations</title>
   
-  <introduction>
+  <subsection>
+    <title>Overview</title>
+    
+    
     <p>
       In <xref ref="S_systems"/>, we expand our focus. So far in <xref ref="C_use_lin_funcs"/>, we have analyzed and solved linear functions and used regression to model linear functions that arise from data. We now consider how two or more linear functions interact with each other. As consumers, we are often faced with choices. In this lesson, we will solve systems of equations in order to determine the best deal for our needs. 
     </p>
     <p>
       Much of the mathematics work we have done this semester has depended on making connections among representations. To study and solve systems of equations, the interrelationships between tables, graphs, and equations are critical. Think about the contexts, and create tables, graphs, and equations to extend what you have learned about linear functions to work with them two or more at a time.
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-fitness">
     <title>Linear Functions and Fitness Plans</title>

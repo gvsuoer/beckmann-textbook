@@ -3,13 +3,22 @@
 <section xml:id="S_big_ideas">
   <title>Linear Functions: Big Ideas</title>
 
+  <subsection>
+    <title>Overview</title>
+
+    <p>
+      Let's take some time to revisit and synthesize what you've been exploring about linear functions from this chapter.
+    </p>
+    
+  </subsection>
+
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-slope-big-ideas">
     <title>Big Ideas <mdash/> Slope and <m>y</m>-Intercept</title>
     
     <introduction>
-      <p>
-        Let's take some time to revisit and synthesize what you've been exploring about linear functions from this chapter. Use Desmos on your laptop, tablet, or smart phone. Be ready to share your findings and to demonstrate using the classroom computer.
-      </p>
+    <p>
+      Use Desmos on your laptop, tablet, or smart phone. Be ready to share your findings and to demonstrate using the classroom computer.
+    </p>
       <p>
         By now you have discovered that all linear equations can be represented generally by the equation, <m>y = mx + b</m>, where <m>x</m> and <m>y</m> are variables and <m>m</m> and <m>b</m> represent known numbers (<m>m</m> and <m>b</m> are called <term>parameters</term>). 
       </p>

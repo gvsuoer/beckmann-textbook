@@ -3,11 +3,14 @@
 <section xml:id="S_func_fams">
   <title>Function Families</title>
 
-  <introduction>
+  <subsection>
+  <title>Overview</title>
+  
+  
     <p>
       In <xref ref="C_lin_funcs"/> and <xref ref="C_use_lin_funcs"/>, we saw that linear functions have very predictable behaviors depending on the values of m and b in the equation, <m>y = mx + b</m>. All linear functions are members of the linear function family. Each function family has a parent function, the member of the function family in its most basic form. The parent of the linear function family is the function <m>y = x</m> or in function notation, <m>f(x) = x</m>. In this form, we see <m>m = 1</m> and <m>b = 0</m>. In <xref ref="S_func_fams"/>, we examine other families of functions.
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-trans-funcs">
     <title>Transformation of Functions</title>

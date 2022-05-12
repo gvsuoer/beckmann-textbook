@@ -4,11 +4,14 @@
 <section xml:id="S_qrv_tables">
   <title>Using Quantity Rate Value Tables to Determine Equations</title>
   
-  <introduction>
+  <subsection>
+    <title>Overview</title>
+    
+    
     <p>
       Half the battle in solving a system of equations has to do with finding the equations in the first place. In <xref ref="S_qrv_tables"/>, you will learn a convenient tool to help you set up equations for problems that involve rates.
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-setup-qrv">
     <title>Setting Up Systems of Equations with Quantity Rate Value Tables</title>

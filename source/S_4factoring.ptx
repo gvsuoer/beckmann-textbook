@@ -3,11 +3,14 @@
 <section xml:id="S_factoring">
   <title>Multiplying Linear Factors and Factoring Quadratic Expressions</title>
   
-  <introduction>
+  <subsection>
+  <title>Overview</title>
+  
+  
     <p>
-      This lesson is designed to help learners refresh their conceptual understanding of multiplying terms and simplifying the result. This lesson helps you build on your understanding of area and multiplication of numbers to simplify expressions such as <m>x(x + 3)</m>, <m>5x(x - 1)</m>, <m>(x + 5)(x + 3)</m>, <m>(x - 2)(x + 2</m>), or <m>(2x + 1)(x - 4)</m>. If you are proficient at multiplying these expressions together, this section is optional. If you find this work challenging, revisit <xref ref="main-prob-six"/>, video 2: Drawing and Representing. Multiplying binomials is modeled from 2:20<ndash/>3:35 minutes in this video.
+      This lesson is designed to help learners refresh their conceptual understanding of multiplying terms and simplifying the result. This lesson helps you build on your understanding of area and multiplication of numbers to simplify expressions such as <m>x(x + 3)</m>, <m>5x(x - 1)</m>, <m>(x + 5)(x + 3)</m>, <m>(x - 2)(x + 2</m>), or <m>(2x + 1)(x - 4)</m>. If you are proficient at multiplying these expressions together, this section is optional. If you find this work challenging, revisit <xref ref="main-prob-six"/>, video 2: Drawing and Representing. Multiplying binomials is modeled from 2:20-3:35 minutes in this video.
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-mult-binom">
     <title>Conceptual Underpinnings of Multiplying Binomials: Using Algebra Tiles to Multiply Linear Factors and Factor Quadratic Expressions</title>

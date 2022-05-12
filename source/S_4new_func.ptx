@@ -3,7 +3,10 @@
 <section xml:id="S_new_func">
   <title>Another Type of Function?</title>
 
-  <introduction>
+  <subsection>
+  <title>Overview</title>
+  
+  
     <p>
       As with linear functions, non-linear functions can arise in context. In this lesson, we will analyze the numbers of performers based on group number in two books by Kathi Appelt, <pubtitle>Bats on Parade</pubtitle> and <pubtitle>Bat Jamboree</pubtitle>. Though written for children, the underlying mathematics is much more advanced. The simplicity of the context helps us makes sense of the more complex mathematics.
     </p>
@@ -11,7 +14,7 @@
       As you complete the <xref text="title" ref="act-batty-func"/> activity, look for several non-linear patterns that arise in the stories.
       <fn>Adapted from Mathematical Explorations: Batty Functions: Exploring Quadratic Functions through Children's Literature by Charlene Beckmann and Jessica Roy, <pubtitle>Mathematics Teaching in the Middle School</pubtitle>, Vol. 13, Issue 1, August 2007, pp. 52<mdash/>64.</fn>
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-batty-func">
     <title>Batty Functions</title>

@@ -3,10 +3,19 @@
 <section xml:id="S_lin_reg">
   <title>Linear Regression and Lines of Best Fit</title>
 
-  <introduction>
+  <subsection>
+  <title>Overview</title>
+  
+  
     <p>
       In the activities and homework for <xref ref="S_eyeball_lines"/>, you might have found a different equation than other members of your group or class. Even if your equations had similar slopes or <m>y</m>-intercepts, it might be disconcerting to use different equations to model the same set of data. 
     </p>
+  </subsection>
+
+  <subsection>
+    <title>Lines of Best Fit</title>
+    
+    
     <p>
       Statisticians worked on the problem of finding lines of best fit over many years. Initially, the idea was to get a line that had as many points above the line as below so that the sum of the distances of points away from the line added to 0. Even though the process worked fairly well, the same problem occurred as in our work with eyeballed lines of best fit. Scientists were not satisfied with estimates that worked most of the time. They wanted precision and a method that was mathematically justifiable. Carl Friedrich Gauss developed the method of least squares to solve celestial problems.
     </p>
@@ -29,7 +38,7 @@
         </figure>
       </sidebyside>
     </p>
-  </introduction>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-wave">
     <title>The Wave</title>

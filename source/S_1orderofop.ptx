@@ -2,10 +2,15 @@
 
 <section xml:id="S_orderofop">
   <title>Flexibility with Numbers and Order of Operations</title>
-
+  <introduction>
   <p>
     In <xref ref="S_orderofop"/>, you will use your creativity and play with mathematical operations using the Order of Operations. The Order of Operations is an agreed upon order in which operations must be completed when simplifying a numeric or an algebraic expression. When presented as a list of rules, the Order of Operations can seem arbitrary. However, there are mathematical reasons underlying the order in which operations are completed. 
   </p>
+  </introduction>
+
+  <subsection>
+  <title>The Order of Operations</title>
+  
   
   <p>
     The Order of Operations follows the historical introduction of operations. Addition happened first. Subtraction is the operation that undoes addition. Multiplication naturally occurred as people needed to determine multiple sums of the same number; multiplication is repeated addition. The operation that undoes multiplication is division; division can also be thought of as repeated subtraction. Exponentiation occurred even later signifying repeated multiplication. Taking a whole number root, the inverse operation of raising a number to the same whole number exponent, can also be thought of as repeated division. When you encounter an expression to be simplified, consider the historical introduction of arithmetic operations and perform the most complex operation first, reducing each subsequent expression in the opposite order that the operations arose historically. Of course, if parentheses are included to alter the order of operations further, expressions inside them must be simplified first!
@@ -83,6 +88,7 @@
     </figure>
     <fn>Resource: Bay-Williams, Jennifer M. and Sherri L. Martinie. <pubtitle>Order of Operations, The Myth and the Math</pubtitle>. Teaching Children Mathematics, Vol. 22, No. 1, August 2015.</fn>
   </p>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-three-threes">
     <title>Three Threes</title>

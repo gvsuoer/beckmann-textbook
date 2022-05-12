@@ -2,6 +2,13 @@
 
 <section xml:id="S_fours_extend">
   <title>Four Fours Problem, Extended</title>
+
+  <subsection>
+    <title>Overview</title>
+    <p>
+      The section expands upon the ideas in <xref ref="S_orderofop"/> by exploring other ways to use fours to make other numbers.
+    </p>
+  </subsection>
   
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-organize">
     <title>Organizing Your Work: Ways to Use 1, 2, or 3 Fours to Make Other Numbers</title>
