@@ -78,6 +78,7 @@
     <p>
       Mathematics is a creative endeavor. There is always more than one way to solve a problem. If you get stuck, try to find another route!
     </p>
+  </subsection>
 
     <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-growing-dots">
       <title>Growing Pattern of Dots</title>
@@ -261,9 +262,7 @@
         </p>
       </statement>
     </exercise>
-      
-    </worksheet>
-  </subsection>
+     
 
   <conclusion>
     <p>
@@ -277,6 +276,7 @@
       When you work on a new problem, try to connect the work you're doing to problems you've worked on in the past. Connecting related mathematics problems helps reduce your reliance on memorized procedures. It also helps move your working (short-term) memory into long-term memory so that it can be retrieved to help you make sense of new problems and concepts.
     </p>
   </conclusion>
+  </worksheet>
   
   <exercises xml:id="exercises13">
     <introduction>

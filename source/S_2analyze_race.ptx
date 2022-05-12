@@ -1,7 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<section xml:id="S_anlayze_race">
+<section xml:id="S_analyze_race">
   <title>Graphs, Tables, and Linear Functions: Analyzing a Race</title>
+
+  <subsection>
+    <title>Overview</title>
+    <p>
+      In this section you will continue with the Hare and the Tortoise tale and analyze and focus on their individual travels.
+    </p>
+  </subsection>
   
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-trod-tort">
     <title>Trodding Tortoise</title>

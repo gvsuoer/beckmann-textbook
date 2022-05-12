@@ -3,6 +3,12 @@
 <section xml:id="S_rate_of_change">
   <title>Rates of Change of Quadratic Functions</title>
   
+  <subsection xml:id="subsec-overivew">
+    <title>Overivew</title>
+    <p>
+      This section explores rates of change with quadratic functions through quilts.
+    </p>
+  </subsection>
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-quad-quilts">
     <title>Quadratic Quilts and Rates of Change for <m>y = ax^2 + bx + c</m></title>

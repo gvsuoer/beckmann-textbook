@@ -3,9 +3,14 @@
 <section xml:id="S_create_graphs">
   <title>Creating and Critiquing Graphs</title>
 
-  <p>
+  <subsection>
+    <title>Overview</title>
+    <p>
     You have seen that graphs can be helpful in representing data. In Lesson 2.2, you will specifically explore the importance of scale when graphing equations.
   </p>
+  </subsection>
+
+  
 
   <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-location">
     <title>Location, Location, Location</title>
@@ -483,6 +488,11 @@
     </conclusion>
   </worksheet>
 
+  <subsection>
+    <title>Important Features of Graphs</title>
+    
+
+
   <p>
     Through <xref text="title" ref="act-critique"/>, you had the opportunity to determine important features of accurate, informative graphs. Your list should include:
   </p>
@@ -521,6 +531,7 @@
       In formal documents, a title is necessary. For our purposes, a title on the graph is required when the graph represents data given in context.
     </p>
   </paragraphs>
+    </subsection>
 
   <exercises xml:id="hmwk-create-graphs">
 
