@@ -16,7 +16,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-batty-func">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-batty-func">
     <title>Batty Functions</title>
     
     <page>
@@ -178,11 +178,11 @@
             </row>
             
             <row left='minor' bottom='minor' header='yes'>
-              <cell right='minor'>Group Number</cell>
-              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
-              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
-              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
-              <cell right='minor'><line>Number of Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Group</line><line>Number</line></cell>
+              <cell right='minor'><line>Number of</line><line>Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of</line><line>Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of</line><line>Marchers</line><line>in the Group</line></cell>
+              <cell right='minor'><line>Number of</line><line>Marchers</line><line>in the Group</line></cell>
               <cell right='minor'><line>Number of</line><line>Performers So Far</line></cell>
             </row>
 

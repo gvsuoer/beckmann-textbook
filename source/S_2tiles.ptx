@@ -25,14 +25,15 @@
           <description></description>
         </image>
       </figure>
-
+    </sidebyside>
+    
       <figure xml:id="fig-pattern-talk-step-1">
         <caption>Tile Arrangement for Step 1</caption>
-        <image source="pattern-talk-step-1">
+        <image source="pattern-talk-step-1" width='50%'>
           <description></description>
         </image>
       </figure>
-    </sidebyside>
+    
 
     <p>
       Consider the tile arrangement in <xref ref="fig-pattern-talk-step-3"/>.
@@ -81,7 +82,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-analyze-tiles">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-analyze-tiles">
     <title>Analyzing Tile Patterns</title>
     <page>
     <introduction>
@@ -414,7 +415,7 @@
 
   </exercises>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-analyze-more-tiles">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-analyze-more-tiles">
     <title>Analyzing More Tile Patterns</title>
     <page>
     <introduction>

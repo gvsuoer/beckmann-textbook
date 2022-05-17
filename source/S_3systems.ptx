@@ -15,7 +15,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-fitness">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-fitness">
     <title>Linear Functions and Fitness Plans</title>
     
     
@@ -343,7 +343,7 @@
 
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-rent-bikes">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-rent-bikes">
     <title>Systems of Equations in Context: Renting Bicycles</title>
     
     <introduction>

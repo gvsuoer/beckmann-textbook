@@ -10,7 +10,7 @@
     </p>
   </subsection>
   
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-trod-tort">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-trod-tort">
     <title>Trodding Tortoise</title>
     
     <introduction>
@@ -271,7 +271,7 @@
 
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-hop-hare">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-hop-hare">
     <title>Hopping Hare</title>
     
     <introduction>
@@ -761,7 +761,7 @@
 
   </exercises>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-slope-trees">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-slope-trees">
     <title>Slopes and Tree Trunks</title>
     
     <introduction>

@@ -18,7 +18,7 @@
 
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-eyes">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-eyes">
     <title>The Eyes Have It</title>
     
     <introduction>
@@ -162,7 +162,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-desmos">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-desmos">
     <title>Graphing with Desmos</title>
     
     <introduction>
@@ -313,7 +313,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-eyes-extend">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-eyes-extend">
     <title>The Eyes Have It, Extended</title>
     
     
@@ -436,7 +436,7 @@
         <p>
           Movie tickets cost $8.50 each.
         </p>
-        <sidebyside>
+        
           <table xml:id="tbl-tickets">
             <title>Movie Ticket Data</title>
             <tabular halign="center" left="minor">
@@ -495,7 +495,7 @@
               <description></description>
             </image>
           </figure>
-        </sidebyside>
+        
       </introduction>
 
       <task>

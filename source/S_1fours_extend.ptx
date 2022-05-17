@@ -10,7 +10,7 @@
     </p>
   </subsection>
   
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-organize">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-organize">
     <title>Organizing Your Work: Ways to Use 1, 2, or 3 Fours to Make Other Numbers</title>
     
     <introduction>
@@ -231,7 +231,7 @@
 
   </exercises>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-four-nums-prob">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-four-nums-prob">
     <title>Flexibility with Numbers: Four Numbers Problem</title>
     
     <introduction>
@@ -513,7 +513,7 @@
     </conclusion>
   </activity>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-reflect-fournums">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-reflect-fournums">
     <title>Reflecting on Your Group's Work on the Four Numbers Problem</title>
     
     <exercise>

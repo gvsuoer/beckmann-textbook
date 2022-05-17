@@ -10,7 +10,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-walk-graphs">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-walk-graphs">
     <title>Can You Walk These Graphs?</title>
     
     <introduction>
@@ -136,7 +136,7 @@
     </exercise>
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-hare-tort">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-hare-tort">
     <title>The Hare and the Tortoise</title>
     
     <introduction>

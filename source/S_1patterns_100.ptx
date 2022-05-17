@@ -5,7 +5,7 @@
   
   <introduction>
     <p>
-      We saw that variables can be used to generalize expressions in <xref ref="act-four-nums-prob"/> such as <m>2=\frac{2+2}{\sqrt2\sqrt2}=\frac{6+6}{\sqrt6\sqrt6}=\frac{n+n}{\sqrt n\sqrt n}</m>. Variables can also be used in other ways. In this lesson, you will explore other ways that variables can be used in algebra.
+      We saw that variables can be used to generalize expressions in <xref text='title' ref="act-four-nums-prob"/> such as <m>2=\frac{2+2}{\sqrt2\sqrt2}=\frac{6+6}{\sqrt6\sqrt6}=\frac{n+n}{\sqrt n\sqrt n}</m>. Variables can also be used in other ways. In this lesson, you will explore other ways that variables can be used in algebra.
     </p>
   </introduction>
 
@@ -64,7 +64,7 @@
 
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-analyze100">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-analyze100">
     <title>Analyzing the 100s Chart</title>
     
     <introduction>
@@ -429,7 +429,7 @@
 
   </exercises>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-like-terms">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-like-terms">
     <title>Combining Like Terms</title>
     
     

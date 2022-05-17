@@ -10,7 +10,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-quad-quilts">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-quad-quilts">
     <title>Quadratic Quilts and Rates of Change for <m>y = ax^2 + bx + c</m></title>
     
     <introduction>
@@ -27,7 +27,7 @@
         </p>
         <figure xml:id="fig-quilt-block">
           <caption>A Quilt Block</caption>
-          <image source="quilt-block" width="50%">
+          <image source="quilt-block" width="30%">
             <description></description>
           </image>
         </figure>
@@ -49,14 +49,14 @@
           <table xml:id="tbl-quilt-dims">
             <tabular halign='center' left='minor' top='minor'>
               <row bottom='minor' header='yes'>
-                <cell right='minor'><line>Quilt Dimensions</line><line>in Blocks</line></cell>
-                <cell right='minor'>Project Type</cell>
+                <cell right='minor'><line>Quilt</line><line>Dimensions</line><line>in Blocks</line></cell>
+                <cell right='minor'><line>Project</line><line>Type</line></cell>
                 <cell right='minor'><m>x</m></cell>
-                <cell right='minor'><line>Number of</line><line>Quilt Block</line>s</cell>
-                <cell right='minor'><line>Number of</line><line>Yellow (Y) Squares</line></cell>
-                <cell right='minor'><line>Number of</line><line>Blue (B) Squares</line></cell>
-                <cell right='minor'><line>Number of</line><line>Red (R) Squares</line></cell>
-                <cell right='minor'><line>Number of</line><line>White (W) Squares</line></cell>
+                <cell right='minor'><line>Number of</line><line>Quilt</line><line>Blocks</line></cell>
+                <cell right='minor'><line>Number of</line><line>Yellow (Y)</line><line>Squares</line></cell>
+                <cell right='minor'><line>Number of</line><line>Blue (B)</line><line>Squares</line></cell>
+                <cell right='minor'><line>Number of</line><line>Red (R)</line><line>Squares</line></cell>
+                <cell right='minor'><line>Number of</line><line>White (W)</line><line>Squares</line></cell>
               </row>
 
               <row bottom='minor'>
@@ -83,7 +83,7 @@
 
               <row bottom='minor'>
                 <cell right='minor'>3 <times/> 3</cell>
-                <cell right='minor'>Doll blanket</cell>
+                <cell right='minor'><line>Doll</line><line>blanket</line></cell>
                 <cell right='minor'>3</cell>
                 <cell right='minor'>9</cell>
                 <cell right='minor'><nbsp/></cell>
@@ -94,7 +94,7 @@
 
               <row bottom='minor'>
                 <cell right='minor'>4 <times/> 4</cell>
-                <cell right='minor'>Baby blanket</cell>
+                <cell right='minor'><line>Baby</line><line>blanket</line></cell>
                 <cell right='minor'>4</cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
@@ -105,7 +105,7 @@
 
               <row bottom='minor'>
                 <cell right='minor'>5 <times/> 5</cell>
-                <cell right='minor'>Lap blanket</cell>
+                <cell right='minor'><line>Lap</line><line>blanket</line></cell>
                 <cell right='minor'>5</cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
@@ -634,7 +634,7 @@
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
-                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><nbsp/></cell>
               </row>
 
               <row bottom='minor'>
@@ -644,7 +644,7 @@
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
-                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><nbsp/></cell>
               </row>
 
               <row bottom='minor'>
@@ -654,7 +654,7 @@
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'><nbsp/></cell>
-                <cell right='minor'><m>x</m></cell>
+                <cell right='minor'><nbsp/></cell>
               </row>
             </tabular>
           </table>
@@ -847,9 +847,7 @@
                 <cell right='minor'>B</cell>
                 <cell right='minor'>C</cell>
                 <cell right='minor'>D</cell>
-                <cell right='minor'>E</cell>
-                <cell right='minor'>F</cell>
-                <cell right='minor'>G</cell>
+                
               </row>
 
               <row bottom='minor' header='yes'>
@@ -857,9 +855,7 @@
                 <cell right='minor'><line>Diameter, <m>D</m>,</line><line>in inches</line></cell>
                 <cell right='minor'><m>\text{Inches}^2</m> of pizza</cell>
                 <cell right='minor'><line>Base price, <m>B</m>,</line><line>for Cheese Pizza</line></cell>
-                <cell right='minor'><line>Price of cheese</line><line>pizza per <m>\text{inch}^2</m></line></cell>
-                <cell right='minor'><line>Single Topping</line><line>Price, <m>T</m></line></cell>
-                <cell right='minor'><line>Topping Price</line><line>per <m>\text{inch}^2</m></line></cell>
+                
               </row>
 
               <row bottom='minor'>
@@ -867,9 +863,7 @@
                 <cell right='minor'>10</cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'>7</cell>
-                <cell right='minor'><nbsp/></cell>
-                <cell right='minor'>1.00</cell>
-                <cell right='minor'><nbsp/></cell>
+                
               </row>
 
               <row bottom='minor'>
@@ -877,9 +871,7 @@
                 <cell right='minor'>12</cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'>9</cell>
-                <cell right='minor'><nbsp/></cell>
-                <cell right='minor'>1.25</cell>
-                <cell right='minor'><nbsp/></cell>
+                
               </row>
 
               <row bottom='minor'>
@@ -887,9 +879,7 @@
                 <cell right='minor'>14</cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'>11</cell>
-                <cell right='minor'><nbsp/></cell>
-                <cell right='minor'>1.50</cell>
-                <cell right='minor'><nbsp/></cell>
+                
               </row>
 
               <row bottom='minor'>
@@ -897,18 +887,63 @@
                 <cell right='minor'>16</cell>
                 <cell right='minor'><nbsp/></cell>
                 <cell right='minor'>13</cell>
-                <cell right='minor'><nbsp/></cell>
-                <cell right='minor'>1.75</cell>
-                <cell right='minor'><nbsp/></cell>
+                
               </row>
 
-              <row bottom='minor'>
+              <row bottom='major'>
                 <cell right='minor'>Equation</cell>
                 <cell right='minor'><m>D</m></cell>
                 <cell right='minor'><m>A(D) =</m></cell>
                 <cell right='minor'><m>B(D) =</m></cell>
+                
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'>E</cell>
+                <cell right='minor'>F</cell>
+                <cell right='minor'>G</cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><line>Price of cheese</line><line>pizza per <m>\text{inch}^2</m></line></cell>
+                <cell right='minor'><line>Single Topping</line><line>Price, <m>T</m></line></cell>
+                <cell right='minor'><line>Topping Price</line><line>per <m>\text{inch}^2</m></line></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.00</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.25</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.50</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>1.75</cell>
+                <cell right='minor'><nbsp/></cell>
+                <cell right='minor'>X</cell>
+              </row>
+
+              <row bottom='minor'>
                 <cell right='minor'>X</cell>
                 <cell right='minor'><m>T(D) =</m></cell>
+                <cell right='minor'>X</cell>
                 <cell right='minor'>X</cell>
               </row>
             </tabular>
@@ -1050,7 +1085,7 @@
     
   </exercises>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-reg-eq-calc">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-reg-eq-calc">
     <title>Entering, Graphing, and Plotting Data: Finding Regression Equations</title>
     
     <exercise>

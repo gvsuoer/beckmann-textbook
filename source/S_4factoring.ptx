@@ -12,7 +12,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-mult-binom">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-mult-binom">
     <title>Conceptual Underpinnings of Multiplying Binomials: Using Algebra Tiles to Multiply Linear Factors and Factor Quadratic Expressions</title>
     
     <introduction>
@@ -428,7 +428,7 @@
 
   </exercises>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-mult-fact-tiles">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-mult-fact-tiles">
     <title>Multiplying and Factoring with Algebra Tiles</title>
     
     <introduction>

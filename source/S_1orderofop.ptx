@@ -68,7 +68,7 @@
             <cell right='minor'>Simplify <em>P</em>arentheses (and other grouping symbols)</cell>
           </row>
           <row bottom='minor'>
-            <cell right='minor'><em></em></cell>
+            <cell right='minor'>E</cell>
             <cell right='minor'>Simplify <em>E</em>xponents</cell>
           </row>
           <row bottom='minor'>
@@ -90,7 +90,7 @@
   </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-three-threes">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-three-threes">
     <title>Three Threes</title>
     
     <introduction>
@@ -130,7 +130,7 @@
     
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-four-fours">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-four-fours">
     <title>Four Fours</title>
     
     <introduction>
@@ -423,7 +423,7 @@
       <task>
         <statement>
           <p>
-            Insert parentheses so this equation is true: <m>\sqrt{4}^ \sqrt{4} + \sqrt{4} / 4 = 4</m>.
+            Insert parentheses so this equation is true: <m>\sqrt{4}^{\sqrt{4}} + \sqrt{4} / 4 = 4</m>.
           </p>
         </statement>
       </task>

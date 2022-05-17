@@ -12,7 +12,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-stacked-cups">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-stacked-cups">
     <title>Packaging Stacked Cups</title>
 
     <introduction>
@@ -238,32 +238,33 @@
           <tabular left="minor" top="minor" halign="center">
             <row header="yes">
               <cell right="minor">
-                Number of Cups, <m>c</m>
+                <line>Number of</line><line>Cups, <m>c</m></line>
               </cell>
               <cell colspan="7" right="minor" bottom="minor">
-                Height of Stack, <m>h</m>, in cm
+                <line>Height of Stack, <m>h</m>, in cm</line>
+                <line>by Group Number</line>
               </cell>
             </row>
             <row header="yes" bottom="minor">
               <cell right="minor">
               </cell>
               <cell right="minor">
-                Group 1
+                1
               </cell>
               <cell right="minor">
-                Group 2
+                2
               </cell>
               <cell right="minor">
-                Group 3
+                3
               </cell>
               <cell right="minor">
-                Group 4
+                4
               </cell>
               <cell right="minor">
-                Group 5
+                5
               </cell>
               <cell right="minor">
-                Group 6
+                6
               </cell>
               <cell right="minor">
                 Average

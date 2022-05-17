@@ -12,7 +12,7 @@
     </p>
   </subsection>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-price-cans">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-price-cans">
     <title>Pricing Canisters</title>
 
     <p>
@@ -107,7 +107,7 @@
 
   </worksheet>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-gulliver">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-gulliver">
     <title>Gulliver Graphs</title>
 
     <introduction>

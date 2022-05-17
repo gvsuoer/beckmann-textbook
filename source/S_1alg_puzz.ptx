@@ -78,7 +78,7 @@
     </statement>
   </activity>
 
-  <worksheet top="1in" right="1in" left="1in" bottom="1in" xml:id="act-translate-magic">
+  <worksheet top="1in" right="1.2in" left="1.2in" bottom="1in" xml:id="act-translate-magic">
     <title>Translating Magic Number Puzzles to Algebra to Justify Them</title>
     
     <introduction>
