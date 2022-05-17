@@ -1,5 +1,7 @@
 # unpublished builds
-output
+output/html
+output/latex/external
+output/latex/generated
 
 # assets generated from source
 generated-assets
@@ -9,3 +11,13 @@ generated-assets
 error_schema.log
 *.error_syntax.log
 error_syntax.log
+
+# others
+original-files/
+*.aux
+*.dep
+*.listing
+*.log
+*.out
+*.synctex.gz
+*.toc
