@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-07-14T13:37:00-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Rates of Change of Quadratic Functions</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX Course: Title Here';
+eBookConfig.basecourse = 'PTX Base Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.acDefaultLanguage = 'python';
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runtime.b0f8547c48f16a9f.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runestone.0e9550fe42760516.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/637.fafafbd97df8a0d1.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/runestone.e4d5592da655219f.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_factoring.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_quad_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_func_fams.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_factoring.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_quad_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_func_fams.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Publisher's Note</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_analyze_race.html" data-scroll="S_analyze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and <span class="process-math">\(y\)</span>-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="active">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content">
+<section class="section" id="S_rate_of_change"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">4.4</span> <span class="title">Rates of Change of Quadratic Functions</span>
+</h2>
+<section class="subsection" id="subsec-overivew"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.4.1</span> <span class="title">Overivew</span>
+</h3>
+<p id="p-1947">This section explores rates of change with quadratic functions through quilts.</p></section><section class="worksheet" id="act-quad-quilts"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">4.4.2</span> <span class="title">Quadratic Quilts and Rates of Change for <span class="process-math">\(y = ax^2 + bx + c\)</span></span><div class="print-links">
+<a href="act-quad-quilts-a4.html" class="a4">A4</a><a href="act-quad-quilts-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-250"><p id="p-1948">Because the area of bedding is measured in square inches, it might not be surprising that quilts provide a context in which to study quadratic functions. We use the context of making quilts to also study rate of change for quadratic functions. Recall that the rate of change of a linear function was always constant. We will notice that quadratic functions change differently. Explore the student page, <a href="S_rate_of_change.html#act-quad-quilts" class="internal" title="Student Page 4.4.2: Quadratic Quilts and Rates of Change for y = ax^2 + bx + c">Quadratic Quilts and Rates of Change for \(y = ax^2 + bx + c\)</a>, to explore quadratic rate of change. <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-46" id="fn-46"><sup> 46 </sup></a></p></section><article class="exercise exercise-like" id="exercise-449"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-251">
+<p id="p-1949">Esther designs and makes quilts. The completed square in <a href="" class="xref" data-knowl="./knowl/fig-quilt-block.html" title="Figure 4.4.2.1">Figure 4.4.2.1</a> is called a quilt block. She makes different sizes of square quilts using the same pattern and colors for each block in each quilt. To ensure that each quilt block matches, she purchases all of the fabric she needs at the same time.</p>
+<figure class="figure figure-like" id="fig-quilt-block"><div class="image-box" style="width: 30%; margin-left: 35%; margin-right: 35%;"><img src="external/quilt-block.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.2.1<span class="period">.</span></span><span class="space"> </span>A Quilt Block</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-997"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1950">The quilt block at right has dimensions 1 <span class="times-sign">×</span> 1. Determine the number of same-size small square pieces of each color Esther needs for the quilt block.</p></article><article class="task exercise-like" id="task-998"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1951">How many small square pieces of each color does she need for each of the different projects listed? Complete <a href="" class="xref" data-knowl="./knowl/tbl-quilt-dims.html" title="Table 4.4.2.2">Table 4.4.2.2</a>.</p>
+<figure class="table table-like" id="tbl-quilt-dims"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.2.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Quilt<br>Dimensions<br>in Blocks</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Project<br>Type</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>Quilt<br>Blocks</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>Yellow (Y)<br>Squares</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>Blue (B)<br>Squares</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>Red (R)<br>Squares</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>White (W)<br>Squares</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1 <span class="times-sign">×</span> 1</td>
+<td class="c m b1 r1 l0 t0 lines">Potholder</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines">8</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2 <span class="times-sign">×</span> 2</td>
+<td class="c m b1 r1 l0 t0 lines">Nightstand<br>cover</td>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3 <span class="times-sign">×</span> 3</td>
+<td class="c m b1 r1 l0 t0 lines">Doll<br>blanket</td>
+<td class="c m b1 r1 l0 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4 <span class="times-sign">×</span> 4</td>
+<td class="c m b1 r1 l0 t0 lines">Baby<br>blanket</td>
+<td class="c m b1 r1 l0 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5 <span class="times-sign">×</span> 5</td>
+<td class="c m b1 r1 l0 t0 lines">Lap<br>blanket</td>
+<td class="c m b1 r1 l0 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6 <span class="times-sign">×</span> 6</td>
+<td class="c m b1 r1 l0 t0 lines">Tablecloth</td>
+<td class="c m b1 r1 l0 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">7 <span class="times-sign">×</span> 7</td>
+<td class="c m b1 r1 l0 t0 lines">Twin bed<br>cover</td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="exer-dim-square-relation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1952">Consider one color at a time. What is the relationship between the quilt's dimension, <span class="process-math">\(x\text{,}\)</span> and the number of individual squares needed to make the quilt?</p></article><article class="task exercise-like" id="task-1000"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1953">Determine an equation for each relationship in <a href="" class="xref" data-knowl="./knowl/exer-dim-square-relation.html" title="Task 4.4.2.1.c">Task 4.4.2.1.c</a>.</p></article></article><article class="exercise exercise-like" id="exercise-450"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1001"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1954">Complete <a href="" class="xref" data-knowl="./knowl/tbl-quad-change1.html" title="Table 4.4.2.3">Table 4.4.2.3</a>. Let <span class="process-math">\(f(x) = x^2\text{.}\)</span></p>
+<figure class="table table-like" id="tbl-quad-change1"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.2.3<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y = f(x)\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(g(x) = f(x) - f(x - 1)\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(g(x) - g(x - 1)\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="exer-quad-change"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1955">Describe how <span class="process-math">\(f(x) = x^2\)</span> is changing as <span class="process-math">\(x\)</span> increases.</p></article><article class="task exercise-like" id="exer-quad-symm"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1956">Describe any patterns or symmetry you see in the table.</p></article><article class="task exercise-like" id="exer-quad-graph"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1957">Without graphing the function, state what you know about the graph from your table and responses to <a href="" class="xref" data-knowl="./knowl/exer-quad-change.html" title="Task 4.4.2.2.b">Task 4.4.2.2.b</a> and <a href="" class="xref" data-knowl="./knowl/exer-quad-symm.html" title="Task 4.4.2.2.c">Task 4.4.2.2.c</a>.</p></article><article class="task exercise-like" id="task-1005"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1958">Sketch the graph without plotting points.</p></article></article><article class="exercise exercise-like" id="exercise-451"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1006"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1959">Complete a table like <a href="" class="xref" data-knowl="./knowl/tbl-quad-change2.html" title="Table 4.4.2.4">Table 4.4.2.4</a> for each equation you found in <a href="" class="xref" data-knowl="./knowl/exer-quad-graph.html" title="Task 4.4.2.2.d">Task 4.4.2.2.d</a>.</p>
+<figure class="table table-like" id="tbl-quad-change2"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.2.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"><span class="process-math">\(x\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y = f(x)\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(g(x) = f(x) - f(x - 1)\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(g(x) - g(x - 1)\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(-3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(-2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(-1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(0\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(1\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(2\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(3\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(4\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-1007"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1960">Complete a table like the one in <a href="" class="xref" data-knowl="./knowl/tbl-quad-change2.html" title="Table 4.4.2.4">Table 4.4.2.4</a> for <span class="process-math">\(f(x) = ax^2 + bx + c\text{.}\)</span></p></article><article class="task exercise-like" id="task-1008"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1961">What patterns do you see in the first differences, <span class="process-math">\(f(x) - f(x - 1)\text{?}\)</span></p></article><article class="task exercise-like" id="task-1009"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1962">What patterns do you see in the second differences, <span class="process-math">\(g(x) - g(x - 1)\text{?}\)</span></p></article><article class="task exercise-like" id="task-1010"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1963">What do these patterns suggest about the rates of change of all quadratic functions?</p></article></article><article class="exercise exercise-like" id="exercise-452"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1011"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1964">Graph the parent function, <span class="process-math">\(f(x) = x^2\text{.}\)</span></p></article><article class="task exercise-like" id="task-1012"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1965">What are the coordinates of the <span class="process-math">\(y\)</span>-intercept? <span class="process-math">\(x\)</span>-intercept?</p></article><article class="task exercise-like" id="task-1013"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1966">Describe the shape of the graph.</p></article><article class="task exercise-like" id="task-1014"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1967">Why does the graph look as it does? Compare the table values to the graph.</p></article><article class="task exercise-like" id="task-1015"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1968">What new information is provided by the graph that is not evident in the table?</p></article><article class="task exercise-like" id="task-1016"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1969">What information is provided in the table that is not evident in the graph?</p></article></article><article class="exercise exercise-like" id="exercise-453"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-252"><p id="p-1970">The vertex of a quadratic function is the point at which it changes direction.</p></div>
+<article class="task exercise-like" id="task-1017"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1971">What are the coordinates of the vertex of <span class="process-math">\(f(x)=x^2\text{?}\)</span></p></article><article class="task exercise-like" id="task-1018"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1972">Graph each equation from <a href="" class="xref" data-knowl="./knowl/exer-quad-graph.html" title="Task 4.4.2.2.d">Task 4.4.2.2.d</a>. How are the graphs related to <span class="process-math">\(f(x)=x^2\text{?}\)</span></p></article><article class="task exercise-like" id="task-1019"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1973">For each equation in <a href="" class="xref" data-knowl="./knowl/exer-quad-graph.html" title="Task 4.4.2.2.d">Task 4.4.2.2.d</a>, what is the vertex for each graph?</p></article></article><article class="exercise exercise-like" id="exercise-454"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1020"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1974">Two other important points on the graph of <span class="process-math">\(f(x)=x^2 \)</span> are <span class="process-math">\((1,1)\)</span> and <span class="process-math">\((-1,1)\text{.}\)</span> Graph each equation from <a href="" class="xref" data-knowl="./knowl/exer-quad-graph.html" title="Task 4.4.2.2.d">Task 4.4.2.2.d</a> for <span class="process-math">\(x\)</span> in <span class="process-math">\([-5, 5]\text{.}\)</span> What points correspond with <span class="process-math">\((1, 1)\)</span> and <span class="process-math">\((-1, 1)\)</span> for these quadratic function family members? Why do you think so?</p></article><article class="task exercise-like" id="task-1021"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1975">For functions in the quadratic function family, why are the points that correspond to <span class="process-math">\((0, 0)\text{,}\)</span> <span class="process-math">\((1, 1)\text{,}\)</span> and <span class="process-math">\((-1, 1)\)</span> on <span class="process-math">\(f(x) = x^2\)</span> important?</p></article><article class="task exercise-like" id="task-1022"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1976">How might these points help you determine the equation of the function represented by the table or graph? Explain.</p></article></article></section><section class="exercises" id="exercises-29"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber">4.4.3</span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-455"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-253">
+<p id="p-1977">Tiffany makes quilts for different purposes. All of the quilts are made using the same three sizes of squares: 8 inch, 4 inch, and 2 inch. Study each quilt. The first 3 sizes of quilts are shown in <a href="" class="xref" data-knowl="./knowl/fig-tiff-quilts.html" title="Figure 4.4.3.1">Figure 4.4.3.1</a>. Tiffany makes larger sizes but always in the same pattern as these.</p>
+<figure class="figure figure-like" id="fig-tiff-quilts"><div class="image-box" style="width: 95%; margin-left: 2.5%; margin-right: 2.5%;"><img src="external/tiff-quilts.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.3.1<span class="period">.</span></span><span class="space"> </span>3 sizes of Tiffany's Quilts</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-1023"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1978">Determine the number of each size square needed to make the quilts. Fill in <a href="" class="xref" data-knowl="./knowl/tbl-tiff-quilts.html" title="Table 4.4.3.2">Table 4.4.3.2</a>.</p>
+<figure class="table table-like" id="tbl-tiff-quilts"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.3.2<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Quilt Number</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>8-inch Squares</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>4-inch Squares</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Number of<br>2-inch Squares</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Equation</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Function Family</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Explain your function<br>family choice.</td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> </td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> </td>
+<td class="c m b1 r1 l0 t0 lines"> <br> <br> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-1024"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1979">Extend the quilt pattern to other sizes of quilts. Complete <a href="" class="xref" data-knowl="./knowl/tbl-tiff-quilts.html" title="Table 4.4.3.2">Table 4.4.3.2</a>.</p></article></article><article class="exercise exercise-like" id="exercise-456"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-254">
+<p id="p-1980">Study Patterns A and B in <a href="" class="xref" data-knowl="./knowl/fig-quad-blocks.html" title="Figure 4.4.3.3">Figure 4.4.3.3</a>. Visualize the patterns being built with blocks.</p>
+<figure class="figure figure-like" id="fig-quad-blocks"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/quad-blocks.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.3.3<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-1981">To get Pattern C (not shown), double all but the center column of Pattern B. To build Pattern C with blocks, build 4 sets of stair-steps around a central tower so that the stair-steps are sticking out at right angles to each other.</p>
+</div>
+<article class="task exercise-like" id="task-1025"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1982">Using <a href="" class="xref" data-knowl="./knowl/tbl-quad-block.html" title="Table 4.4.3.4">Table 4.4.3.4</a>, record how many blocks you need to build each step of each pattern.</p>
+<figure class="table table-like" id="tbl-quad-block"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.3.4<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Step Number</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">1</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">3</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">4</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">5</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(x\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Pattern A:<br>Number of Squares</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Pattern B:<br>Number of Squares</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Pattern C:<br>Number of Squares</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-1026"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1983">Plot the data using different colors for each graph. Label the graphs A, B, and C. Indicate the scales on the axes.</p></article><article class="task exercise-like" id="task-1027"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1984">For each set of data, determine if the data represents a linear function, quadratic function, or some other type of function. Explain your choice. (Do not depend solely on the graph. Graphs can be deceiving.)</p></article><article class="task exercise-like" id="task-1028"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1985">You have seen the data for Patterns A and B before. Find equations to fit both sets of data. Verify that each equation fits at least 3 points of the corresponding data set.</p></article><article class="task exercise-like" id="exer-quad-blocks-avalue"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1986">For Pattern C, determine the value of a in the equation <span class="process-math">\(y = ax^2 + bx + \text{.}\)</span> Explain how you know you are right.</p></article><article class="task exercise-like" id="task-1030"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1987">Plot the graph of the equation <span class="process-math">\(y = ax^2\)</span> using the value of <span class="process-math">\(a\)</span> you found in <a href="" class="xref" data-knowl="./knowl/exer-quad-blocks-avalue.html" title="Task 4.4.3.2.e">Task 4.4.3.2.e</a>.</p></article><article class="task exercise-like" id="task-1031"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-1988">Does the graph fit the data? If not, is the graph too high or too low?</p></article><article class="task exercise-like" id="exer-quad-blocks-adjust"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-1989">Try to adjust your equation to fit the data. Play with values of <span class="process-math">\(b\)</span> and values of <span class="process-math">\(c\)</span> until your graph seems to fit the data. Record the equation.</p></article><article class="task exercise-like" id="exer-quad-blocks-try"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<p id="p-1990">Try at least 3 data points for Pattern C to see if the equation you found in <a href="" class="xref" data-knowl="./knowl/exer-quad-blocks-adjust.html" title="Task 4.4.3.2.h">Task 4.4.3.2.h</a> works. Adjust the equation further if needed.</p></article></article><article class="exercise exercise-like" id="exercise-457"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-255">
+<p id="p-1991">In Leapfrogs,<a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-47" id="fn-47"><sup> 47 </sup></a> two different colors of objects are arranged in the colored spaces to represent two types of frogs on a log. See <a href="" class="xref" data-knowl="./knowl/fig-quad-frogs.html" title="Figure 4.4.3.5">Figure 4.4.3.5</a>.</p>
+<figure class="figure figure-like" id="fig-quad-frogs"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/quad-frogs.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.3.5<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-1992">Your job is to interchange the frogs on one end of the log with the frogs on the other end of the log. There are two restrictions:</p>
+<ul class="disc">
+<li id="li-270"><p id="p-1993">A frog can move into an adjacent empty space.</p></li>
+<li id="li-271"><p id="p-1994">A frog can jump over a frog of the other color.</p></li>
+</ul>
+<p class="continuation">You need 5 each of two different types of small objects (for example, pennies and dimes, cubes of 2 colors, paper clips and coins) and the Leapfrogs gameboard in <a href="" class="xref" data-knowl="./knowl/fig-frogs-board.html" title="Figure 4.4.3.6">Figure 4.4.3.6</a>. Objects on the yellow spaces are referred to as Yellow Frogs. Objects on the green spaces are referred to as Green Frogs. Using the same number of frogs on each end of the board, find the least number of moves needed to interchange the colors of frogs as the number of frogs increases.</p>
+<figure class="figure figure-like" id="fig-frogs-board"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/frogs-board.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.4.3.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-1034"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1995">Record the <em class="emphasis">least number of moves</em> needed to interchange the two colors of frogs in <a href="" class="xref" data-knowl="./knowl/tbl-frogs-least.html" title="Table 4.4.3.7">Table 4.4.3.7</a>.</p>
+<figure class="table table-like" id="tbl-frogs-least"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.3.7<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Number of Yellow Frogs</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">1</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">3</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">4</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">5</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(F\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Least Number of Moves<br>Needed to Interchange Frogs</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-1035"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1996">Plot the data. To what function family do the data belong? Why do you think so? (Your analysis must include more than looking at the graph.)</p></article><article class="task exercise-like" id="task-1036"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1997">Find an equation that fits the data. What is the least number of moves, <span class="process-math">\(M\text{,}\)</span> needed to interchange <span class="process-math">\(F\)</span> frogs on each end of the log? Use the process in <a href="" class="xref" data-knowl="./knowl/exer-quad-blocks-avalue.html" title="Task 4.4.3.2.e">Task 4.4.3.2.e–4.4.3.2.i</a></p></article></article><article class="exercise exercise-like" id="exercise-458"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1037"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1998">What is the equation to find the area of a circle given its radius?</p></article><article class="task exercise-like" id="task-1038"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1999">How is the diameter of a circle related to its radius?</p></article><article class="task exercise-like" id="task-1039"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2000">Write the equation for the area of a circle in terms of its diameter.</p></article><article class="task exercise-like" id="task-1040"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2001">Complete Columns C, E, and G of <a href="" class="xref" data-knowl="./knowl/tbl-quad-pizza.html" title="Table 4.4.3.8">Table 4.4.3.8</a>.</p>
+<figure class="table table-like" id="tbl-quad-pizza"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.4.3.8<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">A</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">B</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">C</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">D</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t0 lines">Pizza Size</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Diameter, <span class="process-math">\(D\text{,}\)</span><br>in inches</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">
+<span class="process-math">\(\text{Inches}^2\)</span> of pizza</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Base price, <span class="process-math">\(B\text{,}\)</span><br>for Cheese Pizza</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Small</td>
+<td class="c m b1 r1 l0 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">7</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Medium</td>
+<td class="c m b1 r1 l0 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">9</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Large</td>
+<td class="c m b1 r1 l0 t0 lines">14</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">11</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Extra Large</td>
+<td class="c m b1 r1 l0 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+</tr>
+<tr>
+<td class="c m b3 r1 l1 t0 lines">Equation</td>
+<td class="c m b3 r1 l0 t0 lines"><span class="process-math">\(D\)</span></td>
+<td class="c m b3 r1 l0 t0 lines"><span class="process-math">\(A(D) =\)</span></td>
+<td class="c m b3 r1 l0 t0 lines"><span class="process-math">\(B(D) =\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">E</td>
+<td class="c m b1 r1 l0 t0 lines">F</td>
+<td class="c m b1 r1 l0 t0 lines">G</td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Price of cheese<br>pizza per <span class="process-math">\(\text{inch}^2\)</span>
+</td>
+<td class="c m b1 r1 l0 t0 lines">Single Topping<br>Price, <span class="process-math">\(T\)</span>
+</td>
+<td class="c m b1 r1 l0 t0 lines">Topping Price<br>per <span class="process-math">\(\text{inch}^2\)</span>
+</td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">1.00</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">1.25</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">1.50</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">1.75</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">X</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(T(D) =\)</span></td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+<td class="c m b1 r1 l0 t0 lines">X</td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-1041"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-2002">The cheese pizza prices for a local pizza parlor are shown in Column D. Is the pizza parlor's method for pricing pizzas reasonable? Why or why not? Discuss area versus cheese pizza price in your response.</p></article><article class="task exercise-like" id="exer-quad-pizza-better-eq"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-2003">Suggest a better equation to use to set the price for each size cheese pizza so the customer is paying the same amount for each square inch of cheese pizza regardless of the pizza's diameter.</p></article><article class="task exercise-like" id="task-1043"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-2004">Use your equation from <a href="" class="xref" data-knowl="./knowl/exer-quad-pizza-better-eq.html" title="Task 4.4.3.4.f">Task 4.4.3.4.f</a> to find prices for each cheese pizza in the table.</p></article><article class="task exercise-like" id="task-1044"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-2005">Consider the topping price per square inch in Column G. Is the pizza parlor's method for pricing toppings reasonable? Discuss area versus per topping price in your response.</p></article><article class="task exercise-like" id="exer-eq-topping-price"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<p id="p-2006">Suggest an equation to set the topping price for each size pizza so the customer is paying the same amount per topping for each square inch of pizza regardless of the pizza's diameter.</p></article><article class="task exercise-like" id="task-1046"><h5 class="heading"><span class="codenumber">(j)</span></h5>
+<p id="p-2007">Use your equation from <a href="" class="xref" data-knowl="./knowl/exer-eq-topping-price.html" title="Task 4.4.3.4.i">Task 4.4.3.4.i</a> to find prices for added toppings.</p></article><article class="task exercise-like" id="task-1047"><h5 class="heading"><span class="codenumber">(k)</span></h5>
+<p id="p-2008">To what function family does each equation in Columns C, G, and E belong? How do you know?</p></article></article><article class="exercise exercise-like" id="exercise-459"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-256"><p id="p-2009">Revisit the Tile Patterns (<a href="S_tiles.html#act-analyze-tiles" class="internal" title="Student Page 2.9.2: Analyzing Tile Patterns">Analyzing Tile Patterns</a>, <a href="S_tiles.html#act-analyze-more-tiles" class="internal" title="Student Page 2.9.4: Analyzing More Tile Patterns">Analyzing More Tile Patterns</a>) in <a href="S_tiles.html" class="internal" title="Section 2.9: Analyzing Tile Patterns">Section 2.9</a> and <a href="S_tiles.html#hmwk-29" class="internal" title="Homework 2.9.3">Homework 2.9.3</a>.</p></div>
+<article class="task exercise-like" id="task-1048"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2010">Determine which tile patterns are quadratic.</p></article><article class="task exercise-like" id="task-1049"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2011">Explain how you can tell from the arrangement of tiles.</p></article><article class="task exercise-like" id="task-1050"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2012">Explain how you can tell from the table.</p></article><article class="task exercise-like" id="task-1051"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2013">Find an equation for each quadratic pattern. Use the process in <a href="" class="xref" data-knowl="./knowl/exer-quad-blocks-avalue.html" title="Task 4.4.3.2.e">Task 4.4.3.2.e–4.4.3.2.i</a>, if needed.</p></article></article><article class="exercise exercise-like" id="exercise-460"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-257"><p id="p-2014">As with linear functions, you can use an electronic graphing tool to fit regression equations to the data. (See <a href="S_lin_reg.html" class="internal" title="Section 3.4: Linear Regression and Lines of Best Fit">Section 3.4</a> for a reminder.)</p></div>
+<article class="task exercise-like" id="task-1052"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2015">Revisit each of the problems above. Fit a quadratic regression equation to each data set.</p></article><article class="task exercise-like" id="task-1053"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2016">For each data set, compare the regression equation with the equation you found in other ways. How close was your equation to the regression equation? Do you need to adjust your thinking or were your equations correct?</p></article><article class="task exercise-like" id="task-1054"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2017">A student page describing how to find the regression equation using a Texas Instruments (<abbr class="initialism">TI</abbr>) graphing calculator follows (<a href="S_rate_of_change.html#act-reg-eq-calc" class="internal" title="Student Page 4.4.4: Entering, Graphing, and Plotting Data: Finding Regression Equations">Entering, Graphing, and Plotting Data: Finding Regression Equations</a>). If you need a reminder of how to use Desmos to find a regression equation, click on the “?” icon (Help) in the upper right corner of the Desmos screen, click on Regressions, then follow the directions provided.</p></article></article></section><section class="worksheet" id="act-reg-eq-calc"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">4.4.4</span> <span class="title">Entering, Graphing, and Plotting Data: Finding Regression Equations</span><div class="print-links">
+<a href="act-reg-eq-calc-a4.html" class="a4">A4</a><a href="act-reg-eq-calc-letter.html" class="us">US</a>
+</div>
+</h3>
+<article class="exercise exercise-like" id="exercise-461"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Entering the Data.</span>
+</h4>
+<div class="introduction" id="introduction-258"><p id="p-2018">Use your graphing calculator to enter the data:</p></div>
+<article class="task exercise-like" id="task-1055"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2019">Press STAT then choose 1: Edit…</p></article><article class="task exercise-like" id="task-1056"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2020">Enter the values for the independent variable (domain) into L1.</p></article><article class="task exercise-like" id="task-1057"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2021">Enter the values for the dependent variable (range) into L2.</p></article></article><article class="exercise exercise-like" id="exercise-462"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Graphing the Data.</span>
+</h4>
+<article class="task exercise-like" id="task-1058"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2022">Press STAT PLOT (2ND Y=) then choose 1: Plot1… Press ENTER</p></article><article class="task exercise-like" id="task-1059"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2023">Settings:</p>
+<ul class="disc">
+<li id="li-272"><p id="p-2024">On,</p></li>
+<li id="li-273"><p id="p-2025">Scatter plot (first graph type)</p></li>
+<li id="li-274"><p id="p-2026">Xlist: L1</p></li>
+<li id="li-275"><p id="p-2027">Ylist: L2</p></li>
+<li id="li-276"><p id="p-2028">Mark: +</p></li>
+</ul></article><article class="task exercise-like" id="task-1060"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2029">Press GRAPH</p></article></article><article class="exercise exercise-like" id="exercise-463"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Setting the Viewing Window.</span>
+</h4>
+<article class="task exercise-like" id="task-1061"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2030">Press WINDOW</p></article><article class="task exercise-like" id="task-1062"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2031">Use the table to determine</p>
+<p id="p-2032">Xmin, Xmax, Xscl</p>
+<p id="p-2033">Ymin, Ymax, Yscl</p></article><article class="task exercise-like" id="task-1063"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2034">OR Press ZOOM then scroll down to 9: ZoomStat, Press ENTER</p></article></article><article class="exercise exercise-like" id="exercise-464"><h4 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Fitting a Function to the Data.</span>
+</h4>
+<article class="task exercise-like" id="task-1064"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2035">Press STAT</p></article><article class="task exercise-like" id="task-1065"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2036">Move the cursor to the right to highlight CALC</p></article><article class="task exercise-like" id="task-1066"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2037">Scroll down to the function type you want to use, for example, 5: QuadReg, then Press ENTER (to fit a quadratic function)</p></article><article class="task exercise-like" id="task-1067"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2038">Indicate the lists of the data separated by commas, for example, L1, L2.</p></article><article class="task exercise-like" id="task-1068"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-2039">Choose where you want to place the function equation, for example, Y1. Press VARS, move the cursor to the right to highlight Y-VARS, Press ENTER to choose 1: Function, scroll to highlight the Y-variable you want, then press ENTER again.</p></article><article class="task exercise-like" id="task-1069"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-2040">The screen should read: 5: QuadReg L1, L2, Y1. Press ENTER (to fit a quadratic function)</p></article><article class="task exercise-like" id="task-1070"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-2041">The regression equation will be in Y1 or whatever Y-variable you chose.</p></article><article class="task exercise-like" id="task-1071"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-2042">Press GRAPH to plot the regression equation with the data.</p></article></article></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-46"><div class="fn">Adapted from Beckmann, C.E., Thompson, D.R., and Rubenstein, R.N., <span class="booktitle">Teaching and Learning High School Mathematics</span>, Hoboken, NJ: John Wiley &amp; Sons, Inc., 2010, pp. 252—4.</div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-47"><div class="fn">Adapted from: Mason, John, Leone Burton, and Kaye Stacey. <span class="booktitle">Thinking Mathematically</span> (Revised Edition). Harlowe, UK: Prentice Hall, 1985, p. 57.</div></div>
+</div></main>
+</div>
+</body>
+</html>

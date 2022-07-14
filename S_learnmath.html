@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-07-14T13:36:44-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Learning How to Learn Mathematics</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX Course: Title Here';
+eBookConfig.basecourse = 'PTX Base Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.acDefaultLanguage = 'python';
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runtime.b0f8547c48f16a9f.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runestone.0e9550fe42760516.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/637.fafafbd97df8a0d1.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/runestone.e4d5592da655219f.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="C_learnmath.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_learnmath.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_mathmindset.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="C_learnmath.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_learnmath.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_mathmindset.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Publisher's Note</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="active">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_analyze_race.html" data-scroll="S_analyze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and <span class="process-math">\(y\)</span>-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content">
+<section class="section" id="S_learnmath"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.1</span> <span class="title">Learning How to Learn Mathematics</span>
+</h2>
+<section class="introduction" id="introduction-1"><p id="p-19">Mathematics is a creative endeavor. It is full of “aha” moments. Has that been your experience with mathematics? If so, think of a few “aha” moments you've had. Write them down. If not, you're about to embark on real learning of mathematics, learning that does not involve mind-numbing memorization of rules for combining symbols and solving equations.</p>
+<p id="p-20">Math makes sense. Learning mathematics requires making sense by making connections between familiar ideas you encounter in your daily life. You might find that the mathematics you encounter in this course relates to mathematical concepts from your past experiences. Some of it might seem entirely new. Whatever you think of mathematics as you begin this course, it is important that you keep an open mind, bring your creativity into your learning, and try to connect what you are learning to what you already know outside of mathematics.</p>
+<p id="p-21">There are several tools available to help you learn mathematics. In <a href="S_learnmath.html" class="internal" title="Section 1.1: Learning How to Learn Mathematics">Section 1.1</a>, we explore some of them.</p></section><section class="subsection" id="subsec-math-students"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.1</span> <span class="title">How to Learn Math for Students</span>
+</h3>
+<p id="p-22">Stanford University offers <a class="external" href="https://online.stanford.edu/courses/gse-yeduc115-s-how-learn-math-students" target="_blank">free classes online</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-6" id="fn-6"><sup> 6 </sup></a>. A useful and short course entitled, <span class="booktitle">How to Learn Math for Students</span>, offers several short videos and brief exercises to help you build your confidence in learning mathematics. <span class="booktitle">How to Learn Math for Students</span> will help you learn how your brain works, how your mindset regarding mathematics helps or hinders your learning, how speed is not related to understanding in mathematics, and other useful information regarding how you learn mathematics. As part of the <span class="booktitle">Beginning Algebra Made Useful</span> course, you will also be completing much of the Stanford course, How to Learn Math for Students. Sign up for the course (it's free!!!).</p>
+<p id="p-23">Throughout the first part of the semester, you will be assigned problems that require you to watch a video in the Stanford course, <span class="booktitle">How to Learn Math for Students</span>, then reflect on what you learned. The videos are short, most of them less than 3 minutes in length. After each video, you will find short quizzes and questions to answer along the way. Answer the quizzes and questions as you go. By providing a certificate of completion for the Stanford course, <span class="booktitle">How to Learn Math for Students</span>, you can earn privileges determined by your professor.</p>
+<section class="paragraphs" id="htlmfs-directions"><h4 class="heading"><span class="title">How To Learn Math For Students Directions.</span></h4>
+<p id="p-24">Your responses to each of the following problems will be collected on a due date provided in class. Answer each question in writing using complete English sentences. Type responses if your handwriting is difficult to read. Show all of the work you do to answer mathematical questions. Include illustrations.</p>
+<article class="exercise exercise-like" id="main-prob-one"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-one"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.1</span><span class="period">.</span><span class="space"> </span><span class="title">Lesson 1: Knocking Down Myths About Math.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-one"><article class="exercise exercise-like"><article class="task exercise-like" id="task-1"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-25">Watch the second video in Lesson 1, <span class="booktitle">How do People Feel about Math?</span> (3:38 minutes). Write at least 2 sentences to answer the following question: How do you feel about math?</p></article><article class="task exercise-like" id="task-2"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-26">Watch the third video in Lesson 1, <span class="booktitle">Math Myths and the Brain</span> (3:23 minutes). Answer in writing: Why do you think people often don't like math?</p></article><article class="task exercise-like" id="task-3"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-27">Watch the fourth video in Lesson 1. How does the fourth video, <span class="booktitle">Brain Growth</span> (2:04 minutes), make you feel about your ability to learn mathematics?</p></article><article class="task exercise-like" id="task-4"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-28">Watch the last video in Lesson 1, <span class="booktitle">Smashing Stereotypes</span> (1:57 minutes). What toys and games did you experience on a consistent basis as you were growing up? Would you consider any of them to be mathematical? If so, which ones? In your opinion, what made these toys mathematical?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-two"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-two"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.2</span><span class="period">.</span><span class="space"> </span><span class="title">Lesson 2: Math and Mindset.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-two"><article class="exercise exercise-like"><article class="task exercise-like" id="task-5"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-29">Watch the first Math and Mindset video in Lesson 2: <span class="booktitle">Mindset</span> (3:23 minutes).</p></article><article class="task exercise-like" id="task-6"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-30">In what areas (subjects in school, sports, etc.) do you have a growth mindset?</p></article><article class="task exercise-like" id="task-7"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-31">Do you tend to have a growth mindset or a fixed mindset when it comes to learning mathematics? State your evidence.</p></article><article class="task exercise-like" id="task-8"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-32">What messages do you give yourself that help you develop or keep a growth mindset in mathematics?</p></article><article class="task exercise-like" id="task-9"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<p id="p-33">Watch the video, <span class="booktitle">Messages about Math</span> (1:44 minutes). Some students were praised for being smart. Which problem did they choose? Why do you think that students who are praised for being smart chose the problem they did?</p></article><article class="task exercise-like" id="task-10"><h6 class="heading"><span class="codenumber">(f)</span></h6>
+<p id="p-34">Watch the video, <span class="booktitle">Messages about You</span> (2:29 minutes).</p></article><article class="task exercise-like" id="task-11"><h6 class="heading"><span class="codenumber">(g)</span></h6>
+<p id="p-35">How do the videos in Lesson 2 make you feel about your ability to learn mathematics?</p></article><article class="task exercise-like" id="task-12"><h6 class="heading"><span class="codenumber">(h)</span></h6>
+<p id="p-36">What three messages from these videos do you want to keep in mind for this and other courses you will take in college?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-three"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-three"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.3</span><span class="period">.</span><span class="space"> </span><span class="title">Lesson 3: Mistakes and Speed.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-three"><article class="exercise exercise-like"><div class="introduction" id="introduction-2"><p id="p-37">Watch the first three videos for Lesson 3: <span class="booktitle">Mistakes</span>: <span class="booktitle">New Evidence</span> (1:42 minutes), <span class="booktitle">Mistakes and Success in Life</span> (1:29 minutes), and <span class="booktitle">Math and Speed</span> (3:49 minutes).</p></div>
+<article class="task exercise-like" id="task-13"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-38">Do you see mistakes in math as a sign of failure or a sign of persistence?</p></article><article class="task exercise-like" id="task-14"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-39">Write a paragraph about what you've learned through the videos in Lesson 3.</p></article><article class="task exercise-like" id="task-15"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-40">Open problems are problems for which there are multiple approaches to find a solution or there are multiple solutions. Most of the problems we've been working on in class are considered open problems. How do they help you learn?  What about them, if anything, causes you anxiety?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-four"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-four"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.4</span><span class="period">.</span><span class="space"> </span><span class="title">Lesson 4: Number Flexibility, Mathematical Reasoning, and Connections..</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-four"><article class="exercise exercise-like"><article class="task exercise-like" id="task-16"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-41">Watch the first video, <span class="booktitle">Number Flexibility</span> (1:24 minutes), then simplify <span class="process-math">\(18 \times 5\)</span> using a mental strategy. Write down how you thought about the problem as you solved it.</p></article><article class="task exercise-like" id="htlmfs-185-illustrate"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-42">Watch the second video, <span class="booktitle"><span class="process-math">\(18 \times 5\)</span></span> (5:27 minutes). In writing, answer the question posed at the end of the video. Match each illustration with the solution process that fits it. Include drawings in your submission.</p></article><article class="task exercise-like" id="htlmfs-solve-mentally"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-43">Watch the third video, <span class="booktitle"><span class="process-math">\(12 \times 15\)</span></span> (1:18 minutes). Solve the problem stated without using the usual algorithm. Try to solve the problem mentally first using friendly numbers. Then try to draw a picture that goes with the way you solved the problem.</p></article><article class="task exercise-like" id="htlmfs-solve-again"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-44">Solve the problem in <a href="" class="xref" data-knowl="./knowl/htlmfs-solve-mentally.html" title="Task 1.1.1.4.c">Task 1.1.1.4.c</a> another way, and again without paper and pencil. Draw a picture that illustrates the way you solved the problem this time.</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-five"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-five"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.5</span><span class="period">.</span><span class="space"> </span><span class="title">Continuing with Lesson 4: Number Flexibility, Mathematical Reasoning, and Connections..</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-five"><article class="exercise exercise-like"><article class="task exercise-like" id="task-20"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-45">Watch the fourth video, <span class="booktitle">Talking About Math</span> (1:41 minutes). Why did the students who worked on math together do so well in their mathematics classes?</p></article><article class="task exercise-like" id="task-21"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-46">Watch the fifth video, <span class="booktitle">Reasoning</span> (1:32 minutes). What is reasoning? Why is it important?</p></article><article class="task exercise-like" id="task-22"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-47">Watch the sixth video, <span class="booktitle">Mathematical Connections</span> (9:10 minutes; though this video is long, listen all the way through). Several connections were drawn in the video. Choose 3 of the examples and explain how they are connected.</p></article><article class="task exercise-like" id="task-23"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-48">Watch the seventh video, <span class="booktitle">PISA Results</span> (0:41 minutes).  Write about some of the connections you have made in mathematics in this class. Why are they important to your learning?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-six"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-six"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.6</span><span class="period">.</span><span class="space"> </span><span class="title">Lesson 5: Number Patterns and Representations..</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-six"><article class="exercise exercise-like"><article class="task exercise-like" id="htlmfs-pattern-solve"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-49">Watch the first video in Lesson 5, <span class="booktitle">Making Sense and Intuition</span> (4:04 minutes). Solve the problem posed immediately after this video. Show how you solved the problem. Do not go on to the next video until you find a solution you think works.</p></article><article class="task exercise-like" id="task-25"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-50">Watch the second video in Lesson 5, <span class="booktitle">Drawing and Representing</span> (5:11 minutes). How did the video solution compare with your solution in <a href="" class="xref" data-knowl="./knowl/htlmfs-pattern-solve.html" title="Task 1.1.1.6.a">Task 1.1.1.6.a</a>? How did the video help you think about the problem differently?</p></article><article class="task exercise-like" id="task-26"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-51">What does this video tell you about <span class="booktitle">What does this video tell you about How to Learn Math?</span>?</p></article><article class="task exercise-like" id="task-27"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-52">What important information do you want to remember from these two videos?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-seven"><a href="" data-knowl="" class="id-ref exercise-knowl original has-image" data-refid="hk-main-prob-seven"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.7</span><span class="period">.</span><span class="space"> </span><span class="title">Continuing with Lesson 5: Number Patterns and Representations..</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-seven"><article class="exercise exercise-like"><article class="task exercise-like" id="task-28"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-53">Watch the third video in Lesson 5, <span class="booktitle">Looking for Big Ideas</span> (5:27 minutes). Write down and answer the quiz question after the video. Explain your response. Use what you learned in the video to determine which is bigger, <span class="process-math">\(\frac{2}{3}\)</span> or <span class="process-math">\(\frac{5}{8}\text{.}\)</span> Include illustrations in your solution.</p></article><article class="task exercise-like" id="task-29"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-54">Watch the fourth video, <span class="booktitle">Fractions: Same Size Pieces</span> (1:11 minutes). Take the quiz following the fourth video. Write down the problem, show your response, and explain your answer.</p></article><article class="task exercise-like" id="task-30"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-55">What fraction represents the area of the white triangle in <a href="" class="xref" data-knowl="./knowl/fig-tri-squares.html" title="Figure 1.1.1.8">Figure 1.1.1.8</a>? Explain your answer.</p>
+<figure class="figure figure-like" id="fig-tri-squares"><div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="external/tri-squares.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.1.8<span class="period">.</span></span><span class="space"> </span>Reference for Problem 7c.</figcaption></figure></article><article class="task exercise-like" id="task-31"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-56">Watch the fifth video, <span class="booktitle">Fractions: Big Ideas</span> (2:01 minutes), more than once if needed.</p></article><article class="task exercise-like" id="task-32"><h6 class="heading"><span class="codenumber">(e)</span></h6>
+<p id="p-57">From the videos in <a href="" class="xref" data-knowl="./knowl/htlmfs-185-illustrate.html" title="Task 1.1.1.4.b">Task 1.1.1.4.b</a> and <a href="" class="xref" data-knowl="./knowl/htlmfs-solve-again.html" title="Task 1.1.1.4.d">Task 1.1.1.4.d</a>, what big ideas about fractions will help you make sense of them? List at least two.</p></article><article class="task exercise-like" id="task-33"><h6 class="heading"><span class="codenumber">(f)</span></h6>
+<div class="introduction" id="introduction-3"><p id="p-58">Watch the sixth video in Lesson 5, <span class="booktitle">Ideas vs. Memorization</span> (0:53 minutes).</p></div>
+<article class="task exercise-like" id="task-34"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-59">Think about the mathematical content in our class. What big ideas have you learned so far? What makes them big ideas?</p></article><article class="task exercise-like" id="task-35"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-60">What important strategies have you learned? How might these strategies help you in your future mathematics learning?</p></article></article><article class="task exercise-like" id="task-36"><h6 class="heading"><span class="codenumber">(g)</span></h6>
+<p id="p-61">What has surprised you about your learning of mathematics?</p></article><article class="task exercise-like" id="task-37"><h6 class="heading"><span class="codenumber">(h)</span></h6>
+<p id="p-62">What additional mathematics would you like to learn?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-eight"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-eight"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.9</span><span class="period">.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-eight"><article class="exercise exercise-like"><div class="introduction" id="introduction-4"><p id="p-63">Think about your work with mathematics in and out of class so far this semester.</p></div>
+<article class="task exercise-like" id="task-38"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-64">As you work through activities and problems in and out of class, what messages are you giving yourself? Have you been persistent? Have you told yourself you can do this?</p></article><article class="task exercise-like" id="task-39"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-65">The problems we work on in class and for homework often require persistence. What do you do when you struggle with a problem?</p></article><article class="task exercise-like" id="task-40"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-66">Have any of your messages to self been negative? If so, based on the videos from <span class="booktitle">How to Learn Mathematics for Students</span>, what messages help you grow your brain?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-nine"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-nine"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.10</span><span class="period">.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-nine"><article class="exercise exercise-like"><div class="introduction" id="introduction-5"><p id="p-67">Answer the following questions. Be specific. Provide examples.</p></div>
+<article class="task exercise-like" id="task-41"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-68">Why is it important to your mathematical learning to talk about math with others, to make connections, and to use reasoning?</p></article><article class="task exercise-like" id="task-42"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-69">How might you use these ways of learning to help you in other subjects?</p></article><article class="task exercise-like" id="task-43"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-70">How might you use these ways of learning to help you in your daily life?</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-ten"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-ten"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.11</span><span class="period">.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-ten"><article class="exercise exercise-like"><div class="introduction" id="introduction-6"><p id="p-71">Think about your views of your ability to learn math.</p></div>
+<article class="task exercise-like" id="task-44"><h6 class="heading"><span class="codenumber">(a)</span></h6>
+<p id="p-72">Have any of your views about your ability to learn math changed this semester? Explain.</p></article><article class="task exercise-like" id="task-45"><h6 class="heading"><span class="codenumber">(b)</span></h6>
+<p id="p-73">Watch Video 9 in Lesson 6, <span class="booktitle">Summary and Reflections</span> (2:01 minutes). What ideas from <span class="booktitle">How to Learn Math for Students</span> stand out for you.</p></article><article class="task exercise-like" id="task-46"><h6 class="heading"><span class="codenumber">(c)</span></h6>
+<p id="p-74">Take the survey immediately following Video 9. List the top 5 ideas from the course that stand out for you.</p></article><article class="task exercise-like" id="task-47"><h6 class="heading"><span class="codenumber">(d)</span></h6>
+<p id="p-75">Write a reflection, at least 2 paragraphs long, about what you have learned about your ability to learn mathematics.</p></article></article></div>
+<article class="exercise exercise-like" id="main-prob-eleven"><a href="" data-knowl="" class="id-ref exercise-knowl original" data-refid="hk-main-prob-eleven"><h5 class="heading">
+<span class="type">How to Learn Math for Students Exercise</span><span class="space"> </span><span class="codenumber">1.1.1.12</span><span class="period">.</span>
+</h5></a></article><div class="hidden-content tex2jax_ignore" id="hk-main-prob-eleven"><article class="exercise exercise-like"><p id="p-76">Earn a certificate for completing the Stanford course, How to Learn Math for Students. You may earn privileges as designated by your professor for completing the course and turning in a printed copy of the certificate of completion.</p></article></div></section></section><section class="subsection" id="subsec-good-questions"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.2</span> <span class="title">Good Questions to Ask Yourself</span>
+</h3>
+<p id="p-77">When working on mathematics problems, you are in good company if you find that you are often or occasionally stuck. There is always hope. The questions that follow have been used many times to help students find a way out of a temporary dilemma when solving a problem. First, try to identify what's causing your dilemma.</p>
+<p id="p-78">Do you understand what the problem is asking? If not, you are probably stuck at Stage 1.</p>
+<p id="p-79">Do you understand the problem but don't know what to do now? You are likely stuck at Stage 2.</p>
+<p id="p-80">Have you started to solve the problem and gathered some information but don't know what to do with what you've found? You might be stuck at Stage 3.</p>
+<p id="p-81">Have you finished the problem? Stage 4 questions can help you organize what you've learned through solving the problem into what you already know and help you move new learnings into your long-term memory.</p>
+<p id="p-82">Goldin (1998) suggests a hierarchy of four stages of questioning to guide yourself or a peer to solve a problem:</p></section><section class="subsection" id="subsec-qstages"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.3</span> <span class="title">Four Stages of Questioning</span>
+</h3>
+<section class="paragraphs" id="stageone_questioning"><h4 class="heading"><span class="title">Stage 1: Understanding the Problem.</span></h4>
+<p id="p-83">Read the problem and take time to make some initial progress on it. Ask yourself:</p>
+<ul id="p-84" class="disc">
+<li id="li-4"><p id="p-85">What is the problem asking me to do? Write down ideas in your own words.</p></li>
+<li id="li-5"><p id="p-86">What do I know?</p></li>
+<li id="li-6"><p id="p-87">What am I trying to find?</p></li>
+</ul></section><section class="paragraphs" id="stagetwo_questioning"><h4 class="heading"><span class="title">Stage 2: Devising a Plan.</span></h4>
+<p id="p-88">If you understand the problem and have trouble starting to solve it, think about general problem-solving strategies that might help. Ask yourself:</p>
+<ul id="p-89" class="disc">
+<li id="li-7"><p id="p-90">Would drawing a picture help?</p></li>
+<li id="li-8"><p id="p-91">Would a table of values help to solve this problem?</p></li>
+<li id="li-9"><p id="p-92">Would any materials help to model the problem? (Get the materials and use them.)</p></li>
+<li id="li-10"><p id="p-93">Is there a similar problem I've done before that might help me get started?</p></li>
+<li id="li-11"><p id="p-94">What do I know must happen in the problem?</p></li>
+<li id="li-12"><p id="p-95">What do I know cannot happen in the problem?</p></li>
+</ul></section><section class="paragraphs" id="stagethree_questioning"><h4 class="heading"><span class="title">Stage 3: Carrying Out the Plan.</span></h4>
+<p id="p-96">If you get stuck once you are partway through solving the problem, think about more specific problem-solving strategies. Ask yourself:</p>
+<ul id="p-97" class="disc">
+<li id="li-13"><p id="p-98">What patterns do I see in the table of values or drawings?</p></li>
+<li id="li-14"><p id="p-99">What rule can be used to describe the relationship in the table of values I created?</p></li>
+<li id="li-15"><p id="p-100">What information does the graph give me?</p></li>
+</ul></section><section class="paragraphs" id="stagefour_questioning"><h4 class="heading"><span class="title">Stage Four: Looking Back.</span></h4>
+<p id="p-101">Once you solve a problem, think back about what you did. Think about your thinking by asking yourself:</p>
+<ul id="p-102" class="disc">
+<li id="li-16"><p id="p-103">How do I know my solution is correct? How can I convince someone else?</p></li>
+<li id="li-17"><p id="p-104">How did I think about the problem?</p></li>
+<li id="li-18"><p id="p-105">Can I solve the problem in another way?</p></li>
+<li id="li-19"><p id="p-106">How does this problem connect with other problems I have solved?</p></li>
+</ul>
+<p id="p-107">Your goal is to help yourself explain the problem and its solution. This stage helps you mentally file your thoughts about the problem in a category with other similar problems, organizing your new learning into your long-term memory.</p>
+<p id="p-108">Table based on Goldin, Gerald A. <span class="articletitle">“Observing Mathematical Problem Solving through Task-Based Interviews”</span>. In Anne R. Teppo (Ed.), <span class="booktitle">Qualitative Research Methods in Mathematics Education</span> (pp. 40-62). Reston, VA: National Council of Teachers of Mathematics, 1998.</p></section></section><section class="subsection" id="subsec-practices"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.4</span> <span class="title">Other Helpful Practices</span>
+</h3>
+<p id="p-109">To best learn mathematics, you will find that each of the following strategies are helpful if you make them a habit:</p>
+<section class="paragraphs" id="paragraphs-9"><h4 class="heading"><span class="title">Read carefully.</span></h4>
+<p id="p-110">It might be necessary to read problems or narration several times in order to understand more fully what each intends. Students who do not read carefully always make mistakes that can be remedied by rereading more carefully.</p></section><section class="paragraphs" id="paragraphs-10"><h4 class="heading"><span class="title">Organize your work.</span></h4>
+<p id="p-111">Use tables and graphs to help you make sense of information you find when solving a problem. Don't underestimate the power of trying a few numbers to see what happens. Always keep track of what you try. Do not erase or throw away attempts that don't work. Save them and compare them to an approach that did finally work. Ask yourself these questions: What was I thinking initially? What do I now know? Was I far off at the beginning? If not, what was I thinking that could have led me to a correct solution? If so, what was I thinking that was helpful? What was getting in the way of my understanding?</p></section><section class="paragraphs" id="paragraphs-11"><h4 class="heading"><span class="title">Check your solutions to see that they make sense.</span></h4>
+<p id="p-112">If a context is given, translate your solutions into the context. Check to make sure any numbers you're getting from equations, tables, or graphs make sense in the context. Make sure graphs, tables, and equations give corresponding information.</p></section><section class="paragraphs" id="paragraphs-12"><h4 class="heading"><span class="title">Never give up!</span></h4>
+<p id="p-113">It's OK to take a break from a problem that's frustrating you. Return to it after you've had a chance to relieve your frustration. You can learn mathematics. You can solve any problem facing you, <em class="emphasis">as long as you never give up!</em></p></section><section class="paragraphs" id="paragraphs-13"><h4 class="heading"><span class="title">Study at least a little <em class="emphasis">most days</em>.</span></h4>
+<p id="p-114">After each class, take 15 minutes to write down what you learned. Be specific. For example, don't state, “I learned about linear functions.” Instead, state specifically what you learned, “I learned that the slope of a linear function when shown in a graph is the value of <span class="process-math">\(m\)</span> in the equation, <span class="process-math">\(y = mx + b\text{.}\)</span> This makes sense, because slope is how much <span class="process-math">\(y\)</span> changes when <span class="process-math">\(x\)</span> changes by 1 so in a graph, the <span class="process-math">\(y\)</span>-value of a linear function changes by <span class="process-math">\(m\)</span> every time <span class="process-math">\(x\)</span> changes by 1.”</p></section><section class="paragraphs" id="paragraphs-14"><h4 class="heading"><span class="title">Do your assigned homework.</span></h4>
+<p id="p-115">Homework provides you the opportunity to grow your brain outside of class. It also prepares you to think about problems that build on your homework when you are in class. Making mistakes is an important part of learning, so grading your early thoughts about a topic is counterproductive. <em class="emphasis">Doing</em> homework, however, grows your brain, allows you to get more out of the work you're doing in class, and helps you prepare for your future with technical information. Not doing homework is detrimental to you, and to your current and future work!</p></section><section class="paragraphs" id="paragraphs-15"><h4 class="heading"><span class="title">Commit to your education.</span></h4>
+<p id="p-116">Participate fully in your group and class and make every effort to complete your homework so that you're prepared to participate with your group.</p></section></section><section class="subsection" id="subsec-math-practices"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.1.5</span> <span class="title">Mathematical Practices</span>
+</h3>
+<p id="p-117">Several practices have been identified that can help you make sense of problems that arise in your daily work and in technical situations. Which practices do you use to learn mathematics and other content fields? When you work on mathematics, use this page to help you choose strategies that might help you learn. Revisit this page often, especially when you get stuck, for suggestions of other strategies you might try as you're trying to solve problems. <a class="external" href="http://www.corestandards.org/Math/Practice/" target="_blank">Resource.</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-7" id="fn-7"><sup> 7 </sup></a></p>
+<figure class="figure figure-like" id="fig-math-practices"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="external/math-practices.svg" role="img" class="contained" alt="Eight boxes explaining critical math practices."></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.1.5.1<span class="period">.</span></span><span class="space"> </span>A diagram of the mathematical practices.</figcaption></figure></section><section class="exercises" id="exercises_sec-one"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber">1.1.6</span> <span class="title">Homework</span>
+</h3>
+<p id="p-118">Complete the following homework before the next class period:</p>
+<article class="exercise exercise-like" id="exercise-12"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-119">Go back to <a href="" class="xref" data-knowl="./knowl/htlmfs-directions.html" title="Paragraphs: How To Learn Math For Students Directions">How To Learn Math For Students Directions</a>. Complete <a href="" class="xref" data-knowl="./knowl/main-prob-one.html" title="How to Learn Math for Students Exercise 1.1.1.1: Lesson 1: Knocking Down Myths About Math">How to Learn Math for Students Exercise 1.1.1.1</a>. You will hand in your written reflections for problem 1 in class.</p></article><article class="exercise exercise-like" id="exercise-13"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-120">Read the sections above, <a href="S_learnmath.html#subsec-good-questions" class="internal" title="Subsection 1.1.2: Good Questions to Ask Yourself">Good Questions to Ask Yourself</a>, <a href="S_learnmath.html#subsec-practices" class="internal" title="Subsection 1.1.4: Other Helpful Practices">Other Helpful Practices</a>, and <a href="S_learnmath.html#subsec-math-practices" class="internal" title="Subsection 1.1.5: Mathematical Practices">Mathematical Practices</a>. Remember these sections as you work your way through the activities in this course. Refer to each section as needed. Write a one sentence description of each section to help you remember when to consult each of these sections.</p></article></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-6"><div class="fn"><code class="code-inline tex2jax_ignore">online.stanford.edu/courses/gse-yeduc115-s-how-learn-math-students</code></div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-7"><div class="fn"><code class="code-inline tex2jax_ignore">corestandards.org/Math/Practice/</code></div></div>
+</div></main>
+</div>
+</body>
+</html>

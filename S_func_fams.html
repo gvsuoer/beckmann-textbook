@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-07-14T13:37:01-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Function Families</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX Course: Title Here';
+eBookConfig.basecourse = 'PTX Base Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.acDefaultLanguage = 'python';
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runtime.b0f8547c48f16a9f.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runestone.0e9550fe42760516.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/637.fafafbd97df8a0d1.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/runestone.e4d5592da655219f.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_rate_of_change.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_quad_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_what_know.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_rate_of_change.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_quad_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_what_know.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Publisher's Note</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_analyze_race.html" data-scroll="S_analyze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and <span class="process-math">\(y\)</span>-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="active">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="S_func_fams"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">4.5</span> <span class="title">Function Families</span>
+</h2>
+<section class="subsection" id="subsection-38"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">4.5.1</span> <span class="title">Overview</span>
+</h3>
+<p id="p-2043">In <a href="C_lin_funcs.html" class="internal" title="Chapter 2: Proportional Reasoning and Linear Functions">Chapter 2</a> and <a href="C_use_lin_funcs.html" class="internal" title="Chapter 3: Using Linear Functions to Solve Problems">Chapter 3</a>, we saw that linear functions have very predictable behaviors depending on the values of m and b in the equation, <span class="process-math">\(y = mx + b\text{.}\)</span> All linear functions are members of the linear function family. Each function family has a parent function, the member of the function family in its most basic form. The parent of the linear function family is the function <span class="process-math">\(y = x\)</span> or in function notation, <span class="process-math">\(f(x) = x\text{.}\)</span> In this form, we see <span class="process-math">\(m = 1\)</span> and <span class="process-math">\(b = 0\text{.}\)</span> In <a href="S_func_fams.html" class="internal" title="Section 4.5: Function Families">Section 4.5</a>, we examine other families of functions.</p></section><section class="worksheet" id="act-trans-funcs"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">4.5.2</span> <span class="title">Transformation of Functions</span><div class="print-links">
+<a href="act-trans-funcs-a4.html" class="a4">A4</a><a href="act-trans-funcs-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-259"><p id="p-2044">In this activity, we examine the absolute value function family whose parent function is <span class="process-math">\(f(x) = |x|\)</span> and the quadratic function family whose parent function is <span class="process-math">\(f(x) = x^2\text{.}\)</span> To investigate these function families, we need three different parameters, <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(h\text{,}\)</span> and <span class="process-math">\(k\text{.}\)</span> By changing each parameter, we will see how changes in <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(h\text{,}\)</span> and <span class="process-math">\(k\)</span> affect the graphs of the parent functions.</p>
+<p id="p-2045">To begin, we create a large coordinate plane on the floor with both <span class="process-math">\(x\)</span>- and <span class="process-math">\(y\)</span>-axes labeled from <span class="process-math">\(-10\)</span> to 10. Volunteers use string to mark the <span class="process-math">\(x\)</span>- and <span class="process-math">\(y\)</span>-axes and sticky notes to label the axes. (Use 3 <span class="times-sign">×</span> 3 inch sticky notes or larger to label the axes). Make the grid large enough so that volunteers can stand next to each other on the <span class="process-math">\(x\)</span>-axis. A tiled floor is very helpful!</p>
+<p id="p-2046">We also need to prepare a set of hang tags that volunteers can wear. Tags can be made from light color cardstock. Punch a hole in the center of a short side, thread string, yarn, or ribbon through the hole so the tag can hang round a volunteer's neck. Label each tag with values of <span class="process-math">\(x\)</span> between <span class="process-math">\(-10\)</span> and 10. It is helpful if numbers are not all the same distance apart and if the positive numbers chosen are not all the same as the absolute value of the negative numbers chosen. A possible set of numbered tags might include: <span class="process-math">\(-10\text{,}\)</span> <span class="process-math">\(-7\text{,}\)</span> <span class="process-math">\(-4\text{,}\)</span> <span class="process-math">\(-1\text{,}\)</span> 0, 2, 5, 8, and 10.</p>
+<p id="p-2047">Let's begin:</p></section><article class="exercise exercise-like" id="exercise-465"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-2048">Each of 9 volunteers wears a tag with a number on it. The number on the tag represents your assigned value of <span class="process-math">\(x\text{.}\)</span></p></article><article class="exercise exercise-like" id="exer-start-point"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-2049">Stand on the <span class="process-math">\(x\)</span>-axis at the point, <span class="process-math">\((x, 0)\text{,}\)</span> where <span class="process-math">\(x\)</span> is the number on your tag.</p></article><article class="exercise exercise-like" id="exer-new-point"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-2050">Move to the ordered pair <span class="process-math">\((x, |x|)\text{.}\)</span> Tape a colored cord to the floor to mark the graph you're standing on. You have just created the graph of <span class="process-math">\(y = |x|\text{.}\)</span> Discuss the appearance of the graph.</p></article><article class="exercise exercise-like" id="exercise-468"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-260">
+<p id="p-2051">At your teacher's request, transform <span class="process-math">\(y = |x|\)</span> in various ways. Consider the equation,</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+y = a \cdot | x - h | + k
+\end{equation*}
+</div>
+</div>
+<article class="task exercise-like" id="task-1072"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2052">Repeat <a href="" class="xref" data-knowl="./knowl/exer-start-point.html" title="Student Page Exercise 4.5.2.2">Student Page Exercise 4.5.2.2</a> and <a href="" class="xref" data-knowl="./knowl/exer-new-point.html" title="Student Page Exercise 4.5.2.3">Student Page Exercise 4.5.2.3</a>. The point to which you move is the ordered pair indicated in the table, as guided by your teacher. Use a different color of string for each graph.</p></article><article class="task exercise-like" id="task-1073"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2053">What are the values of <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(h\text{,}\)</span> and <span class="process-math">\(k\)</span> for each graph? Write them in <a href="" class="xref" data-knowl="./knowl/tbl-transform.html" title="Table 4.5.2.1">Table 4.5.2.1</a>.</p>
+<figure class="table table-like" id="tbl-transform"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">4.5.2.1<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Move to:</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(a\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(h\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(k\)</span></th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Equation</th>
+</tr>
+<tr>
+<td class="c m b2 r1 l1 t0 lines"><span class="process-math">\((x, |x|)\)</span></td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\((x, |x| + 1)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b2 r1 l1 t0 lines"><span class="process-math">\((x, |x| - 2)\)</span></td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\((x, -|x|)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b2 r1 l1 t0 lines"><span class="process-math">\((x, 0.5 \cdot |x|)\)</span></td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\((x, |x - 2|)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b2 r1 l1 t0 lines"><span class="process-math">\((x, |x + 1|)\)</span></td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\((x, 0.5 \cdot |x - 2|)\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b2 r1 l1 t0 lines"><span class="process-math">\((x, 0.5 \cdot |x| - 2)\)</span></td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+<td class="c m b2 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-1074"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2054">Explain <em class="emphasis">why</em> the new graph is located where it is. Use the equation and the graph in your explanation. Compare each new graph to <span class="process-math">\(y = |x|\)</span> and other related graphs.</p></article><article class="task exercise-like" id="task-1075"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2055">In the final column, write the equation of the function defined by each ordered pair.</p>
+<p id="p-2056">Return the room to its original condition. Use Desmos to explore transformations of the parent quadratic function, <span class="process-math">\(y = x^2\text{.}\)</span></p></article></article><article class="exercise exercise-like" id="exercise-469"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-261"><p id="p-2057">Continue the investigation using Desmos.</p></div>
+<article class="task exercise-like" id="task-1076"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2058">Enter <span class="process-math">\(y = a(x - h)2 + k\)</span> into the entry line of Desmos. This is another important form of a quadratic function.</p></article><article class="task exercise-like" id="task-1077"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2059">Set up sliders for <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(h\text{,}\)</span> and <span class="process-math">\(k\text{.}\)</span></p></article><article class="task exercise-like" id="task-1078"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2060">Play with <span class="process-math">\(k\)</span> first. What does <span class="process-math">\(k\)</span> do? Why does the graph change as it does? Explain from the equation.</p></article><article class="task exercise-like" id="task-1079"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2061">Play with <span class="process-math">\(a\)</span> next. What does <span class="process-math">\(a\)</span> do? Why does the graph change as it does? Explain from the equation.</p></article><article class="task exercise-like" id="task-1080"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-2062">Play with <span class="process-math">\(h\text{.}\)</span> What does <span class="process-math">\(h\)</span> do? Why does the graph change as it does? Explain from the equation.</p></article></article><article class="exercise exercise-like" id="exercise-470"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1081"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2063">What is significant about <span class="process-math">\(h\)</span> and <span class="process-math">\(k\text{?}\)</span> What is significant about <span class="process-math">\(a\text{?}\)</span></p></article><article class="task exercise-like" id="task-1082"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2064">This form of the quadratic equation, <span class="process-math">\(y = a(x - h)^2 + k\text{,}\)</span> is called the Vertex Form. Why do you think that is?</p></article></article><article class="exercise exercise-like" id="exercise-471"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<p id="p-2065">Your teacher will provide you a Class Code to complete the Desmos activity, <span class="booktitle">Card Sort: Parabolas</span> in the Teacher Desmos Quadratic Bundle. Complete the activity. The fourth slide is challenging because it does not include scales for any of the graphs. Describe how you knew how to sort each of the equations to fit the graphs provided. Provide illustrations in your description.</p></article><article class="exercise exercise-like" id="exercise-472"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-262">
+<p id="p-2066">Quadratic functions can be written in the following forms*:</p>
+<dl class="description-list">
+<dt id="li-277">Standard Form</dt>
+<dd><p id="p-2067"><span class="process-math">\(\displaystyle y=ax^2 +bx+c\)</span></p></dd>
+<dt id="li-278">Vertex Form</dt>
+<dd><p id="p-2068"><span class="process-math">\(\displaystyle y=a(x-h)^2 +k\)</span></p></dd>
+<dt id="li-279">Factored Form</dt>
+<dd><p id="p-2069"><span class="process-math">\(y = a(x - p)(x - q)\)</span> (*Some quadratic functions cannot be written in this form. Do you know why?)</p></dd>
+</dl>
+</div>
+<article class="task exercise-like" id="task-1083"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="introduction" id="introduction-263"><p id="p-2070">What information about a quadratic function is most evident when it is given in:</p></div>
+<article class="task exercise-like" id="task-1084"><h6 class="heading"><span class="codenumber">(i)</span></h6>
+<p id="p-2071">Standard Form?</p></article><article class="task exercise-like" id="task-1085"><h6 class="heading"><span class="codenumber">(ii)</span></h6>
+<p id="p-2072">Vertex Form?</p></article><article class="task exercise-like" id="task-1086"><h6 class="heading"><span class="codenumber">(iii)</span></h6>
+<p id="p-2073">Factored Form?</p></article></article><article class="task exercise-like" id="task-1087"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2074">What information about a quadratic function is the same for each form of the equation?</p></article></article></section><section class="worksheet" id="act-angry-birds"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">4.5.3</span> <span class="title">Angry Birds and Quadratic Functions</span><div class="print-links">
+<a href="act-angry-birds-a4.html" class="a4">A4</a><a href="act-angry-birds-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-264"><p id="p-2075">The video game, <span class="booktitle">Angry Birds</span>, has become so popular that now there are toys and movies created with the popular animals defending their homes from the visiting pigs. Why do we care? Because every time you launch an angry bird, the bird takes a parabolic flight path! To find the equation for the path of an angry bird, revisit your work with <a href="S_func_fams.html#act-trans-funcs" class="internal" title="Student Page 4.5.2: Transformation of Functions">Transformation of Functions</a>. Complete the student page, <a href="S_func_fams.html#act-angry-birds" class="internal" title="Student Page 4.5.3: Angry Birds and Quadratic Functions">Angry Birds and Quadratic Functions</a>, to think more deeply about transforming functions.</p></section><article class="exercise exercise-like" id="exer-angry-birds-eq"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-2076">The graph in <a href="" class="xref" data-knowl="./knowl/fig-angry-birds.html" title="Figure 4.5.3.1">Figure 4.5.3.1</a> shows an Angry Bird waiting to be launched to hit a pig. The bird must go from the origin <span class="process-math">\((0, 0)\text{,}\)</span> through the point <span class="process-math">\((5, 4)\text{,}\)</span> and hit the pig located at <span class="process-math">\((10, 0)\text{.}\)</span></p>
+<figure class="figure figure-like" id="fig-angry-birds"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/angry-birds.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.3.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure><p id="p-2077">What equation will allow the Angry Bird to take the right path? Write an equation. Show the work you do to find the equation in the space to the right of the picture.</p></article><article class="exercise exercise-like" id="exercise-474"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-2078">Find both coordinates of the vertex of the quadratic function in <a href="" class="xref" data-knowl="./knowl/exer-angry-birds-eq.html" title="Student Page Exercise 4.5.3.1">Student Page Exercise 4.5.3.1</a> Write the vertex as an ordered pair. How do you know your solution is correct?</p></article><article class="exercise exercise-like" id="exer-angry-birds-neweq"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-2079">Suppose the Angry Bird is launched from <span class="process-math">\((0,2)\text{,}\)</span> the pig is sitting on a pedestal at <span class="process-math">\((10,2)\text{,}\)</span> and the bird's path must go through <span class="process-math">\((5, 6)\text{.}\)</span> Adjust your equation in <a href="" class="xref" data-knowl="./knowl/exer-angry-birds-eq.html" title="Student Page Exercise 4.5.3.1">Student Page Exercise 4.5.3.1</a> for this new scenario. Explain how you know you are correct.</p></article><article class="exercise exercise-like" id="exercise-476"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<p id="p-2080">Find both coordinates of the vertex of the equation in <a href="" class="xref" data-knowl="./knowl/exer-angry-birds-neweq.html" title="Student Page Exercise 4.5.3.3">Student Page Exercise 4.5.3.3</a>. How do you know your solution is correct?</p></article><article class="exercise exercise-like" id="exercise-477"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-2081">Suppose the Angry Bird was launched from <span class="process-math">\((-1,0)\text{.}\)</span> What equation would you need to use to hit a pig at <span class="process-math">\((9, 0)\)</span> and go through the point, <span class="process-math">\((h, 4)\text{,}\)</span> where <span class="process-math">\(h\)</span> is the <span class="process-math">\(x\)</span>-coordinate of the vertex? Show your work.</p></article></section><section class="exercises" id="exercises-30"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber">4.5.4</span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-478"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-2082">Your teacher will provide you a Class Code to complete the Desmos activity, <span class="booktitle">Match My Parabola</span> in the Teacher Desmos Quadratic Bundle. Describe how you were able to find equations for the points and graphs provided. What do you know about quadratic functions that helped you complete this activity?</p></article><article class="exercise exercise-like" id="exercise-479"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-2083">Your teacher will provide you a Class Code to complete the Desmos activity, <span class="booktitle">Marbleslides: Parabolas</span> in the Teacher Desmos Quadratic Bundle. Complete the activity. This fun activity gives you a chance to test your ability to transform functions and earn stars.</p></article><article class="exercise exercise-like" id="exercise-480"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-2084">Complete the student page, <a href="S_func_fams.html#act-tile-tables" class="internal" title="Student Page 4.5.5: Tiling Tables">Tiling Tables</a>, to extend your newly acquired skills with transformations of functions.</p></article><article class="exercise exercise-like" id="exercise-481"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-265">
+<p id="p-2085">Consider the picture of water flowing from a spout in <a href="" class="xref" data-knowl="./knowl/fig-water-spout.html" title="Figure 4.5.4.1">Figure 4.5.4.1</a>. A coordinate grid has been imposed on the picture so that the <span class="process-math">\(y\)</span>-axis goes through the vertex and the <span class="process-math">\(x\)</span>-axis is the line on the blind just above the spout. Outline a curve that coincides with either the lower edge of the water flow or the upper edge of the water flow. Refer to your chosen curve as you answer the following questions. The grid increments by 1 unit for both <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> scales.</p>
+<figure class="figure figure-like" id="fig-water-spout"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="external/water-spout.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.4.1<span class="period">.</span></span><span class="space"> </span>Water Flowing From a Spout</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-1088"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2086">To what function family does this curve belong? How do you know?</p></article><article class="task exercise-like" id="task-1089"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2087">Fit an equation to the graph you chose for the scale given. Determine the values of the parameters, <span class="process-math">\(a\text{,}\)</span> <span class="process-math">\(h\text{,}\)</span> and <span class="process-math">\(k\)</span> in the equation, <span class="process-math">\(y = a \cdot f(x - h) + k\text{.}\)</span> Explain how you know each parameter is correct.</p></article><article class="task exercise-like" id="task-1090"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2088">What is a sensible domain for the function that models this flow of water? Explain.</p></article><article class="task exercise-like" id="task-1091"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2089">What is a sensible range for the function that models this flow of water? Explain.</p></article><article class="task exercise-like" id="task-1092"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-2090">How would the picture change if the water pressure increased? What parameters would change? How would each change? Why do you think so?</p></article><article class="task exercise-like" id="task-1093"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-2091">If the water pressure decreased, how would the picture change? What parameters would change? How would each change? Why do you think so?</p></article><article class="task exercise-like" id="task-1094"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-2092">Suppose <span class="process-math">\(a=2\text{,}\)</span> <span class="process-math">\(h=0\text{,}\)</span> and <span class="process-math">\(k=3\)</span> for the equation, <span class="process-math">\(y=a \cdot f(x-h)+k\text{.}\)</span> Describe the location of the spout and the water pressure as compared with the water pressure being used in the picture. Explain how you know you are correct.</p></article></article><article class="exercise exercise-like" id="exercise-482"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1095"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2093">Revisit <a href="" class="xref" data-knowl="./knowl/exer-factored-eqs.html" title="Exercise 4.2.4.2">Exercise 4.2.4.2</a> and <a href="" class="xref" data-knowl="./knowl/exer-quad-funcs-stnd.html" title="Exercise 4.2.4.4">Exercise 4.2.4.4</a> from <a href="S_products.html#hmwk-42" class="internal" title="Homework 4.2.4">Homework 4.2.4</a>. Find the vertex form for each of the quadratic equations in both tables. Record them next to the tables in <a href="" class="xref" data-knowl="./knowl/exer-factored-eqs.html" title="Exercise 4.2.4.2">Exercise 4.2.4.2</a> and <a href="" class="xref" data-knowl="./knowl/exer-quad-funcs-stnd.html" title="Exercise 4.2.4.4">Exercise 4.2.4.4</a>.</p></article><article class="task exercise-like" id="task-1096"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2094">How can you verify that each form represents the same quadratic function?</p></article><article class="task exercise-like" id="task-1097"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2095">For the forms of the same function you entered into the tables in <a href="" class="xref" data-knowl="./knowl/exer-factored-eqs.html" title="Exercise 4.2.4.2">Exercise 4.2.4.2</a> and <a href="" class="xref" data-knowl="./knowl/exer-quad-funcs-stnd.html" title="Exercise 4.2.4.4">Exercise 4.2.4.4</a>, verify that each form of the equation represents the same quadratic function.</p></article><article class="task exercise-like" id="task-1098"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2096">Revisit <a href="" class="xref" data-knowl="./knowl/exer-3parabs.html" title="Exercise 4.2.4.8">Exercise 4.2.4.8</a> from <a href="S_products.html#hmwk-42" class="internal" title="Homework 4.2.4">Homework 4.2.4</a>. Determine equations in vertex form for all three graphs. Explain your work. Use grid points to determine equations; do not estimate coordinates of any points.</p></article></article></section><section class="worksheet" id="act-tile-tables"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">4.5.5</span> <span class="title">Tiling Tables</span><div class="print-links">
+<a href="act-tile-tables-a4.html" class="a4">A4</a><a href="act-tile-tables-letter.html" class="us">US</a>
+</div>
+</h3>
+<article class="exercise exercise-like" id="exercise-483"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-266">
+<p id="p-2097">Kelly makes square tables and then tiles the tops. To cover the tabletops, she uses quarter tiles for each corner, half tiles along the sides, and full square tiles to fill in the rest. The first 5 sizes in her line of tabletops are shown in <a href="" class="xref" data-knowl="./knowl/fig-table-tops.html" title="Figure 4.5.5.1">Figure 4.5.5.1</a>. Both side lengths of the first tabletop are 10 inches.</p>
+<figure class="figure figure-like" id="fig-table-tops"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/table-tops.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">4.5.5.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-1099"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2098">Complete <a href="" class="xref" data-knowl="./knowl/tbl-table-tops.html" title="Table 4.5.5.2: Kelly's Tabletops">Table 4.5.5.2</a> for the first 6 tabletops.</p></article><article class="task exercise-like" id="task-1100"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2099">Look for patterns in <a href="" class="xref" data-knowl="./knowl/tbl-table-tops.html" title="Table 4.5.5.2: Kelly's Tabletops">Table 4.5.5.2</a>. Describe at least 3 patterns you see in the data.</p></article></article><article class="exercise exercise-like" id="exer-table-tops-family"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-267"><p id="p-2100">Let the table number, <span class="process-math">\(n\text{,}\)</span> be the independent variable. Plot the data in the columns indicated. Analyze the data in the table. Determine to what function family the data belongs. Explain how you know.</p></div>
+<article class="task exercise-like" id="task-1101"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2101">Columns A and B:</p></article><article class="task exercise-like" id="task-1102"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2102">Columns A and C:</p></article><article class="task exercise-like" id="task-1103"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2103">Columns A and D:</p></article><article class="task exercise-like" id="task-1104"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2104">Columns A and E:</p></article></article><article class="exercise exercise-like" id="exercise-485"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-2105">Find equations for each set of data in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-family.html" title="Student Page Exercise 4.5.5.2">Student Page Exercise 4.5.5.2</a>. Enter the equations into the last row of <a href="" class="xref" data-knowl="./knowl/tbl-table-tops.html" title="Table 4.5.5.2: Kelly's Tabletops">Table 4.5.5.2</a>.</p></article><article class="exercise exercise-like" id="exer-table-tops-quad"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-1105"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-2106">Write any quadratic equations in standard form.</p></article><article class="task exercise-like" id="task-1106"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-2107">Is it possible to factor the quadratic equation? Why or why not?</p></article><article class="task exercise-like" id="exer-table-tops-noconst"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-2108">Subtract the constant from the standard form of the equation. Write this new equation.</p></article><article class="task exercise-like" id="task-1108"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-2109">Compare the graph of the equation in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-quad.html" title="Student Page Exercise 4.5.5.4">Student Page Exercise 4.5.5.4</a> to the graph of the equation in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-noconst.html" title="Task 4.5.5.4.c">Task 4.5.5.4.c</a>. How do these graphs comapre with each other? How do you know?</p></article><article class="task exercise-like" id="exer-table-tops-factor"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-2110">Factor the equation you found in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-noconst.html" title="Task 4.5.5.4.c">Task 4.5.5.4.c</a>.</p></article><article class="task exercise-like" id="task-1110"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-2111">Find the vertex of the equation in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-noconst.html" title="Task 4.5.5.4.c">Task 4.5.5.4.c</a> from the factored form of the equation (in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-factor.html" title="Task 4.5.5.4.e">Task 4.5.5.4.e</a>).</p></article><article class="task exercise-like" id="task-1111"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-2112">How does this vertex relate to the vertex of the equation in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-quad.html" title="Student Page Exercise 4.5.5.4">Student Page Exercise 4.5.5.4</a>. Find the vertex of the equation in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-quad.html" title="Student Page Exercise 4.5.5.4">Student Page Exercise 4.5.5.4</a></p></article><article class="task exercise-like" id="exer-table-tops-vtx-form"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-2113">Write the vertex form of the quadratic equation in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-quad.html" title="Student Page Exercise 4.5.5.4">Student Page Exercise 4.5.5.4</a>.</p></article><article class="task exercise-like" id="task-1113"><h5 class="heading"><span class="codenumber">(i)</span></h5>
+<p id="p-2114">Show that the equations in <a href="" class="xref" data-knowl="./knowl/exer-table-tops-quad.html" title="Student Page Exercise 4.5.5.4">Student Page Exercise 4.5.5.4</a> and <a href="" class="xref" data-knowl="./knowl/exer-table-tops-vtx-form.html" title="Task 4.5.5.4.h">Task 4.5.5.4.h</a> are equivalent.</p></article></article></section></section></div></main>
+</div>
+</body>
+</html>

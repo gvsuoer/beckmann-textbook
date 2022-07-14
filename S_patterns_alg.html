@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-07-14T13:36:45-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Patterns and Variables: Justifying Patterns with Algebra</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX Course: Title Here';
+eBookConfig.basecourse = 'PTX Base Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.acDefaultLanguage = 'python';
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runtime.b0f8547c48f16a9f.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runestone.0e9550fe42760516.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/637.fafafbd97df8a0d1.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/runestone.e4d5592da655219f.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_more_patterns.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_learnmath.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_alg_puzz.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_more_patterns.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_learnmath.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_alg_puzz.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Publisher's Note</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="active">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_analyze_race.html" data-scroll="S_analyze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and <span class="process-math">\(y\)</span>-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="S_patterns_alg"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">1.8</span> <span class="title">Patterns and Variables: Justifying Patterns with Algebra</span>
+</h2>
+<section class="introduction" id="introduction-43"><p id="p-375">As in <a href="S_more_patterns.html" class="internal" title="Section 1.7: More with Patterns and Variables: Rectangular Patterns in the 100s Chart">Section 1.7</a> some of our number talks are related to our work with the 100s Chart. Solve the next problem in as many ways as you can. Think about how it is related to the 100s Chart (<a href="" class="xref" data-knowl="./knowl/hunds-chart.html" title="Table 1.6.3.1: The 100s Chart">Table 1.6.3.1</a>).</p></section><section class="subsection" id="subsection-14"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">1.8.1</span> <span class="title">Number Talk: 96 + 29</span>
+</h3>
+<article class="assemblage assemblage-like" id="assemblage-3"><p id="p-376">Mentally solve 96 + 29 in as many ways as you can.</p>
+<p id="p-377">Raise a thumb when you have a solution. Raise a finger for each additional solution process you find.</p></article><ul class="disc">
+<li id="li-64"><p id="p-378">How does this number talk relate to your work with patterns in the <a href="" class="xref" data-knowl="./knowl/hunds-chart.html" title="Table 1.6.3.1: The 100s Chart">Table 1.6.3.1</a>?</p></li>
+<li id="li-65"><p id="p-379">Will your process work for adding any two numbers? Why or why not?</p></li>
+</ul></section><article class="activity project-like" id="act-sharing-patterns"><h3 class="heading">
+<span class="type">Activity</span><span class="space"> </span><span class="codenumber">3</span><span class="period">.</span><span class="space"> </span><span class="title">Sharing Rectangle Patterns in the 100s Chart.</span>
+</h3>
+<p id="p-380">Share your justifications of patterns you found for homework with your group. As a group, decide which two patterns to justify in words and algebraically for the class. For your algebraic justification, label your rectangle as generally as you can, with <span class="process-math">\(x\)</span> as the upper left corner of the rectangle and the other numbers in the rectangle based on <span class="process-math">\(x\text{.}\)</span></p></article><section class="exercises" id="exercises-8"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber">1.8.2</span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-90"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-381">Go back to the <a href="" class="xref" data-knowl="./knowl/htlmfs-directions.html" title="Paragraphs: How To Learn Math For Students Directions">How To Learn Math For Students Directions</a>. Complete <a href="" class="xref" data-knowl="./knowl/main-prob-eight.html" title="How to Learn Math for Students Exercise 1.1.1.9">How to Learn Math for Students Exercise 1.1.1.9</a>. You will hand in your written reflections for <a href="" class="xref" data-knowl="./knowl/main-prob-eight.html" title="How to Learn Math for Students Exercise 1.1.1.9">How to Learn Math for Students Exercise 1.1.1.9</a> in class.</p></article><article class="exercise exercise-like" id="exer-october"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-114"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-382">Draw a 3 by 3 box around 9 numbers in the October 2020 calendar. An example is shown in <a href="" class="xref" data-knowl="./knowl/fig-october.html" title="Figure 1.8.2.1">Figure 1.8.2.1</a>.</p>
+<figure class="figure figure-like" id="fig-october"><div class="image-box" style="width: 70%; margin-left: 15%; margin-right: 15%;"><img src="external/oct-calendar.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.8.2.1<span class="period">.</span></span><span class="space"> </span>The October 2020 Calendar for <a href="" class="xref" data-knowl="./knowl/exer-october.html" title="Exercise 1.8.2.2">Exercise 1.8.2.2</a></figcaption></figure><p id="p-383">Use the example or draw your own 3 by 3 box.</p></article><article class="task exercise-like" id="tsk-oct-b"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-384">Find two different patterns among the numbers in the 3 by 3 box. Describe each pattern carefully.</p></article><article class="task exercise-like" id="task-116"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-385">Use algebra to justify one of the patterns you found in <a href="" class="xref" data-knowl="./knowl/tsk-oct-b.html" title="Task 1.8.2.2.b">Task 1.8.2.2.b</a>. Indicate which pattern you are justifying.</p></article></article><article class="exercise exercise-like" id="exercise-92"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-44">
+<p id="p-386">A famous pattern called Pascal's Triangle is shown in <a href="" class="xref" data-knowl="./knowl/fig-pascal-tri.html" title="Figure 1.8.2.2">Figure 1.8.2.2</a>.</p>
+<figure class="figure figure-like" id="fig-pascal-tri"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/pascal-tri.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.8.2.2<span class="period">.</span></span><span class="space"> </span>Pascal's Triangle</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-117"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-387">Study the pattern. How are the numbers from one row related to the numbers in the next row?</p></article><article class="task exercise-like" id="task-118"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-388">Fill-in the missing numbers in the last row. Extend the pattern at least one additional row.</p></article><article class="task exercise-like" id="task-119"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-389">Describe 2 patterns that you see in this arrangement of numbers.</p></article></article><article class="exercise exercise-like" id="exer-17-4"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-120"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-390">Using only mental arithmetic, solve each problem in <a href="" class="xref" data-knowl="./knowl/tbl-17-4.html" title="Table 1.8.2.3: Table for Exercise 1.8.2.4">Table 1.8.2.3</a> below. Record how you thought about the numbers to help you add them mentally.</p>
+<figure class="table table-like" id="tbl-17-4"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.8.2.3<span class="period">.</span></span><span class="space"> </span>Table for Exercise 1.8.2.4</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Simplify</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Solution</th>
+<th scope="col" class="l m b1 r1 l0 t1 lines">How did you solve the problem?</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(25 + 26\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(15 + 16\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(39 + 40\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(18 + 19\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(25 + 26\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(163 + 164\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-121"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-391">Write the sum <span class="process-math">\(25 + 26\)</span> in terms of <span class="process-math">\(x\)</span> with <span class="process-math">\(x = 25\text{.}\)</span> Show the sum in terms of <span class="process-math">\(x\text{.}\)</span></p></article><article class="task exercise-like" id="task-122"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-392">What other problems did you solve using the same strategy you used to solve <span class="process-math">\(25 + 26\text{?}\)</span> Color code the problems that you solve using the same strategy.</p></article><article class="task exercise-like" id="task-123"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-393">Did you use the same strategy to mentally solve all of the problems? If you used more than one strategy, color code problems you solved using the same strategy. Do this for each strategy you used. Describe each strategy.</p></article></article></section></section></div></main>
+</div>
+</body>
+</html>

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-07-14T13:36:47-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Proportional Reasoning Every Day</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX Course: Title Here';
+eBookConfig.basecourse = 'PTX Base Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.acDefaultLanguage = 'python';
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runtime.b0f8547c48f16a9f.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runestone.0e9550fe42760516.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/637.fafafbd97df8a0d1.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/runestone.e4d5592da655219f.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_analyze_race.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_lin_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_distinguish.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_analyze_race.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_lin_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_distinguish.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Publisher's Note</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_analyze_race.html" data-scroll="S_analyze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="active">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and <span class="process-math">\(y\)</span>-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="S_proportions"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.5</span> <span class="title">Proportional Reasoning Every Day</span>
+</h2>
+<section class="subsection" id="subsection-21"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">2.5.1</span> <span class="title">Overview</span>
+</h3>
+<p id="p-730">We have seen that algebra arises in making introductions, the 100s chart, number and magic number puzzles, children's literature, and Aesop's fable. Now we examine contexts that arise in our daily experiences.</p></section><section class="worksheet" id="act-recipes"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">2.5.2</span> <span class="title">Recipes and Proportional Reasoning</span><div class="print-links">
+<a href="act-recipes-a4.html" class="a4">A4</a><a href="act-recipes-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-89"><p id="p-731">A proportional relationship that frequently arises in daily life is scaling recipes. As you work on <a href="S_proportions.html#act-recipes" class="internal" title="Student Page 2.5.2: Recipes and Proportional Reasoning">Recipes and Proportional Reasoning</a>, think about these questions: What does slope mean in this context? How can we find the slope in each representation, context, table, graph, and equation? How are the slopes for each of the ingredients in the guacamole recipe related?</p></section><article class="exercise exercise-like" id="exercise-177"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-272"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-732">Have you had to make more or less of a recipe? Why did you alter it?</p></article><article class="task exercise-like" id="task-273"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-733">What did you do to rescale the recipe?</p></article></article><article class="assemblage assemblage-like" id="guac-recipe"><h4 class="heading"><span class="title">Guacamole.</span></h4>
+<ul id="p-734" class="disc">
+<li id="li-121"><p id="p-735">2 medium avocados</p></li>
+<li id="li-122"><p id="p-736">1 teaspoon sea salt</p></li>
+<li id="li-123"><p id="p-737">2 tablespoons lemon juice (~ half a lemon)</p></li>
+<li id="li-124"><p id="p-738"><span class="process-math">\(1/4\)</span> cup onion (~<span class="process-math">\(1/8\)</span> a large onion)</p></li>
+<li id="li-125"><p id="p-739">1 medium tomato</p></li>
+<li id="li-126"><p id="p-740"><span class="process-math">\(1/2\)</span> cup fresh cilantro leaves</p></li>
+</ul>
+<p id="p-741">Blend on low for 15 to 20 seconds. Do not over mix. Leave chunky. Garnish with diced tomato and parsley.</p>
+<p id="p-742">Yields 1.5 cups.</p></article><article class="exercise exercise-like" id="exercise-178"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-743">Use the <a href="" class="xref" data-knowl="./knowl/guac-recipe.html" title="Assemblage: Guacamole">Guacamole</a> recipe. Determine the amount of each ingredient you need for the number of recipes of guacamole shown in the first column. Complete <a href="" class="xref" data-knowl="./knowl/tbl-guac.html" title="Table 2.5.2.1: Guacamole Ingredients">Table 2.5.2.1</a>.</p>
+<figure class="table table-like" id="tbl-guac"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.2.1<span class="period">.</span></span><span class="space"> </span>Guacamole Ingredients</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l0 t0 lines"> </th>
+<th scope="col" class="c m b1 r1 l0 t1 lines" colspan="4">Ingredients</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t0 lines">Amount needed for<br><span class="process-math">\(n\)</span>recipes with <span class="process-math">\(n =\)</span>
+</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Avocados</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Tomatoes</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Lemons</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Onions</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(\frac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{1}{2}\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(\frac{1}{8}\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(n\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines"></td>
+</tr>
+</table></div></figure></article><article class="exercise exercise-like" id="exercise-179"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-744">What patterns do you notice in the table?</p></article><article class="exercise exercise-like" id="exercise-180"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-90">
+<p id="p-745">Graph the data by plotting the points, (Number of recipes, amount of ingredient needed). Use <a href="" class="xref" data-knowl="./knowl/fig-guac-graph.html" title="Figure 2.5.2.2">Figure 2.5.2.2</a></p>
+<figure class="figure figure-like" id="fig-guac-graph"><div class="image-box" style="width: 90%; margin-left: 5%; margin-right: 5%;"><img src="external/blank-graph.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.2.2<span class="period">.</span></span><span class="space"> </span>Plot for Guacamole Ingredients</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-274"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-746">What scale should you use for each axis? How did you decide what the scale should be?</p></article><article class="task exercise-like" id="task-275"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-747">Label the scale on each axis. Write a title on each axis showing what it represents.</p></article><article class="task exercise-like" id="task-276"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-748">Graph each ingredient using a different color. Label each graph with the ingredient it represents.</p></article></article><article class="exercise exercise-like" id="exercise-181"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-749">Compare the graphs. What do you notice? List as many relationships as you can.</p></article><article class="exercise exercise-like" id="exercise-182"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-750">For each ingredient, find an equation that will predict the amount you will need for an unknown number of recipes. Write the equations in the last row of <a href="" class="xref" data-knowl="./knowl/tbl-guac.html" title="Table 2.5.2.1: Guacamole Ingredients">Table 2.5.2.1</a>.</p></article><article class="exercise exercise-like" id="exercise-183"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-91"><p id="p-751">You have 5 avocados.</p></div>
+<article class="task exercise-like" id="task-277"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-752">How many recipes of guacamole can you make and use all of them?</p></article><article class="task exercise-like" id="task-278"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-753">How can you tell from the graph?</p></article><article class="task exercise-like" id="task-279"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-754">How can you tell from the table?</p></article><article class="task exercise-like" id="task-280"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-755">How can you tell from the equation?</p></article></article><article class="exercise exercise-like" id="exercise-184"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-92"><p id="p-756">You have 1 onion but want to save half of the onion for salsa.</p></div>
+<article class="task exercise-like" id="task-281"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-757">How many recipes of guacamole can you make?</p></article><article class="task exercise-like" id="task-282"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-758">How can you tell from the graph?</p></article><article class="task exercise-like" id="task-283"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-759">How can you tell from the table?</p></article><article class="task exercise-like" id="task-284"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-760">How can you tell from the equation?</p></article></article><article class="exercise exercise-like" id="exercise-185"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-285"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-761">What does slope mean in the context of number of recipes versus amount of ingredients?</p></article><article class="task exercise-like" id="task-286"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-762">How can you find the slope from a table? From a graph? From the equation? From the recipe?</p></article><article class="task exercise-like" id="task-287"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-763">How are the slopes related for the ingredients in the guacamole recipe?</p></article></article></section><section class="worksheet" id="act-prop-reason"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">2.5.3</span> <span class="title">Where Else Do You Use Proportional Reasoning? Proportional Linear Function Example</span><div class="print-links">
+<a href="act-prop-reason-a4.html" class="a4">A4</a><a href="act-prop-reason-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-93"><p id="p-764">We have seen that the relationship between distance and time is proportional when speed is constant. We have also seen that proportional reasoning arises in rescaling recipes. What other relationships are proportional? Work with your group to identify at least 3 other proportional relationships. Complete <a href="S_proportions.html#act-prop-reason" class="internal" title="Student Page 2.5.3: Where Else Do You Use Proportional Reasoning? Proportional Linear Function Example">Where Else Do You Use Proportional Reasoning? Proportional Linear Function Example</a> for each relationship your group identifies.</p>
+<p id="p-765">Once you have completed the above, look for common properties among the examples you found. With your group, answer these questions:</p>
+<ul class="disc">
+<li id="li-127"><p id="p-766">What is a proportional relationship?</p></li>
+<li id="li-128"><p id="p-767">What properties do all proportional relationships have in common?</p></li>
+<li id="li-129">
+<p id="p-768">For a proportional relationship, how can you find the slope from:</p>
+<ul class="circle">
+<li id="li-130"><p id="p-769">A table?</p></li>
+<li id="li-131"><p id="p-770">A graph?</p></li>
+<li id="li-132"><p id="p-771">An equation?</p></li>
+<li id="li-133"><p id="p-772">A context?</p></li>
+</ul>
+</li>
+</ul>
+<p id="p-773">Choose one or two of your group's proportional relationships to share with the class. Post them as directed by your teacher. Groups will cycle through them and indicate with a checkmark if they agree with your work. They will draw a circle if they have a question about your work.</p></section><p id="p-774">Title: <span class="fillin underline" role="img" aria-label="40-character blank" style="width: 18.1818181818182em;"></span></p>
+<p id="p-775">Description <span class="fillin underline" role="img" aria-label="60-character blank" style="width: 27.2727272727273em;"></span></p>
+<p id="p-776">Independent variable (description and variable): <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span></p>
+<p id="p-777">Dependent variable (description and variable): <span class="fillin underline" role="img" aria-label="20-character blank" style="width: 9.090909090909092em;"></span></p>
+<article class="exercise exercise-like" id="exercise-186"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-778">Create a table as demonstrated in <a href="" class="xref" data-knowl="./knowl/tbl-lin-props.html" title="Table 2.5.3.1: Table for a Proportional Linear Function">Table 2.5.3.1</a>. Briefly describe the independent variable in the cell above <span class="process-math">\(x\text{.}\)</span> Briefly describe the dependent variable in the cell above <span class="process-math">\(y\text{.}\)</span> Choose eight reasonable <span class="process-math">\(x\)</span>-values (not all consecutive); write them in the first column of the table. Find the corresponding <span class="process-math">\(y\)</span>-values; write them in the second column of the table. <div class="sidebyside"><div class="sbsrow" style="margin-left:2.5%;margin-right:2.5%;">
+<div class="sbspanel fixed-width top" style="width:21.0526315789474%;"><figure class="table table-like" id="tbl-lin-props"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.3.1<span class="period">.</span></span><span class="space"> </span>Table for a Proportional Linear Function</figcaption><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">  <br>  <br>  </td>
+<td class="c m b1 r1 l0 t1 lines">  <br>  <br>  </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(y\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">      </td>
+<td class="c m b1 r1 l0 t0 lines">      </td>
+</tr>
+</table></figure></div>
+<div class="sbspanel top" style="width:73.6842105263158%;"><figure class="figure figure-like" id="fig-lin-prop-graph"><img src="external/blank-graph.svg" role="img" class="contained"><figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5.3.2<span class="period">.</span></span><span class="space"> </span>Blank Graph for a Proportional Linear Function</figcaption></figure></div>
+</div></div></p></article><article class="exercise exercise-like" id="exercise-187"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-779">Plot the data on <a href="" class="xref" data-knowl="./knowl/fig-lin-prop-graph.html" title="Figure 2.5.3.2">Figure 2.5.3.2</a>. Label accurate scales for both <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> so that you use most of the graph. Write titles on each axis to show what quantity each axis represents.</p></article><article class="exercise exercise-like" id="exercise-188"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-94"><p id="p-780">Find an equation.</p></div>
+<article class="task exercise-like" id="exer-lin-prop-dep"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-781">How can you get the value of the dependent variable from the value of the independent variable?</p></article><article class="task exercise-like" id="task-289"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-782">Write the relationship in <a href="" class="xref" data-knowl="./knowl/exer-lin-prop-dep.html" title="Task 2.5.3.3.a">Task 2.5.3.3.a</a> as an equation.</p></article></article><article class="exercise exercise-like" id="exercise-189"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-95"><p id="p-783">Answer these questions on the back of this page.</p></div>
+<article class="task exercise-like" id="task-290"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-784">What is the slope of the graph?</p></article><article class="task exercise-like" id="task-291"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-785">How is the slope of the graph related to the equation?</p></article><article class="task exercise-like" id="task-292"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-786">How is the slope of the graph related to the table?</p></article><article class="task exercise-like" id="task-293"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-787">How is the slope of the graph related to the context?</p></article></article></section><section class="exercises" id="exercises-14"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber">2.5.4</span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exer-walk-cycle"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-96">
+<p id="p-788">A step conversion chart indicates that if you walk 4 miles per hour, you would take approximately 140 steps per minute. The same chart shows that if you cycle at 15 miles per hour, you would take the equivalent of 160 steps per minute.</p>
+<figure class="table table-like" id="tbl-steps-convert"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.4.1<span class="period">.</span></span><span class="space"> </span>Step Conversion Chart</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"> </th>
+<th scope="col" class="c m b1 r1 l0 t1 lines" colspan="2">Number of steps taken</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t0 lines">Number of Minutes</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Walking at 4 mph</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Cycling at 15 mph</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">140</td>
+<td class="c m b1 r1 l0 t0 lines">160</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">60</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(m\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="task-294"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-789">Complete the table for one of the sports.</p></article><article class="task exercise-like" id="task-295"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-790">Write an equation that fits your data in the last row of the table. Tell how you know your equation is correct.</p></article><article class="task exercise-like" id="task-296"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-791">Plot the data. Label scales and titles for each axis.</p></article><article class="task exercise-like" id="task-297"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-792">For your choice of exercise, how many minutes would you have to exercise to take the equivalent of 10,000 steps? Show your work</p></article></article><article class="exercise exercise-like" id="exercise-191"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-97">
+<p id="p-793">The step conversion chart in <a href="" class="xref" data-knowl="./knowl/tbl-cycling.html" title="Table 2.5.4.2: Step Conversion Chart: Cyclying">Table 2.5.4.2</a> showed the following information:</p>
+<figure class="table table-like" id="tbl-cycling"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.4.2<span class="period">.</span></span><span class="space"> </span>Step Conversion Chart: Cyclying</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Cycling at <span class="process-math">\(C\)</span> miles an hour</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Equivalent number, <span class="process-math">\(N\text{,}\)</span><br>of steps per minute of exercise</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines">55</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10</td>
+<td class="c m b1 r1 l0 t0 lines">93</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">15</td>
+<td class="c m b1 r1 l0 t0 lines">160</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">200</td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="task-298"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-794">Comparing <span class="process-math">\(C\)</span> to <span class="process-math">\(N\text{,}\)</span> is the relationship linear or non-linear?</p></article><article class="task exercise-like" id="task-299"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-795">How can you tell from the table?</p></article><article class="task exercise-like" id="task-300"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-796">How can you tell from a graph?</p></article></article><article class="exercise exercise-like" id="exercise-192"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-98"><p id="p-797">When you eat at a sit-down restaurant, it is customary to leave a tip to reward the server for good service. Suppose you always leave a 15% tip.</p></div>
+<article class="task exercise-like" id="task-301"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-798">Write in words how you would determine how much to tip a server if the amount of your check is $30.</p></article><article class="task exercise-like" id="task-302"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-799">What if your check is $40?</p></article><article class="task exercise-like" id="task-303"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-800">What if your check is <span class="process-math">\(D\)</span> dollars?</p></article><article class="task exercise-like" id="exer-tip-eq"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-801">Write an algebraic expression to compute the amount of the tip to leave the server if the tip is 15% of the check and your check is <span class="process-math">\(D\)</span> dollars.</p></article><article class="task exercise-like" id="task-305"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-802">How can you quickly estimate a 15% tip?</p></article><article class="task exercise-like" id="task-306"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-803">What changes in the expression you wrote in <a href="" class="xref" data-knowl="./knowl/exer-tip-eq.html" title="Task 2.5.4.3.d">Task 2.5.4.3.d</a> if you leave a 20% tip?</p></article><article class="task exercise-like" id="task-307"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-804">How can you quickly estimate a 20% tip?</p></article></article><article class="exercise exercise-like" id="exercise-193"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-99">
+<p id="p-805">A dog's life span is a fraction of time compared to that of humans. <a href="" class="xref" data-knowl="./knowl/tbl-dog-age.html" title="Table 2.5.4.3: Dog Age vs. Human Age">Table 2.5.4.3</a> shows a how a dog's age might be adjusted to compare to a human's age.</p>
+<figure class="table table-like" id="tbl-dog-age"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.4.3<span class="period">.</span></span><span class="space"> </span>Dog Age vs. Human Age</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Number of actual<br>years of life, <span class="process-math">\(y\)</span>
+</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">5</td>
+<td class="c m b1 r1 l0 t1 lines">6</td>
+<td class="c m b1 r1 l0 t1 lines">7</td>
+<td class="c m b1 r1 l0 t1 lines">8</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(y\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Comparative human age<br>(dog years), <span class="process-math">\(d\)</span>
+</td>
+<td class="c m b1 r1 l0 t0 lines">6.5</td>
+<td class="c m b1 r1 l0 t0 lines">13</td>
+<td class="c m b1 r1 l0 t0 lines">19.5</td>
+<td class="c m b1 r1 l0 t0 lines">26</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="task-308"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-806">Find the pattern and fill in the missing values in the table.</p></article><article class="task exercise-like" id="task-309"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-807">What expression can you use to find a comparative human age for a dog that is <span class="process-math">\(y\)</span> actual years old?</p></article><article class="task exercise-like" id="task-310"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-808">Would you call a dog middle-aged if she is 7 actual years old? Why or why not?</p></article></article><article class="exercise exercise-like" id="exercise-194"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-100"><p id="p-809">Most of the rest of the world uses kilograms rather than pounds. Note: 1 <abbr class="initialism">kg</abbr> = 2.2 pounds = 2.2 <abbr class="initialism">lbs</abbr>.</p></div>
+<article class="task exercise-like" id="task-311"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-810">When traveling in the United Kingdom, I bought 2 <abbr class="initialism">kg</abbr> of bananas. How many pounds of bananas is this?</p></article><article class="task exercise-like" id="task-312"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-811">Fill in <a href="" class="xref" data-knowl="./knowl/tbl-kg-lbs.html" title="Table 2.5.4.4: Kilograms vs. Pounds">Table 2.5.4.4</a>.</p>
+<figure class="table table-like" id="tbl-kg-lbs"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.4.4<span class="period">.</span></span><span class="space"> </span>Kilograms vs. Pounds</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b1 r1 l1 t1 lines">Kilograms</td>
+<td class="c m b1 r1 l0 t1 lines">0.5</td>
+<td class="c m b1 r1 l0 t1 lines">1</td>
+<td class="c m b1 r1 l0 t1 lines">1.5</td>
+<td class="c m b1 r1 l0 t1 lines">2</td>
+<td class="c m b1 r1 l0 t1 lines">2.5</td>
+<td class="c m b1 r1 l0 t1 lines">3</td>
+<td class="c m b1 r1 l0 t1 lines">3.5</td>
+<td class="c m b1 r1 l0 t1 lines">4</td>
+<td class="c m b1 r1 l0 t1 lines">10</td>
+<td class="c m b1 r1 l0 t1 lines"><span class="process-math">\(k\)</span></td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"><span class="process-math">\(p\)</span></td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-313"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-812">Write an equation you can use to convert kilograms to pounds exactly.</p></article><article class="task exercise-like" id="task-314"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-813">When you buy bananas, how many pounds do you usually buy? (Three medium bananas weigh approximately a pound.) How many <abbr class="initialism">kg</abbr> of bananas is this number of pounds?</p></article></article><article class="exercise exercise-like" id="exercise-195"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-814">JoAnn Fabrics regularly runs sales. A recent flyer included a coupon for 60% + 15% off custom framing. How much would you pay for a framing bill of <span class="process-math">\(x\)</span> dollars? Explain.</p></article><article class="exercise exercise-like" id="exer-coffee-milk"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-101">
+<p id="p-815">Ashley loves Salted Caramel Mocha coffee. She orders her favorite with either 2% or coconut milk and occasionally also orders whipped cream. The number of calories for each type of drink depends on the number of ounces of coffee in the size of cup she buys.</p>
+<figure class="table table-like" id="table-23"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.5.4.5<span class="period">.</span></span><span class="space"> </span></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="c m b0 r1 l1 t1 lines">Number of ounces<br>of coffee</td>
+<td class="c m b1 r1 l0 t1 lines" colspan="3">Number of calories, <span class="process-math">\(C\)</span>
+</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"></td>
+<td class="c m b1 r1 l0 t0 lines">With 2% milk</td>
+<td class="c m b1 r1 l0 t0 lines">With 2% milk<br>and whipped cream</td>
+<td class="c m b1 r1 l0 t0 lines">With coconut milk</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines">180</td>
+<td class="c m b1 r1 l0 t0 lines">280</td>
+<td class="c m b1 r1 l0 t0 lines">160</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">12</td>
+<td class="c m b1 r1 l0 t0 lines">270</td>
+<td class="c m b1 r1 l0 t0 lines">370</td>
+<td class="c m b1 r1 l0 t0 lines">240</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">16</td>
+<td class="c m b1 r1 l0 t0 lines">360</td>
+<td class="c m b1 r1 l0 t0 lines">460</td>
+<td class="c m b1 r1 l0 t0 lines">320</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">20</td>
+<td class="c m b1 r1 l0 t0 lines">450</td>
+<td class="c m b1 r1 l0 t0 lines">550</td>
+<td class="c m b1 r1 l0 t0 lines">400</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">30</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(x\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure>
+</div>
+<article class="task exercise-like" id="task-315"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-816">Plot all three sets of data on the same coordinate plane. Connect the points for each data set. Label each graph to match the data set: 2% milk, 2% milk with whipped cream, or coconut milk.</p></article><article class="task exercise-like" id="task-316"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-817">For each proportional relationship, in the last row of the table, write equations that fit the data. Tell how you know your equations are correct based on the context.</p></article><article class="task exercise-like" id="task-317"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-818">Suppose the coffee shop offered a 30-ounce cup of coffee. If Ashley ordered this size, what would be the number of calories? Include this information in the table.</p></article><article class="task exercise-like" id="task-318"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-819">Is there a data set that is not proportional? If so, which one? How do you know?</p></article></article><article class="exercise exercise-like" id="exercise-197"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-102"><p id="p-820">Each of the relationships can be modeled by a linear equation. For each set of data in <a href="" class="xref" data-knowl="./knowl/exer-walk-cycle.html" title="Exercise 2.5.4.1">Exercise 2.5.4.1–2.5.4.7</a>:</p></div>
+<article class="task exercise-like" id="task-319"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-821">Graph the data on a separate coordinate plane. Find the slope of the graph. Write the equation under the graph.</p></article><article class="task exercise-like" id="task-320"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-822">How does the slope of the graph relate to the equation?</p></article><article class="task exercise-like" id="task-321"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-823">How can you find the slope of the graph using the table?</p></article></article><article class="exercise exercise-like" id="exercise-198"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-322"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-824">Why do you think the examples in <a href="" class="xref" data-knowl="./knowl/exer-walk-cycle.html" title="Exercise 2.5.4.1">Exercise 2.5.4.1–2.5.4.7</a> are called linear relationships?</p></article><article class="task exercise-like" id="task-323"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-825">Think about the examples above, scaling recipes, and relationships discussed in class. What are some general properties of linear relationships?</p></article><article class="task exercise-like" id="task-324"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-826">Think of another linear relationship that arises in your life. Describe the relationship. Why do you think it is linear?</p></article></article><article class="exercise exercise-like" id="exercise-199"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<p id="p-827">Practice using Desmos to graph the examples in <a href="" class="xref" data-knowl="./knowl/exer-walk-cycle.html" title="Exercise 2.5.4.1">Exercise 2.5.4.1–2.5.4.7</a>. If you need more help, click on the “?” icon (Help) in the upper right corner of the Desmos graphing screen. Choose Tables for a tutorial on entering and graphing data. Choose Sliders to see what these do. Use a slider with the equation, <span class="process-math">\(y = mx\)</span> to fit your data. Explain why the equation you find makes sense for your data.</p></article></section></section></div></main>
+</div>
+</body>
+</html>

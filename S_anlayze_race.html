@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-05-10T17:24:32-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Graphs, Tables, and Linear Functions: Analyzing a Race</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!-- 2019-10-12: Temporary - CSS file for experiments with styling --><link href="developer.css" rel="stylesheet" type="text/css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_interpret_graphs.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_lin_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_proportions.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_interpret_graphs.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_lin_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_proportions.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_anlayze_race.html" data-scroll="S_anlayze_race" class="active">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and y-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="internal">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content">
+<section class="section" id="S_anlayze_race"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">2.4</span> <span class="title">Graphs, Tables, and Linear Functions: Analyzing a Race</span>
+</h2>
+<section class="worksheet" id="act-trod-tort"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Trodding Tortoise</span><div class="print-links">
+<a href="act-trod-tort-a4.html" class="a4">A4</a><a href="act-trod-tort-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-78"><p id="p-639">In <a href="S_anlayze_race.html#act-trod-tort" class="internal" title="Student Page 2.4: Trodding Tortoise">Trodding Tortoise</a>, continue to model motion with graphs and consider the race between the Hare and the Tortoise in another way. This time, from knowledge of the tortoise's speed, create a table showing the tortoise's distance from the Starting Line at various times during the race. Plot points and consider the appearance of the graph as it relates to the tortoise's speed over several time intervals. Find an equation that models the data. Finally, consider the many ways that the Tortoise's speed arises in the table, graph, and equation. In the end, define slope.</p>
+<p id="p-640">During the race between the tortoise and the hare, the fox recorded the speed at which both the tortoise and the hare were traveling. The fox observed that the tortoise plodded along at a rate of 20 meters per minute throughout the 1000-meter race.</p></section><article class="exercise exercise-like" id="exercise-151"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-228"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-641">Complete <a href="" class="xref" data-knowl="./knowl/tbl-tort-dist.html" title="Table 2.4.0.1: Time and Distance for the Tortoise">Table 2.4.0.1</a> indicating the distance traveled by the tortoise in the time elapsed.</p>
+<figure class="table table-like" id="tbl-tort-dist"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.4.0.1<span class="period">.</span></span><span class="space"> </span>Time and Distance for the Tortoise</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="l m b1 r1 l1 t1 lines">Time elapsed in minutes, <span class="process-math">\(t\)</span>
+</td>
+<td class="l m b1 r1 l0 t1 lines">0</td>
+<td class="l m b1 r1 l0 t1 lines">1</td>
+<td class="l m b1 r1 l0 t1 lines">2</td>
+<td class="l m b1 r1 l0 t1 lines">3</td>
+<td class="l m b1 r1 l0 t1 lines">4</td>
+<td class="l m b1 r1 l0 t1 lines">5</td>
+<td class="l m b1 r1 l0 t1 lines">6</td>
+<td class="l m b1 r1 l0 t1 lines">7</td>
+</tr>
+<tr>
+<td class="l m b2 r1 l1 t0 lines">Distance traveled in meters, <span class="process-math">\(D\)</span>
+</td>
+<td class="l m b2 r1 l0 t0 lines">0</td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+<td class="l m b2 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Time elapsed in minutes, <span class="process-math">\(t\)</span>
+</td>
+<td class="l m b1 r1 l0 t0 lines">10</td>
+<td class="l m b1 r1 l0 t0 lines">15</td>
+<td class="l m b1 r1 l0 t0 lines">20</td>
+<td class="l m b1 r1 l0 t0 lines">25</td>
+<td class="l m b1 r1 l0 t0 lines">30</td>
+<td class="l m b1 r1 l0 t0 lines">35</td>
+<td class="l m b1 r1 l0 t0 lines">640</td>
+<td class="l m b1 r1 l0 t0 lines"><span class="process-math">\(t\)</span></td>
+</tr>
+<tr>
+<td class="l m b1 r1 l1 t0 lines">Distance traveled in meters, <span class="process-math">\(D\)</span>
+</td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+<td class="l m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-229"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-642">Which variable is the independent variable? Why do you think so?</p></article></article><article class="exercise exercise-like" id="exer-tort-graph"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-79">
+<p id="p-643">Use the graph in <a href="" class="xref" data-knowl="./knowl/fig-time-dist-tort-plot.html" title="Figure 2.4.0.2">Figure 2.4.0.2</a>. For each axis, choose a scale so the graph shows the tortoise's complete race, points are easy to plot, and you use as much of the graph as possible.</p>
+<figure class="figure figure-like" id="fig-time-dist-tort-plot"><div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="external/time-dist-tort-plot.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.0.2<span class="period">.</span></span><span class="space"> </span>Plot for Graphing the Tortoise's Time and Distance</figcaption></figure>
+</div>
+<article class="task exercise-like" id="task-230"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-644">The horizontal axis represents the independent variable. Label it using the scale you chose.</p></article><article class="task exercise-like" id="task-231"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-645">The vertical axis represents the dependent variable. Label it using your chosen scale.</p></article><article class="task exercise-like" id="task-232"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-646">Label each axis with the variable it represents.</p></article><article class="task exercise-like" id="task-233"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-647">Sketch a graph that represents the tortoise's progress during the race using the data in <a href="" class="xref" data-knowl="./knowl/tbl-tort-dist.html" title="Table 2.4.0.1: Time and Distance for the Tortoise">Table 2.4.0.1</a>.</p></article></article><article class="exercise exercise-like" id="exer-tort-time-minute"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-234"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-648">In one minute, how far did the tortoise travel? What does this number represent in terms of the tortoise's movement during the race?</p></article><article class="task exercise-like" id="task-235"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-649">How can you find the distance the tortoise traveled directly from the number of minutes that have elapsed since the start of the race?</p></article><article class="task exercise-like" id="exer-tort-time-eq"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-650">Let <span class="process-math">\(t\)</span> represent the elapsed time in minutes and <span class="process-math">\(D\)</span> represent the distance in meters traveled by the tortoise. Write an equation showing the relationship between <span class="process-math">\(t\)</span> and <span class="process-math">\(D\text{:}\)</span></p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+D = \underline{\hspace{4.545454545454546em}}
+\end{equation*}
+</div></article><article class="task exercise-like" id="task-237"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-651">Replace <span class="process-math">\(t\)</span> in the equation in <a href="" class="xref" data-knowl="./knowl/exer-tort-time-eq.html" title="Task 2.4.3.c">Task 2.4.3.c</a> with some of the values in the table. What values did you get for <span class="process-math">\(D\)</span> from the equation? Did the equation values for <span class="process-math">\(D\)</span> match those in your table? Should they match?</p></article><article class="task exercise-like" id="task-238"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-652">How does your answer to <a href="" class="xref" data-knowl="./knowl/exer-tort-time-minute.html" title="Student Page Exercise 2.4.3">Student Page Exercise 2.4.3</a> relate to the equation you found in <a href="" class="xref" data-knowl="./knowl/exer-tort-time-eq.html" title="Task 2.4.3.c">Task 2.4.3.c</a>?</p></article></article><article class="exercise exercise-like" id="exercise-154"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-239"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-653">Complete <a href="" class="xref" data-knowl="./knowl/tbl-tort-travels.html" title="Table 2.4.0.3: The Tortoise's Travels Over Time">Table 2.4.0.3</a> for the tortoise's travels for each of the time intervals indicated.</p>
+<figure class="table table-like" id="tbl-tort-travels"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.4.0.3<span class="period">.</span></span><span class="space"> </span>The Tortoise's Travels Over Time</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Time Interval</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Amount of<br>time elapsed</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Change in distance<br>during the time interval</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">The tortoise's speed</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0 to 5 minutes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5 to 10 minutes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">10 to 20 minutes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-240"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-654">How can you find the tortoise's speed over each time interval? Explain. Enter the speed in the table.</p></article><article class="task exercise-like" id="task-241"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-655">Compare the tortoise's speeds for the three time intervals in the table. What do you notice?</p></article><article class="task exercise-like" id="task-242"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-656">Should the tortoise's speeds for each time interval be the same? Why or why not?</p></article><article class="task exercise-like" id="exer-slope-def"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-657">The slope of a line is the steepness of the line. What is the slope of the line that models the tortoise's movement?</p></article></article><article class="exercise exercise-like" id="exercise-155"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-658">How long does it take the tortoise to complete the race? How do you know?</p></article></section><section class="worksheet" id="act-hop-hare"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Hopping Hare</span><div class="print-links">
+<a href="act-hop-hare-a4.html" class="a4">A4</a><a href="act-hop-hare-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-80"><p id="p-659">Extend what you learned through <a href="S_anlayze_race.html#act-trod-tort" class="internal" title="Student Page 2.4: Trodding Tortoise">Trodding Tortoise</a> to analyze the Hopping Hare's motion, data, and graph and relate these to equations that model each part of his race.</p></section><article class="exercise exercise-like" id="exercise-156"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-81">
+<p id="p-660">The fox made the following observations about the hare's movement during the race with the tortoise:</p>
+<ul class="disc">
+<li id="li-115"><p id="p-661">The hare traveled at a constant rate of 250 meters per minute for the first 2 minutes.</p></li>
+<li id="li-116"><p id="p-662">The hare's nap started at exactly 2 minutes and lasted exactly 47.5 minutes.</p></li>
+<li id="li-117"><p id="p-663">The hare woke suddenly and traveled at a constant rate of 500 meters per minute during the last minute of the race.</p></li>
+</ul>
+</div>
+<article class="task exercise-like" id="task-244"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-664">Complete <a href="" class="xref" data-knowl="./knowl/tbl-hare-dist.html" title="Table 2.4.0.4: Time and Distance for the Tortoise">Table 2.4.0.4</a> indicating the distance traveled by the hare in the elapsed time.</p>
+<figure class="table table-like" id="tbl-hare-dist"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">2.4.0.4<span class="period">.</span></span><span class="space"> </span>Time and Distance for the Tortoise</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Time Interval</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Amount of<br>time elapsed</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Change in distance<br>during the time interval</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">The hare's speed</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">0 to 2 minutes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">250 meters per minute</td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2 to 49.5 minutes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">49.5 to 50.5 minutes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines">500 meters per minute</td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-245"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-665">Use the axes you used to draw the tortoise's progress (<a href="" class="xref" data-knowl="./knowl/exer-tort-graph.html" title="Student Page Exercise 2.4.2">Student Page Exercise 2.4.2</a>) to draw an accurate graph to represent the hare's progress during the race from the information in the table and the fox's observations. What points will help you draw an accurate graph?</p></article><article class="task exercise-like" id="task-246"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-666">Draw an accurate graph for the hare's progress during the race.</p></article></article><article class="exercise exercise-like" id="exer-hare-time-eq"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-667">Write an equation relating elapsed time, <span class="process-math">\(t\text{,}\)</span> and distance, <span class="process-math">\(D\text{,}\)</span> traveled for the hare's first 2 minutes of travel.</p>
+<div class="displaymath process-math" data-contains-math-knowls="">
+\begin{equation*}
+D = \underline{\hspace{4.545454545454546em}}
+\end{equation*}
+</div></article><article class="exercise exercise-like" id="exercise-158"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-82"><p id="p-668">Use the equation you found in <a href="" class="xref" data-knowl="./knowl/exer-hare-time-eq.html" title="Student Page Exercise 2.4.2">Student Page Exercise 2.4.2</a> to answer the following questions:</p></div>
+<article class="task exercise-like" id="task-247"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-669">How far did the hare travel during the first 15 seconds (0.25 minutes) of the race?</p></article><article class="task exercise-like" id="task-248"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-670">If the hare had continued traveling at this rate, how long would it have taken him to complete the 1000-meter race? Would the hare have won?</p></article><article class="task exercise-like" id="task-249"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-671">How far could the hare have traveled if he continued at this rate for the entire 50.5 minutes?</p></article></article><article class="exercise exercise-like" id="exercise-159"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="exer-hare-time-eq2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-672">Find an equation relating the hare's elapsed time and distance traveled for 2 minutes to 49.5 minutes. Keep in mind that he is not sitting on the starting line at the beginning of this time interval.</p></article><article class="task exercise-like" id="task-251"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-673">What is the slope of the equation you found in <a href="" class="xref" data-knowl="./knowl/exer-hare-time-eq2.html" title="Task 2.4.4.a">Task 2.4.4.a</a>? Why does this slope make sense?</p></article></article><article class="exercise exercise-like" id="exercise-160"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-252"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-674">What is the slope of the line that shows the hare's movement during the last minute of the race?</p></article><article class="task exercise-like" id="task-253"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-675">Is the slope enough to determine an equation for the last minute of the race? Why or why not?</p></article></article><article class="exercise exercise-like" id="exercise-161"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-83"><p id="p-676">Desmos allows you to plot equations based on time intervals.</p></div>
+<article class="task exercise-like" id="task-254"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-677">Open a Desmos worksheet. Click on the “?” icon (Help) in the top right corner of the page. Click on the icon for Restrictions and learn how to use them.</p></article><article class="task exercise-like" id="task-255"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-678">Plot the equation for the tortoise.</p></article><article class="task exercise-like" id="task-256"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-679">Plot the two equations you found for the hare. For the hare's equations, restrict x to the intervals over which the fox observed him. What do you notice about how Desmos plots the hare's graph?</p></article><article class="task exercise-like" id="task-257"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-680">(Optional) You already know the slope for the last minute of the hare's travels. Play with a third equation for the final time interval of the hare's race to approximate the equation for this part of the hare's race.</p></article></article></section><section class="exercises" id="exercises-13"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber"></span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exercise-162"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-681">Consider your work on <a href="S_anlayze_race.html#act-trod-tort" class="internal" title="Student Page 2.4: Trodding Tortoise">Trodding Tortoise</a> and <a href="S_anlayze_race.html#act-hop-hare" class="internal" title="Student Page 2.4: Hopping Hare">Hopping Hare</a>. Write about your current understanding of slope and the relationships between slope, speed, rate of change in a table of values, and the change in distance divided by the change in time. In particular, how does speed show up in the table? How does it show up in the graph? How does it show up in an equation?</p></article><article class="exercise exercise-like" id="exercise-163"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-682">Revisit <a href="S_graphs_lit.html#act-eyes" class="internal" title="Student Page 2.1.2: The Eyes Have It">The Eyes Have It</a>. The relationships you investigated in <a href="S_graphs_lit.html#act-eyes" class="internal" title="Student Page 2.1.2: The Eyes Have It">The Eyes Have It</a> are called proportional relationships. In linear proportional relationships, you get one quantity by multiplying the other by a constant. Are any of the Tortoise and Hare relationships proportional? See if you can find 2 or 3 examples.</p></article><article class="exercise exercise-like" id="exercise-164"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-84"><p id="p-683">There are 8 sticks of gum in a small package.</p></div>
+<article class="task exercise-like" id="task-258"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-684">Create a table to show the number of sticks of gum in 0, 1, 2, 3, 4, 5, 10, 15, and 22 packages if there are 8 sticks in each package.</p></article><article class="task exercise-like" id="task-259"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-685">Plot the data. Choose scales for both <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> so that the displayed graph uses most of the screen. Label each axis to show what quantities each represents.</p></article><article class="task exercise-like" id="exer-gum-relation"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-686">What is the relationship between the number of packages and the number of sticks of gum?</p></article><article class="task exercise-like" id="task-261"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-687">Write the relationship in <a href="" class="xref" data-knowl="./knowl/exer-gum-relation.html" title="Task 2.4.3.c">Task 2.4.3.c</a> as an equation.</p></article></article><article class="exercise exercise-like" id="exercise-165"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-85"><p id="p-688">Gasoline prices vary greatly over a week. Gas Buddy reported gasoline prices in the Allendale, MI area ranging from $2.03 to $2.69 per gallon one week in September 2018.</p></div>
+<article class="task exercise-like" id="task-262"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-689">Complete <a href="" class="xref" data-knowl="./knowl/tbl-gas-prices-allendale.html" title="Table 2.4.0.5: Gas Prices in the Allendale, MI Area">Table 2.4.0.5</a> to find how much you would pay for the numbers of gallons of gas listed for each gasoline price. Round prices to the nearest penny (hundredth of a dollar).</p></article><article class="task exercise-like" id="task-263"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-690">Use Desmos to plot the data. Label scales and titles for each axis.</p></article><article class="task exercise-like" id="task-264"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-691">Write equations in the last row of the table that fit the data. Tell how you know your equations are correct.</p></article><article class="task exercise-like" id="task-265"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-692">How many gallons of gasoline can you purchase for $10?  Show your work for one of the gasoline prices, accurate to 2 decimal places.</p></article></article><article class="exercise exercise-like" id="exercise-166"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-86"><p id="p-693">One mile equals 2000 average steps while walking. If you walk at a rate of 3 miles per hour, you will average 100 steps per minute. <a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-26" id="fn-26"><sup> 26 </sup></a> Revisit your table and graph from <a href="" class="xref" data-knowl="./knowl/exer-walking-22.html" title="Exercise 2.2.2">Exercise 2.2.2</a> in <a href="S_create_graphs.html#hmwk-create-graphs" class="internal" title="Homework 2.2">Homework 2.2</a>.</p></div>
+<article class="task exercise-like" id="task-266"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-694">Write an equation that will help you determine the number of steps you will walk in m minutes. Define your variables.</p></article><article class="task exercise-like" id="task-267"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-695">What is the slope of the graph? How do you know?</p></article><article class="task exercise-like" id="task-268"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-696">What does the slope mean in terms of the amount of time you walk and the number of steps you take?</p></article></article><article class="exercise exercise-like" id="exercise-167"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-87"><p id="p-697">As of January 1, 2020, the Michigan minimum wage for non-tipped employees is $9.65 per hour. How much will you earn if you work <span class="process-math">\(h\)</span> hours? (Revisit your table and graph from <a href="" class="xref" data-knowl="./knowl/exer-wages-22.html" title="Exercise 2.2.3">Exercise 2.2.3</a> in the <a href="S_create_graphs.html#hmwk-create-graphs" class="internal" title="Homework 2.2">Homework 2.2</a>.)</p></div>
+<article class="task exercise-like" id="task-269"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-698">Write an equation to help you determine the amount you will earn in <span class="process-math">\(h\)</span> hours if you are paid minimum wage in Michigan. Define your variables.</p></article><article class="task exercise-like" id="task-270"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-699">What is the slope of the graph? How do you know?</p></article><article class="task exercise-like" id="task-271"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-700">What does the slope mean in terms of the number of hours worked and the amount of money earned?</p></article></article><article class="exercise exercise-like" id="exercise-168"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<p id="p-701">Practice using Desmos to graph the examples above. If you need more help, click on the “?” icon (Help) in the upper right corner of the Desmos graphing screen. Choose Tables for a tutorial on entering and graphing data. Choose Sliders to see what these do. Use a slider with the equation, <span class="process-math">\(y = mx\text{,}\)</span> to fit your data. Explain why the equation you find makes sense for your data.</p></article><article class="exercise exercise-like" id="exercise-169"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<p id="p-702">Complete <a href="S_anlayze_race.html#act-slope-trees" class="internal" title="Student Page 2.4: Slopes and Tree Trunks">Slopes and Tree Trunks</a>. Which of the equations represents a proportional relationship? How do you know?</p></article></section><section class="worksheet" id="act-slope-trees"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber"></span> <span class="title">Slopes and Tree Trunks</span><div class="print-links">
+<a href="act-slope-trees-a4.html" class="a4">A4</a><a href="act-slope-trees-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-88"><p id="p-703">Near the Calder Plaza in downtown Grand Rapids, Michigan a stand of trees is planted in a 5 by 5 grid as shown in <a href="" class="xref" data-knowl="./knowl/fig-calder-trees.html" title="Figure 2.4.0.6">Figure 2.4.0.6</a>. Each green dot represents the location of a tree. The trunks of the trees are uniform in size. All of the trunks are straight and perpendicular to the ground.</p>
+<figure class="figure figure-like" id="fig-calder-trees"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/calder-trees.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4.0.6<span class="period">.</span></span><span class="space"> </span></figcaption></figure></section><article class="exercise exercise-like" id="exercise-170"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-704">The line of sight from the origin to the trees with coordinates (1, 1), (2, 2), (3, 3), (4, 4), and (5, 5) is shown. Which of these tree trunks can you see if you are standing at the origin, (0, 0)? Why do you think so?</p></article><article class="exercise exercise-like" id="exercise-171"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-705">Other than the tree trunks in Row 1 and Column 1, which tree trunks can you see if you are standing at the origin? Why do you think these tree trunks are visible?</p></article><article class="exercise exercise-like" id="exercise-172"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<p id="p-706">What is the slope of the line of sight from the origin (0, 0) to the tree trunk at point (4, 2)? What other tree trunks are along this line of sight? How do you know?</p></article><article class="exercise exercise-like" id="exer-trees-4"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<p id="p-707">At what point on one of the axes would you have to be standing in order for the tree trunks at points (2, 5) and (1, 3) to be on the same line of sight? What is the slope of this line of sight? What do you think the equation of this line of site is? Why do you think so?</p></article><article class="exercise exercise-like" id="exer-trees-5"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-708">Draw a line of sight through point (2, 0) parallel to the line you found in <a href="" class="xref" data-knowl="./knowl/exer-trees-4.html" title="Student Page Exercise 2.4.4">Student Page Exercise 2.4.4</a>. What trees are along this line of sight?</p></article><article class="exercise exercise-like" id="exer-trees-6"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-709">Find the slope of the equation of the line in <a href="" class="xref" data-knowl="./knowl/exer-trees-5.html" title="Student Page Exercise 2.4.5">Student Page Exercise 2.4.5</a>. What do you think is the equation of this line of site? Why do you think so?</p></article><article class="exercise exercise-like" id="exercise-176"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<p id="p-710">How are the slopes of the lines in <a href="" class="xref" data-knowl="./knowl/exer-trees-4.html" title="Student Page Exercise 2.4.4">Student Page Exercise 2.4.4</a> and <a href="" class="xref" data-knowl="./knowl/exer-trees-6.html" title="Student Page Exercise 2.4.6">Student Page Exercise 2.4.6</a> related?</p></article></section></section><div class="hidden-content tex2jax_ignore" id="hk-fn-26"><div class="fn">(<a class="external" href="https://www.verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742" target="_blank">Resource</a><a href="" data-knowl="" class="id-ref fn-knowl original" data-refid="hk-fn-27" id="fn-27"><sup> 27 </sup></a>, retrieved April 21, 2020.)</div></div>
+<div class="hidden-content tex2jax_ignore" id="hk-fn-27"><div class="fn"><code class="code-inline tex2jax_ignore">verywellfit.com/pedometer-step-equivalents-for-exercises-and-activities-3435742</code></div></div>
+</div></main>
+</div>
+</body>
+</html>

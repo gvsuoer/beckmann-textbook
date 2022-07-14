@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*       on 2022-07-14T13:36:54-04:00       *-->
+<!--*   A recent stable commit (2020-08-09):   *-->
+<!--* 98f21740783f166a773df4dc83cab5293ab63a4a *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US">
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Systems of Equations</title>
+<meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Beginning Algebra Made Useful">
+<meta property="book:author" content="Charlene E. Beckmann, Ph.D.">
+<script>window.MathJax = {
+  tex: {
+    inlineMath: [['\\(','\\)']],
+    tags: "none",
+    tagSide: "right",
+    tagIndent: ".8em",
+    packages: {'[+]': ['base', 'extpfeil', 'ams', 'amscd', 'newcommand', 'knowl']}
+  },
+  options: {
+    ignoreHtmlClass: "tex2jax_ignore|ignore-math",
+    processHtmlClass: "process-math",
+  },
+  chtml: {
+    scale: 0.88,
+    mtextInheritFont: true
+  },
+  loader: {
+    load: ['input/asciimath', '[tex]/extpfeil', '[tex]/amscd', '[tex]/newcommand', '[pretext]/mathjaxknowl3.js'],
+    paths: {pretext: "https://pretextbook.org/js/lib"},
+  },
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.13/pretext.js"></script><script>miniversion=0.674</script><script src="https://pretextbook.org/js/0.13/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/banner_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/toc_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/style_default.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/colors_blue_grey.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.4/setcolors.css" rel="stylesheet" type="text/css">
+<!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX Course: Title Here';
+eBookConfig.basecourse = 'PTX Base Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.acDefaultLanguage = 'python';
+eBookConfig.runestone_version = '5.0.1';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runtime.b0f8547c48f16a9f.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/637.d54be67956c5c660.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/6.2.1/runestone.0e9550fe42760516.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/637.fafafbd97df8a0d1.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/6.2.1/runestone.e4d5592da655219f.css">
+</head>
+<body class="pretext-book ignore-math has-toc has-sidebar-left">
+<a class="assistive" href="#content">Skip to main content</a><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<header id="masthead" class="smallbuttons"><div class="banner"><div class="container">
+<a id="logo-link" href=""></a><div class="title-container">
+<h1 class="heading"><a href="bamu.html"><span class="title">Beginning Algebra Made Useful</span></a></h1>
+<p class="byline">Charlene E. Beckmann, Ph.D.</p>
+</div>
+</div></div>
+<nav id="primary-navbar" class="navbar"><div class="container">
+<div class="navbar-top-buttons">
+<button class="sidebar-left-toggle-button button active" aria-label="Show or hide table of contents sidebar">Contents</button><div class="tree-nav toolbar toolbar-divisor-3"><span class="threebuttons"><a id="previousbutton" class="previous-button toolbar-item button" href="S_lin_reg.html" title="Previous">Prev</a><a id="upbutton" class="up-button button toolbar-item" href="C_use_lin_funcs.html" title="Up">Up</a><a id="nextbutton" class="next-button button toolbar-item" href="S_more_systems.html" title="Next">Next</a></span></div>
+</div>
+<div class="navbar-bottom-buttons toolbar toolbar-divisor-4">
+<button class="sidebar-left-toggle-button button toolbar-item active">Contents</button><a class="previous-button toolbar-item button" href="S_lin_reg.html" title="Previous">Prev</a><a class="up-button button toolbar-item" href="C_use_lin_funcs.html" title="Up">Up</a><a class="next-button button toolbar-item" href="S_more_systems.html" title="Next">Next</a>
+</div>
+</div></nav></header><div class="page">
+<div id="sidebar-left" class="sidebar" role="navigation"><div class="sidebar-content">
+<nav id="toc"><ul>
+<li class="link frontmatter">
+<a href="frontmatter.html" data-scroll="frontmatter" class="internal"><span class="title">Front Matter</span></a><ul>
+<li><a href="colophon-1.html" data-scroll="colophon-1" class="internal">Colophon</a></li>
+<li><a href="preface.html" data-scroll="preface" class="internal">Preface</a></li>
+<li><a href="preface-2.html" data-scroll="preface-2" class="internal">Publisher's Note</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_learnmath.html" data-scroll="C_learnmath" class="internal"><span class="codenumber">1</span> <span class="title">Getting Ready to Learn Mathematics</span></a><ul>
+<li><a href="S_learnmath.html" data-scroll="S_learnmath" class="internal">Learning How to Learn Mathematics</a></li>
+<li><a href="S_mathmindset.html" data-scroll="S_mathmindset" class="internal">Thinking Together and Mathematical Mindset</a></li>
+<li><a href="S_connectmath.html" data-scroll="S_connectmath" class="internal">Connecting Mathematics Through Representations</a></li>
+<li><a href="S_orderofop.html" data-scroll="S_orderofop" class="internal">Flexibility with Numbers and Order of Operations</a></li>
+<li><a href="S_fours_extend.html" data-scroll="S_fours_extend" class="internal">Four Fours Problem, Extended</a></li>
+<li><a href="S_patterns_100.html" data-scroll="S_patterns_100" class="internal">Generalizations and Variables: Patterns in the 100s Chart</a></li>
+<li><a href="S_more_patterns.html" data-scroll="S_more_patterns" class="internal">More with Patterns and Variables: Rectangular Patterns in the 100s Chart</a></li>
+<li><a href="S_patterns_alg.html" data-scroll="S_patterns_alg" class="internal">Patterns and Variables: Justifying Patterns with Algebra</a></li>
+<li><a href="S_alg_puzz.html" data-scroll="S_alg_puzz" class="internal">Algebra and Number Puzzles</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_lin_funcs.html" data-scroll="C_lin_funcs" class="internal"><span class="codenumber">2</span> <span class="title">Proportional Reasoning and Linear Functions</span></a><ul>
+<li><a href="S_graphs_lit.html" data-scroll="S_graphs_lit" class="internal">Representations: Graphs, Data, and Algebra through Children's Literature</a></li>
+<li><a href="S_create_graphs.html" data-scroll="S_create_graphs" class="internal">Creating and Critiquing Graphs</a></li>
+<li><a href="S_interpret_graphs.html" data-scroll="S_interpret_graphs" class="internal">Interpreting and Creating Graphs: The Hare and the Tortoise</a></li>
+<li><a href="S_analyze_race.html" data-scroll="S_analyze_race" class="internal">Graphs, Tables, and Linear Functions: Analyzing a Race</a></li>
+<li><a href="S_proportions.html" data-scroll="S_proportions" class="internal">Proportional Reasoning Every Day</a></li>
+<li><a href="S_distinguish.html" data-scroll="S_distinguish" class="internal">Distinguishing Proportional Relationships from Other Linear Relationships</a></li>
+<li><a href="S_connect_graph_eq.html" data-scroll="S_connect_graph_eq" class="internal">The Meanings of Slope and <span class="process-math">\(y\)</span>-Intercept, Connecting Graphs and Equations</a></li>
+<li><a href="S_big_ideas.html" data-scroll="S_big_ideas" class="internal">Linear Functions: Big Ideas</a></li>
+<li><a href="S_tiles.html" data-scroll="S_tiles" class="internal">Analyzing Tile Patterns</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_use_lin_funcs.html" data-scroll="C_use_lin_funcs" class="internal"><span class="codenumber">3</span> <span class="title">Using Linear Functions to Solve Problems</span></a><ul>
+<li><a href="S_practical.html" data-scroll="S_practical" class="internal">Linear Equations Arising in Practical Situations</a></li>
+<li><a href="S_stacked_cups.html" data-scroll="S_stacked_cups" class="internal">Solving Linear Equations: Packaging Stacked Cups</a></li>
+<li><a href="S_eyeball_lines.html" data-scroll="S_eyeball_lines" class="internal">Eyeballing Lines of Best Fit</a></li>
+<li><a href="S_lin_reg.html" data-scroll="S_lin_reg" class="internal">Linear Regression and Lines of Best Fit</a></li>
+<li><a href="S_systems.html" data-scroll="S_systems" class="active">Systems of Equations</a></li>
+<li><a href="S_more_systems.html" data-scroll="S_more_systems" class="internal">More Systems of Equations</a></li>
+<li><a href="S_qrv_tables.html" data-scroll="S_qrv_tables" class="internal">Using Quantity Rate Value Tables to Determine Equations</a></li>
+</ul>
+</li>
+<li class="link">
+<a href="C_quad_funcs.html" data-scroll="C_quad_funcs" class="internal"><span class="codenumber">4</span> <span class="title">Introduction to Quadratic Functions</span></a><ul>
+<li><a href="S_new_func.html" data-scroll="S_new_func" class="internal">Another Type of Function?</a></li>
+<li><a href="S_products.html" data-scroll="S_products" class="internal">Functions Arising from the Products of Two Lines</a></li>
+<li><a href="S_factoring.html" data-scroll="S_factoring" class="internal">Multiplying Linear Factors and Factoring Quadratic Expressions</a></li>
+<li><a href="S_rate_of_change.html" data-scroll="S_rate_of_change" class="internal">Rates of Change of Quadratic Functions</a></li>
+<li><a href="S_func_fams.html" data-scroll="S_func_fams" class="internal">Function Families</a></li>
+<li><a href="S_what_know.html" data-scroll="S_what_know" class="internal">What Do You Know about Functions?</a></li>
+</ul>
+</li>
+</ul></nav><div class="extras"><nav><a class="pretext-link" href="https://pretextbook.org">Authored in PreTeXt</a><a href="https://www.mathjax.org"><img title="Powered by MathJax" src="https://www.mathjax.org/badge/badge.gif" alt="Powered by MathJax"></a></nav></div>
+</div></div>
+<main class="main"><div id="content" class="pretext-content"><section class="section" id="S_systems"><h2 class="heading hide-type">
+<span class="type">Section</span> <span class="codenumber">3.5</span> <span class="title">Systems of Equations</span>
+</h2>
+<section class="subsection" id="subsection-31"><h3 class="heading hide-type">
+<span class="type">Subsection</span> <span class="codenumber">3.5.1</span> <span class="title">Overview</span>
+</h3>
+<p id="p-1499">In <a href="S_systems.html" class="internal" title="Section 3.5: Systems of Equations">Section 3.5</a>, we expand our focus. So far in <a href="C_use_lin_funcs.html" class="internal" title="Chapter 3: Using Linear Functions to Solve Problems">Chapter 3</a>, we have analyzed and solved linear functions and used regression to model linear functions that arise from data. We now consider how two or more linear functions interact with each other. As consumers, we are often faced with choices. In this lesson, we will solve systems of equations in order to determine the best deal for our needs.</p>
+<p id="p-1500">Much of the mathematics work we have done this semester has depended on making connections among representations. To study and solve systems of equations, the interrelationships between tables, graphs, and equations are critical. Think about the contexts, and create tables, graphs, and equations to extend what you have learned about linear functions to work with them two or more at a time.</p></section><section class="worksheet" id="act-fitness"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">3.5.2</span> <span class="title">Linear Functions and Fitness Plans</span><div class="print-links">
+<a href="act-fitness-a4.html" class="a4">A4</a><a href="act-fitness-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-189"><p id="p-1501">By now, you are proficient at finding equations. In the student page, <a href="S_systems.html#act-fitness" class="internal" title="Student Page 3.5.2: Linear Functions and Fitness Plans">Linear Functions and Fitness Plans</a>, you will use tables to locate an interval over which two or more of the fitness plans cost the same amount. You will refine your search for an intersection point with graphs and then by solving pairs of equations.</p></section><article class="exercise exercise-like" id="exercise-350"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<p id="p-1502">Consider payment plans for three different fitness centers:</p>
+<ul class="disc">
+<li id="li-228"><p id="p-1503">Shape Up charges an initiation fee of $39 plus $35 per month per person.</p></li>
+<li id="li-229"><p id="p-1504">Fitness Fun charges an initiation fee of $75 plus $20 per month per person.</p></li>
+<li id="li-230"><p id="p-1505">Be Your Best has no initiation fee and charges $52 per month per person.</p></li>
+</ul>
+<p id="p-1506">Complete <a href="" class="xref" data-knowl="./knowl/tbl-fitness-costs.html" title="Table 3.5.2.1: Fitness Costs">Table 3.5.2.1</a> showing the total cost for the first 6 months for each fitness company's payment plan (initiation fees are only charged once).</p>
+<figure class="table table-like" id="tbl-fitness-costs"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.2.1<span class="period">.</span></span><span class="space"> </span>Fitness Costs</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"> </th>
+<th scope="col" class="c m b1 r1 l0 t1 lines" colspan="3">Amount Paid so far (in dollars)</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t0 lines">Month</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Shape Up</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Fitness Fun</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Be Your Best</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">1</td>
+<td class="c m b1 r1 l0 t0 lines">74</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">2</td>
+<td class="c m b1 r1 l0 t0 lines">109</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">3</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">4</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">5</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">6</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines"><span class="process-math">\(m\)</span></td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="exercise exercise-like" id="exercise-351"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<p id="p-1507">For each set of data, graph (month, amount paid so far). Label each graph with the company's name.</p></article><article class="exercise exercise-like" id="exercise-352"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-722"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1508">Which company charges the most after 6 months of membership? How do you know?</p></article><article class="task exercise-like" id="task-723"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1509">How can you tell from a graph?</p></article><article class="task exercise-like" id="task-724"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1510">How can you tell from the table?</p></article></article><article class="exercise exercise-like" id="exercise-353"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<p id="p-1511">Which company has the steepest graph? Why does that make sense?</p></article><article class="exercise exercise-like" id="exercise-354"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<p id="p-1512">What does the <span class="process-math">\(y\)</span>-intercept represent for each fitness payment plan?</p></article><article class="exercise exercise-like" id="exer-fitness-eq"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-1513">Find an equation that fits each data set. Include the equation in the last row of <a href="" class="xref" data-knowl="./knowl/tbl-fitness-costs.html" title="Table 3.5.2.1: Fitness Costs">Table 3.5.2.1</a>.</p></article><article class="exercise exercise-like" id="exer-fitness-spend"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-190"><p id="p-1514">You have $500 to spend on a fitness plan this year. Show your work.</p></div>
+<article class="task exercise-like" id="task-725"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1515">Which fitness plans can you afford?</p></article><article class="task exercise-like" id="task-726"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1516">For how many months can you afford each fitness plan?</p></article></article><article class="exercise exercise-like" id="exer-fitness-summer"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-191"><p id="p-1517">In the summer, you are very active outside. You only want to join a fitness center for 7, 8, or 9 months of the year. The fitness centers offer the same amenities with one exception, Be Your Best also has a pool.</p></div>
+<article class="task exercise-like" id="task-727"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1518">Determine the cost for all three fitness plans for these numbers of months. Fill in <a href="" class="xref" data-knowl="./knowl/tbl-fitness-summer.html" title="Table 3.5.2.2: Fitness Costs for Select Lengths">Table 3.5.2.2</a></p>
+<figure class="table table-like" id="tbl-fitness-summer"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.2.2<span class="period">.</span></span><span class="space"> </span>Fitness Costs for Select Lengths</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b0 r1 l1 t1 lines"> </th>
+<th scope="col" class="c m b1 r1 l0 t1 lines" colspan="3">Amount Paid so far ($)</th>
+</tr>
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t0 lines">Month</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Shape Up</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Fitness Fun</th>
+<th scope="col" class="c m b1 r1 l0 t0 lines">Be Your Best</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">7</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">8</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">9</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-728"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1519">Which fitness plan would you choose and for how many months? Explain.</p></article></article><article class="exercise exercise-like" id="exercise-358"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-729"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1520">What variable are you solving for in <a href="" class="xref" data-knowl="./knowl/exer-fitness-spend.html" title="Student Page Exercise 3.5.2.7">Student Page Exercise 3.5.2.7</a>? How can you tell?</p></article><article class="task exercise-like" id="task-730"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1521">What variable are you solving for in <a href="" class="xref" data-knowl="./knowl/exer-fitness-summer.html" title="Student Page Exercise 3.5.2.8">Student Page Exercise 3.5.2.8</a>? How can you tell?</p></article></article><article class="exercise exercise-like" id="exercise-359"><h4 class="heading"><span class="codenumber">10<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-731"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1522">Solve each equation you found in <a href="" class="xref" data-knowl="./knowl/exer-fitness-eq.html" title="Student Page Exercise 3.5.2.6">Student Page Exercise 3.5.2.6</a> for the variable that represents months.</p>
+<p id="p-1523">Shape Up:</p>
+<p id="p-1524">Fitness Fun:</p>
+<p id="p-1525">Be Your Best:</p></article><article class="task exercise-like" id="task-732"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1526">What do these equations allow you to do directly that the equations in <a href="" class="xref" data-knowl="./knowl/exer-fitness-eq.html" title="Student Page Exercise 3.5.2.6">Student Page Exercise 3.5.2.6</a> require more work to do?</p></article></article><article class="exercise exercise-like" id="exercise-360"><h4 class="heading"><span class="codenumber">11<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-192"><p id="p-1527">Consider the following pairs of fitness plans. For what number of months will you pay the same amount for a membership in either plan?</p></div>
+<article class="task exercise-like" id="task-733"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1528">Shape Up and Fitness Fun:</p></article><article class="task exercise-like" id="task-734"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1529">Fitness Fun and Be Your Best:</p></article><article class="task exercise-like" id="task-735"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1530">Be Your Best and Shape Up:</p></article></article></section><section class="worksheet" id="act-rent-bikes"><h3 class="heading hide-type">
+<span class="type">Student Page</span> <span class="codenumber">3.5.3</span> <span class="title">Systems of Equations in Context: Renting Bicycles</span><div class="print-links">
+<a href="act-rent-bikes-a4.html" class="a4">A4</a><a href="act-rent-bikes-letter.html" class="us">US</a>
+</div>
+</h3>
+<section class="introduction" id="introduction-193"><p id="p-1531">Four different bike rental companies are competing for your business on Mackinac Island. Which one gives the best deal for the number of hours you plan to rent a bike?</p>
+<p id="p-1532">This activity helps you determine the best deal. It also helps you make sense of the importance of domain and range both in context and without a context.</p>
+<p id="p-1533">When you finish the <a href="S_systems.html#act-rent-bikes" class="internal" title="Student Page 3.5.3: Systems of Equations in Context: Renting Bicycles">Systems of Equations in Context: Renting Bicycles</a> activity, answer the following questions for <a href="S_systems.html" class="internal" title="Section 3.5: Systems of Equations">Section 3.5</a>:</p>
+<ul class="disc">
+<li id="li-231"><p id="p-1534">How can you solve a system of two linear equations in two unknowns graphically?</p></li>
+<li id="li-232"><p id="p-1535">How can you also solve a system algebraically?</p></li>
+</ul>
+<p id="p-1536">You and your friends plan to rent bikes while visiting Mackinac Island.</p>
+<ul class="disc">
+<li id="li-233"><p id="p-1537">Island Rentals charges a base fee of $16 plus $6 per hour per bike.</p></li>
+<li id="li-234"><p id="p-1538">Bikes Unlimited does not charge a base fee, but charges $10 per hour per bike.</p></li>
+</ul></section><article class="exercise exercise-like" id="exer-compare-bikes"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-736"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1539">You plan to use bikes for 3 hours. Which company is least expensive?</p></article><article class="task exercise-like" id="task-737"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1540">Which company should you use if you plan to use bikes for 6 hours?</p></article><article class="task exercise-like" id="task-738"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1541">Tegan noticed that if the group uses bikes for exactly 4 hours, the companies charge the same for rentals. Is she correct? Why or why not?</p></article></article><article class="exercise exercise-like" id="exer-rent-bikes-table"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-739"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1542">Find the slope, both intercepts, and meanings of all of these for each company.</p></article><article class="task exercise-like" id="task-740"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1543">Find equations for both bike rental companies. Enter them in <a href="" class="xref" data-knowl="./knowl/tbl-rent-bikes.html" title="Table 3.5.3.1: Bike Rental Information">Table 3.5.3.1</a>.</p>
+<figure class="table table-like" id="tbl-rent-bikes"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.3.1<span class="period">.</span></span><span class="space"> </span>Bike Rental Information</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Rental Company</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Slope</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">
+<span class="process-math">\(y\)</span>-intercept</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">
+<span class="process-math">\(x\)</span>-intercept</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Equation</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Island Rentals</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Bikes Unlimited</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Beckmann's Bikes</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Colleen's Cyclery</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-741"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1544">Graph the equations. Label axes and scales.</p></article><article class="task exercise-like" id="task-742"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1545">Plot the data from <a href="" class="xref" data-knowl="./knowl/exer-compare-bikes.html" title="Student Page Exercise 3.5.3.1">Student Page Exercise 3.5.3.1</a> on each graph. Do your equations fit the data you found in <a href="" class="xref" data-knowl="./knowl/exer-compare-bikes.html" title="Student Page Exercise 3.5.3.1">Student Page Exercise 3.5.3.1</a>?</p></article></article><article class="exercise exercise-like" id="exercise-363"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-194"><p id="p-1546">Recall that the <dfn class="terminology">domain</dfn> of a function is the set of all possible values of the independent variable (<span class="process-math">\(x\)</span> or whatever variable you are using for the context) for which the function is defined. The range is the set of possible values of the dependent variable (usually <span class="process-math">\(y\text{,}\)</span> sometimes expressed as <span class="process-math">\(f(x)\)</span>) that result from using the same function.</p></div>
+<article class="task exercise-like" id="task-743"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1547">Find the domain in terms of the bike rental context.</p></article><article class="task exercise-like" id="task-744"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1548">Find the domain disregarding the context.</p></article><article class="task exercise-like" id="task-745"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1549">How are these similar? How are they different?</p></article><article class="task exercise-like" id="task-746"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1550">Find the range in terms of one of the bike rental companies.</p></article><article class="task exercise-like" id="task-747"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1551">Find the range disregarding the context.</p></article><article class="task exercise-like" id="task-748"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1552">How are these similar? How are they different?</p></article></article><article class="exercise exercise-like" id="exer-rent-bikes-new-cos"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-195">
+<p id="p-1553">Suppose there are two other bike rental companies on the island.</p>
+<ul class="disc">
+<li id="li-235"><p id="p-1554">Beckmann's Bikes charges a base fee of $5 and $10 per hour per bike.</p></li>
+<li id="li-236"><p id="p-1555">Colleen's Cyclery charges a base fee of $20 and $5 per hour per bike.</p></li>
+</ul>
+</div>
+<article class="task exercise-like" id="task-749"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1556">How are the charges from these bike rental companies similar to the charges for Island Rentals and Bikes Unlimited?</p></article><article class="task exercise-like" id="task-750"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1557">Find equations for each company. Record slopes, intercepts, and equations in the table.</p></article><article class="task exercise-like" id="task-751"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1558">Graph the equations on the same coordinate plane you used in <a href="" class="xref" data-knowl="./knowl/exer-rent-bikes-table.html" title="Student Page Exercise 3.5.3.2">Student Page Exercise 3.5.3.2</a>.</p></article><article class="task exercise-like" id="task-752"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1559">Compare the graphs of these two companies with those above. What do you notice?</p></article></article><article class="exercise exercise-like" id="exercise-365"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<article class="task exercise-like" id="task-753"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1560">Are any of the lines in <a href="" class="xref" data-knowl="./knowl/exer-rent-bikes-table.html" title="Student Page Exercise 3.5.3.2">Student Page Exercise 3.5.3.2</a> or <a href="" class="xref" data-knowl="./knowl/exer-rent-bikes-new-cos.html" title="Student Page Exercise 3.5.3.4">Student Page Exercise 3.5.3.4</a> parallel? If so, which ones? How do you know?</p></article><article class="task exercise-like" id="task-754"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1561">In the context of bike rentals, what aspects of the bike rental make the lines modeling the rental charges parallel?</p></article></article><article class="exercise exercise-like" id="exercise-366"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<p id="p-1562">Write and answer two questions related to bike rentals and the fees the four companies above charge.</p></article></section><section class="exercises" id="hmwk-35"><h3 class="heading hide-type">
+<span class="type">Homework</span> <span class="codenumber">3.5.4</span> <span class="title">Homework</span>
+</h3>
+<article class="exercise exercise-like" id="exer-two-lines-35"><h4 class="heading"><span class="codenumber">1<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-196">
+<p id="p-1563">Study the lines in <a href="" class="xref" data-knowl="./knowl/fig-two-lines-35.html" title="Figure 3.5.4.1">Figure 3.5.4.1</a>.</p>
+<figure class="figure figure-like" id="fig-two-lines-35"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/two-lines-35.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">3.5.4.1<span class="period">.</span></span><span class="space"> </span>Lines for <a href="" class="xref" data-knowl="./knowl/exer-two-lines-35.html" title="Exercise 3.5.4.1">Exercise 3.5.4.1</a></figcaption></figure>
+</div>
+<article class="task exercise-like" id="exer-two-lines-intersect"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1564">Estimate the intersection point of the lines.</p></article><article class="task exercise-like" id="task-756"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1565">Find at least two grid points on each graph. Do not estimate. Label the points on the graph.</p></article><article class="task exercise-like" id="task-757"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1566">Find an equation for each line. This is called a system of equations in two unknowns because the values of <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span> of the intersection point are both unknown.</p></article><article class="task exercise-like" id="task-758"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1567">How can you solve the system of equations algebraically?</p></article><article class="task exercise-like" id="exer-two-lines-solve"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1568">Solve the system algebraically.</p></article><article class="task exercise-like" id="task-760"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1569">Compare your answers in <a href="" class="xref" data-knowl="./knowl/exer-two-lines-intersect.html" title="Task 3.5.4.1.a">Task 3.5.4.1.a</a> and <a href="" class="xref" data-knowl="./knowl/exer-two-lines-solve.html" title="Task 3.5.4.1.e">Task 3.5.4.1.e</a>. Is your estimate reasonable?</p></article></article><article class="exercise exercise-like" id="exercise-368"><h4 class="heading"><span class="codenumber">2<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-197">
+<p id="p-1570">Graph the following equations.</p>
+<div class="displaymath process-math" data-contains-math-knowls="" id="md-9">
+\begin{align*}
+y \amp = 2x - 3\\
+y \amp = -0.5x + 4
+\end{align*}
+</div>
+</div>
+<article class="task exercise-like" id="exer-know-intersect"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1571">What do you know about the intersection point of the two lines?</p></article><article class="task exercise-like" id="task-762"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1572">Estimate the intersection point graphically.</p></article><article class="task exercise-like" id="task-763"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1573">How does the answer to <a href="" class="xref" data-knowl="./knowl/exer-know-intersect.html" title="Task 3.5.4.2.a">Task 3.5.4.2.a</a> help you determine a way to solve the problem algebraically?</p></article><article class="task exercise-like" id="task-764"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1574">Solve the problem algebraically.</p></article><article class="task exercise-like" id="task-765"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1575">Replace the variables in both equations with the coordinates of the intersection point. Does the point you found satisfy both equations? Should it? Explain.</p></article></article><article class="exercise exercise-like" id="exercise-369"><h4 class="heading"><span class="codenumber">3<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-198"><p id="p-1576">A video game is available for your cell phone in two versions. The free versions charges $0.99 for each “booster,” an award that helps you win a level more easily. The full version costs $5.99 then charges $0.49 per booster.</p></div>
+<article class="task exercise-like" id="task-766"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1577">How much will the game cost you to play overall based on the number of boosters you buy? Fill in <a href="" class="xref" data-knowl="./knowl/tbl-booster-cost.html" title="Table 3.5.4.2: Video Game Booster Costs">Table 3.5.4.2</a> Include equations in the last column for both versions of the game.</p>
+<figure class="table table-like" id="tbl-booster-cost"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.4.2<span class="period">.</span></span><span class="space"> </span>Video Game Booster Costs</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Number of Boosters</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">0</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">1</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">2</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">3</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">4</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">5</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines"><span class="process-math">\(x\)</span></th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Free Version</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Full Version</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="exer-vgame-table"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1578">For each of the video games, complete the table with values accurate to at least 2 decimal places. Do not estimate from a graph!</p>
+<figure class="table table-like" id="tbl-more-vgame"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.4.3<span class="period">.</span></span><span class="space"> </span>More Information On Video Game Costs</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines"> </th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Free Version</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Full Version</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(y\)</span>-intercept</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">slope of the line</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">equation that fits the line</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">
+<span class="process-math">\(x\)</span>-intercept</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-768"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1579">Graph the equations. Estimate the coordinates of the intersection point. Write the intersection point as an ordered pair <span class="process-math">\((x, y)\text{.}\)</span></p></article><article class="task exercise-like" id="task-769"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1580">For what number of boosters will both versions of the game cost the same amount? Solve the problem algebraically and say how you know you are correct.</p></article><article class="task exercise-like" id="task-770"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1581">What is the domain for the Free Version? Explain.</p></article><article class="task exercise-like" id="task-771"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1582">What is the range for the Free Version? Explain.</p></article><article class="task exercise-like" id="task-772"><h5 class="heading"><span class="codenumber">(g)</span></h5>
+<p id="p-1583">If you ignore the context, what is the domain for the equation you wrote in <a href="" class="xref" data-knowl="./knowl/tbl-more-vgame.html" title="Table 3.5.4.3: More Information On Video Game Costs">Table 3.5.4.3</a> in <a href="" class="xref" data-knowl="./knowl/exer-vgame-table.html" title="Task 3.5.4.3.b">Task 3.5.4.3.b</a>? Explain.</p></article><article class="task exercise-like" id="task-773"><h5 class="heading"><span class="codenumber">(h)</span></h5>
+<p id="p-1584">If you ignore the context, what is the range for the equation you wrote in <a href="" class="xref" data-knowl="./knowl/tbl-more-vgame.html" title="Table 3.5.4.3: More Information On Video Game Costs">Table 3.5.4.3</a> in <a href="" class="xref" data-knowl="./knowl/exer-vgame-table.html" title="Task 3.5.4.3.b">Task 3.5.4.3.b</a>? Explain.</p></article></article><article class="exercise exercise-like" id="exercise-370"><h4 class="heading"><span class="codenumber">4<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-199"><p id="p-1585">Revisit <a href="S_systems.html#act-fitness" class="internal" title="Student Page 3.5.2: Linear Functions and Fitness Plans">Linear Functions and Fitness Plans</a>.</p></div>
+<article class="task exercise-like" id="task-774"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1586">What is the domain of each fitness plan? How do you know?</p></article><article class="task exercise-like" id="task-775"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1587">What is the domain of each of the functions you found without context?</p></article><article class="task exercise-like" id="task-776"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1588">How are the domains different?</p></article><article class="task exercise-like" id="task-777"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1589">How are they related?</p></article></article><article class="exercise exercise-like" id="exercise-371"><h4 class="heading"><span class="codenumber">5<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-200"><p id="p-1590">Revisit <a href="S_systems.html#act-fitness" class="internal" title="Student Page 3.5.2: Linear Functions and Fitness Plans">Linear Functions and Fitness Plans</a>.</p></div>
+<article class="task exercise-like" id="task-778"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1591">What is the range of each fitness plan? How do you know?</p></article><article class="task exercise-like" id="task-779"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1592">What is the range of each of the functions you found without context?</p></article><article class="task exercise-like" id="task-780"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1593">How are the ranges different?</p></article><article class="task exercise-like" id="task-781"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1594">How are they related?</p></article></article><article class="exercise exercise-like" id="exercise-372"><h4 class="heading"><span class="codenumber">6<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-201"><p id="p-1595">You've studied <span class="process-math">\(y\)</span>-intercepts throughout <a href="C_lin_funcs.html" class="internal" title="Chapter 2: Proportional Reasoning and Linear Functions">Chapter 2</a> and <a href="C_use_lin_funcs.html" class="internal" title="Chapter 3: Using Linear Functions to Solve Problems">Chapter 3</a>. In <a href="S_systems.html" class="internal" title="Section 3.5: Systems of Equations">Section 3.5</a>, you were asked to find <span class="process-math">\(x\)</span>-intercepts without a definition.</p></div>
+<article class="task exercise-like" id="task-782"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1596">What is an <span class="process-math">\(x\)</span>-intercept?</p></article><article class="task exercise-like" id="task-783"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1597">How can you find an <span class="process-math">\(x\)</span>-intercept from a graph?</p></article><article class="task exercise-like" id="task-784"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1598">How can you find an <span class="process-math">\(x\)</span>-intercept in a table?</p></article><article class="task exercise-like" id="task-785"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1599">How can you find an <span class="process-math">\(x\)</span>-intercept from an equation?</p></article></article><article class="exercise exercise-like" id="exercise-373"><h4 class="heading"><span class="codenumber">7<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-202"><p id="p-1600">Suppose you owe your parents $2000 for a car they bought you. You're paying it off at a rate of $100 each month.</p></div>
+<article class="task exercise-like" id="task-786"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1601">Write an equation to model this situation.</p></article><article class="task exercise-like" id="task-787"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1602">What does the slope mean in this situation?</p></article><article class="task exercise-like" id="task-788"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1603">What does the <span class="process-math">\(y\)</span>-intercept mean in this situation?</p></article><article class="task exercise-like" id="task-789"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1604">What does the <span class="process-math">\(x\)</span>-intercept mean in this situation?</p></article><article class="task exercise-like" id="task-790"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1605">Find the <span class="process-math">\(x\)</span>-intercept.</p></article></article><article class="exercise exercise-like" id="exercise-374"><h4 class="heading"><span class="codenumber">8<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-203"><p id="p-1606">Revisit <a href="S_systems.html#act-rent-bikes" class="internal" title="Student Page 3.5.3: Systems of Equations in Context: Renting Bicycles">Systems of Equations in Context: Renting Bicycles</a> Solve each problem. Explain!</p></div>
+<article class="task exercise-like" id="task-791"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1607">Based on pricing alone, which bike rental company would you not use? Why?</p></article><article class="task exercise-like" id="exer-revisit-bikes-less"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1608">Which bike rental company will you use if you want to rent bikes for less than 4 hours?</p></article><article class="task exercise-like" id="exer-revisit-bikes-more"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1609">Which bike rental company will you use if you want to rent bikes for more than 4 hours?</p></article><article class="task exercise-like" id="task-794"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1610">How do graphs of the equations help you solve <a href="" class="xref" data-knowl="./knowl/exer-revisit-bikes-less.html" title="Task 3.5.4.8.b">Task 3.5.4.8.b</a> and <a href="" class="xref" data-knowl="./knowl/exer-revisit-bikes-more.html" title="Task 3.5.4.8.c">Task 3.5.4.8.c</a>?</p></article></article><article class="exercise exercise-like" id="exercise-375"><h4 class="heading"><span class="codenumber">9<span class="period">.</span></span></h4>
+<div class="introduction" id="introduction-204">
+<p id="p-1611">You want to rent a game system and some games to try the system out before you buy it. You check with several companies and find the following information for one-week rentals:</p>
+<ul class="disc">
+<li id="li-237"><p id="p-1612">Game Galaxy charges $50 for the game system rental and $5 per game.</p></li>
+<li id="li-238"><p id="p-1613">Electronic Emporium charges $25 for the game system rental and $10 per game.</p></li>
+<li id="li-239"><p id="p-1614">Why Buy? doesn't charge for the game system rental, but charges $15 per game.</p></li>
+</ul>
+</div>
+<article class="task exercise-like" id="task-795"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<p id="p-1615">Complete <a href="" class="xref" data-knowl="./knowl/tbl-game-sys.html" title="Table 3.5.4.4: Game System Fees">Table 3.5.4.4</a>.</p>
+<figure class="table table-like" id="tbl-game-sys"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.4.4<span class="period">.</span></span><span class="space"> </span>Game System Fees</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Rental Company</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Game System<br>Rental Fee</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Rental Per Game</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Equation</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Game Galaxy</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Electronic Emporium</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Why Buy?</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-796"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<p id="p-1616">Graph the equations. Estimate where each pair of lines intersects. Write the solutions as ordered pairs in <a href="" class="xref" data-knowl="./knowl/tbl-game-sys-intersect.html" title="Table 3.5.4.5: Game System Intersections">Table 3.5.4.5</a>.</p>
+<figure class="table table-like" id="tbl-game-sys-intersect"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">3.5.4.5<span class="period">.</span></span><span class="space"> </span>Game System Intersections</figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tr class="header-horizontal">
+<th scope="col" class="c m b1 r1 l1 t1 lines">Pair of Companies</th>
+<th scope="col" class="c m b1 r1 l0 t1 lines">Intersection Point</th>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Game Galaxy and Electronic Emporium</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Game Galaxy and Why Buy?</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+<tr>
+<td class="c m b1 r1 l1 t0 lines">Electronic Emporium and Why Buy?</td>
+<td class="c m b1 r1 l0 t0 lines"> </td>
+</tr>
+</table></div></figure></article><article class="task exercise-like" id="task-797"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<p id="p-1617">Which game system rental company gives the best deal if who want to rent a small number of games (1 or 2 games)? How do you know? Show your work.</p></article><article class="task exercise-like" id="task-798"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<p id="p-1618">Which game system rental company gives the best deal for people who want to rent more than 10 games? How do you know? Show your work.</p></article><article class="task exercise-like" id="task-799"><h5 class="heading"><span class="codenumber">(e)</span></h5>
+<p id="p-1619">Do any of the game system rental companies ever charge the same amount for the same number of games rented? (Note: Include the game system rental fee.)</p>
+<p id="p-1620">If so, which companies and for what number of games? How much do they charge for this number of games?</p></article><article class="task exercise-like" id="task-800"><h5 class="heading"><span class="codenumber">(f)</span></h5>
+<p id="p-1621">Solve the system of equations algebraically for one pair of companies. List the companies. Show your work.</p></article></article></section></section></div></main>
+</div>
+</body>
+</html>
