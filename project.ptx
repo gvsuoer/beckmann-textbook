@@ -11,6 +11,7 @@
       <source>source/main.ptx</source>
       <publication>publication/publication.ptx</publication>
       <output-dir>output/html</output-dir>
+      <!-- <stringparam key="html.css.extra" value="external/custom_style.css"/> -->
     </target>
     <target name="latex">
       <format>latex</format>
@@ -20,13 +21,20 @@
       <stringparam key="latex.geometry" value="top=1in, bottom=1in, outer=1.5in, inner=1.5in"/>
       <xsl>xsl/custom-latex.xsl</xsl>
     </target>
-    <target name="pdf">
-      <format>pdf</format>
-      <source>source/main.ptx</source>
+    <target name="latex-subset">
+      <format>latex</format>
+      <source>source/main-subset.ptx</source>
       <publication>publication/publication.ptx</publication>
-      <output-dir>output/pdf</output-dir>
+      <output-dir>output/latex-subset</output-dir>
       <stringparam key="latex.geometry" value="top=1in, bottom=1in, outer=1.5in, inner=1.5in"/>
       <xsl>xsl/custom-latex.xsl</xsl>
+    </target>
+    <target name="html-subset">
+      <format>html</format>
+      <source>source/main-subset.ptx</source>
+      <publication>publication/publication.ptx</publication>
+      <output-dir>output/html-subset</output-dir>
+      <!-- <stringparam key="html.css.extra" value="external/custom_style.css"/> -->
     </target>
   </targets>
   <executables>
